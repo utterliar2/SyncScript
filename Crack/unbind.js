@@ -22,7 +22,7 @@ var tempID = $.getdata($.signKey)
 
 if(tempID!=id)
 {
-     $notify("点击注销店铺会员","", 'by 墨鱼手记',{"open-url":openurl,"media-url":openurl});
+     $notify("点击注销店铺会员","", '',{"open-url":openurl,"media-url":openurl});
 }
 
 $.setdata(id,$.signKey);
