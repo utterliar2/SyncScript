@@ -6,13 +6,14 @@
 * @WechatID          墨鱼手记
 * @UpdateTime        20210516
 * @ScriptFunction    导出取消会员的链接，方便在电脑上取消会员，更加快捷
+* @Methods           请手动运行，复制log信息到电脑上取消店铺会员
 * @UpdateLog         0311 [:] 更换个人信息查询的API接口
 * @ScriptURL         https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Jd/jd_cardId_export.js
 * ==/UserScript==
 【QuantumultX】 :
 *************************
 [task_local]
-0,1,2 0 * * * https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Jd/jd_cardId_export.js, tag=京东店铺会员取消链接导出
+0 0 * * * https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Jd/jd_cardId_export.js, tag=京东店铺会员取消链接导出
 *************************
 [mitm]
 hostname = api.m.jd.com
@@ -73,7 +74,7 @@ function export_cardId(){
 			for(var i=0;i<data.result.cardList.length;i++){
 				var id = data.result.cardList[i].brandId;
 				var name = data.result.cardList[i].brandName;
-				var ulink = name+' -> '+'https://shopmember.m.jd.com/member/memberCloseAccount?venderId='+id;
+				var ulink = name+'\r\n'+'https://shopmember.m.jd.com/member/memberCloseAccount?venderId='+id;
 				console.log(ulink);
 			}
           }
