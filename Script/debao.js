@@ -12,7 +12,7 @@
 【QuantumultX】 :
 *************************
 [rewrite_local]
-https://h5.youzan.com/wscump/checkin/checkin.json\?.+ url script-request-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/debao.js
+https://h5.youzan.com/wscump/checkin/checkin.json\?.+ url script-request-header https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/debao.js
 [task_local]
 15 7,15 * * * https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/debao.js, tag=得宝, img-url=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Icon/cmcc.png
 *************************
