@@ -49,9 +49,9 @@ if (isGetCookie) {
     session.headers = $request.headers;
     console.log(JSON.stringify(session));
     if ($.setdata(JSON.stringify(session), $.signKey)) {
-      $.subt = `获取得宝会话: 成功!`
+      $.subt = `获取会话: 成功!`
     } else {
-      $.subt = `获取得宝会话: 失败!`
+      $.subt = `获取会话: 失败!`
     }
     $.msg($.name, $.subt, '')
   })()
