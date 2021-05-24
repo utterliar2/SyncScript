@@ -4,7 +4,11 @@
   "task": [
     	"1,7 0,20 * * * https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js, tag=野比京东, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png",
     	"0 0-23/1 * * * https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Task/jd_city.js, tag=城城领现金, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png",
+    	"35 1,23 * * * https://jdsharedresourcescdn.azureedge.net/jdresource/jd_nzmh.js, tag=女装盲盒, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png",
+    	"1 0-23/2 * * * https://jdsharedresourcescdn.azureedge.net/jdresource/jd_jump.js, tag=跳跳乐瓜分京豆, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png",
     	"5 * * * * https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_zoo.js, tag=动物联萌, img-url=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/image/jd.png",
+    	"30 16-23/1 * * * https://raw.githubusercontent.com/nianyuguai/longzhuzhu/main/qx/jd_half_redrain.js, tag=半点京豆雨",
+    	"0,1 * * * * https://raw.githubusercontent.com/nianyuguai/longzhuzhu/main/qx/jd_super_redrain.js, tag=整点京豆雨",
     	"13 1,22 * * * https://jdsharedresourcescdn.azureedge.net/jdresource/jd_health.js, tag=东东健康社区, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true",
     	"5-45/20 * * * * https://jdsharedresourcescdn.azureedge.net/jdresource/jd_health_collect.js, tag=东东健康社区收集能量, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true",
 	"0,30,31 20-23/1 * * * https://jdsharedresourcescdn.azureedge.net/jdresource/jd_live_redrain.js, tag=超级直播间红包雨, enabled=true",
