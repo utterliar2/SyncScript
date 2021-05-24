@@ -4,7 +4,7 @@
 * @Author            Cuttlefish
 * @TgChannel         https://t.me/ddgksf2021
 * @WechatID          墨鱼手记
-* @UpdateTime        20210516
+* @UpdateTime        20210524
 * @ScriptFunction    导出取消会员的链接，方便在电脑上取消会员，更加快捷
 * @Methods           请手动运行，复制log信息到电脑上取消店铺会员
 * @UpdateLog         0311 [:] 更换个人信息查询的API接口
@@ -42,7 +42,7 @@ const JD_API_HOST = `https://api.m.jd.com/client.action?functionId=getWalletRece
     if (cookie) {
       $.index = i + 1;
       await  QueryJDUserInfo();
-      if (i+1) console.log(`\n***************开始京东账号${i + 1}【${$.nickname}】***************`)
+      if (i+1) console.log(`\n*****开始京东账号${i + 1}【${$.nickname}】******`)
       //initial();  
       if (!$.isLogin)  //cookie不可用
       {
