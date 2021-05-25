@@ -3,7 +3,7 @@
 * @ScriptName        得宝
 * @Author            Cuttlefish
 * @TgChannel         https://t.me/ddgksf2021
-* @WechatID          公众号墨鱼手记
+* @WechatID          墨鱼手记
 * @UpdateTime        20210521
 * @ScriptFunction    签到得积分
 * @Attention         Cookie有效期约为 天

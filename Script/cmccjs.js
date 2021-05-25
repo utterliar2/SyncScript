@@ -3,7 +3,7 @@
 * @ScriptName        江苏移动（广州移动可能也适用）
 * @Author            Cuttlefish
 * @TgChannel         https://t.me/ddgksf2021
-* @WechatID          公众号墨鱼手记
+* @WechatID          墨鱼手记
 * @UpdateTime        20210312
 * @ScriptFunction    自动化签到获取流量、签到后的抽奖
 * @DataAmount        每天签到可获取20~200M流量，其中满签最后一天可获取1~2G流量，可下个月领取使用

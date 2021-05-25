@@ -3,7 +3,7 @@
 * @ScriptName        喵喵记账
 * @Author            Cuttlefish
 * @TgChannel         https://t.me/ddgksf2021
-* @WechatID          公众号墨鱼手记
+* @WechatID          墨鱼手记
 * @UpdateTime        20210106
 * @Attention         因消息体被加密，故简化通知
 * @ScriptFunction    自动化签到获取喵粮、喵饼、鱼干，及每天五次的免费抽奖
