@@ -35,7 +35,7 @@ cron "15 7,15 * * *" script-path=https://raw.githubusercontent.com/ddgksf2013/Cu
 得宝Cookie = type=http-request,pattern=https://h5.youzan.com/wscump/checkin/checkin.json\?.+,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/debao.js
 *************************
 [mitm]
-hostname = wap.js.10086.cn
+hostname = h5.youzan.com
 */
 const $ = new Env("得宝")
 $.signKey = 'debao_userSignKey'
