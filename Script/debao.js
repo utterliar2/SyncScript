@@ -6,7 +6,7 @@
 * @WechatID          墨鱼手记
 * @UpdateTime        20210521
 * @ScriptFunction    签到得积分
-* @Attention         Cookie有效期约为 天
+* @Attention         Cookie有效期约为7天
 * @ScriptURL         https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/debao.js
 * ==/UserScript==
 【QuantumultX】 :
