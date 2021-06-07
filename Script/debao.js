@@ -116,7 +116,7 @@ async function showmsg() {
     	//console.log(obj);
 		const body = JSON.parse($.signBody);
 		$.subt = '签到成功';
-        $.msr= body.prizes.points+'🎉';
+        $.msr= body.data.prizes[0].points+'🎉';
     }
     else {
      	$.subt = '签到失败';
