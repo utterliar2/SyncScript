@@ -37,7 +37,7 @@ TCLXCookie = type=http-request,pattern=https://openapi.17usoft.net/maskantactivi
 [mitm]
 hostname = h5.youzan.com
 */
-const $ = new Env("tclx")
+const $ = new Env("TCLX")
 $.signKeyTCLX = 'tclx_usersignKeyTCLX'
 
 let isGetCookie = typeof $request !== 'undefined'
@@ -115,7 +115,7 @@ async function showmsg() {
      const body = JSON.parse($.signBody);
      $.subt = '重复签到';
     }
-    else if (signStatus == '1000'){
+    else if (signStatus == '200'){
     	//console.log(obj);
 		const body = JSON.parse($.signBody);
 		$.subt = '签到成功';
