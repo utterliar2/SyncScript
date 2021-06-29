@@ -14,7 +14,7 @@
 [rewrite_local]
 https://openapi.17usoft.net/maskantactivityapi/memberCenterSign\?.+ url script-request-header https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/tclx.js
 [task_local]
-15 7,15 * * * https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/tclx.js, tag=TCLX, img-url=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Icon/tclx.png
+15 7,15 * * * https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/tclx.js, tag=TCLX
 *************************
 【Loon】 :
 *************************
