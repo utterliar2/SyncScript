@@ -13,7 +13,7 @@
 【QuantumultX】 :
 *************************
 [rewrite_local]
-https://openapi.17usoft.net/maskantactivityapi/memberCenterSign\?.+ url script-request-header https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/tclx.js
+https://openapi.17usoft.net/maskantactivityapi/memberCenterSign\?.+ url script-request-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/tclx.js
 [task_local]
 15 7,15 * * * https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/tclx.js, tag=TCLX
 *************************
