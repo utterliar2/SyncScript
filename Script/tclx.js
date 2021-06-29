@@ -7,7 +7,7 @@
 * @UpdateTime        20210628
 * @ScriptFunction    签到得火车票抵偿金
 * @Attention         Cookie有效期约XX天（待测试）
-* @AppletPath        微信小程序搜索🔍同程旅行✈️点击【火车票优惠签到】
+* @AppletPath        微信小程序搜索🔍同程旅行✈️点击主页下面的【火车票优惠】即可
 * @ScriptURL         https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/tclx.js
 * ==/UserScript==
 【QuantumultX】 :
