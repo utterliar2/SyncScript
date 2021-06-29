@@ -36,7 +36,7 @@ TCLX = type=cron,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttle
 TCLXCookie = type=http-request,pattern=https://openapi.17usoft.net/maskantactivityapi/memberCenterSign\?.+,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/tclx.js
 *************************
 [mitm]
-hostname = h5.youzan.com
+hostname = openapi.17usoft.net
 */
 const $ = new Env("TCLX")
 $.signKeyTCLX = 'tclx_usersignKeyTCLX'
