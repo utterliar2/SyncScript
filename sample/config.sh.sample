@@ -1,6 +1,6 @@
-## Version: v3.44.0
-## Date: 2021-07-9
-## Update Content: 燃夏部分环境变量更改（配置文件不会自动智能替换，需要手动进入面板通过对比工具手动替换）
+## Version: v3.45.0
+## Date: 2021-07-11
+## Update Content: 燃夏SH互助改为手动填入指定互助码JDSUMMERSH_SHARECODES已经声明，自行对比替换填入（配置文件不会自动智能替换，需要手动进入面板通过对比工具手动替换）
 
 ## 上面版本号中，如果第2位数字有变化，那么代表增加了新的参数，如果只有第3位数字有变化，仅代表更新了注释，没有增加新的参数，可更新可不更新
 
@@ -142,9 +142,25 @@ AutoHelpOther=""
 
 export summer_movement_joinjoinjoinhui=""
 
-## 是否SH助力  0不开启也不助力 1开启并助力 2开启但不助力
 
-export summer_movement_ShHelpFlag=""
+## 具体填法及要求详见本文件最下方“互助码填法示例”
+MySummer1=""
+MySummer2=""
+MySummer3=""
+MySummer4=""
+MySummer5=""
+MySummer6=""
+MySummerA=""
+MySummerB=""
+
+
+ForOtherSummer1=""
+ForOtherSummer2=""
+ForOtherSummer3=""
+ForOtherSummer4=""
+ForOtherSummer5=""
+ForOtherSummer6=""
+
 
 ################################## 定义jd_health互助（临时） ##################################
 ## 具体填法及要求详见本文件最下方“互助码填法示例”

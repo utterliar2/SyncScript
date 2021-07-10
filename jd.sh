@@ -96,7 +96,7 @@ function Combin_All {
   export JDHEALTH_SHARECODES=$(Combin_Sub ForOtherhealth)
   export CITY_SHARECODES=$(Combin_Sub ForOtherCity)
   export JDZOO_SHARECODES=$(Combin_Sub ForOtherZoo)
-  export JDZOOPK_SHARECODES=$(Combin_Sub ForOtherZooPk)
+  export JDSUMMERSH_SHARECODES=$(Combin_Sub ForOtherSummer)
 }
 
 ## 转换JD_BEAN_SIGN_STOP_NOTIFY或JD_BEAN_SIGN_NOTIFY_SIMPLE
