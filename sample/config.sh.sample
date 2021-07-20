@@ -1,6 +1,6 @@
-## Version: v3.45.0
-## Date: 2021-07-11
-## Update Content: 燃夏SH互助改为手动填入指定互助码JDSUMMERSH_SHARECODES已经声明，自行对比替换填入（配置文件不会自动智能替换，需要手动进入面板通过对比工具手动替换）
+## Version: v3.46.0
+## Date: 2021-07-20
+## Update Content: jd摇钱树助力环境变量声明（配置文件不会自动智能替换，需要手动进入面板通过对比工具手动替换）
 
 ## 上面版本号中，如果第2位数字有变化，那么代表增加了新的参数，如果只有第3位数字有变化，仅代表更新了注释，没有增加新的参数，可更新可不更新
 
@@ -136,6 +136,25 @@ export JD_BEAN_STOP=""
 ## MyXxxx系列变量仍然需要填写，但ForOtherXxxx系列变量不再需要填写（填写了也无效）
 ## 如果启用了TempBlockCookie，那么只是被屏蔽的账号不助力其他账号，其他账号还是会助力被屏蔽的账号
 AutoHelpOther=""
+
+
+################################## 定义jd_health互助（临时） ##################################
+## 具体填法及要求详见本文件最下方“互助码填法示例”
+MyTree1=""
+MyTree2=""
+MyTree3=""
+MyTree4=""
+MyTree5=""
+MyTree6=""
+MyTreeA=""
+MyTreeB=""
+
+ForOtherTree1=""
+ForOtherTree2=""
+ForOtherTree3=""
+ForOtherTree4=""
+ForOtherTree5=""
+ForOtherTree6=""
 
 ################################## 定义燃夏部分开关 ##################################
 ## 是否入会，true 入会，false 不入会，默认false
@@ -547,7 +566,7 @@ export JOY_RUN_NOTIFY=""
 
 ################################## 定义jd_moneyTree是否自动将金果卖出变成金币（选填） ##################################
 ## 金币有时效，默认为 "false"，不卖出金果为金币，如想希望自动卖出，请修改为 "true"
-export MONEY_TREE_SELL_FRUIT=""
+export MONEY_Tree_SELL_FRUIT=""
 
 
 ################################## 定义jd_pet是否静默运行（选填） ##################################

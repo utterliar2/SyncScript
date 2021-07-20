@@ -94,7 +94,7 @@ function Combin_All {
   export JDSGMH_SHARECODES=$(Combin_Sub ForOtherSgmh)
   export JDCFD_SHARECODES=$(Combin_Sub ForOtherCfd)
   export JDHEALTH_SHARECODES=$(Combin_Sub ForOtherhealth)
-  export CITY_SHARECODES=$(Combin_Sub ForOtherCity)
+  export MONEYTREE_SHARECODES=$(Combin_Sub ForOtherTree)
   export JDZOO_SHARECODES=$(Combin_Sub ForOtherZoo)
   export JDSUMMERSH_SHARECODES=$(Combin_Sub ForOtherSummer)
 }
