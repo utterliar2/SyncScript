@@ -6,7 +6,7 @@
 * @WechatID          墨鱼手记
 * @UpdateTime        20210725
 * @ScriptFunction    实时查看金牌排行榜
-* @ScriptURL         https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/OlympicRanking.js
+* @ScriptURL         https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/olympicRanking.js
 * ==/UserScript==
 【QuantumultX】 :
 [task_local]
