@@ -15,7 +15,7 @@ cron "50 0,4 * * *" script-path= https://raw.githubusercontent.com/Ariszy/Privat
 */
 
 const $ = new Env('荣耀焕新季')
-const notify = $.isNode() ?require('./sendNotify') : '';
+const notify = $.isNode() ?require('../sendNotify') : '';
 cookiesArr = []
 CodeArr = []
 cookie = ''
@@ -47,7 +47,7 @@ if ($.isNode()) {
           $.getdata("CookieJD2"),
           ...$.toObj($.getdata("CookiesJD") || "[]").map((item) => item.cookie)].filter((item) => !!item);
 }
-    
+
 !(async () => {
   if (!cookiesArr[0]) {
     $.msg($.name, '【提示】请先获取cookie\n直接使用NobyDa的京东签到获取', 'https://bean.m.jd.com/bean/signIndex.action', {"open-url": "https://bean.m.jd.com/bean/signIndex.action"});
@@ -56,7 +56,7 @@ if ($.isNode()) {
   for(let i = 0; i < cookiesArr.length; i++){
       cookie = cookiesArr[i];
       await gethelpcode()
-      
+
 }
   for (let i =0; i < cookiesArr.length; i++) {
       cookie = cookiesArr[i];
@@ -75,7 +75,7 @@ if ($.isNode()) {
                 }
                 continue
             }
-      
+
       await getlist()
       await Ariszy()
       await control()
@@ -87,7 +87,7 @@ if ($.isNode()) {
 })()
     .catch((e) => $.logErr(e))
     .finally(() => $.done())
-    
+
 
 function PostRequest(uri,body) {
   const url = `https://api.m.jd.com/client.action`;
@@ -122,7 +122,7 @@ async function doTask(){
           $.logErr(e, response);
       } finally {
         resolve();
-      } 
+      }
     })
    })
   }
@@ -144,7 +144,7 @@ async function DoTask(){
           $.logErr(e, response);
       } finally {
         resolve();
-      } 
+      }
     })
    })
   }
@@ -166,7 +166,7 @@ async function Lottery(){
           $.logErr(e, response);
       } finally {
         resolve();
-      } 
+      }
     })
    })
   }
@@ -188,7 +188,7 @@ async function getLottery(){
           $.logErr(e, response);
       } finally {
         resolve();
-      } 
+      }
     })
    })
   }
@@ -201,7 +201,7 @@ async function Ariszy(){
     await doTask()
     await DoTask()
   }
-    
+
 }
 async function zy(){
    listtokenArr.splice(0,listtokenArr.length);
@@ -232,7 +232,7 @@ async function dosupport(){
           $.logErr(e, response);
       } finally {
         resolve();
-      } 
+      }
     })
    })
   }
@@ -250,36 +250,36 @@ async function getlist(){
        listtokenArr.push(2+list2.productInfoVos[i].taskToken)
 list2tokenArr.push(list2.productInfoVos[i].taskToken)
        }
-       
+
        let list4 = result.data.result.taskVos.find(item => item.taskId == 4)
        for(let i = 0; i < list4.productInfoVos.length; i ++){
        listtokenArr.push(4+list4.productInfoVos[i].taskToken)
 list2tokenArr.push(list4.productInfoVos[i].taskToken)
        }
-       
+
        let list6 = result.data.result.taskVos.find(item => item.taskId == 6)
        for(let i = 0; i < list6.productInfoVos.length; i ++){
        listtokenArr.push(6+list6.productInfoVos[i].taskToken)
 list2tokenArr.push(list6.productInfoVos[i].taskToken)
        }
-       
+
        let list7 = result.data.result.taskVos.find(item => item.taskId == 7)
        for(let i = 0; i < list7.shoppingActivityVos.length; i ++){
        listtokenArr.push(7+list7.shoppingActivityVos[i].taskToken)
 list2tokenArr.push(list7.shoppingActivityVos[i].taskToken)
        }
-    
+
        let list8 = result.data.result.taskVos.find(item => item.taskId == 8)
        listtokenArr.push(8+list8.simpleRecordInfoVo.taskToken)
 list2tokenArr.push(list8.simpleRecordInfoVo.taskToken)
-       
+
        let list11 = result.data.result.taskVos.find(item => item.taskId == 11)
        for(let i = 0; i < list11.followShopVo.length; i ++){
    listtokenArr.push(11+list11.followShopVo[i].taskToken)
 list2tokenArr.push(list11.followShopVo[i].taskToken)
        }
       // $.log(JSON.stringify(listtokenArr))
-      
+
         }else{
            $.log(result.data.bizMsg+"\n")
         }
@@ -287,7 +287,7 @@ list2tokenArr.push(list11.followShopVo[i].taskToken)
           $.logErr(e, response);
       } finally {
         resolve();
-      } 
+      }
     })
    })
   }
@@ -311,7 +311,7 @@ list6tokenArr.push(list12.assistTaskDetailVo.taskToken)
           $.logErr(e, response);
       } finally {
         resolve();
-      } 
+      }
     })
    })
   }
@@ -336,7 +336,7 @@ async function userScore(){
           $.logErr(e, response);
       } finally {
         resolve();
-      } 
+      }
     })
    })
   }
