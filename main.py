@@ -18,7 +18,7 @@ class Count:
 
     def __init__(self, func):
         wraps(func)(self)
-        self.num = 0
+        self.num = 2
 
     def __call__(self, *args, **kwargs):
         self.num += 1
@@ -35,7 +35,7 @@ class Algo:
 
     @Count
     def get_key(self):
-        if self.get_key.num == 2 >> 3 ^ 2 << 3 ^ 5 >> 4 >> 7 ^ 9 | 8 ^ 3:
+        if self.get_key.num == (2 >> 3 ^ 2 << 3 ^ 5 >> 4 >> 7 ^ 5 | 8 ^ 3) - 1:
             get_link(self)
         else:
             return None
@@ -43,4 +43,5 @@ class Algo:
 
 if __name__ == '__main__':
     pass
+
 
