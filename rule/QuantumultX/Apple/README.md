@@ -10,13 +10,13 @@
 
 ## 规则统计
 
-总计规则：114 条。
+总计规则：115 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| HOST | 2 |
+| HOST | 3 |
 | HOST-SUFFIX | 75 |
 | HOST-KEYWORD | 4 |
 | USER-AGENT | 23 |
@@ -103,6 +103,8 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Quan
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/Apple/iCloud.list
 - https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Apple.list
 - https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/Rulesets/Surge/Basic/Apple-proxy.list
+- https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/apple.txt
+- https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/icloud.txt
 - https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/apple.txt
 - https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/icloud.txt
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/AppStore/AppStore.list

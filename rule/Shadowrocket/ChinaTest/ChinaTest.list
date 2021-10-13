@@ -1,13 +1,13 @@
 # NAME: ChinaTest
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-10-09 02:08:48
-# DOMAIN-SUFFIX: 68410
+# UPDATED: 2021-12-07 11:18:01
+# DOMAIN-SUFFIX: 68865
 # USER-AGENT: 32
-# DOMAIN: 83
+# DOMAIN: 80
 # IP-CIDR: 14
 # DOMAIN-KEYWORD: 10
-# TOTAL: 68549
+# TOTAL: 69001
 DOMAIN-KEYWORD,-cn
 DOMAIN-KEYWORD,.tmall.com
 DOMAIN-KEYWORD,alicdn
@@ -42,9 +42,9 @@ USER-AGENT,*Vainglory*
 USER-AGENT,AdBlock*
 USER-AGENT,Best%20Trace*
 USER-AGENT,MegaWerewolf*
+USER-AGENT,MicroMessenger Client*
 USER-AGENT,MicroMessenger%20Client
 USER-AGENT,MicroMessenger*
-USER-AGENT,MicroMessengerClient*
 USER-AGENT,Microsoft*
 USER-AGENT,Moke*
 USER-AGENT,NeteaseMusic*

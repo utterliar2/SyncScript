@@ -1,0 +1,8 @@
+# NAME: 境外网站/IP合集 MITM
+# AUTHOR: blackmatrix7
+# REPO: https://gitlab.com/blackmatrix7/ios_rule_script
+# UPDATED: 2021-11-25 17:41:57
+# MITM: 1
+
+[MITM]
+hostname = img.sina.com

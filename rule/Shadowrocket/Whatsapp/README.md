@@ -10,7 +10,7 @@
 
 ## 规则统计
 
-总计规则：21 条。
+总计规则：18 条。
 
 各类型规则统计：
 
@@ -18,7 +18,7 @@
 | ---- | ---- |
 | DOMAIN-KEYWORD | 1 |
 | IP-CIDR | 15 |
-| DOMAIN-SUFFIX | 4 |
+| DOMAIN-SUFFIX | 1 |
 | DOMAIN | 1 |
 ## 配置说明
 

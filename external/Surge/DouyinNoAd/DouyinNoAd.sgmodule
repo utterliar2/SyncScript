@@ -1,5 +1,5 @@
 #!name=抖音去广告
-#!desc=最后更新时间 2021-07-23 09:43:11
+#!desc=最后更新时间 2021-11-25 17:44:09
 #!author=Choler
 #!repo=https://github.com/Choler/Surge
 #!rewrite=1
@@ -8,7 +8,7 @@
 #!mitm=2
 
 [Rule]
-URL-REGEX,^https?:\/\/(api.*\.amemv|aweme\.snssdk)\.com\/api\/ad\/,REJECT
+URL-REGEX,^https?:\/\/(api.*\.amemv|aweme\.snssdk)\.com\/api\/ad\/,None
 
 [URL Rewrite]
 ^https?:\/\/api.*\.amemv\.com\/aweme\/v\d\/ https://aweme.snssdk.com/aweme/v1/ header
