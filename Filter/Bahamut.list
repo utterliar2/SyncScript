@@ -4,3 +4,13 @@ DOMAIN-SUFFIX,bahamut.com.tw,Bahamut
 DOMAIN-SUFFIX,gamer.com.tw,Bahamut
 DOMAIN,gamer-cds.cdn.hinet.net,Bahamut
 DOMAIN,gamer2-cds.cdn.hinet.net,Bahamut
+
+# > Manhuaren
+DOMAIN-KEYWORD,manhuaren,Bahamut
+
+# > Spotify
+USER-AGENT,Spotify*,Bahamut
+DOMAIN-SUFFIX,pscdn.co,Bahamut
+DOMAIN-SUFFIX,scdn.co,Bahamut
+DOMAIN-SUFFIX,spotify.com,Bahamut
+DOMAIN-SUFFIX,spoti.fi,Bahamut
