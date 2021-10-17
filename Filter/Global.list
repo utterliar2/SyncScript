@@ -44,7 +44,6 @@ host-suffix, globaldelight.net, proxy
 #2020.05.07
 
 # > 平时自用添加代理
-DOMAIN-KEYWORD,manhuaren,PROXY
 DOMAIN-SUFFIX,calm.com,PROXY
 DOMAIN-KEYWORD,notion,PROXY
 DOMAIN-KEYWORD,manhuagui,PROXY
@@ -85,12 +84,7 @@ USER-AGENT,SoundCloud*,PROXY
 DOMAIN-SUFFIX,p-cdn.us,PROXY
 DOMAIN-SUFFIX,sndcdn.com,PROXY
 DOMAIN-SUFFIX,soundcloud.com,PROXY
-# > Spotify
-USER-AGENT,Spotify*,PROXY
-DOMAIN-SUFFIX,pscdn.co,PROXY
-DOMAIN-SUFFIX,scdn.co,PROXY
-DOMAIN-SUFFIX,spotify.com,PROXY
-DOMAIN-SUFFIX,spoti.fi,PROXY
+
 # > TIDAL
 USER-AGENT,TIDAL*,PROXY
 DOMAIN-SUFFIX,tidal.com,PROXY
