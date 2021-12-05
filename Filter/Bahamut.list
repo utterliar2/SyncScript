@@ -14,3 +14,14 @@ DOMAIN-SUFFIX,pscdn.co,Bahamut
 DOMAIN-SUFFIX,scdn.co,Bahamut
 DOMAIN-SUFFIX,spotify.com,Bahamut
 DOMAIN-SUFFIX,spoti.fi,Bahamut
+
+# > Youtube
+USER-AGENT,com.google.ios.youtube*,Bahamut
+USER-AGENT,YouTube*,Bahamut
+DOMAIN-SUFFIX,googlevideo.com,Bahamut
+DOMAIN-SUFFIX,youtube.com,Bahamut
+DOMAIN,youtubei.googleapis.com,Bahamut
+
+# >google 
+DOMAIN-KEYWORD,google,Bahamut
+

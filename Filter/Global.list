@@ -1,16 +1,6 @@
 # (DNS Cache Pollution Protection)
 #POlicy 策略组
 
-# > Youtube
-USER-AGENT,com.google.ios.youtube*,proxy
-USER-AGENT,YouTube*,proxy
-DOMAIN-SUFFIX,googlevideo.com,proxy
-DOMAIN-SUFFIX,youtube.com,proxy
-DOMAIN,youtubei.googleapis.com,proxy
-
-# >google 
-DOMAIN-KEYWORD,google,proxy
-
 
 # 自用规则更新
 host, gist.github.com, proxy
