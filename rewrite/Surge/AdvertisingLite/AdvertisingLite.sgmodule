@@ -1,8 +1,8 @@
 #!name=复写去广告(严格版)
-#!desc=最后更新时间 2021-12-04 02:10:32
+#!desc=最后更新时间 2021-12-08 16:32:32
 #!author=blackmatrix7
 #!repo=https://github.com/blackmatrix7/ios_rule_script
-#!rewrite=713
+#!rewrite=712
 #!script=0
 #!force_http_engine_hosts=12
 #!mitm=514
@@ -435,7 +435,6 @@ DOMAIN-SUFFIX,cupid.iqiyi.com,REJECT
 ^https?:\/\/zjh5api\.189smarthome\.com:\d+\/xygj-config-api\/queryData - reject
 
 [Map Local]
-^https?://c.tieba.baidu.com/\w+/\w+/(sync|newRnSync|newlog|mlog) data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
 ^https?:\/\/(101\.201\.175\.228|182\.92\.251\.113)\/brand\/search\/v1\.json data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
 ^https?:\/\/(bdsp-x|dsp-x)\.jd\.com\/adx\/ data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 ^https?:\/\/(iyes|(api|hd)\.mobile)\.youku\.com\/(adv|common\/v3\/hudong\/new) data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
@@ -516,7 +515,7 @@ DOMAIN-SUFFIX,cupid.iqiyi.com,REJECT
 ^https?:\/\/btrace\.qq\.com data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 ^https?:\/\/c1\.ifengimg\.com\/.+?_w1080_h1410\.jpg data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
 ^https?:\/\/c\.minisplat\.cn data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
-^https?:\/\/c\.tieba\.baidu\.com\/\w+\/\w+\/(sync|newRnSync|newlog|mlog) data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
+^https?:\/\/c\.tieba\.baidu\.com\/\w+\/\w+\/(sync|newRnSync|mlog) data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
 ^https?:\/\/c\.tieba\.baidu\.com\/c\/p\/img\?src= data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
 ^https?:\/\/c\.tieba\.baidu\.com\/c\/s\/logtogether\?cmd= data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
 ^https?:\/\/cache\.changjingyi\.cn data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"

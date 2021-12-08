@@ -1,14 +1,14 @@
 # NAME: ChinaTest
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-12-07 11:17:57
-# DOMAIN-SUFFIX: 68865
+# UPDATED: 2021-12-08 16:30:31
+# DOMAIN-SUFFIX: 68858
 # USER-AGENT: 32
-# DOMAIN: 80
+# DOMAIN: 79
 # IP-CIDR: 14
 # DOMAIN-KEYWORD: 10
 # IP-CIDR6: 4
-# TOTAL: 69005
+# TOTAL: 68997
 265.com
 2mdn.net
 adservice.google.com
@@ -58,7 +58,6 @@ kc.kexinshe.com
 menu-static.gog-statics.com
 moocs.unipus.cn
 mtalk.google.com
-none
 ocsp.pki.goog
 opencourse.pku.edu.cn
 p16-tiktokcdn-com.akamaized.net
@@ -1980,7 +1979,6 @@ www4-static.gog-statics.com
 .189read.com
 .189read.net
 .189sec.com
-.189share.com
 .189smarthome.com
 .189store.com
 .189works.com
@@ -5857,7 +5855,6 @@ www4-static.gog-statics.com
 .666629b.com
 .6666519.net
 .666666.so
-.666898d.com
 .6669667.com
 .666baicai.com
 .666gps.com
@@ -9130,6 +9127,7 @@ www4-static.gog-statics.com
 .aliwx.net
 .alixiaomi.com
 .alixiaozhan.com
+.alixiaozhan.net
 .alixinwen.com
 .alixixi.com
 .alixox.com
@@ -13929,7 +13927,6 @@ www4-static.gog-statics.com
 .cditv.tv
 .cdjingfeng.com
 .cdjingying.com
-.cdjinpeng.com
 .cdjnrc.com
 .cdjsjx.com
 .cdjxjy.com
@@ -14259,6 +14256,7 @@ www4-static.gog-statics.com
 .cfhpc.org
 .cfido.com
 .cfiec.net
+.cfiecdns.net
 .cfimg.com
 .cfkq.net
 .cflm.com
@@ -19503,7 +19501,6 @@ www4-static.gog-statics.com
 .dhrcbank.com
 .dhrest.com
 .dht5867.com
-.dhtb.com
 .dhwooden.com
 .dhy559999.com
 .dhy85888.com
@@ -19513,7 +19510,6 @@ www4-static.gog-statics.com
 .dhyjaqa.com
 .dhyz.net
 .dhzw.cc
-.di.com
 .di3fang.com
 .di3fang.vip
 .diablohu.com
@@ -23460,7 +23456,6 @@ www4-static.gog-statics.com
 .fhd001.com
 .fhdjh.com
 .fhdq.net
-.fhdr.com
 .fhg90.com
 .fhhgj.com
 .fhkioskmodules.com
@@ -25242,7 +25237,6 @@ www4-static.gog-statics.com
 .ghboke.com
 .ghgy.com
 .ghgy.net
-.ghkm.com
 .ghlearning.com
 .ghmba.com
 .ghmcchina.com
@@ -26368,6 +26362,7 @@ www4-static.gog-statics.com
 .guotv.com
 .guowaidiaocha.com
 .guowaitianqi.com
+.guowenku.com
 .guoxingjun.com
 .guoxinmac.com
 .guoxinqh.com
@@ -30311,7 +30306,6 @@ www4-static.gog-statics.com
 .hxt-semitech.com
 .hxthjy.com
 .hxtk.com
-.hxttcp.com
 .hxwglm.com
 .hxxdsb.com
 .hxxkw.org
@@ -31909,6 +31903,7 @@ www4-static.gog-statics.com
 .intelvisioncn.com
 .inter12.org
 .inter1908.net
+.interactivebrokers.hk
 .interbator.com
 .internationalbrand.net
 .internbird.com
@@ -31969,7 +31964,6 @@ www4-static.gog-statics.com
 .ioneball.com
 .ionewu.com
 .ionic.wang
-.ionic8.com
 .ionichina.com
 .ionicliquid.org
 .iooeoo.com
@@ -37377,7 +37371,6 @@ www4-static.gog-statics.com
 .leagsoft.com
 .leangoo.com
 .leankun.com
-.leanlan.com
 .leanote.com
 .leanote.org
 .leansoftx.com
@@ -51588,6 +51581,7 @@ www4-static.gog-statics.com
 .sobeycache.com
 .sobeycloud.com
 .sobot.com
+.soboten.com
 .sobug.com
 .sobuhu.com
 .socang.com
@@ -52889,7 +52883,6 @@ www4-static.gog-statics.com
 .sxwpyx.com
 .sxwrsa.org
 .sxww.com
-.sxxcrl.com
 .sxxdll.com
 .sxxiaomeng.com
 .sxxl.com
@@ -53714,7 +53707,6 @@ www4-static.gog-statics.com
 .tawk.link
 .tawk.to
 .tax-edu.net
-.tax12366.org
 .taxjiangkewang.com
 .taxnote.org
 .taxspirit.com
@@ -56441,6 +56433,7 @@ www4-static.gog-statics.com
 .uplookedu.com
 .uplooking.com
 .upnb.com
+.upowerchain.com
 .uppsd.com
 .upqzfile.com
 .upqzfilebk.com
@@ -58527,6 +58520,7 @@ www4-static.gog-statics.com
 .wenneart.com
 .wenpie.com
 .wenrouge.com
+.wenruya.com
 .wenryxu.com
 .wensang.com
 .wenshao-art.com
@@ -59375,7 +59369,6 @@ www4-static.gog-statics.com
 .wmcn.com
 .wmedias.com
 .wmgjd.com
-.wmgm.org
 .wmiao.com
 .wmiyx.com
 .wmjk.net
@@ -60720,6 +60713,7 @@ www4-static.gog-statics.com
 .xfsub.com
 .xft123.com
 .xftclub.com
+.xfun233.com
 .xfwi.com
 .xfxb.net
 .xfyousheng.com
@@ -62232,7 +62226,6 @@ www4-static.gog-statics.com
 .xn--wlqw5ebvdhpi5hepihs3c.com
 .xn--xhq521b
 .xn--xhq9mt12cf5v.ink
-.xn--xhq9mt12cf5v.site
 .xn--ygtp21bwyedsq.com
 .xn--zfr164b
 .xn--zq2aw6m.xyz
@@ -68260,7 +68253,6 @@ www4-static.gog-statics.com
 .zorrowh.com
 .zou.la
 .zou114.com
-.zou114.net
 .zoubiao.com
 .zoucheng.cc
 .zoucz.com

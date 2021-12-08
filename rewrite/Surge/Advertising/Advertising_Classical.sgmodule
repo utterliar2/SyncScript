@@ -1,8 +1,8 @@
 #!name=复写去广告
-#!desc=最后更新时间 2021-11-29 16:29:09
+#!desc=最后更新时间 2021-12-08 16:32:32
 #!author=blackmatrix7
 #!repo=https://github.com/blackmatrix7/ios_rule_script
-#!rewrite=803
+#!rewrite=802
 #!script=0
 #!force_http_engine_hosts=12
 #!mitm=602
@@ -16,9 +16,6 @@ DOMAIN,video-ad.sm.cn,REJECT
 DOMAIN-SUFFIX,cupid.iqiyi.com,REJECT
 
 [URL Rewrite]
-^https:\/\/.*\.club\/floater.* - reject
-^https:\/\/.*\.fun\/floater.* - reject
-^https?://c.tieba.baidu.com/\w+/\w+/(sync|newRnSync|newlog|mlog) - reject
 ^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)(:\d+)?\/V\d\/splash\/getSplashV\d\.action$ - reject
 ^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d):\d+/xygj-config-api\/queryData - reject
 ^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d):\d+\/allOne\.php\?ad_name - reject
@@ -63,6 +60,8 @@ DOMAIN-SUFFIX,cupid.iqiyi.com,REJECT
 ^https?:\/\/(iyes|(api|hd)\.mobile)\.youku\.com\/(adv|common\/v3\/hudong\/new) - reject
 ^https?:\/\/(s3plus|flowplus)\.meituan\.net\/v\d\/\w+\/linglong\/\w+\.(gif|jpg|mp4) - reject
 ^https?:\/\/(www|cn)\.pornhub\.com\/_xa\/ads.* - reject
+^https?:\/\/.*\.club\/floater.* - reject
+^https?:\/\/.*\.fun\/floater.* - reject
 ^https?:\/\/.+/videos/other/.+ - reject
 ^https?:\/\/.+?(:\d+)?\/V\d\/splash\/getSplashV\d\.action$ - reject
 ^https?:\/\/.+?/V\d\/splash\/getSplashV\d\.action - reject
@@ -324,7 +323,7 @@ DOMAIN-SUFFIX,cupid.iqiyi.com,REJECT
 ^https?:\/\/c1\.ifengimg\.com\/.+?_w1080_h1410\.jpg - reject
 ^https?:\/\/c\.m\.163\.com\/nc\/gl\/ - reject
 ^https?:\/\/c\.minisplat\.cn - reject
-^https?:\/\/c\.tieba\.baidu\.com\/\w+\/\w+\/(sync|newRnSync|newlog|mlog) - reject
+^https?:\/\/c\.tieba\.baidu\.com\/\w+\/\w+\/(sync|newRnSync|mlog) - reject
 ^https?:\/\/c\.tieba\.baidu\.com\/c\/f\/forum\/getAdInfo - reject
 ^https?:\/\/c\.tieba\.baidu\.com\/c\/p\/img\?src= - reject
 ^https?:\/\/c\.tieba\.baidu\.com\/c\/s\/logtogether\?cmd= - reject

@@ -19,10 +19,10 @@
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| HOST | 72 |
 | HOST-KEYWORD | 27 |
 | HOST-SUFFIX | 13217 |
 | IP-CIDR | 158 |
+| HOST | 72 |
 | IP6-CIDR | 1 |
 ## 配置说明
 

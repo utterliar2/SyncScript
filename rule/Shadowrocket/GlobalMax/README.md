@@ -32,9 +32,9 @@
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| DOMAIN | 11 |
 | DOMAIN-SUFFIX | 33330 |
 | USER-AGENT | 77 |
+| DOMAIN | 11 |
 | DOMAIN-KEYWORD | 71 |
 | IP-CIDR | 1196 |
 | URL-REGEX | 8 |

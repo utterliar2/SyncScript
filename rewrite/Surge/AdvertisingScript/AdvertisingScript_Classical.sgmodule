@@ -1,5 +1,5 @@
 #!name=脚本去广告
-#!desc=最后更新时间 2021-11-25 17:44:09
+#!desc=最后更新时间 2021-12-08 16:32:33
 #!author=blackmatrix7
 #!repo=https://github.com/blackmatrix7/ios_rule_script
 #!rewrite=21
@@ -8,21 +8,21 @@
 #!mitm=23
 
 [Rule]
-DOMAIN,118.89.204.198,None
-DOMAIN,appcloud2.in.zhihu.com,None
-DOMAIN,mqtt.zhihu.com,None
-DOMAIN,sugar.zhihu.com,None
-DOMAIN-SUFFIX,cm.bilibili.com,None
-IP-CIDR,118.89.204.198/32,None,no-resolve
-IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,None,no-resolve
-URL-REGEX,^https?:\/\/api\.bilibili\.com\/pgc\/season\/app\/related\/recommend\?,None
-URL-REGEX,^https?:\/\/api\.bilibili\.com\/x\/v2\/dm\/ad,None
-URL-REGEX,^https?:\/\/api\.zhihu\.com\/brand\/question\/\d+/card\?,None
-URL-REGEX,^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/Flash,None
-URL-REGEX,^https?:\/\/www\.zhihu\.com\/api\/v4\/answers\/\d+\/recommendations,None
-URL-REGEX,^https?:\/\/www\.zhihu\.com\/api\/v\d+\/brand\/question/\d+/card\?,None
-URL-REGEX,^https?:\/\/www\.zhihu\.com\/appview\/(p|v2\/answer|zvideo)\/.*entry=(preload-topstory|preload-search|preload-subscription),None
-USER-AGENT,AVOS*,None
+DOMAIN,118.89.204.198,REJECT
+DOMAIN,appcloud2.in.zhihu.com,REJECT
+DOMAIN,mqtt.zhihu.com,REJECT
+DOMAIN,sugar.zhihu.com,REJECT
+DOMAIN-SUFFIX,cm.bilibili.com,REJECT
+IP-CIDR,118.89.204.198/32,REJECT,no-resolve
+IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,REJECT,no-resolve
+URL-REGEX,^https?:\/\/api\.bilibili\.com\/pgc\/season\/app\/related\/recommend\?,REJECT
+URL-REGEX,^https?:\/\/api\.bilibili\.com\/x\/v2\/dm\/ad,REJECT
+URL-REGEX,^https?:\/\/api\.zhihu\.com\/brand\/question\/\d+/card\?,REJECT
+URL-REGEX,^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/Flash,REJECT
+URL-REGEX,^https?:\/\/www\.zhihu\.com\/api\/v4\/answers\/\d+\/recommendations,REJECT
+URL-REGEX,^https?:\/\/www\.zhihu\.com\/api\/v\d+\/brand\/question/\d+/card\?,REJECT
+URL-REGEX,^https?:\/\/www\.zhihu\.com\/appview\/(p|v2\/answer|zvideo)\/.*entry=(preload-topstory|preload-search|preload-subscription),REJECT
+USER-AGENT,AVOS*,REJECT
 
 [URL Rewrite]
 ^https?:\/\/api\.bilibili\.com\/pgc\/season\/app\/related\/recommend\? - reject

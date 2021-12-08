@@ -1,8 +1,8 @@
 #!name=AllInOne
-#!desc=最后更新时间 2021-11-29 16:29:09
+#!desc=最后更新时间 2021-12-08 16:32:33
 #!author=blackmatrix7
 #!repo=https://github.com/blackmatrix7/ios_rule_script
-#!rewrite=797
+#!rewrite=796
 #!script=36
 #!force_http_engine_hosts=12
 #!mitm=552
@@ -31,7 +31,6 @@ URL-REGEX,^https?:\/\/www\.zhihu\.com\/appview\/(p|v2\/answer|zvideo)\/.*entry=(
 USER-AGENT,AVOS*,REJECT
 
 [URL Rewrite]
-^https?://c.tieba.baidu.com/\w+/\w+/(sync|newRnSync|newlog|mlog) - reject
 ^https?:\/\/(101\.201\.175\.228|182\.92\.251\.113)\/brand\/search\/v1\.json - reject
 ^https?:\/\/(?>heic|gw)\.alicdn\.com\/tfs\/TB1.+?-\d{4}-\d{4}\.jpg_1200x1200q90\.jpg_\.\w{3,4}+$ - reject
 ^https?:\/\/(?>promo|api)\.xueqiu\.com\/promotion\/(?:feed_)?+display - reject
@@ -270,7 +269,7 @@ USER-AGENT,AVOS*,REJECT
 ^https?:\/\/c1\.ifengimg\.com\/.+?_w1080_h1410\.jpg - reject
 ^https?:\/\/c\.m\.163\.com\/nc\/gl\/ - reject
 ^https?:\/\/c\.minisplat\.cn - reject
-^https?:\/\/c\.tieba\.baidu\.com\/\w+\/\w+\/(sync|newRnSync|newlog|mlog) - reject
+^https?:\/\/c\.tieba\.baidu\.com\/\w+\/\w+\/(sync|newRnSync|mlog) - reject
 ^https?:\/\/c\.tieba\.baidu\.com\/c\/f\/forum\/getAdInfo - reject
 ^https?:\/\/c\.tieba\.baidu\.com\/c\/p\/img\?src= - reject
 ^https?:\/\/c\.tieba\.baidu\.com\/c\/s\/logtogether\?cmd= - reject

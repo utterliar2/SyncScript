@@ -24,10 +24,10 @@
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| DOMAIN | 72 |
 | DOMAIN-KEYWORD | 27 |
 | DOMAIN-SUFFIX | 13217 |
 | IP-CIDR | 158 |
+| DOMAIN | 72 |
 | URL-REGEX | 311 |
 ## 配置说明
 

@@ -1,14 +1,14 @@
 # NAME: ChinaMax
 # AUTHOR: blackmatrix7
 # REPO: https://gitlab.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-12-07 11:17:59
-# DOMAIN-SUFFIX: 72394
+# UPDATED: 2021-12-08 16:30:36
+# DOMAIN-SUFFIX: 72388
 # PROCESS-NAME: 6
 # DOMAIN: 54
 # IP-CIDR: 6187
 # DOMAIN-KEYWORD: 14
 # IP-CIDR6: 5591
-# TOTAL: 84246
+# TOTAL: 84240
 payload:
   - '265.com'
   - 'blzddist1-a.akamaihd.net'
@@ -2028,7 +2028,6 @@ payload:
   - '+.189read.com'
   - '+.189read.net'
   - '+.189sec.com'
-  - '+.189share.com'
   - '+.189smarthome.com'
   - '+.189store.com'
   - '+.189works.com'
@@ -5979,7 +5978,6 @@ payload:
   - '+.666629b.com'
   - '+.6666519.net'
   - '+.666666.so'
-  - '+.666898d.com'
   - '+.666baicai.com'
   - '+.666gps.com'
   - '+.666idc.com'
@@ -9325,6 +9323,7 @@ payload:
   - '+.alixiaomi.com'
   - '+.alixiaoyouhui.com'
   - '+.alixiaozhan.com'
+  - '+.alixiaozhan.net'
   - '+.alixinwen.com'
   - '+.alixixi.com'
   - '+.alixox.com'
@@ -14344,7 +14343,6 @@ payload:
   - '+.cditv.tv'
   - '+.cdjingfeng.com'
   - '+.cdjingying.com'
-  - '+.cdjinpeng.com'
   - '+.cdjnrc.com'
   - '+.cdjsjx.com'
   - '+.cdjxjy.com'
@@ -14703,6 +14701,7 @@ payload:
   - '+.cfidlab.cn'
   - '+.cfido.com'
   - '+.cfiec.net'
+  - '+.cfiecdns.net'
   - '+.cfimg.com'
   - '+.cfkq.net'
   - '+.cflm.com'
@@ -20248,7 +20247,6 @@ payload:
   - '+.dhrest.com'
   - '+.dhrest2.com'
   - '+.dht5867.com'
-  - '+.dhtb.com'
   - '+.dhwooden.com'
   - '+.dhy559999.com'
   - '+.dhy85888.com'
@@ -20258,7 +20256,6 @@ payload:
   - '+.dhyjaqa.com'
   - '+.dhyz.net'
   - '+.dhzw.cc'
-  - '+.di.com'
   - '+.di28nl.com'
   - '+.di3fang.com'
   - '+.di3fang.vip'
@@ -24368,7 +24365,6 @@ payload:
   - '+.fhd001.com'
   - '+.fhdjh.com'
   - '+.fhdq.net'
-  - '+.fhdr.com'
   - '+.fhg90.com'
   - '+.fhhgj.com'
   - '+.fhkioskmodules.com'
@@ -26546,7 +26542,6 @@ payload:
   - '+.ghboke.com'
   - '+.ghgy.com'
   - '+.ghgy.net'
-  - '+.ghkm.com'
   - '+.ghlearning.com'
   - '+.ghmba.com'
   - '+.ghmcchina.com'
@@ -27730,6 +27725,7 @@ payload:
   - '+.guotv.com.cn'
   - '+.guowaidiaocha.com'
   - '+.guowaitianqi.com'
+  - '+.guowenku.com'
   - '+.guoxingjun.com'
   - '+.guoxinmac.com'
   - '+.guoxinqh.com'
@@ -31797,7 +31793,6 @@ payload:
   - '+.hxt-semitech.com'
   - '+.hxthjy.com'
   - '+.hxtk.com'
-  - '+.hxttcp.com'
   - '+.hxwglm.com'
   - '+.hxxdsb.com'
   - '+.hxxkw.org'
@@ -33487,6 +33482,7 @@ payload:
   - '+.intelvisioncn.com'
   - '+.inter12.org'
   - '+.inter1908.net'
+  - '+.interactivebrokers.hk'
   - '+.interbator.com'
   - '+.internationalbrand.net'
   - '+.internbird.com'
@@ -33548,7 +33544,6 @@ payload:
   - '+.ionecloud.cn'
   - '+.ionewu.com'
   - '+.ionic.wang'
-  - '+.ionic8.com'
   - '+.ionichina.com'
   - '+.ionicliquid.org'
   - '+.iooeoo.com'
@@ -39226,7 +39221,6 @@ payload:
   - '+.leagsoft.com'
   - '+.leangoo.com'
   - '+.leankun.com'
-  - '+.leanlan.com'
   - '+.leanote.com'
   - '+.leanote.org'
   - '+.leansoftx.com'
@@ -54196,6 +54190,7 @@ payload:
   - '+.sobeycache.com'
   - '+.sobeycloud.com'
   - '+.sobot.com'
+  - '+.soboten.com'
   - '+.sobug.com'
   - '+.sobuhu.com'
   - '+.socang.com'
@@ -55564,7 +55559,6 @@ payload:
   - '+.sxwpyx.com'
   - '+.sxwrsa.org'
   - '+.sxww.com'
-  - '+.sxxcrl.com'
   - '+.sxxdll.com'
   - '+.sxxiaomeng.com'
   - '+.sxxl.com'
@@ -56423,7 +56417,6 @@ payload:
   - '+.tavsiktlig.com'
   - '+.tawk.link'
   - '+.tax-edu.net'
-  - '+.tax12366.org'
   - '+.taxjiangkewang.com'
   - '+.taxnote.org'
   - '+.taxspirit.com'
@@ -59291,6 +59284,7 @@ payload:
   - '+.upnb.com'
   - '+.upos-bstar-mirrorakam.akamaized.net'
   - '+.upos-hz-mirrorakam.akamaized.net'
+  - '+.upowerchain.com'
   - '+.uppsd.com'
   - '+.upqzfile.com'
   - '+.upqzfilebk.com'
@@ -61469,6 +61463,7 @@ payload:
   - '+.wenneart.com'
   - '+.wenpie.com'
   - '+.wenrouge.com'
+  - '+.wenruya.com'
   - '+.wenryxu.com'
   - '+.wensang.com'
   - '+.wenshao-art.com'
@@ -62334,7 +62329,6 @@ payload:
   - '+.wmcn.com'
   - '+.wmedias.com'
   - '+.wmgjd.com'
-  - '+.wmgm.org'
   - '+.wmgurt9zka425.com'
   - '+.wmiao.com'
   - '+.wmiyx.com'
@@ -63766,6 +63760,7 @@ payload:
   - '+.xfsub.com'
   - '+.xft123.com'
   - '+.xftclub.com'
+  - '+.xfun233.com'
   - '+.xfwi.com'
   - '+.xfxb.net'
   - '+.xfyousheng.com'
@@ -71617,7 +71612,6 @@ payload:
   - '+.zotumgxr.com'
   - '+.zou.la'
   - '+.zou114.com'
-  - '+.zou114.net'
   - '+.zoubiao.com'
   - '+.zoucheng.cc'
   - '+.zoucz.com'

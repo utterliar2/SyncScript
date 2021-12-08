@@ -1,8 +1,8 @@
 # NAME: 复写去广告(严格版)
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-12-04 02:10:33
-# REWRITE: 713
+# UPDATED: 2021-12-08 16:32:33
+# REWRITE: 712
 # SCRIPT: 0
 # MITM: 514
 
@@ -12,7 +12,6 @@ DOMAIN,video-ad.sm.cn,REJECT
 DOMAIN-SUFFIX,cupid.iqiyi.com,REJECT
 
 [URL Rewrite]
-^https?://c.tieba.baidu.com/\w+/\w+/(sync|newRnSync|newlog|mlog) - reject-dict
 ^https?:\/\/(101\.201\.175\.228|182\.92\.251\.113)\/brand\/search\/v1\.json - reject-dict
 ^https?:\/\/(?>heic|gw)\.alicdn\.com\/tfs\/TB1.+?-\d{4}-\d{4}\.jpg_1200x1200q90\.jpg_\.\w{3,4}+$ - reject
 ^https?:\/\/(?>promo|api)\.xueqiu\.com\/promotion\/(?:feed_)?+display - reject
@@ -234,7 +233,7 @@ DOMAIN-SUFFIX,cupid.iqiyi.com,REJECT
 ^https?:\/\/c1\.ifengimg\.com\/.+?_w1080_h1410\.jpg - reject-img
 ^https?:\/\/c\.m\.163\.com\/nc\/gl\/ - reject
 ^https?:\/\/c\.minisplat\.cn - reject-img
-^https?:\/\/c\.tieba\.baidu\.com\/\w+\/\w+\/(sync|newRnSync|newlog|mlog) - reject-200
+^https?:\/\/c\.tieba\.baidu\.com\/\w+\/\w+\/(sync|newRnSync|mlog) - reject-200
 ^https?:\/\/c\.tieba\.baidu\.com\/c\/f\/forum\/getAdInfo - reject
 ^https?:\/\/c\.tieba\.baidu\.com\/c\/p\/img\?src= - reject-img
 ^https?:\/\/c\.tieba\.baidu\.com\/c\/s\/logtogether\?cmd= - reject-img

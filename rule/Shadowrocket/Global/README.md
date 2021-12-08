@@ -21,9 +21,9 @@ Global分流规则中含有URL-REGEX类型，此类的规则对于HTTPS请求需
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| DOMAIN | 32 |
 | DOMAIN-SUFFIX | 32078 |
 | USER-AGENT | 48 |
+| DOMAIN | 32 |
 | DOMAIN-KEYWORD | 41 |
 | IP-CIDR | 129 |
 | URL-REGEX | 1 |

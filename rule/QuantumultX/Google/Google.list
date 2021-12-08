@@ -1,13 +1,13 @@
 # NAME: Google
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-11-29 16:28:48
+# UPDATED: 2021-12-08 16:30:30
 # USER-AGENT: 3
-# HOST-SUFFIX: 338
+# HOST-SUFFIX: 332
 # HOST-KEYWORD: 8
-# IP-CIDR: 4
-# IP6-CIDR: 1
-# TOTAL: 354
+# IP-CIDR: 2
+# IP6-CIDR: 0
+# TOTAL: 345
 HOST-SUFFIX,.bo,Google
 HOST-SUFFIX,.chrome,Google
 HOST-SUFFIX,.co,Google
@@ -156,8 +156,6 @@ HOST-SUFFIX,get.page,Google
 HOST-SUFFIX,getbumptop.com,Google
 HOST-SUFFIX,getmdl.io,Google
 HOST-SUFFIX,getoutline.org,Google
-HOST-SUFFIX,ggpht.cn,Google
-HOST-SUFFIX,ggpht.com,Google
 HOST-SUFFIX,gipscorp.com,Google
 HOST-SUFFIX,gkecnapps.cn,Google
 HOST-SUFFIX,globaledu.org,Google
@@ -187,7 +185,6 @@ HOST-SUFFIX,gsuite.com,Google
 HOST-SUFFIX,gv.com,Google
 HOST-SUFFIX,gvt0.com,Google
 HOST-SUFFIX,gvt1.com,Google
-HOST-SUFFIX,gvt2.com,Google
 HOST-SUFFIX,gvt3.com,Google
 HOST-SUFFIX,gvt5.com,Google
 HOST-SUFFIX,gvt6.com,Google
@@ -337,9 +334,6 @@ HOST-SUFFIX,xn--gogl-1nd42e.com,Google
 HOST-SUFFIX,xn--ngstr-lra8j.com,Google
 HOST-SUFFIX,xn--p8j9a0d9c9a.xn--q9jyb4c,Google
 HOST-SUFFIX,xplr.co,Google
-HOST-SUFFIX,youtu.be,Google
-HOST-SUFFIX,yt.be,Google
-HOST-SUFFIX,ytimg.com,Google
 HOST-SUFFIX,zukunftswerkstatt.de,Google
 HOST-SUFFIX,zynamics.com,Google
 HOST-SUFFIX,はじめよう.みんな,Google
@@ -357,8 +351,5 @@ HOST-KEYWORD,www.google.,Google
 USER-AGENT,%E4%BA%91%E7%AB%AF%E7%A1%AC%E7%9B%98*,Google
 USER-AGENT,*com.google.Drive*,Google
 USER-AGENT,Google.Drive*,Google
-IP-CIDR,172.110.32.0/21,Google
 IP-CIDR,173.194.0.0/16,Google
-IP-CIDR,216.73.80.0/20,Google
 IP-CIDR,74.125.0.0/16,Google
-IP6-CIDR,2620:120:e000::/40,Google

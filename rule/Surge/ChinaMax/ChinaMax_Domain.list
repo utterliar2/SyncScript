@@ -1,17 +1,17 @@
 # NAME: ChinaMax
 # AUTHOR: blackmatrix7
 # REPO: https://gitlab.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-12-07 11:17:56
+# UPDATED: 2021-12-08 16:30:25
 # DESCRIPTION: 分流规则中含有URL-REGEX类型，请搭配MITM使用
 # USER-AGENT: 65
-# DOMAIN-SUFFIX: 72394
+# DOMAIN-SUFFIX: 72388
 # PROCESS-NAME: 6
 # DOMAIN: 54
 # IP-CIDR: 6187
 # DOMAIN-KEYWORD: 14
 # IP-CIDR6: 5591
 # URL-REGEX: 1
-# TOTAL: 84312
+# TOTAL: 84306
 265.com
 blzddist1-a.akamaihd.net
 c.android.clients.google.com
@@ -2030,7 +2030,6 @@ www4-static.gog-statics.com
 .189read.com
 .189read.net
 .189sec.com
-.189share.com
 .189smarthome.com
 .189store.com
 .189works.com
@@ -5981,7 +5980,6 @@ www4-static.gog-statics.com
 .666629b.com
 .6666519.net
 .666666.so
-.666898d.com
 .666baicai.com
 .666gps.com
 .666idc.com
@@ -9327,6 +9325,7 @@ www4-static.gog-statics.com
 .alixiaomi.com
 .alixiaoyouhui.com
 .alixiaozhan.com
+.alixiaozhan.net
 .alixinwen.com
 .alixixi.com
 .alixox.com
@@ -14346,7 +14345,6 @@ www4-static.gog-statics.com
 .cditv.tv
 .cdjingfeng.com
 .cdjingying.com
-.cdjinpeng.com
 .cdjnrc.com
 .cdjsjx.com
 .cdjxjy.com
@@ -14705,6 +14703,7 @@ www4-static.gog-statics.com
 .cfidlab.cn
 .cfido.com
 .cfiec.net
+.cfiecdns.net
 .cfimg.com
 .cfkq.net
 .cflm.com
@@ -20250,7 +20249,6 @@ www4-static.gog-statics.com
 .dhrest.com
 .dhrest2.com
 .dht5867.com
-.dhtb.com
 .dhwooden.com
 .dhy559999.com
 .dhy85888.com
@@ -20260,7 +20258,6 @@ www4-static.gog-statics.com
 .dhyjaqa.com
 .dhyz.net
 .dhzw.cc
-.di.com
 .di28nl.com
 .di3fang.com
 .di3fang.vip
@@ -24370,7 +24367,6 @@ www4-static.gog-statics.com
 .fhd001.com
 .fhdjh.com
 .fhdq.net
-.fhdr.com
 .fhg90.com
 .fhhgj.com
 .fhkioskmodules.com
@@ -26548,7 +26544,6 @@ www4-static.gog-statics.com
 .ghboke.com
 .ghgy.com
 .ghgy.net
-.ghkm.com
 .ghlearning.com
 .ghmba.com
 .ghmcchina.com
@@ -27732,6 +27727,7 @@ www4-static.gog-statics.com
 .guotv.com.cn
 .guowaidiaocha.com
 .guowaitianqi.com
+.guowenku.com
 .guoxingjun.com
 .guoxinmac.com
 .guoxinqh.com
@@ -31799,7 +31795,6 @@ www4-static.gog-statics.com
 .hxt-semitech.com
 .hxthjy.com
 .hxtk.com
-.hxttcp.com
 .hxwglm.com
 .hxxdsb.com
 .hxxkw.org
@@ -33489,6 +33484,7 @@ www4-static.gog-statics.com
 .intelvisioncn.com
 .inter12.org
 .inter1908.net
+.interactivebrokers.hk
 .interbator.com
 .internationalbrand.net
 .internbird.com
@@ -33550,7 +33546,6 @@ www4-static.gog-statics.com
 .ionecloud.cn
 .ionewu.com
 .ionic.wang
-.ionic8.com
 .ionichina.com
 .ionicliquid.org
 .iooeoo.com
@@ -39228,7 +39223,6 @@ www4-static.gog-statics.com
 .leagsoft.com
 .leangoo.com
 .leankun.com
-.leanlan.com
 .leanote.com
 .leanote.org
 .leansoftx.com
@@ -54198,6 +54192,7 @@ www4-static.gog-statics.com
 .sobeycache.com
 .sobeycloud.com
 .sobot.com
+.soboten.com
 .sobug.com
 .sobuhu.com
 .socang.com
@@ -55566,7 +55561,6 @@ www4-static.gog-statics.com
 .sxwpyx.com
 .sxwrsa.org
 .sxww.com
-.sxxcrl.com
 .sxxdll.com
 .sxxiaomeng.com
 .sxxl.com
@@ -56425,7 +56419,6 @@ www4-static.gog-statics.com
 .tavsiktlig.com
 .tawk.link
 .tax-edu.net
-.tax12366.org
 .taxjiangkewang.com
 .taxnote.org
 .taxspirit.com
@@ -59293,6 +59286,7 @@ www4-static.gog-statics.com
 .upnb.com
 .upos-bstar-mirrorakam.akamaized.net
 .upos-hz-mirrorakam.akamaized.net
+.upowerchain.com
 .uppsd.com
 .upqzfile.com
 .upqzfilebk.com
@@ -61471,6 +61465,7 @@ www4-static.gog-statics.com
 .wenneart.com
 .wenpie.com
 .wenrouge.com
+.wenruya.com
 .wenryxu.com
 .wensang.com
 .wenshao-art.com
@@ -62336,7 +62331,6 @@ www4-static.gog-statics.com
 .wmcn.com
 .wmedias.com
 .wmgjd.com
-.wmgm.org
 .wmgurt9zka425.com
 .wmiao.com
 .wmiyx.com
@@ -63768,6 +63762,7 @@ www4-static.gog-statics.com
 .xfsub.com
 .xft123.com
 .xftclub.com
+.xfun233.com
 .xfwi.com
 .xfxb.net
 .xfyousheng.com
@@ -71619,7 +71614,6 @@ www4-static.gog-statics.com
 .zotumgxr.com
 .zou.la
 .zou114.com
-.zou114.net
 .zoubiao.com
 .zoucheng.cc
 .zoucz.com

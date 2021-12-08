@@ -16,9 +16,9 @@
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| DOMAIN | 32 |
 | DOMAIN-SUFFIX | 32296 |
 | USER-AGENT | 11 |
+| DOMAIN | 32 |
 | DOMAIN-KEYWORD | 29 |
 | IP-CIDR | 88 |
 | IP-CIDR6 | 3 |
