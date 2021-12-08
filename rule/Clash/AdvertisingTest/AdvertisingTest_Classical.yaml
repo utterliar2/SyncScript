@@ -1,13 +1,13 @@
 # NAME: AdvertisingTest
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-12-08 16:30:35
+# UPDATED: 2021-12-09 02:12:47
 # DOMAIN-KEYWORD: 88
 # DOMAIN-SUFFIX: 83996
 # IP-CIDR: 256
-# DOMAIN: 41083
+# DOMAIN: 41095
 # IP-CIDR6: 1
-# TOTAL: 125424
+# TOTAL: 125436
 payload:
   - DOMAIN,0000mps.webpreview.dsl.net
   - DOMAIN,0001.2waky.com
@@ -2694,6 +2694,7 @@ payload:
   - DOMAIN,allgroupglass.com
   - DOMAIN,allhack4u.com
   - DOMAIN,allhackarena.com
+  - DOMAIN,allhacks2games.com
   - DOMAIN,allhacksforgames.com
   - DOMAIN,allhacksfree.com
   - DOMAIN,allhackyouneed.com
@@ -6912,6 +6913,7 @@ payload:
   - DOMAIN,cheap-trusted-backlinks.com
   - DOMAIN,cheapdumps.org
   - DOMAIN,cheapestgameservers.com
+  - DOMAIN,cheapmarketmeds.com
   - DOMAIN,cheappills24h.com
   - DOMAIN,cheapsmmpack.com
   - DOMAIN,cheapstickets.com
@@ -6927,6 +6929,7 @@ payload:
   - DOMAIN,cheatbaseballheroes.com
   - DOMAIN,cheatbee.com
   - DOMAIN,cheatcallofduty.com
+  - DOMAIN,cheatcenter24.com
   - DOMAIN,cheatcrackgame.com
   - DOMAIN,cheatdesign.com
   - DOMAIN,cheatengineer.com
@@ -12750,6 +12753,7 @@ payload:
   - DOMAIN,film4sun.com
   - DOMAIN,filmenstreaminggratuit.com
   - DOMAIN,filmentier-vf.com
+  - DOMAIN,filmhd21.com
   - DOMAIN,filmingphoto.com
   - DOMAIN,filmlair.com
   - DOMAIN,filmlush.com
@@ -13624,6 +13628,7 @@ payload:
   - DOMAIN,freesoftware4all.com
   - DOMAIN,freespingratis.com
   - DOMAIN,freespotifyaccounts.com
+  - DOMAIN,freespotifypremiumcodes.com
   - DOMAIN,freesteamgamesnow.com
   - DOMAIN,freesteamgifts.com
   - DOMAIN,freesteamwalletcodes.com
@@ -16834,6 +16839,7 @@ payload:
   - DOMAIN,hotelcenterlake.com
   - DOMAIN,hoteldeds-connect.com
   - DOMAIN,hoteldeds-connects.com
+  - DOMAIN,hotelekaa.com
   - DOMAIN,hotelesestelar.com
   - DOMAIN,hoteliege.com
   - DOMAIN,hotelmahalindia.com
@@ -19667,6 +19673,7 @@ payload:
   - DOMAIN,kalinston.com
   - DOMAIN,kalkanpsikoloji.com
   - DOMAIN,kallwqgnec.com
+  - DOMAIN,kalo.onvid.xyz
   - DOMAIN,kalorsystem.com
   - DOMAIN,kalyanglobal.com
   - DOMAIN,kamailasports.com
@@ -23028,6 +23035,7 @@ payload:
   - DOMAIN,mixcarnes.com
   - DOMAIN,mixdescontosbr.com
   - DOMAIN,mixedhacks.com
+  - DOMAIN,mixgrouptravel.cn
   - DOMAIN,mixmaxgroup.cn
   - DOMAIN,mixmediadirect.cn
   - DOMAIN,mixmelhoresprecos.com
@@ -24638,6 +24646,7 @@ payload:
   - DOMAIN,newpsncodegenerator.com
   - DOMAIN,newpsncodegenerator.org
   - DOMAIN,newrivoc.com
+  - DOMAIN,newrotationurl.com
   - DOMAIN,news-email-link-ne.com
   - DOMAIN,news-paperz.com
   - DOMAIN,news-report24.com
@@ -24931,6 +24940,7 @@ payload:
   - DOMAIN,nnztrsuu.com
   - DOMAIN,no1webmaster.com
   - DOMAIN,noah.reddion.com
+  - DOMAIN,nobleppc.com
   - DOMAIN,nobleprise.com
   - DOMAIN,nobletrusts.com
   - DOMAIN,nobodyspeakstruth.narod.ru
@@ -32797,6 +32807,7 @@ payload:
   - DOMAIN,staydryboatlauncher.com
   - DOMAIN,stc.aeplcdn.com
   - DOMAIN,stc.za.zaloapp.com
+  - DOMAIN,stchartered.com
   - DOMAIN,stcllctrs.com
   - DOMAIN,steaacommunity.com
   - DOMAIN,steaccommunity.com
@@ -33960,6 +33971,7 @@ payload:
   - DOMAIN,tfzffzmbo.com
   - DOMAIN,tg.game2.cn
   - DOMAIN,tg.mhtg123.com
+  - DOMAIN,tg.pxhuiben.com
   - DOMAIN,tg.yxdou.com
   - DOMAIN,tgbdjyryn.com
   - DOMAIN,tgbjtcgkdu.com

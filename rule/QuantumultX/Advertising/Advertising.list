@@ -1,13 +1,13 @@
 # NAME: Advertising
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-12-08 16:30:27
+# UPDATED: 2021-12-09 02:12:40
 # HOST-KEYWORD: 88
 # HOST-SUFFIX: 54460
 # IP-CIDR: 256
-# HOST: 47934
+# HOST: 47950
 # IP6-CIDR: 1
-# TOTAL: 102739
+# TOTAL: 102755
 HOST,0.nextyourcontent.com,Advertising
 HOST,0000mps.webpreview.dsl.net,Advertising
 HOST,0001.2waky.com,Advertising
@@ -575,6 +575,7 @@ HOST,42632zfylf.com,Advertising
 HOST,43031aaaecd84428.com,Advertising
 HOST,43plc.com,Advertising
 HOST,442c8891ec726f339.com,Advertising
+HOST,442d9f2ac50ca502.com,Advertising
 HOST,45.news-subscribe.com,Advertising
 HOST,45eijvhgj2.com,Advertising
 HOST,45i73jv6.com,Advertising
@@ -1081,6 +1082,7 @@ HOST,898protrudesolve.com,Advertising
 HOST,8a1ccf65f2b1302.com,Advertising
 HOST,8a333bc2b4d6.com,Advertising
 HOST,8ballpool.social-cheats.com,Advertising
+HOST,8bef5bb6b351ca5e.com,Advertising
 HOST,8c20290f4cc310f70.com,Advertising
 HOST,8c32f38df7.com,Advertising
 HOST,8cb0309458c7b35e.com,Advertising
@@ -4075,6 +4077,7 @@ HOST,allgethack.com,Advertising
 HOST,allgroupglass.com,Advertising
 HOST,allhack4u.com,Advertising
 HOST,allhackarena.com,Advertising
+HOST,allhacks2games.com,Advertising
 HOST,allhacksforgames.com,Advertising
 HOST,allhacksfree.com,Advertising
 HOST,allhackyouneed.com,Advertising
@@ -9094,6 +9097,7 @@ HOST,cheap-pills-247.com,Advertising
 HOST,cheap-trusted-backlinks.com,Advertising
 HOST,cheapdumps.org,Advertising
 HOST,cheapestgameservers.com,Advertising
+HOST,cheapmarketmeds.com,Advertising
 HOST,cheappills24h.com,Advertising
 HOST,cheapsmmpack.com,Advertising
 HOST,cheapstickets.com,Advertising
@@ -9109,6 +9113,7 @@ HOST,cheatandhack.net,Advertising
 HOST,cheatbaseballheroes.com,Advertising
 HOST,cheatbee.com,Advertising
 HOST,cheatcallofduty.com,Advertising
+HOST,cheatcenter24.com,Advertising
 HOST,cheatcrackgame.com,Advertising
 HOST,cheatdesign.com,Advertising
 HOST,cheatengineer.com,Advertising
@@ -15773,6 +15778,7 @@ HOST,filmenstreaminggratuit.com,Advertising
 HOST,filmentier-vf.com,Advertising
 HOST,filmes-hd.com,Advertising
 HOST,filmfanatic.com,Advertising
+HOST,filmhd21.com,Advertising
 HOST,filmingphoto.com,Advertising
 HOST,filmlair.com,Advertising
 HOST,filmlush.com,Advertising
@@ -16717,6 +16723,7 @@ HOST,freesoftware4all.com,Advertising
 HOST,freesoftwarestation.com,Advertising
 HOST,freespingratis.com,Advertising
 HOST,freespotifyaccounts.com,Advertising
+HOST,freespotifypremiumcodes.com,Advertising
 HOST,freestats.me,Advertising
 HOST,freesteamgamesnow.com,Advertising
 HOST,freesteamgifts.com,Advertising
@@ -18732,6 +18739,7 @@ HOST,gtnmyddlf.com,Advertising
 HOST,gtorsoxdh.com,Advertising
 HOST,gtqfsxrrerzu.com,Advertising
 HOST,gtradersoft.com,Advertising
+HOST,gtsdk.batmobi.net,Advertising
 HOST,gtservice-square.com,Advertising
 HOST,gtsgdddss.com,Advertising
 HOST,gtssl-aia.geotrust.com,Advertising
@@ -20274,6 +20282,7 @@ HOST,hotelbedsconnector.com,Advertising
 HOST,hotelcenterlake.com,Advertising
 HOST,hoteldeds-connect.com,Advertising
 HOST,hoteldeds-connects.com,Advertising
+HOST,hotelekaa.com,Advertising
 HOST,hotelesestelar.com,Advertising
 HOST,hoteliege.com,Advertising
 HOST,hotelmahalindia.com,Advertising
@@ -23399,6 +23408,7 @@ HOST,kalinston.com,Advertising
 HOST,kalitereklam.com,Advertising
 HOST,kalkanpsikoloji.com,Advertising
 HOST,kallwqgnec.com,Advertising
+HOST,kalo.onvid.xyz,Advertising
 HOST,kalorsystem.com,Advertising
 HOST,kalyanglobal.com,Advertising
 HOST,kamailasports.com,Advertising
@@ -27230,6 +27240,7 @@ HOST,miwhonjam.com,Advertising
 HOST,mixcarnes.com,Advertising
 HOST,mixdescontosbr.com,Advertising
 HOST,mixedhacks.com,Advertising
+HOST,mixgrouptravel.cn,Advertising
 HOST,mixmaxgroup.cn,Advertising
 HOST,mixmediadirect.cn,Advertising
 HOST,mixmelhoresprecos.com,Advertising
@@ -29037,6 +29048,7 @@ HOST,newpictures.com.dropdocs.org,Advertising
 HOST,newpsncodegenerator.com,Advertising
 HOST,newpsncodegenerator.org,Advertising
 HOST,newrivoc.com,Advertising
+HOST,newrotationurl.com,Advertising
 HOST,news-email-link-ne.com,Advertising
 HOST,news-finances.com,Advertising
 HOST,news-paperz.com,Advertising
@@ -29357,6 +29369,7 @@ HOST,nnztrsuu.com,Advertising
 HOST,no1webmaster.com,Advertising
 HOST,noah.reddion.com,Advertising
 HOST,noakauhe.com,Advertising
+HOST,nobleppc.com,Advertising
 HOST,nobleprise.com,Advertising
 HOST,nobletrusts.com,Advertising
 HOST,nobodyspeakstruth.narod.ru,Advertising
@@ -34655,6 +34668,7 @@ HOST,reklamstore.cubecdn.net,Advertising
 HOST,reklamtrk.com,Advertising
 HOST,relasense.com,Advertising
 HOST,relatable.inquisitr.com,Advertising
+HOST,relatedweboffers.com,Advertising
 HOST,relativityincorporated.com,Advertising
 HOST,relatosenseispalabras.com,Advertising
 HOST,relaxsearch.uphero.com,Advertising
@@ -38518,6 +38532,7 @@ HOST,stc.aeplcdn.com,Advertising
 HOST,stc.gammaplatform.com,Advertising
 HOST,stc.store.page.zaloapp.com,Advertising
 HOST,stc.za.zaloapp.com,Advertising
+HOST,stchartered.com,Advertising
 HOST,stcllctrs.com,Advertising
 HOST,steaacommunity.com,Advertising
 HOST,steaccommunity.com,Advertising
@@ -39866,6 +39881,7 @@ HOST,tfyxcbougqvmk.com,Advertising
 HOST,tfzffzmbo.com,Advertising
 HOST,tg.game2.cn,Advertising
 HOST,tg.mhtg123.com,Advertising
+HOST,tg.pxhuiben.com,Advertising
 HOST,tg.yxdou.com,Advertising
 HOST,tgbdjyryn.com,Advertising
 HOST,tgbjtcgkdu.com,Advertising

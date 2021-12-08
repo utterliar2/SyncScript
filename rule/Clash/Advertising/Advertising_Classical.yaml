@@ -1,13 +1,13 @@
 # NAME: Advertising
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-12-08 16:30:34
+# UPDATED: 2021-12-09 02:12:46
 # DOMAIN-KEYWORD: 88
 # DOMAIN-SUFFIX: 54460
 # IP-CIDR: 256
-# DOMAIN: 47934
+# DOMAIN: 47950
 # IP-CIDR6: 1
-# TOTAL: 102739
+# TOTAL: 102755
 payload:
   - DOMAIN,0.nextyourcontent.com
   - DOMAIN,0000mps.webpreview.dsl.net
@@ -576,6 +576,7 @@ payload:
   - DOMAIN,43031aaaecd84428.com
   - DOMAIN,43plc.com
   - DOMAIN,442c8891ec726f339.com
+  - DOMAIN,442d9f2ac50ca502.com
   - DOMAIN,45.news-subscribe.com
   - DOMAIN,45eijvhgj2.com
   - DOMAIN,45i73jv6.com
@@ -1082,6 +1083,7 @@ payload:
   - DOMAIN,8a1ccf65f2b1302.com
   - DOMAIN,8a333bc2b4d6.com
   - DOMAIN,8ballpool.social-cheats.com
+  - DOMAIN,8bef5bb6b351ca5e.com
   - DOMAIN,8c20290f4cc310f70.com
   - DOMAIN,8c32f38df7.com
   - DOMAIN,8cb0309458c7b35e.com
@@ -4076,6 +4078,7 @@ payload:
   - DOMAIN,allgroupglass.com
   - DOMAIN,allhack4u.com
   - DOMAIN,allhackarena.com
+  - DOMAIN,allhacks2games.com
   - DOMAIN,allhacksforgames.com
   - DOMAIN,allhacksfree.com
   - DOMAIN,allhackyouneed.com
@@ -9095,6 +9098,7 @@ payload:
   - DOMAIN,cheap-trusted-backlinks.com
   - DOMAIN,cheapdumps.org
   - DOMAIN,cheapestgameservers.com
+  - DOMAIN,cheapmarketmeds.com
   - DOMAIN,cheappills24h.com
   - DOMAIN,cheapsmmpack.com
   - DOMAIN,cheapstickets.com
@@ -9110,6 +9114,7 @@ payload:
   - DOMAIN,cheatbaseballheroes.com
   - DOMAIN,cheatbee.com
   - DOMAIN,cheatcallofduty.com
+  - DOMAIN,cheatcenter24.com
   - DOMAIN,cheatcrackgame.com
   - DOMAIN,cheatdesign.com
   - DOMAIN,cheatengineer.com
@@ -15774,6 +15779,7 @@ payload:
   - DOMAIN,filmentier-vf.com
   - DOMAIN,filmes-hd.com
   - DOMAIN,filmfanatic.com
+  - DOMAIN,filmhd21.com
   - DOMAIN,filmingphoto.com
   - DOMAIN,filmlair.com
   - DOMAIN,filmlush.com
@@ -16718,6 +16724,7 @@ payload:
   - DOMAIN,freesoftwarestation.com
   - DOMAIN,freespingratis.com
   - DOMAIN,freespotifyaccounts.com
+  - DOMAIN,freespotifypremiumcodes.com
   - DOMAIN,freestats.me
   - DOMAIN,freesteamgamesnow.com
   - DOMAIN,freesteamgifts.com
@@ -18733,6 +18740,7 @@ payload:
   - DOMAIN,gtorsoxdh.com
   - DOMAIN,gtqfsxrrerzu.com
   - DOMAIN,gtradersoft.com
+  - DOMAIN,gtsdk.batmobi.net
   - DOMAIN,gtservice-square.com
   - DOMAIN,gtsgdddss.com
   - DOMAIN,gtssl-aia.geotrust.com
@@ -20275,6 +20283,7 @@ payload:
   - DOMAIN,hotelcenterlake.com
   - DOMAIN,hoteldeds-connect.com
   - DOMAIN,hoteldeds-connects.com
+  - DOMAIN,hotelekaa.com
   - DOMAIN,hotelesestelar.com
   - DOMAIN,hoteliege.com
   - DOMAIN,hotelmahalindia.com
@@ -23400,6 +23409,7 @@ payload:
   - DOMAIN,kalitereklam.com
   - DOMAIN,kalkanpsikoloji.com
   - DOMAIN,kallwqgnec.com
+  - DOMAIN,kalo.onvid.xyz
   - DOMAIN,kalorsystem.com
   - DOMAIN,kalyanglobal.com
   - DOMAIN,kamailasports.com
@@ -27231,6 +27241,7 @@ payload:
   - DOMAIN,mixcarnes.com
   - DOMAIN,mixdescontosbr.com
   - DOMAIN,mixedhacks.com
+  - DOMAIN,mixgrouptravel.cn
   - DOMAIN,mixmaxgroup.cn
   - DOMAIN,mixmediadirect.cn
   - DOMAIN,mixmelhoresprecos.com
@@ -29038,6 +29049,7 @@ payload:
   - DOMAIN,newpsncodegenerator.com
   - DOMAIN,newpsncodegenerator.org
   - DOMAIN,newrivoc.com
+  - DOMAIN,newrotationurl.com
   - DOMAIN,news-email-link-ne.com
   - DOMAIN,news-finances.com
   - DOMAIN,news-paperz.com
@@ -29358,6 +29370,7 @@ payload:
   - DOMAIN,no1webmaster.com
   - DOMAIN,noah.reddion.com
   - DOMAIN,noakauhe.com
+  - DOMAIN,nobleppc.com
   - DOMAIN,nobleprise.com
   - DOMAIN,nobletrusts.com
   - DOMAIN,nobodyspeakstruth.narod.ru
@@ -34656,6 +34669,7 @@ payload:
   - DOMAIN,reklamtrk.com
   - DOMAIN,relasense.com
   - DOMAIN,relatable.inquisitr.com
+  - DOMAIN,relatedweboffers.com
   - DOMAIN,relativityincorporated.com
   - DOMAIN,relatosenseispalabras.com
   - DOMAIN,relaxsearch.uphero.com
@@ -38519,6 +38533,7 @@ payload:
   - DOMAIN,stc.gammaplatform.com
   - DOMAIN,stc.store.page.zaloapp.com
   - DOMAIN,stc.za.zaloapp.com
+  - DOMAIN,stchartered.com
   - DOMAIN,stcllctrs.com
   - DOMAIN,steaacommunity.com
   - DOMAIN,steaccommunity.com
@@ -39867,6 +39882,7 @@ payload:
   - DOMAIN,tfzffzmbo.com
   - DOMAIN,tg.game2.cn
   - DOMAIN,tg.mhtg123.com
+  - DOMAIN,tg.pxhuiben.com
   - DOMAIN,tg.yxdou.com
   - DOMAIN,tgbdjyryn.com
   - DOMAIN,tgbjtcgkdu.com

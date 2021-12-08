@@ -1,13 +1,13 @@
 # NAME: Advertising
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-12-08 16:30:34
+# UPDATED: 2021-12-09 02:12:46
 # DOMAIN-KEYWORD: 88
 # DOMAIN-SUFFIX: 54460
 # IP-CIDR: 256
-# DOMAIN: 47934
+# DOMAIN: 47950
 # IP-CIDR6: 1
-# TOTAL: 102739
+# TOTAL: 102755
 payload:
   - '0.nextyourcontent.com'
   - '0000mps.webpreview.dsl.net'
@@ -576,6 +576,7 @@ payload:
   - '43031aaaecd84428.com'
   - '43plc.com'
   - '442c8891ec726f339.com'
+  - '442d9f2ac50ca502.com'
   - '45.news-subscribe.com'
   - '45eijvhgj2.com'
   - '45i73jv6.com'
@@ -1082,6 +1083,7 @@ payload:
   - '8a1ccf65f2b1302.com'
   - '8a333bc2b4d6.com'
   - '8ballpool.social-cheats.com'
+  - '8bef5bb6b351ca5e.com'
   - '8c20290f4cc310f70.com'
   - '8c32f38df7.com'
   - '8cb0309458c7b35e.com'
@@ -4076,6 +4078,7 @@ payload:
   - 'allgroupglass.com'
   - 'allhack4u.com'
   - 'allhackarena.com'
+  - 'allhacks2games.com'
   - 'allhacksforgames.com'
   - 'allhacksfree.com'
   - 'allhackyouneed.com'
@@ -9095,6 +9098,7 @@ payload:
   - 'cheap-trusted-backlinks.com'
   - 'cheapdumps.org'
   - 'cheapestgameservers.com'
+  - 'cheapmarketmeds.com'
   - 'cheappills24h.com'
   - 'cheapsmmpack.com'
   - 'cheapstickets.com'
@@ -9110,6 +9114,7 @@ payload:
   - 'cheatbaseballheroes.com'
   - 'cheatbee.com'
   - 'cheatcallofduty.com'
+  - 'cheatcenter24.com'
   - 'cheatcrackgame.com'
   - 'cheatdesign.com'
   - 'cheatengineer.com'
@@ -15774,6 +15779,7 @@ payload:
   - 'filmentier-vf.com'
   - 'filmes-hd.com'
   - 'filmfanatic.com'
+  - 'filmhd21.com'
   - 'filmingphoto.com'
   - 'filmlair.com'
   - 'filmlush.com'
@@ -16718,6 +16724,7 @@ payload:
   - 'freesoftwarestation.com'
   - 'freespingratis.com'
   - 'freespotifyaccounts.com'
+  - 'freespotifypremiumcodes.com'
   - 'freestats.me'
   - 'freesteamgamesnow.com'
   - 'freesteamgifts.com'
@@ -18733,6 +18740,7 @@ payload:
   - 'gtorsoxdh.com'
   - 'gtqfsxrrerzu.com'
   - 'gtradersoft.com'
+  - 'gtsdk.batmobi.net'
   - 'gtservice-square.com'
   - 'gtsgdddss.com'
   - 'gtssl-aia.geotrust.com'
@@ -20275,6 +20283,7 @@ payload:
   - 'hotelcenterlake.com'
   - 'hoteldeds-connect.com'
   - 'hoteldeds-connects.com'
+  - 'hotelekaa.com'
   - 'hotelesestelar.com'
   - 'hoteliege.com'
   - 'hotelmahalindia.com'
@@ -23400,6 +23409,7 @@ payload:
   - 'kalitereklam.com'
   - 'kalkanpsikoloji.com'
   - 'kallwqgnec.com'
+  - 'kalo.onvid.xyz'
   - 'kalorsystem.com'
   - 'kalyanglobal.com'
   - 'kamailasports.com'
@@ -27231,6 +27241,7 @@ payload:
   - 'mixcarnes.com'
   - 'mixdescontosbr.com'
   - 'mixedhacks.com'
+  - 'mixgrouptravel.cn'
   - 'mixmaxgroup.cn'
   - 'mixmediadirect.cn'
   - 'mixmelhoresprecos.com'
@@ -29038,6 +29049,7 @@ payload:
   - 'newpsncodegenerator.com'
   - 'newpsncodegenerator.org'
   - 'newrivoc.com'
+  - 'newrotationurl.com'
   - 'news-email-link-ne.com'
   - 'news-finances.com'
   - 'news-paperz.com'
@@ -29358,6 +29370,7 @@ payload:
   - 'no1webmaster.com'
   - 'noah.reddion.com'
   - 'noakauhe.com'
+  - 'nobleppc.com'
   - 'nobleprise.com'
   - 'nobletrusts.com'
   - 'nobodyspeakstruth.narod.ru'
@@ -34656,6 +34669,7 @@ payload:
   - 'reklamtrk.com'
   - 'relasense.com'
   - 'relatable.inquisitr.com'
+  - 'relatedweboffers.com'
   - 'relativityincorporated.com'
   - 'relatosenseispalabras.com'
   - 'relaxsearch.uphero.com'
@@ -38519,6 +38533,7 @@ payload:
   - 'stc.gammaplatform.com'
   - 'stc.store.page.zaloapp.com'
   - 'stc.za.zaloapp.com'
+  - 'stchartered.com'
   - 'stcllctrs.com'
   - 'steaacommunity.com'
   - 'steaccommunity.com'
@@ -39867,6 +39882,7 @@ payload:
   - 'tfzffzmbo.com'
   - 'tg.game2.cn'
   - 'tg.mhtg123.com'
+  - 'tg.pxhuiben.com'
   - 'tg.yxdou.com'
   - 'tgbdjyryn.com'
   - 'tgbjtcgkdu.com'

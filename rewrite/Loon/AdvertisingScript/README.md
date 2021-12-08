@@ -15,12 +15,12 @@
 | 类型 | 数量(条) |
 | ---- | ---- |
 | mitm | 23 |
-| URL-REGEX | 7 |
-| IP-CIDR6 | 1 |
-| DOMAIN-SUFFIX | 1 |
 | DOMAIN | 4 |
 | IP-CIDR | 1 |
+| URL-REGEX | 7 |
 | USER-AGENT | 1 |
+| DOMAIN-SUFFIX | 1 |
+| IP-CIDR6 | 1 |
 | reject | 21 |
 | http-response | 33 |
 | http-request | 1 |
