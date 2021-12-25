@@ -12,7 +12,7 @@
 // ==/UserScript==
 
 
-# > POLICY PART-----------------------------------------------------------------------
+# > 🤏 POLICY PART-----------------------------------------------------------------------
 # > Bahamut for TW
 USER-AGENT,Anime*,Bahamut
 DOMAIN-SUFFIX,bahamut.com.tw,Bahamut
@@ -37,7 +37,7 @@ DOMAIN,youtubei.googleapis.com,Youtube
 # > google  search for me
 DOMAIN-KEYWORD,google,Youtube
 
-# > REJECT PART-----------------------------------------------------------------------
+# > ✌ REJECT PART-----------------------------------------------------------------------
 # > 12306
 HOST, ad.12306.cn, REJECT
 
@@ -66,7 +66,7 @@ HOST, app-measurement.com, REJECT
 HOST, log.ihuman.com, REJECT
 HOST, dc.114dev.com, REJECT
 
-# > PROXY PART------------------------------------------------------------------------
+# > 🤟 PROXY PART------------------------------------------------------------------------
 # > SUFFIX 01
 HOST-SUFFIX, epicgames.com, PROXY
 HOST-SUFFIX, manhuacat.com, PROXY
