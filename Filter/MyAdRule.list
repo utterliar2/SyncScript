@@ -6,10 +6,36 @@
 // @TgChannel         https://t.me/ddgksf2021
 // @UpdateTime        20211225
 // @Attention         如果广告仍然存在，请卸载应用重新安装
-// @Function          去广告配置（自用，不建议使用）
-// @Suitable          watch “# > ”
+// @Function          去广告配置（自用，混合policy、proxy、reject不建议使用）
+// @Suitable          自行观看 “# > ”
 // @ScriptURL         https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Filter/MyAdRule.list
 // ==/UserScript==
+
+
+# > POLICY PART-----------------------------------------------------------------------
+# > Bahamut for TW
+USER-AGENT,Anime*,Bahamut
+DOMAIN-SUFFIX,bahamut.com.tw,Bahamut
+DOMAIN-SUFFIX,gamer.com.tw,Bahamut
+DOMAIN,gamer-cds.cdn.hinet.net,Bahamut
+DOMAIN,gamer2-cds.cdn.hinet.net,Bahamut
+# > Manhuaren（必须台湾节点，否则无法搜索屏蔽漫画）
+DOMAIN-KEYWORD,manhuaren,Bahamut
+# > Spotify for TW
+USER-AGENT,Spotify*,Bahamut
+DOMAIN-SUFFIX,pscdn.co,Bahamut
+DOMAIN-SUFFIX,scdn.co,Bahamut
+DOMAIN-SUFFIX,spotify.com,Bahamut
+DOMAIN-SUFFIX,spoti.fi,Bahamut
+
+# > Youtube policy for me
+USER-AGENT,com.google.ios.youtube*,Youtube
+USER-AGENT,YouTube*,Youtube
+DOMAIN-SUFFIX,googlevideo.com,Youtube
+DOMAIN-SUFFIX,youtube.com,Youtube
+DOMAIN,youtubei.googleapis.com,Youtube
+# > google  search for me
+DOMAIN-KEYWORD,google,Youtube
 
 # > REJECT PART-----------------------------------------------------------------------
 # > 12306
