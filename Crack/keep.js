@@ -1,8 +1,5 @@
 /*
-*[rewrite_remote]
-*^https://api.gotokeep.com(/athena/v5/people/my|/nuocha/plans) url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/keep.js
-*[mimt]
-*hostname = api.gotokeep.com
+https://api.gotokeep.com/(athena/v5/people/my|nuocha/plans) url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/keep.js
 */
 
 if ($request['url']['indexOf']('/athena/v5/people/my') != -1) {
