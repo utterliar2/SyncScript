@@ -1,11 +1,11 @@
 /*
 *[rewrite_remote]
-*^https:\/\/api\.gotokeep\.com\/* url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/keep.js
+*^https:\/\/api.gotokeep.com/nuocha/plans url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/keep.js
 *[mimt]
 *hostname = api.gotokeep.com
 */
 
-re('"payMode":"\\w+"','"payMode":"none"')
+re('errorCode\":\\d+@status\":\\w+', 'errorCode":0@status":true');
 
 function re() {
  var body = $response.body;
@@ -15,7 +15,7 @@ function re() {
   for (i = 0;i < regs.length;i++) {
    var reg = new RegExp(regs[i],"g");
    body = body.replace(reg, strs[i]);
- }
+   }
 }
  else {
   var reg = new RegExp(arguments[0],"g");
