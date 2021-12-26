@@ -1,11 +1,16 @@
 /*
 *[rewrite_remote]
-*^https:\/\/api.gotokeep.com/nuocha/plans url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/keep.js
+*^https://api.gotokeep.com(/athena/v5/people/my|/nuocha/plans) url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/keep.js
 *[mimt]
 *hostname = api.gotokeep.com
 */
 
-re('errorCode\":\\d+@status\":\\w+', 'errorCode":0@status":true');
+if ($request['url']['indexOf']('/athena/v5/people/my') != -1) {
+    re('memberStatus":\d+@username":"[^"]+', 'memberStatus\":1@username\":\"ddgksf2013');
+}
+if ($request['url']['indexOf']('/nuocha/plans') != -1) {
+    re('errorCode\":\\d+@status\":\\w+', 'errorCode":0@status":true');
+}
 
 function re() {
  var body = $response.body;
