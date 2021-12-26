@@ -10,19 +10,4 @@ if ($request['url']['indexOf']('/nuocha/plans') != -1) {
     re('errorCode\":\\d+@status\":\\w+', 'errorCode":0@status":true');
 }
 
-function re() {
- var body = $response.body;
- if (arguments[0].includes("@")) {
-  var regs = arguments[0].split("@");
-  var strs = arguments[1].split("@");
-  for (i = 0;i < regs.length;i++) {
-   var reg = new RegExp(regs[i],"g");
-   body = body.replace(reg, strs[i]);
-   }
-}
- else {
-  var reg = new RegExp(arguments[0],"g");
-  body = body.replace(reg, arguments[1]);
-}
- $done(body);
-} 
+functionre(){varbody=$response.body;if(arguments[0].includes("@")){varregs=arguments[0].split("@");varstrs=arguments[1].split("@");for(i=0;i<regs.length;i++){varreg=newRegExp(regs[i],"g");body=body.replace(reg,strs[i]);}}else{varreg=newRegExp(arguments[0],"g");body=body.replace(reg,arguments[1]);}$done(body);}
