@@ -8,6 +8,6 @@
     	"10 7-21/2 * * * https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Jd/Task/jd_plantBean.js, tag=京东种豆得豆 , img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdzd.png",
 	"10 0 * * * https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Jd/Task/jd_jdzz.js, tag=京东赚赚, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdzz.png",
 	"12 * * * * https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Jd/Task/jd_pigPet.js, tag=京东金融养猪猪, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdyz.png",
-    	"0 7 * * * https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Jd/Task/jd_speed_sign.js, tag=京东极速版, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png"
+    	"0 7 * * * https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Jd/Task/jd_speed_signfaker.js, tag=京东极速版, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png"
 	]
 }
