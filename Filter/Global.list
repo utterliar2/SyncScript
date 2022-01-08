@@ -28,7 +28,6 @@ host-suffix, ebb.io, proxy
 host-suffix, uwp.pp.ua, proxy
 host-suffix, aoaomoe.me, proxy
 host, testflight.apple.com, proxy
-host-keyword, hanime, proxy
 host-suffix, spankbang.com, proxy
 host-suffix, globaldelight.net, proxy
 #2020.05.07

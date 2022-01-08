@@ -36,6 +36,8 @@ DOMAIN-SUFFIX,youtube.com,Youtube
 DOMAIN,youtubei.googleapis.com,Youtube
 # > google  search for me
 DOMAIN-KEYWORD,google,Youtube
+DOMAIN-KEYWORD, hanime, Youtube
+
 
 # > ✌ REJECT PART-----------------------------------------------------------------------
 # > 12306
