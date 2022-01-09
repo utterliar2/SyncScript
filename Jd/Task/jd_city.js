@@ -57,37 +57,6 @@ let inviteCodes = ['dGVujSGZKihDL17VOs8','-ryULvFrGBE3Bk-EO56HuzhYeHqx9EU']
       await $.wait(1000)
     }
   }
-  
-  for (let i = 0; i < cookiesArr.length; i++) {
-    cookie = cookiesArr[i];
-    $.UserName = decodeURIComponent(cookie.match(/pt_pin=([^; ]+)(?=;?)/) && cookie.match(/pt_pin=([^; ]+)(?=;?)/)[1])
-    $.index = i + 1;
-    UA = `jdapp;iPhone;10.2.0;13.1.2;${randomString(40)};M/5.0;network/wifi;ADID/;model/iPhone8,1;addressid/2308460611;appBuild/167853;jdSupportDarkMode/0;Mozilla/5.0 (iPhone; CPU iPhone OS 13_1_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148;supportJDSHWK/1;`
-    uuid = UA.split(';')[4]
-    
-    for (let j = 0; j < shareCodes.length; j++) {
-      console.log(helpPool ? `\n${$.UserName} 开始助力 助力池 【${shareCodes[j]}】` : i === 0 ? `\nCK1 ${$.UserName} 开始助力 助力池 【${shareCodes[j]}】` : `\n${$.UserName} 开始助力 【${shareCodes[j]}】`)
-      await $.wait(1000)
-      let res = await getInfo(shareCodes[j])
-      if (res && res['data'] && res['data']['bizCode'] === 0) {
-        if (res['data']['result']['toasts'] && res['data']['result']['toasts'][0] && res['data']['result']['toasts'][0]['status'] === '3') {
-          console.log(`助力次数已耗尽，跳出`)
-          break
-        }
-        if (res['data']['result']['toasts']) {
-          if (res['data']['result']['toasts'][0]) {
-            console.log(`助力 【${shareCodes[j]}】:${res.data.result.toasts[0].msg}`)
-          } else {
-            console.log(`未知错误，跳出`)
-            break
-          }
-        }
-      }
-      if ((res && res['status'] && res['status'] === '3') || (res && res.data && res.data.bizCode === -11)) {
-        // 助力次数耗尽 || 黑号
-        break
-      }
-    }
     await $.wait(1000)
     await getInviteInfo();//雇佣
     if (exchangeFlag) {
