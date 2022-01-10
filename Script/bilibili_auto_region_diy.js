@@ -128,7 +128,7 @@ function SwitchStatus(status, original, newPolicy) {
 function EnvInfo() {
 	if (typeof($response) !== 'undefined') {
 		const raw = JSON.parse($response.body);
-		const data = raw.data || raw.result || {};
+		const data = raw.data || raw.result || raw.message||{};
 		//if surge or loon, $done() will auto reconnect with the new policy
 		SwitchRegion(data.title)
 			.then(s => s && !$.isQuanX ? $done() : QueryRating(raw, data));
