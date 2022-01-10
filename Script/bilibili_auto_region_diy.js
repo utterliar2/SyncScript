@@ -87,11 +87,11 @@ async function SwitchRegion(play) {
 		} else if (/\u50c5[\u4e00-\u9fa5]+\u53f0|%20%E5%8F%B0&/.test(play)) {
 			if (current != TW) return TW;
 		} 
-    /*****************add by ddgksf2013****************/
+    
     else if ('啥都木有'==play) {
 			if (current != TW) return TW;
 		}
-    /*************************************************/
+    
     else if (current != CN) return CN;
 	})()
 
