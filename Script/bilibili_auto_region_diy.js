@@ -130,8 +130,14 @@ function EnvInfo() {
 		const raw = JSON.parse($response.body);
 		const data = raw.data || raw.result || raw.message||{};
 		//if surge or loon, $done() will auto reconnect with the new policy
+		if(data.title){
 		SwitchRegion(data.title)
 			.then(s => s && !$.isQuanX ? $done() : QueryRating(raw, data));
+		}
+		else{
+		SwitchRegion(data)
+			.then(s => s && !$.isQuanX ? $done() : QueryRating(raw, data));
+		}
 	} else {
 		const raw = $request.url;
 		const res = {
