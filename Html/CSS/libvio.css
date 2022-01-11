@@ -1,4 +1,3 @@
-.hidden-log {display: none! important;}
-a[target="_blank"] > .img-responsive {display: none! important;}
-.advertise {display: none! important;}
-#adsbox {display: none! important;}
+div.hidden-log {display: none! important;}
+div.none {display: none! important;}
+div.inner-advertise {display: none! important;}
