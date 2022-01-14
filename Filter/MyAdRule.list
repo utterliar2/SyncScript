@@ -21,6 +21,7 @@ DOMAIN,gamer-cds.cdn.hinet.net,Bahamut
 DOMAIN,gamer2-cds.cdn.hinet.net,Bahamut
 # > Manhuaren（必须台湾节点，否则无法搜索屏蔽漫画）
 DOMAIN-KEYWORD,manhuaren,Bahamut
+HOST-SUFFIX, cdnmanhua.net, Bahamut
 # > Spotify for TW
 USER-AGENT,Spotify*,Bahamut
 DOMAIN-SUFFIX,pscdn.co,Bahamut
@@ -74,7 +75,6 @@ HOST-SUFFIX, epicgames.com, PROXY
 HOST-SUFFIX, manhuacat.com, PROXY
 HOST-SUFFIX, cdn77.org, PROXY
 HOST-SUFFIX, lvv2.com, PROXY
-HOST-SUFFIX, cdnmanhua.net, PROXY
 HOST-SUFFIX, graph.org, PROXY
 HOST-SUFFIX, pximg.net, PROXY
 HOST-SUFFIX, mangafunc.fun, PROXY
