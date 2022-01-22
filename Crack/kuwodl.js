@@ -1,5 +1,10 @@
 /*
-Unlocks by Cuttlefish 公众号：墨鱼手记
+Author：@ddgksf2013
+
+通知频道：https://t.me/ddgksf2021
+
+公众号：墨鱼手记
+
 */
-let url = $request.url.replace(/uid=\d+/g, "uid=2");
+let url = $request.body.replace(/uid=\d+/g, "uid=6");
 $done({url});
