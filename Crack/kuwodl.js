@@ -6,5 +6,5 @@ Author：@ddgksf2013
 公众号：墨鱼手记
 
 */
-let url = $request.body.replace(/uid=\d+/g, "uid=6");
-$done({url});
+var url = $request.body.replace(/uid=\d+/g, 'uid=6')
+$done({ rul });
