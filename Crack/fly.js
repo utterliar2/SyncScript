@@ -19,4 +19,4 @@ ddgksf2013.Variables.data.threaddetail.tagadv = "";
 //delete ddgksf2013.Variables.data.threaddetail.bottomadv;
 //delete ddgksf2013.Variables.data.threaddetail.appdetailadv;
 	
-$done({body: JSON.stringify(obj)});
+$done({body: JSON.stringify(ddgksf2013)});
