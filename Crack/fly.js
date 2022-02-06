@@ -1,3 +1,10 @@
+/*
+
+Author：@ddgksf2013
+
+通知频道：https://t.me/ddgksf2021
+
+*/
 var body = $response.body;
 var ddgksf2013 = JSON.parse(body);
 
