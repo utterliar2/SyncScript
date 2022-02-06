@@ -8,8 +8,6 @@ Author：@ddgksf2013
 var body = $response.body;
 var ddgksf2013 = JSON.parse(body);
 
-//var body = $response.body.replace(/ad_video/g, 'ad_video')
-//$done({ body });
 if (ddgksf2013.Variables.data.threaddetail) 
 {
 ddgksf2013.Variables.data.threaddetail.tagadv = "";
