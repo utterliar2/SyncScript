@@ -20,7 +20,7 @@ body['data']['homeBarPage'] = [{
       "webUrl": "",
       "selImg": "http://img.rr.tv/cover/20210310/o_1615344085709.png",
       "unselImg": "http://img.rr.tv/cover/20210310/o_1615344087390.png",
-      "name": "快看",
+      "name": "墨鱼",
       "index": 2,
       "nativeAlias": "amwayVideo",
       "darkSelImg": "http://img.rr.tv/cover/20210310/o_1615344091229.png"
