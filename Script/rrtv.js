@@ -1,3 +1,12 @@
+/*
+
+Author：@ddgksf2013
+
+通知频道：https://t.me/ddgksf2021
+
+*/
+
+
 const scriptName = "RRTV";
 const magicJS = new MagicJS(scriptName, "INFO");
 
