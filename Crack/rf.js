@@ -7,6 +7,7 @@
 微信账号：墨鱼手记
 更新时间：2022-02-12
 通知频道：https://t.me/ddgksf2021
+讨论专区：https://t.me/ddgksf2013
 问题反馈：https://t.me/ddgksf2013_bot
 
 [rewrite_local]
