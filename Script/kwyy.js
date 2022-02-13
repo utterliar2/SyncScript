@@ -1,6 +1,6 @@
 /*
 
-应用名称：RNI films
+应用名称：KWYY CRACK
 软件版本：3.0.5
 下载地址：https://apps.apple.com/cn/app/id588673713
 脚本作者：Cuttlefish
