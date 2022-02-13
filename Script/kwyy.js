@@ -4,7 +4,7 @@
 软件版本：3.0.5
 下载地址：https://apps.apple.com/cn/app/id588673713
 脚本作者：Cuttlefish
-微信账号：墨鱼手记
+微信账号：公众号墨鱼手记
 更新时间：2022-02-12
 通知频道：https://t.me/ddgksf2021
 问题反馈：https://t.me/ddgksf2013_bot
@@ -14,11 +14,11 @@
 https?:\/\/audiobookpay\.kuwo\.cn/a\.p\?op=get_advertright url reject-dict
 # ～ KWYY_酷我聽書PayInfo@ddgksf2013
 ^https?:\/\/audiobookpay\.kuwo\.cn/a\.p url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/kwyy.js
-# ～ KWYY_酷我聽書UserInfo@@ddgksf2013
+# ～ KWYY_酷我聽書UserInfo@ddgksf2013
 https://tingshu.kuwo.cn/v2/api/user/info url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/kwyy.js
-# ～ KWYY_酷我聽書UserInfo@@ddgksf2013
+# ～ KWYY_酷我聽書UserInfo@ddgksf2013
 https?:\/\/audiobooks\.kuwo\.cn\/v2\/api\/user\/info url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/kwyy.js
-# ～ KWYY_酷我聽書UserStatus@@ddgksf2013
+# ～ KWYY_酷我聽書UserStatus@ddgksf2013
 https?:\/\/tingshu\.kuwo\.cn\/v2\/api\/pay\/vip\/extraVipStatus url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/kwyy.js
 # ～ KWYY_酷我解鎖Vip皮膚設置@ddgksf2013
 ^https?:\/\/vip1\.kuwo\.cn\/vip\/v2\/theme  url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/kwyy.js
