@@ -1,13 +1,13 @@
 /*
 
-应用名称：KWYY CRACK
-软件版本：3.0.5
-下载地址：https://apps.apple.com/cn/app/id588673713
-脚本作者：Cuttlefish
-微信账号：公众号墨鱼手记
-更新时间：2022-02-12
-通知频道：https://t.me/ddgksf2021
-问题反馈：https://t.me/ddgksf2013_bot
+應用名稱：KWYY CRACK
+軟件版本：3.0.5
+下載地址：https://apps.apple.com/cn/app/id588673713
+腳本作者：Cuttlefish
+微信賬號：公眾號墨魚手記
+更新時間：2022-02-12
+通知頻道：https://t.me/ddgksf2021
+問題反饋：https://t.me/ddgksf2013_bot
 
 [rewrite_local]
 # ～ KWYY_酷我聽書Block_ad@ddgksf2013
