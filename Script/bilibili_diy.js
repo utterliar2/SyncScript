@@ -129,7 +129,8 @@ if (magicJS.read(blackKey)) {
         try {
           let obj = JSON.parse(magicJS.response.body);
           // 622 为会员购中心, 425 开始为概念版id
-          const itemList = new Set([396, 397, 398, 399, 171, 402, 404, 544, 407, 410]);
+          //const itemList = new Set([396, 397, 398, 399, 171, 402, 404, 544, 407, 410]);
+          const itemList = new Set([396, 397, 398, 399, 402, 404, 407, 410]);
           obj["data"]["sections_v2"].forEach((element, index) => {
             element["items"].forEach((e) => {
               if (e["id"] === 622) {
@@ -144,6 +145,9 @@ if (magicJS.read(blackKey)) {
             delete obj["data"]["sections_v2"][index].be_up_title;
             delete obj["data"]["sections_v2"][index].tip_icon;
             delete obj["data"]["sections_v2"][index].tip_title;
+            //2022-02-16 add by ddgksf2013
+            delete obj.data.vip_section_v2;
+            delete obj.data.vip_section;
             obj["data"]["sections_v2"][index]["items"] = items;
           });
           body = JSON.stringify(obj);
