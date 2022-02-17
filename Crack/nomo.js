@@ -1,20 +1,5 @@
 /*
 
-Author：Hausd0rff
-
-接收到验证码后，再开QX脚本去登陆
-
-同步解锁 MONO RAW，需在APP里手动操作下
-
-低调使用
-
-[rewrite_local]
-
-^https?:\/\/nomo\.dafork\.com\/api\/v3\/register\/phone_signin$ url script-response-body https://github.com/ddgksf2013/Cuttlefish/raw/master/Crack/nomo.js
-
-[mitm]
-
-hostname=nomo.dafork.com
 
 */
 
