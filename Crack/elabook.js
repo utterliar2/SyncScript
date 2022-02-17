@@ -1,11 +1,5 @@
 /*
 
-[rewrite_local]
-
-^https:\/\/api\.ellabook\.cn\/rest\/api\/service url script-response-body elabook.js
-
-[mitm]  
-api.ellabook.cn
 */
 
 body = $response.body.replace(/ip":"NO"/g, "ip\":\"YES\"")
