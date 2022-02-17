@@ -1,4 +1,4 @@
-/*
+/***********************************
 
 > 應用名稱：咿啦看書
 > 軟件版本：2.8.5
@@ -18,7 +18,7 @@ https?:\/\/bookapi\.ellabook\.cn\/rest\/api\/service$ url script-response-body h
 
 hostname=bookapi.ellabook.cn
 
-*/
+***********************************/
 
 
 
