@@ -1,6 +1,6 @@
 /***********************************
 
-> 應用名稱：布丁锁屏
+> 應用名稱：布丁鎖屏
 > 軟件版本：2.1.2
 > 下載地址：https://apps.apple.com/cn/app/id1571268183
 > 腳本作者：Cuttlefish
@@ -8,11 +8,11 @@
 > 更新時間：2022-02-21
 > 通知頻道：https://t.me/ddgksf2021
 > 問題反饋：https://t.me/ddgksf2013_bot
-> 特别說明：本腳本僅供學習交流使用，禁止轉載售賣
+> 特別說明：本腳本僅供學習交流使用，禁止轉載售賣
  
 [rewrite_local]
 
-# ～ 布丁锁屏解鎖會員權限（2022-02-21）@ddgksf2013
+# ～ 布丁鎖屏解鎖會員權限（2022-02-21）@ddgksf2013
 https?:\/\/screen-lock\.51wnl-cq\.com\/userApi\/saveUser url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/budingsuoping.js
 
 [mitm] 
@@ -24,6 +24,6 @@ hostname=screen-lock.51wnl-cq.com
 
 var cuttlefish ={"warning":"本腳本僅供學習交流使用，禁止轉載售賣","tgchannel":"https://t.me/ddgksf2021","feedback":"https://t.me/ddgksf2013_bot"}
 var ddgksf2013 = JSON.parse($response.body);
-ddgksf2013.data = {"id":"ddgksf2013","nickName":"公众号墨鱼手记","sign":"公众号墨鱼手记","vipStatus":1,"endTime":2099,"exchangeCode":null,"expireDate":null};
+ddgksf2013.data = {"id":"ddgksf2013","nickName":"公眾號墨魚手記","sign":"公眾號墨魚手記","vipStatus":1,"endTime":2099,"exchangeCode":null,"expireDate":null};
 $done({body: JSON.stringify(ddgksf2013)});
 
