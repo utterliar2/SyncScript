@@ -22,6 +22,23 @@ hostname=screen-lock.51wnl-cq.com
 ***********************************/
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 var cuttlefish ={"warning":"本腳本僅供學習交流使用，禁止轉載售賣","tgchannel":"https://t.me/ddgksf2021","feedback":"https://t.me/ddgksf2013_bot"}
 var ddgksf2013 = JSON.parse($response.body);
 ddgksf2013.data = {"id":"ddgksf2013","nickName":"公眾號墨魚手記","sign":"公眾號墨魚手記","vipStatus":1,"endTime":2099,"exchangeCode":null,"expireDate":null};
