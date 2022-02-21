@@ -177,6 +177,19 @@ if (magicJS.read(blackKey)) {
           magicJS.logError(`直播去广告出现异常：${err}`);
         }
         break;
+        //屏蔽热搜
+        case /^https?:\/\/app\.bilibili\.com\/x\/v2\/search\/square/.test(magicJS.request.url):
+        try {
+          let obj = JSON.parse(magicJS.response.body);
+          if(obj.data.length>3){
+          delete obj.data[0];
+          delete obj.data[3];
+          }
+          body = JSON.stringify(obj);
+        } catch (err) {
+          magicJS.logError(`热搜去广告出现异常：${err}`);
+        }
+        break;
       // 追番去广告
       case /^https?:\/\/api\.bilibili\.com\/pgc\/page\/bangumi/.test(magicJS.request.url):
         try {
