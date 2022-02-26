@@ -6,7 +6,7 @@
 // @TgChannel         https://t.me/ddgksf2021
 // @UpdateTime        2022-02-26
 // @Attention         如果广告仍然存在，请卸载应用重新安装
-// @Function          去广告配置（自用，混合policy、proxy、reject、direct，不建议使用）
+// @Function          分流配置（自用，混合policy、proxy、reject、direct，不建议使用）
 // @Suitable          自行观看 “# > ”
 // @ScriptURL         https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Filter/MyAdRule.list
 // ==/UserScript==
