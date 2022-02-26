@@ -130,6 +130,7 @@ HOST-SUFFIX, aoaomoe.me, PROXY
 HOST-SUFFIX, spankbang.com, PROXY
 HOST-SUFFIX, globaldelight.net, PROXY
 HOST-SUFFIX, mangafuna.xyz, proxy
+HOST-SUFFIX, cloudfunctions.net, PROXY
 
 HOST-KEYWORD, discord, PROXY
 HOST-KEYWORD, portal, PROXY
@@ -162,7 +163,6 @@ HOST, deviceshots.com, PROXY
 HOST, www.ikanwzd.top, PROXY
 HOST, api.snapkit.com, PROXY
 HOST, lofi.cafe, PROXY
-HOST, us-central1-slidebox-ios-prod.cloudfunctions.net, PROXY
 HOST, jdsharedresourcescdn.azureedge.net, PROXY
 HOST, api.lolicon.app, PROXY
 HOST, i.pixiv.cat, PROXY
