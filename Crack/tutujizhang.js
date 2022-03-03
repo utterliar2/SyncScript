@@ -18,7 +18,7 @@ https?:\/\/api\.magictouch\.design\/user\/user\/getUserByDevice url script-respo
 
 [mitm] 
 
-hostname=bookapi.ellabook.cn
+hostname=api.magictouch.design
 
 ***********************************/
 
