@@ -198,7 +198,7 @@ if (magicJS.read(blackKey)) {
           magicJS.logError(`热搜去广告出现异常：${err}`);
         }
         break;
-        //1080P 2022-03-05 add by ddgksf2013
+        //2022-03-05 add by ddgksf2013
         case /https?:\/\/app\.bilibili\.com\/x\/v2\/account\/myinfo\?/.test(magicJS.request.url):
         try {
           let obj = JSON.parse(magicJS.response.body);
