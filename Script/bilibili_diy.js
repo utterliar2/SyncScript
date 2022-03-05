@@ -250,7 +250,8 @@ if (magicJS.read(blackKey)) {
         try {
           let obj = JSON.parse(magicJS.response.body);
           if (obj && obj.hasOwnProperty("data")) {
-            obj["data"]["common_equip"] = {};
+            //obj["data"]["common_equip"] = {};
+            obj["data"]["common_equip"]["package_url"] = "";
           }
           body = JSON.stringify(obj);
         } catch (err) {
