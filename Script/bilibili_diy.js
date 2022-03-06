@@ -96,7 +96,7 @@ if (magicJS.read(blackKey)) {
           // 107 概念版游戏中心，获取修改为Story模式
           const topList = new Set([176, 107]);
           // 102 开始为概念版id
-          const bottomList = new Set([177, 178, 179, 181, 102, 103, 104, 105, 106, 486, 488, 489]);
+          const bottomList = new Set([177, 178, 179, 181, 102,  104, 106, 486, 488, 489]);
           let obj = JSON.parse(magicJS.response.body);
           if (obj["data"]["tab"]) {
             let tab = obj["data"]["tab"].filter((e) => {
