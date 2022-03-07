@@ -138,7 +138,7 @@ if (magicJS.read(blackKey)) {
           let obj = JSON.parse(magicJS.response.body);
           // 622 为会员购中心, 425 开始为概念版id
           //const itemList = new Set([396, 397, 398, 399, 171, 402, 404, 544, 407, 410]);
-          const itemList = new Set([396, 397, 398, 399, 402, 404, 407, 410]);
+          const itemList = new Set([396, 397, 398, 399, 402, 404, 407, 410, 425, 426, 427, 428, 430, 432]);
           obj["data"]["sections_v2"].forEach((element, index) => {
             element["items"].forEach((e) => {
               if (e["id"] === 622) {
