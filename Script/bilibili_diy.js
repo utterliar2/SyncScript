@@ -138,7 +138,7 @@ if (magicJS.read(blackKey)) {
           let obj = JSON.parse(magicJS.response.body);
           // 622 为会员购中心, 425 开始为概念版id
           //const itemList = new Set([396, 397, 398, 399, 171, 402, 404, 544, 407, 410]);
-          const itemList = new Set([396, 397, 398, 399, 402, 404, 407, 410, 425, 426, 427, 428, 430, 432, 433, 434]);
+          const itemList = new Set([396, 397, 398, 399, 402, 404, 407, 410, 425, 426, 427, 428, 430, 432, 433, 434, 494, 495, 496, 497, 500, 501]);
           obj["data"]["sections_v2"].forEach((element, index) => {
             element["items"].forEach((e) => {
               if (e["id"] === 622) {
@@ -155,9 +155,12 @@ if (magicJS.read(blackKey)) {
             delete obj["data"]["sections_v2"][index].tip_title;
             //2022-02-16 add by ddgksf2013
             for (let ii = 0; ii < obj["data"]["sections_v2"].length; ii++) {
-              if(obj.data.sections_v2[ii].title=='推荐服务'){
+              if(obj.data.sections_v2[ii].title=='推荐服务'||obj.data.sections_v2[ii].title=='推薦服務'){
                 obj.data.sections_v2[ii].items[0].title='公眾號';
                 obj.data.sections_v2[ii].items[1].title='墨魚手記';
+              }
+              if(obj.data.sections_v2[ii].items[0].id==500){
+              obj.data.sections_v2[ii].items[0].title='墨魚手記';
               }
             }      
             delete obj.data.vip_section_v2;
