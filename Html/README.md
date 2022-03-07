@@ -1,4 +1,1 @@
-# WebStorage
-
-仓库源地址 [github](https://github.com/zqzess/MyWebStorage)
----------
+### 自用影视Web网站去广告配置
