@@ -159,9 +159,12 @@ if (magicJS.read(blackKey)) {
                 obj.data.sections_v2[ii].items[0].title='公眾號';
                 obj.data.sections_v2[ii].items[1].title='墨魚手記';
               }
+              if(obj.data.sections_v2[ii].title=='更多服務'||obj.data.sections_v2[ii].title=='更多服务'){
               if(obj.data.sections_v2[ii].items[0].id==500){
               obj.data.sections_v2[ii].items[0].title='墨魚手記';
               }
+              }
+              
             }      
             delete obj.data.vip_section_v2;
             delete obj.data.vip_section;
