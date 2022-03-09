@@ -163,11 +163,10 @@ if (magicJS.read(blackKey)) {
                   if(obj.data.sections_v2[ii].items[0].id==500){
                       obj.data.sections_v2[ii].items[0].title='公眾號';
                   }
-                  if(obj.data.sections_v2[ii].items[0].id==501){
+                  if(obj.data.sections_v2[ii].items[1].id==501){
                       obj.data.sections_v2[ii].items[0].title='墨魚手記';
                   }
-              }
-              
+              }          
             }      
             delete obj.data.vip_section_v2;
             delete obj.data.vip_section;
