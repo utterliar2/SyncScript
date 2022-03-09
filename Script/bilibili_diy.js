@@ -164,7 +164,7 @@ if (magicJS.read(blackKey)) {
                       obj.data.sections_v2[ii].items[0].title='公眾號';
                   }
                   if(obj.data.sections_v2[ii].items[1].id==501){
-                      obj.data.sections_v2[ii].items[0].title='墨魚手記';
+                      obj.data.sections_v2[ii].items[1].title='墨魚手記';
                   }
               }          
             }      
