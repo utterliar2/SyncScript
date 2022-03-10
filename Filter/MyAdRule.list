@@ -4,11 +4,10 @@
 // @RelatedGitHub     https://github.com/ddgksf2013/Cuttlefish
 // @WechatID          公眾號墨魚手記
 // @TgChannel         https://t.me/ddgksf2021
-// @UpdateTime        2022-03-03
-// @Attention         如果廣告仍然存在，請卸載應用重新安裝
+// @UpdateTime        2022-03-10
 // @Function          分流配置（自用，混合policy、proxy、reject、direct，不建議使用）
-// @Suitable          自行觀看 「# > 」
-// @ScriptURL         https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Filter/MyAdRule.list
+// @Suitable          自行觀看 「# ~ 」
+// @ScriptURL         https://github.com/ddgksf2013/Cuttlefish/raw/master/Filter/MyAdRule.list
 // ==/UserScript==
 
 # ～ POLICY✅
