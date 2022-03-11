@@ -1,0 +1,7 @@
+638- 支持通过热点连接 Quantumult X 创建的 HTTP 及 SOCKS5 代理（先开启热点，再打开 VPN 开关）
+637- 延迟测试结果详情面板中增加记录总的时间开销
+- 其他问题修正
+636- url-latency-benchmark 类型策略增加参数 alive-checking 。当该参数为 true 时，即使该策略长期处于未使用状态也会在 check-interval 到达时进行测试。如无特殊需求不建议设置为 true ；具体可参见应用内示例配置文件。
+635- 修复当移动设备通过有线网络连接时的部分异常
+631- $configuration.sendMessage 增加接口 get_traffic_statistics 以获取当前节点流量使用情况，可参见示例 https://github.com/crossutility/Quantumult-X/blob/master/sample-get-traffic-statistics.js
+- 配置文件 [general] 增加 server_check_timeout 参数，具体说明请参见应用内示例配置
