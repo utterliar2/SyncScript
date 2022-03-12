@@ -277,6 +277,21 @@ if (magicJS.read(blackKey)) {
           magicJS.logError(`去除强制设置的皮肤出现异常：${err}`);
         }
         break;
+        // 开屏广告（预加载）如果粗暴地关掉，那么就使用预加载的数据，就会导致关不掉
+      case /^https:\/\/app\.bilibili\.com\/x\/v2\/splash\/list/.test(magicJS.request.url):
+        try {
+          let obj = JSON.parse(magicJS.response.body);
+          for (let item of obj["data"]["list"]) {
+    item["duration"] = 0;  // 显示时间
+    // 2040 年
+    item["begin_time"] = 2240150400;
+    item["end_time"] = 2240150400;
+}
+          body = JSON.stringify(obj);
+        } catch (err) {
+          magicJS.logError(`开屏广告（预加载）出现异常：${err}`);
+        }
+        break;
       default:
         magicJS.logWarning("触发意外的请求处理，请确认脚本或复写配置正常。");
         break;
