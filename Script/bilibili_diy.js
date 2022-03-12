@@ -172,6 +172,10 @@ if (magicJS.read(blackKey)) {
             delete obj.data.vip_section;
             obj["data"]["sections_v2"][index]["items"] = items;
             //2022-03-05 add by ddgksf2013
+            if(obj.hasOwnProperty("live_tip"))
+            {
+             delete obj["data"]["live_tip"];
+            }
             obj["data"]["vip_type"] = 2;
             obj["data"]["vip"]["type"] = 2;
             obj["data"]["vip"]["status"] = 1;
