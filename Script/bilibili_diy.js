@@ -168,7 +168,9 @@ if (magicJS.read(blackKey)) {
                   }
               }
               if(obj.data.sections_v2[ii].title=='创作中心'||obj.data.sections_v2[ii].title=='創作中心'){
-                  obj.data.sections_v2[ii] ={};
+                  delete obj.data.sections_v2[ii].title;
+
+delete obj.data.sections_v2[ii].type;
               }
             }      
             delete obj.data.vip_section_v2;
