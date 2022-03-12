@@ -268,9 +268,9 @@ if (magicJS.read(blackKey)) {
       case /^https?:\/\/app\.bilibili\.com\/x\/resource\/show\/skin\?/.test(magicJS.request.url):
         try {
           let obj = JSON.parse(magicJS.response.body);
-          if (obj && obj.hasOwnProperty("data")&&obj.hasOwnProperty("common_equip")&&obj.hasOwnProperty("package_url")) {
+          if (obj && obj.hasOwnProperty("data")&&obj.data.hasOwnProperty("common_equip")&&obj.data.common_equip.hasOwnProperty("package_url")) {
             //obj["data"]["common_equip"] = {};
-            obj["data"]["common_equip"]["package_url"] = "";
+            //obj["data"]["common_equip"]["package_url"] = "";
           }
           body = JSON.stringify(obj);
         } catch (err) {
