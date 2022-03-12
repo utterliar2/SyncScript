@@ -27,6 +27,6 @@ hostname=uranus.sharedaka.com
 
 var cuttlefish ={"warning":"本腳本僅供學習交流使用，禁止轉載售賣","tgchannel":"https://t.me/ddgksf2021","feedback":"https://t.me/ddgksf2013_bot"}
 let obj = JSON.parse($response.body);
-obj.data.endTime = 7960349566000;
+obj.data.endTime = 1867996357000;
 obj.data.hasOpenedMember = true;
 $done({body: JSON.stringify(obj)});
