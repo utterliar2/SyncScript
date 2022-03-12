@@ -2,7 +2,7 @@
 應用名稱：自用B站去广告脚本
 腳本作者：Cuttlefish
 微信賬號：公眾號墨魚手記
-更新時間：2022-03-12
+更新時間：2022-03-12 16:30
 通知頻道：https://t.me/ddgksf2021
 問題反饋：https://t.me/ddgksf2013_bot
 */
@@ -174,7 +174,11 @@ if (magicJS.read(blackKey)) {
             //2022-03-05 add by ddgksf2013
             if(obj.hasOwnProperty("live_tip"))
             {
-             delete obj["data"]["live_tip"];
+             delete obj["data"]["live_tip"]={};
+            }
+            if(obj.hasOwnProperty("answer"))
+            {
+             delete obj["data"]["answer"]={};
             }
             obj["data"]["vip_type"] = 2;
             obj["data"]["vip"]["type"] = 2;
