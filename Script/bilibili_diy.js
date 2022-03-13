@@ -92,7 +92,7 @@ if (magicJS.read(blackKey)) {
       case /^https?:\/\/app\.bilibili\.com\/x\/resource\/show\/tab/.test(magicJS.request.url):
         try {
           // 442 开始为概念版id 适配港澳台代理模式
-          const tabList = new Set([39, 40, 774, 857, 545, 151, 442, 99, 100, 101, 554, 556]);
+          const tabList = new Set([39, 40, 41, 774, 857, 545, 151, 442, 99, 100, 101, 554, 556]);
           // 107 概念版游戏中心，获取修改为Story模式
           const topList = new Set([176, 107]);
           // 102 开始为概念版id
