@@ -249,6 +249,24 @@ if (magicJS.read(blackKey)) {
           magicJS.logError(`追番去广告出现异常：${err}`);
         }
         break;
+        // 观影页去广告
+      case /https?:\/\/api\.bilibili\.com\/pgc\/page\/cinema\/tab\?/.test(magicJS.request.url):
+        try {
+          let obj = JSON.parse(magicJS.response.body);
+          obj.result.modules.forEach((module) => {
+            // 头部banner
+            if (module.style.startsWith("banner")) {
+              module.items = module.items.filter((i) => !(i.link.indexOf("play")==-1));
+            }
+            if (module.style.startsWith("tip")) {
+              module.items = null;
+            }
+          });
+          body = JSON.stringify(obj);
+        } catch (err) {
+          magicJS.logError(`观影页去广告出现异常：${err}`);
+        }
+        break;
       // 动态去广告
       case /^https?:\/\/api\.vc\.bilibili\.com\/dynamic_svr\/v1\/dynamic_svr\/dynamic_(history|new)\?/.test(magicJS.request.url):
         try {
