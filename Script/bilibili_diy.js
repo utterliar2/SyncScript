@@ -3,7 +3,7 @@
 腳本作者：Cuttlefish
 微信賬號：公眾號墨魚手記
 更新時間：2022-03-14
-腳本版本：1.0.12
+腳本版本：1.0.13
 通知頻道：https://t.me/ddgksf2021
 問題反饋：https://t.me/ddgksf2013_bot
 */
@@ -288,7 +288,7 @@ if (magicJS.read(blackKey)) {
       case /^https:\/\/app\.bilibili\.com\/x\/v2\/splash\/list/.test(magicJS.request.url):
         try {
           let obj = JSON.parse(magicJS.response.body);
-          if(obj.indexOf("list")!=-1){
+          if(obj.hasOwnProperty("data")){
           for (let item of obj["data"]["list"]) {
               item["duration"] = 0;  // 显示时间
               // 2040 年
