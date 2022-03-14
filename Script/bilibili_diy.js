@@ -72,23 +72,7 @@ if (magicJS.read(blackKey)) {
           magicJS.logError(`记录Story的aid出现异常：${err}`);
         }
         break;
-      // 开屏广告处理
-      case /^https?:\/\/app\.bilibili\.com\/x\/v2\/splash\/list/.test(magicJS.request.url):
-        try {
-          let obj = JSON.parse(magicJS.response.body);
-          obj["data"]["max_time"] = 0;
-          obj["data"]["min_interval"] = 31536000;
-          obj["data"]["pull_interval"] = 31536000;
-          for (let i = 0; i < obj["data"]["list"].length; i++) {
-            obj["data"]["list"][i]["duration"] = 0;
-            obj["data"]["list"][i]["begin_time"] = 1915027200;
-            obj["data"]["list"][i]["end_time"] = 1924272000;
-          }
-          body = JSON.stringify(obj);
-        } catch (err) {
-          magicJS.logError(`开屏广告处理出现异常：${err}`);
-        }
-        break;
+      
       // 标签页处理，如去除会员购等等
       case /^https?:\/\/app\.bilibili\.com\/x\/resource\/show\/tab/.test(magicJS.request.url):
         try {
