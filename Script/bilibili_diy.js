@@ -234,12 +234,14 @@ if (magicJS.read(blackKey)) {
       // 追番去广告
       case /^https?:\/\/api\.bilibili\.com\/pgc\/page\/bangumi/.test(magicJS.request.url):
         try {
-          //let obj = JSON.parse(magicJS.response.body);
-          //for (let card of obj.data.cards) {
-            //delete card["extra"];
-          //}
-          //delete obj["data"]["attentions"];
-          //body = JSON.stringify(obj);
+          let obj = JSON.parse(magicJS.response.body);
+          obj.result.modules.forEach((module) => {
+            // 头部banner
+            if (module.style.startsWith("banner")) {
+              module.items = module.items.filter((i) => !(i.source_content && i.source_content.ad_content));
+            }
+          });
+          body = JSON.stringify(obj);
         } catch (err) {
           magicJS.logError(`追番去广告出现异常：${err}`);
         }
