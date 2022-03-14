@@ -3,7 +3,7 @@
 腳本作者：Cuttlefish
 微信賬號：公眾號墨魚手記
 更新時間：2022-03-14
-腳本版本：1.0.13
+腳本版本：1.0.14
 通知頻道：https://t.me/ddgksf2021
 問題反饋：https://t.me/ddgksf2013_bot
 */
@@ -76,11 +76,11 @@ if (magicJS.read(blackKey)) {
       // 标签页处理，如去除会员购等等
       case /^https?:\/\/app\.bilibili\.com\/x\/resource\/show\/tab/.test(magicJS.request.url):
         try {
-          // 442 开始为概念版id 适配港澳台代理模式
+          
           const tabList = new Set([39, 40, 774, 857, 545, 151, 442, 99, 100, 101, 554, 556]);
-          // 107 概念版游戏中心，获取修改为Story模式
+          
           const topList = new Set([176, 107]);
-          // 102 开始为概念版id
+          
           const bottomList = new Set([177, 178, 179, 181, 102,  104, 106, 486, 488, 489]);
           let obj = JSON.parse(magicJS.response.body);
           if (obj["data"]["tab"]) {
@@ -121,8 +121,7 @@ if (magicJS.read(blackKey)) {
       case /^https?:\/\/app\.bilibili\.com\/x\/v2\/account\/mine/.test(magicJS.request.url):
         try {
           let obj = JSON.parse(magicJS.response.body);
-          // 622 为会员购中心, 425 开始为概念版id
-          //const itemList = new Set([396, 397, 398, 399, 171, 402, 404, 544, 407, 410]);
+          
           const itemList = new Set([396, 397, 398, 399, 402, 404, 407, 410, 425, 426, 427, 428, 430, 432, 433, 434, 494, 495, 496, 497, 500, 501]);
           obj["data"]["sections_v2"].forEach((element, index) => {
             element["items"].forEach((e) => {
