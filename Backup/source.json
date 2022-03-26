@@ -49,13 +49,8 @@
       "baseUrl":"https://m.7stary.com",
       "serverUrl":"https://res10.shut123.com"
     },
-                 
-    "DongManWu":{
-      "baseUrl":"http://m.dm5.com",
-      "serverUrl":""
-    },
     
-     "CopyManHua":{
+     "DongManWu":{
       "baseUrl":"https://www.copymanga.org",
       "serverUrl":"https://api.copymanga.net"
     }
