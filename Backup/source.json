@@ -1,4 +1,29 @@
 {
+      "BaoziManHua":{
+      "baseUrl":"https://cn.baozimh.com",
+      "search":"/search?q=",
+
+      "searchInfoList":"div.pure-g.classify-items > div",
+      "searchInfoCid":"a:eq(0)",
+      "searchInfoTitle":"a:eq(0)",
+      "searchInfoCover":"a:eq(0) > amp-img:eq(0)",
+      "searchInfoAuthor":"small",
+      "searchInfoUpdate":"",
+
+      "parseInfoTitle":"h1.comics-detail__title",
+      "parseInfoCover":"div.l-content > div > div > amp-img",
+      "parseInfoIntro":"div.comics-detail__info > p",
+      "parseInfoAuthor":"h2.comics-detail__author",
+      "parseInfoUpdate":"div.comics-detail__info > div.supporting-text.mt-2 > div:eq(1) > span > em",
+      "parseInfoStatus":"div.tag-list > span:eq(0)",
+
+      "parseChapterList1":"div#chapter-items > div",
+      "parseChapterList2":"div#chapters_other_list > div",
+      "parseChapterPath":"a",
+      "parseChapterTitle":"span",
+      "parseCategoryPath":"/classify?type=%s&region=%s&state=%s&filter=%s"
+    },
+    
     "YiManHua":{
       "baseUrl":"https://m.yimmh.com",
       "search":"/search?keyword="
