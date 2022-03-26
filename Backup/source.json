@@ -2,33 +2,34 @@
     "YiManHua":{
       "baseUrl":"https://m.yimmh.com",
       "search":"/search?keyword="
-    },    
+    },
+    
     "ManHuaCat":{
       "baseUrl":"https://www.maofly.com",
       "search":"/search.html?q="
-    },  
+    },
+    
     "DongManZhiJia":{
       "baseUrl":"https://m.dmzj.com",
       "serverUrl":"https://images.dmzj.com/",
       "apiUrl":"http://api.dmzj.com"
-    },       
+    },
+    
     "ManHuaTai":{
       "baseUrl":"https://m.manhuatai.com",
       "serverUrl":"https://www.kanman.com"
     },
-       
+    
     "DuManHua":{
       "baseUrl":"https://m.7stary.com",
       "serverUrl":"https://res10.shut123.com"
-    },              
+    },
+                 
     "DongManWu":{
       "baseUrl":"http://m.dm5.com",
       "serverUrl":""
     },
-     "HaoManEight":{
-      "baseUrl":"https://www.haoman8.com"
-    },
-
+    
      "CopyManHua":{
       "baseUrl":"https://www.copymanga.org",
       "serverUrl":"https://api.copymanga.net"
