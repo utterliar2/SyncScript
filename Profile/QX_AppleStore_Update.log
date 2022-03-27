@@ -3,6 +3,26 @@
 # QuantumultX  商店版更新日志
 #######################################
 
+
+2022-03-27
+
+Quantumult X 正式版更新 1.0.28
+
+商店连接
+
+商店更新说明：
+
+- 支持 Trojan+Websocket
+- 为 url-latency-benchmark 类型策略组新增 alive-checking 参数（无使用情况下亦按照设定时间进行检测切换）
+- 新增网络出口 multi-interface-balance ， ”负载均衡“ 以提供更大的出入口带宽（多连接应用
+- 细节改善及修复
+
+未提及更新内容：
+
+- 支持热点共享代理（使用方式与 Wi-Fi 共享代理类似，需在另一设备上设置 http/socks 代理）
+- 延迟数据第二项改为 http 相应与请求发起时间的差值
+- dns 页面过期横杠线
+
 1.0.27  2022 年 1 月 15 日
 - 支持代理协议 VMess 的 AEAD（标头）。
 - 支持代理协议 VMess 的 UDP 中继（UDP over TCP）。
