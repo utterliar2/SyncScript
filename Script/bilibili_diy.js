@@ -2,8 +2,8 @@
 應用名稱：自用B站去广告脚本
 腳本作者：Cuttlefish
 微信賬號：公眾號墨魚手記
-更新時間：2022-03-14
-腳本版本：1.0.15
+更新時間：2022-03-27
+腳本版本：1.0.16
 通知頻道：https://t.me/ddgksf2021
 問題反饋：https://t.me/ddgksf2013_bot
 */
@@ -140,15 +140,15 @@ if (magicJS.read(blackKey)) {
             //2022-02-16 add by ddgksf2013
             for (let ii = 0; ii < obj["data"]["sections_v2"].length; ii++) {
               if(obj.data.sections_v2[ii].title=='推荐服务'||obj.data.sections_v2[ii].title=='推薦服務'){
-                obj.data.sections_v2[ii].items[0].title='公眾號';
-                obj.data.sections_v2[ii].items[1].title='墨魚手記';
+                obj.data.sections_v2[ii].items[0].title='\u516C\u773E\u865F';
+                obj.data.sections_v2[ii].items[1].title='\u58A8\u9B5A\u624B\u8A18';
               }
               if(obj.data.sections_v2[ii].title=='更多服務'||obj.data.sections_v2[ii].title=='更多服务'){
                   if(obj.data.sections_v2[ii].items[0].id==500){
-                      obj.data.sections_v2[ii].items[0].title='公眾號';
+                      obj.data.sections_v2[ii].items[0].title='\u516C\u773E\u865F';
                   }
                   if(obj.data.sections_v2[ii].items[1].id==501){
-                      obj.data.sections_v2[ii].items[1].title='墨魚手記';
+                      obj.data.sections_v2[ii].items[1].title='\u58A8\u9B5A\u624B\u8A18';
                   }
               }
               if(obj.data.sections_v2[ii].title=='创作中心'||obj.data.sections_v2[ii].title=='創作中心'){
