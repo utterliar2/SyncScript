@@ -1,7 +1,7 @@
 #######################################
 #日誌名稱：  QuantumultX TF Update Log
 #日誌作者：  @kyle,@Cuttlefish
-#更新時間：  2022-03-30
+#更新時間：  2022-04-01
 #微信賬號：  公眾號墨魚手記
 #使用說明：  可全局搜索🔍關鍵詞
 #後續更新：  隨Testflight陸續更新…
@@ -13,6 +13,23 @@
 
 
 
+
+
+1.0.29 (648) 
+- 网络活动中流量统计将包含与代理节点 TLS 握手所消耗的流量
+- NE 脚本模块增加参数 $environment.executeType ($environment.executor) 以获取对应脚本的触发来源，如下：
+
+ 0 : 由 cron 在特定时间触发
+ 1 : 由 event-network 触发
+ 2 : 由 event-interaction 触发
+ 3 : 由 rewrite script-request-header 触发
+ 4 : 由 rewrite script-request-body 触发
+ 5 : 由 rewrite script-response-header 触发
+ 6 : 由 rewrite script-response-body 触发
+ 7 : 由 rewrite script-echo-response 触发
+ 8 : 由 rewrite script-analyze-echo-response 触发
+ 9 : 由 http backend 触发
+-1 : 手动执行或脚本编辑器执行
 
 1.0.29 (647) 
 - 修复在 iOS 15.4 上当网络切换至 5G 蜂窝网络，且数据模式设置为 “5G 时允许使用更多数据” 时， running_mode_trigger 失效的问题
