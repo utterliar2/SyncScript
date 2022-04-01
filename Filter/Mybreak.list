@@ -8,6 +8,7 @@
 #分流地址：  https://github.com/ddgksf2013/Cuttlefish/raw/master/Filter/Mybreak.list
 ########################################
 
+
 # ～ 真不卡
 DOMAIN-SUFFIX, ttayy.cn, reject
 DOMAIN-SUFFIX, zhengxiaoliu.top, reject
@@ -22,6 +23,9 @@ DOMAIN-SUFFIX,applvn.com,REJECT
 # ～ 美颜相机去首页和轮播广告
 host, adui.tg.meitu.com, reject
 host, aaid.uyunad.com, reject
+
+# ～ 爱奇艺广告屏蔽
+ip-cidr, 203.107.63.154/32, reject
 
 # ～ 多多视频去开屏广告
 host-suffix, bayescom.com, reject
