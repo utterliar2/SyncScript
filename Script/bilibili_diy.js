@@ -5,7 +5,7 @@
 更新時間：2022-03-31
 腳本版本：(55)
 通知頻道：https://t.me/ddgksf2021
-問題反饋：https://t.me/ddgksf2013_bot
+問題反饋：ddgksf2013@163.com
 */
 const scriptName = "BiliBili";
 const storyAidKey = "bilibili_story_aid";
