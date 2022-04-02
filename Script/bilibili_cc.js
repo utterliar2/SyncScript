@@ -14,7 +14,7 @@
 [rewrite_local]
 
 # ～ 嗶哩嗶哩繁體CC字幕轉中文簡體（2022-04-02）@ddgksf2013
-^https:\/\/i.\.hdslb\.com\/bfs\/subtitle\/.+\.json$ url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/bilibili_cc.js
+^https?:\/\/i.\.hdslb\.com\/bfs\/subtitle\/.+\.json$ url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/bilibili_cc.js
 
 [mitm]
 
