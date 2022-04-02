@@ -1,8 +1,8 @@
 /***********************************
 
 > 應用名稱：哔哩哔哩
-> 軟件版本：0.0.0
-> 下載地址：
+> 軟件版本：6.66.0
+> 下載地址：https://apps.apple.com/cn/app/id736536022
 > 腳本作者：Cuttlefish
 > 微信賬號：墨魚手記
 > 更新時間：2022-04-02
@@ -13,7 +13,7 @@
  
 [rewrite_local]
 
-# ～ 哔哩哔哩繁体CC字幕转中文简体（2022-04-02）@ddgksf2013
+# ～ 嗶哩嗶哩繁體CC字幕轉中文簡體（2022-04-02）@ddgksf2013
 ^https:\/\/i.\.hdslb\.com\/bfs\/subtitle\/.+\.json$ url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/bilibili_cc.js
 
 [mitm]
