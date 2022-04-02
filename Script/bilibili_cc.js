@@ -31,7 +31,7 @@ for (var i=0; i<ddgksf2013.body.length;i++) ddgksf2013.body[i].content = Simpliz
 $done({body:JSON.stringify(ddgksf2013)});
 
 
-//函数来源于：https://blog.csdn.net/qq_39292868/article/details/98750390
+//通用函数来源于：https://blog.csdn.net/qq_39292868/article/details/98750390
 
 //通用函数
 function JTPYStr()
