@@ -46,5 +46,5 @@
 | Hpjav | https://hpjav.tv/ | 18+，还行 |
 
 ```diff
-投稿助手： https://t.me/ddgksf2013_bot
++ 投稿助手： https://t.me/ddgksf2013_bot
 ```
