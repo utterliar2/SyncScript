@@ -43,4 +43,5 @@
 
 ```diff
 + 投稿助手： https://t.me/ddgksf2013_bot
+- 通知频道： https://t.me/ddgksf2021
 ```
