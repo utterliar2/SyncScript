@@ -34,12 +34,12 @@
 | PicAcg |  https://cnpica.xyz/page/ios-tip-simplified.php | 著名本子，懂得都懂 |
 | | | |
 | **名称** | **好孩子看不见** | **备注** |
-| Porn |  https://theporndude.com/ |  18+，看过都说6 |
-| 桃花族 | http://thzu.cc/ | 18+，论坛 |
-| Jable | https://jable.tv/ | 18+，老司机说车开了 |
-| Missav | https://missav.com/ | 18+，中等偏上 |
-| Netflav | https://netflav.com/ | 18+，AV界奈飞 |
-| Hpjav | https://hpjav.tv/ | 18+，还行 |
+| Porn |  https://theporndude.com/ |  浏览过的，都说6 |
+| 桃花族 | http://thzu.cc/ | 论坛 |
+| Jable | https://jable.tv/ | 老司机说车开了 |
+| Missav | https://missav.com/ | 中等偏上 |
+| Netflav | https://netflav.com/ | AV界奈飞 |
+| Hpjav | https://hpjav.tv/ | 还行 |
 
 ```diff
 + 投稿助手： https://t.me/ddgksf2013_bot
