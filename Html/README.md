@@ -5,29 +5,34 @@
 | 名称 | 网址 | 备注 |
 | :-- | :-- | :-- |
 | 真不卡 | https://www.zhenbuka3.com/ |  在线影视，没话说 |
-|  Libvio |   https://www.libvio.com/ |   新站，更新及时 | 
-|  低端影视 |   https://ddrk.me/ | 影视老站，YYDS  | 
-|  剧迷 |   https://gimytv.app/ | 影视，小而美  | 
+| Libvio |   https://www.libvio.com/ |   新站，更新及时 | 
+| 低端影视 |   https://ddrk.me/ | 影视老站，YYDS  | 
+| 剧迷 |   https://gimytv.app/ | 影视，小而美  | 
 | Zzzfun | http://www.zzzfun.com/ |  在线动漫，比较全面|
 | Ebb | https://ebb.io/ | 在线动漫，可备用 |
-|  PicAcg |  https://cnpica.xyz/page/ios-tip-simplified.php | 著名本子，懂得都懂 |
+| PicAcg |  https://cnpica.xyz/page/ios-tip-simplified.php | 著名本子，懂得都懂 |
+| 下载相关 | | |
 | 片库 | https://www.pianku.la/ | 在线影视，具备磁力下载 |
+| 磁力下载|  https://xn--0tr952eyzisl5a.com/ | 磁力 |
 | 动漫花园 |  https://share.dmhy.org/ | 动漫下载 |
-|  拷贝漫画 |  https://copymanga.com/ |  在线漫画，YYDS |
-|  禁漫天堂|  https://18comic.org/ | 在线本子，18+韩漫 |
-|  Z-library|  https://z-lib.org/ | 电子书下载，YYDS |
-|  Wallhaven |  https://wallhaven.cc/ |  自用壁纸下载 |
-|  书香门第|  http://www.txtnovel.top/ |  小说在线阅读，下载 |
-|  音乐下载|  https://www.sq688.com/singer/10001.html | 自用无损音乐下载 |
+| 音乐下载|  https://www.sq688.com/singer/10001.html | 自用无损音乐下载 |
+| Z-library|  https://z-lib.org/ | 电子书下载，YYDS |
+| Wallhaven |  https://wallhaven.cc/ |  自用壁纸下载 |
+| 工具相关 | | |
 | Pixiv |  https://m.pixivic.com/dailyRank | 每日排行 |
-|  PDF处理|  https://smallpdf.com/ | 工具 |
-|  果核剥壳|  https://www.ghxi.com/ | Win软件下载 |
-|  白描网页 |  https://web.baimiaoapp.com/ | 工具 |
-|  磁力下载|  https://xn--0tr952eyzisl5a.com/ | 磁力 |
-|  Porn |  https://theporndude.com/ |  18+，看过都说6 |
+| PDF处理|  https://smallpdf.com/ | 很全面 |
+| 果核剥壳|  https://www.ghxi.com/ | Win软件下载 |
+| 白描网页 |  https://web.baimiaoapp.com/ | 工具 |
+| 阅读 | | |
+| 拷贝漫画 |  https://copymanga.com/ |  在线漫画，YYDS |
+| 禁漫天堂|  https://18comic.org/ | 在线本子，18+韩漫 |
+| 书香门第|  http://www.txtnovel.top/ |  小说在线阅读，下载 |
+| 好孩子看不见 | | |
+| Porn |  https://theporndude.com/ |  18+，看过都说6 |
 | 桃花族 | http://thzu.cc/ | 18+，论坛 |
 | Jable | https://jable.tv/ | 18+，老司机说车开了 |
 | Missav | https://missav.com/ | 18+，中等偏上 |
 | Netflav | https://netflav.com/ | 18+，AV界奈飞 |
 | Hpjav | https://hpjav.tv/ | 18+，还行 |
+| | | |
 |  **投稿助手**|  https://t.me/ddgksf2013_bot |  |   
