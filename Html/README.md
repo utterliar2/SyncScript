@@ -45,6 +45,6 @@
 | Netflav | https://netflav.com/ | 18+，AV界奈飞 |
 | Hpjav | https://hpjav.tv/ | 18+，还行 |
 
-```
-`投稿助手`： https://t.me/ddgksf2013_bot
+```diff
+投稿助手： https://t.me/ddgksf2013_bot
 ```
