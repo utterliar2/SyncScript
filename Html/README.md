@@ -3,13 +3,13 @@
 * 备份一些WebUrl
 * 备注带★为QX网页优化对象
 
-
 | 名称 | 影视网站 | 备注 |
 | :----- | :----- | :----- |
 | 真不卡 | https://www.zhenbuka3.com/ |  在线影视，没话说★ |
 | Libvio |   https://www.libvio.com/ |   新站，更新及时★ | 
 | 低端影视 |   https://ddrk.me/ | 影视老站，YYDS★  | 
 | 剧迷 |   https://gimytv.app/ | 影视，小而美★  | 
+| 厂长资源 |  https://www.qianoo.cn/ | 质量1080P★  | 
 | Zzzfun | http://www.zzzfun.com/ |  在线动漫，比较全面 |
 | Ebb | https://ebb.io/ | 在线动漫，可备用 |
 | | | |
@@ -17,6 +17,7 @@
 | 片库 | https://www.pianku.la/ | 在线影视，具备磁力下载★ |
 | 磁力搜索|  https://xn--0tr952eyzisl5a.com/ | 磁力搜索 |
 | 动漫花园 |  https://share.dmhy.org/ | 动漫下载 |
+| Nyaa |  https://nyaa.ink/ | 番剧著名站 |
 | 音乐下载|  https://www.sq688.com/singer/10001.html | 自用无损音乐下载 |
 | Z-library|  https://z-lib.org/ | 电子书下载，YYDS |
 | Wallhaven |  https://wallhaven.cc/ |  自用壁纸下载 |
