@@ -5,7 +5,7 @@
 
 
 | <div style="width:100px">名称</div> | <div style="width:290px">影视网站</div> | <div style="width:400px">备注</div> |
-| :--- | :--- | :--- |
+| :----- | :----- | :----- |
 | 真不卡 | https://www.zhenbuka3.com/ |  在线影视，没话说 |
 | Libvio |   https://www.libvio.com/ |   新站，更新及时 | 
 | 低端影视 |   https://ddrk.me/ | 影视老站，YYDS  | 
