@@ -27,7 +27,7 @@
 | 果核剥壳|  https://www.ghxi.com/ | Win软件下载 |
 | 白描网页 |  https://web.baimiaoapp.com/ | 工具 |
 | | | |
-| **名称** | **阅读** | **备注** |
+| **名称** | **尽享阅读** | **备注** |
 | 拷贝漫画 |  https://copymanga.com/ |  在线漫画，YYDS |
 | 禁漫天堂|  https://18comic.org/ | 在线本子，18+韩漫 |
 | 书香门第|  http://www.txtnovel.top/ |  小说在线阅读，下载 |
