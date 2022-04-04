@@ -2,7 +2,7 @@
 * 更新时间：2022-04-04
 * 备份一些WebUrl
 
-| 名称 | 影视网站 | 备注 |
+| 名称<img width=100/> | 影视网站<img width=100/> | 备注<img width=100/> |
 | :-- | :-- | :-- |
 | 真不卡 | https://www.zhenbuka3.com/ |  在线影视，没话说 |
 | Libvio |   https://www.libvio.com/ |   新站，更新及时 | 
