@@ -15,7 +15,7 @@
 | | | |
 | **名称** | **资源下载** | **备注** |
 | 片库 | https://www.pianku.la/ | 在线影视，具备磁力下载 |
-| 磁力下载|  https://xn--0tr952eyzisl5a.com/ | 磁力 |
+| 磁力下载|  https://xn--0tr952eyzisl5a.com/ | 磁力搜索 |
 | 动漫花园 |  https://share.dmhy.org/ | 动漫下载 |
 | 音乐下载|  https://www.sq688.com/singer/10001.html | 自用无损音乐下载 |
 | Z-library|  https://z-lib.org/ | 电子书下载，YYDS |
