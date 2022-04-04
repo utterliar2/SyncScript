@@ -8,7 +8,6 @@
 |  Libvio |   https://www.libvio.com/ |   新站，更新及时 | 
 |  低端影视 |   https://ddrk.me/ | 在线影视，YYDS  | 
 |  剧迷 |   https://gimytv.app/ | 在线影视，小众而美  | 
-
 | Zzzfun | http://www.zzzfun.com/ |  在线动漫，比较全面|
 | Ebb | https://ebb.io/ | 在线动漫，可备用 |
 |  PicAcg |  https://cnpica.xyz/page/ios-tip-simplified.php | 著名本子，懂得都懂 |
