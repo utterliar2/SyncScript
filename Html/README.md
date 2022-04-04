@@ -24,7 +24,7 @@
 |  果核剥壳|  https://www.ghxi.com/ | Win软件下载 |
 |  白描网页 |  https://web.baimiaoapp.com/ | 工具 |
 |  磁力下载|  https://xn--0tr952eyzisl5a.com/ | 磁力 |
-|  Porn大全 |  https://theporndude.com/ |  18+ |
+|  Porn |  https://theporndude.com/ |  18+ |
 | 桃花族 | http://thzu.cc/ | 18+ |
 | Jable | https://jable.tv/ | 18+ |
 | Missav | https://missav.com/ | 18+ |
