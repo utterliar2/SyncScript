@@ -1,5 +1,5 @@
 **Handsome**
-
+* Update Time: 2022-04-05
 * 备份一些Github库源
 
 | 名称 | 网址 | 备注 |
@@ -13,6 +13,7 @@
 | ClashN | https://github.com/2dust/clashN/ |  |
 | 动画疯自动下载 | https://github.com/miyouzi/aniGamerPlus |  |
 | 文章同步助手 | https://github.com/wechatsync/Wechatsync |  |
+| 人人影视bot | https://github.com/tgbot-collection/YYeTsBot |  |
 | 投稿助手 | https://t.me/ddgksf2013_bot |  |
 
 
