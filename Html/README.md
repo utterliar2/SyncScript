@@ -1,5 +1,5 @@
 ### 墨鱼自用Web网站
-* 更新时间：2022-04-04
+* 更新时间：2022-04-05
 * 备份一些WebUrl
 * 备注带★为QX网页优化对象
 
@@ -34,6 +34,7 @@
 | 拷贝漫画 |  https://copymanga.com/ |  在线漫画，YYDS |
 | 禁漫天堂|  https://18comic.org/ | 在线本子，18+韩漫★ |
 | 书香门第|  http://www.txtnovel.top/ |  小说在线阅读，下载 |
+| 知性教育 |  https://knowsex.net/ | 性教育 | 
 | PicAcg |  https://cnpica.xyz/page/ios-tip-simplified.php | 著名本子，懂得都懂 |
 | 奇漫屋 |  http://qiman56.com/ | 主流国漫 |
 | 92韩漫 | http://92hm.top/ | 快把眼睛闭上 | 
