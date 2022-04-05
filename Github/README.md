@@ -12,6 +12,7 @@
 | 蓝奏云GUI | https://github.com/rachpt/lanzou-gui |  |
 | ClashN | https://github.com/2dust/clashN/ |  |
 | 动画疯自动下载 | https://github.com/miyouzi/aniGamerPlus |  |
+| 文章同步助手 | https://github.com/wechatsync/Wechatsync |  |
 | 投稿助手 | https://t.me/ddgksf2013_bot |  |
 
 
