@@ -14,6 +14,8 @@
 | 动画疯自动下载 | https://github.com/miyouzi/aniGamerPlus |  |
 | 文章同步助手 | https://github.com/wechatsync/Wechatsync |  |
 | 人人影视bot | https://github.com/tgbot-collection/YYeTsBot |  |
+| 面试刷题 | https://github.com/liyupi/mianshiya-public | | 
+| 微信读书助手 | https://github.com/arry-lee/wereader | | 
 | 投稿助手 | https://t.me/ddgksf2013_bot |  |
 
 
