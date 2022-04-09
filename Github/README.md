@@ -16,6 +16,7 @@
 | 人人影视bot | https://github.com/tgbot-collection/YYeTsBot |  |
 | 面试刷题 | https://github.com/liyupi/mianshiya-public | | 
 | 微信读书助手 | https://github.com/arry-lee/wereader | | 
+| B站工具合集 | https://github.com/HCLonely/awesome-bilibili-extra | |
 | 投稿助手 | https://t.me/ddgksf2013_bot |  |
 
 
