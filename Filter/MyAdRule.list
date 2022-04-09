@@ -37,7 +37,6 @@ DOMAIN,gamer-cds.cdn.hinet.net,Bahamut
 DOMAIN,gamer2-cds.cdn.hinet.net,Bahamut
 
 # ~ Manhuaren
-DOMAIN-KEYWORD, hanime, Bahamut
 DOMAIN-KEYWORD,manhuaren,Bahamut
 HOST-SUFFIX, cdnmanhua.net, Bahamut
 HOST-SUFFIX, cdndm5.com, Bahamut
@@ -58,6 +57,7 @@ DOMAIN-SUFFIX,youtube.com,Youtube
 DOMAIN,youtubei.googleapis.com,Youtube
 
 # ~ Google Search
+DOMAIN-KEYWORD, hanime, Youtube
 DOMAIN-KEYWORD, google,Youtube
 
 
