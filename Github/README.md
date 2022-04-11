@@ -17,6 +17,9 @@
 | 面试刷题 | https://github.com/liyupi/mianshiya-public | | 
 | 微信读书助手 | https://github.com/arry-lee/wereader | | 
 | B站工具合集 | https://github.com/HCLonely/awesome-bilibili-extra | |
+| 字幕机翻助手 | https://github.com/1c7/Translate-Subtitle-File | |
+| 万能win&office激活 | https://github.com/zbezj/HEU_KMS_Activator | |
+| 直播源 | https://github.com/iptv-org/iptv | |
 | 投稿助手 | https://t.me/ddgksf2013_bot |  |
 
 
