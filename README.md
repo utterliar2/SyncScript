@@ -1,4 +1,4 @@
-#### 墨魚手記（[自用](https://i.loli.net/2021/08/17/u81JOBrLCUkXKoH.jpg "感谢赞助")）
+# 墨魚手記（[自用](https://i.loli.net/2021/08/17/u81JOBrLCUkXKoH.jpg "感谢赞助")）
 
 ## QuantumultX 小白配置：
 * 墨鱼自用QX配置[Cuttlefish.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Profile/QuantumultX.conf) ❗❗
@@ -32,13 +32,13 @@
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### 特别感谢（排名不分先后）：
+### 特别感谢（排名不分先后，如有遗漏可联系@ddgksf）：
  
 
 *  [DivineEngine](https://github.com/DivineEngine) 
 *  [App2smile](https://github.com/app2smile/rules)  
 *  [Blackmatrix7](https://github.com/blackmatrix7/ios_rule_script) 
-*  [Nick-workflow]https://github.com/
+*  [Nick-workflow]https://github.com/Nick-workflow)
 *  [NobyDa](https://github.com/NobyDa)
 *  [yjqiang](https://github.com/yjqiang)
 *  [O7Y0](https://github.com/O7Y0)
