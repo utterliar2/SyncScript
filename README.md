@@ -1,7 +1,7 @@
 # 墨魚手記（[自用](https://i.loli.net/2021/08/17/u81JOBrLCUkXKoH.jpg "感谢赞助")）
 
 ## QuantumultX 小白配置：
-* 墨鱼自用QX配置[Cuttlefish.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Profile/QuantumultX.conf) ❗❗
+* 墨鱼自用QX配置[Cuttlefish.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Profile/QuantumultX.conf) 
 
 ## QuantumultX 分流配置：
 * 网易云音乐分流[NeteaseMusic.list](https://github.com/ddgksf2013/Cuttlefish/raw/master/Filter/NeteaseMusic.list)
