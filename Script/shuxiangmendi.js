@@ -10,7 +10,7 @@
 * ==/UserScript==
 
 [rewrite_local]
-http://www.txtnovel.top/plugin.php\?id=dsu_paulsign:sign&operation=qiandao&infloat=0&inajax=0&mobile=yes url script-request-body shuxiangmendi.js 
+https?:\/\/www\.txtnovel\.top\/plugin\.php\?id=dsu_paulsign:sign&operation=qiandao&infloat=0&inajax=0&mobile=yes url script-request-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/shuxiangmendi.js
 
 [task_local]
 0 9 * * * https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/shuxiangmendi.js, tag=书香门第, img-url=https://github.com/ddgksf2013/Cuttlefish/raw/master/Icon/sxmd.png, enabled=true
