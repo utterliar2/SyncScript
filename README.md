@@ -24,7 +24,7 @@
 * 百度网盘倍速[BaiduCloud.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/UnlockVip/BaiduCloud.conf)
 * 酷我音乐超级VIP[Kuwo.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/UnlockVip/Kuwo.conf)
 * 人人视频完美去广告[Rrtv.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/UnlockVip/Rrtv.conf)
-* 声田会员[Spotify.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/UnlockVip/Spotify.conf)
+* Spotify会员[Spotify.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/UnlockVip/Spotify.conf)
 * 墨鱼专属VIP请自行添加Hostname[UnlockApp.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/UnlockApp.conf)
 
 ## Awesome Resource：
@@ -42,7 +42,7 @@
 *  [DivineEngine](https://github.com/DivineEngine) 
 *  [App2smile](https://github.com/app2smile/rules)  
 *  [Peng-YM](https://github.com/Peng-YM)
-*  [Nick-workflow]https://github.com/Nick-workflow)
+*  [Nick-workflow](https://github.com/Nick-workflow)
 *  [KOP-XIAO](https://github.com/KOP-XIAO)
 *  [Neurogram-R](https://github.com/Neurogram-R)
 *  [NobyDa](https://github.com/NobyDa)
@@ -51,6 +51,7 @@
 *  [Choler](https://github.com/Choler) 
 *  [id77](https://github.com/id77)
 *  [17mon](https://github.com/17mon)
+*  [zmqcherish](https://github.com/zmqcherish)
 *  [Qure](https://github.com/Koolson/Qure)
 *  [Orz-3](https://github.com/Orz-3)
 
