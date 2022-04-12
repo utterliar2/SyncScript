@@ -5,6 +5,7 @@
 * 更新时间：2022-04-12
 * 墨鱼自用QX配置[Cuttlefish.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Profile/QuantumultX.conf) 
 * 上述配置支持QX商店最新版，包括图标库订阅、网易云音乐解锁教程、旧版应用推荐、IOS更新屏蔽、分流和重写去广告、各种会员解锁...
+* 详细内容可查看配置说明
 
 ## QuantumultX 分流配置：
 * 网易云音乐分流[NeteaseMusic.list](https://github.com/ddgksf2013/Cuttlefish/raw/master/Filter/NeteaseMusic.list)
