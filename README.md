@@ -5,7 +5,7 @@
 * 更新时间：2022-04-12
 * 墨鱼自用QX配置[Cuttlefish.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Profile/QuantumultX.conf) 
 * 上述配置支持QX商店最新版，包括图标库订阅、网易云音乐解锁教程、旧版应用推荐、IOS更新屏蔽、分流和重写去广告、流媒体解锁查询、知乎什么值得买去广告、各种会员解锁...
-* 详细内容可查看上述配置说明
+* 详细内容可点击[配置说明](https://github.com/ddgksf2013/Cuttlefish/raw/master/Profile/QuantumultX.conf)
 
 ## QuantumultX 分流配置：
 * 网易云音乐分流[NeteaseMusic.list](https://github.com/ddgksf2013/Cuttlefish/raw/master/Filter/NeteaseMusic.list)
@@ -26,6 +26,14 @@
 * 人人视频完美去广告[Rrtv.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/UnlockVip/Rrtv.conf)
 * Spotify会员[Spotify.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/UnlockVip/Spotify.conf)
 * 墨鱼专属VIP请自行添加Hostname[UnlockApp.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/UnlockApp.conf)
+* 微信公众号图文去广告（无法去除订阅号信息流广告和朋友圈广告）[WeChat.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/AdBlock/WeChat.conf)
+
+## QuantumultX 脚本Task：
+* 得宝小程序签到[debao.js](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/debao.js)
+* 喵喵记账签到[mmjz.js](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/mmjz.js)
+* QX每日色图脚本[setu.js](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/setu.js)
+* 书香门第网页签到[shuxiangmendi.js](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/shuxiangmendi.js)
+* 同程旅行小程序签到[tclx.js](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/tclx.js)
 
 ## Awesome Resource：
 * 一些优秀Github库[README.md](https://github.com/ddgksf2013/Cuttlefish/blob/master/Github/README.md)
