@@ -108,7 +108,7 @@ function doTask2(){
 			//console.log(origin[0]);
 			$.subt = $.subt + '总金币：'+coin[0].match(/\d+/g)+'枚';
 			var pictureURL1 ='https://github.com/ddgksf2013/Cuttlefish/raw/master/Icon/sxmd.png';
-			var pictureURL2 = 'https://t.me/ddgksf2021';
+			var pictureURL3 = 'https://t.me/ddgksf2021';
 			$.msg($.name, $.subt, $.msr,{"open-url":pictureURL3,"media-url":pictureURL1});
 			//console.log(origin[0]);
         }
