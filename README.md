@@ -4,8 +4,8 @@
 ## QuantumultX 小白配置：
 * 更新时间：2022-04-12
 * 墨鱼自用QX配置[Cuttlefish.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Profile/QuantumultX.conf) 
-* 上述配置支持QX商店最新版，包括图标库订阅、网易云音乐解锁教程、旧版应用推荐、IOS更新屏蔽、分流和重写去广告、各种会员解锁...
-* 详细内容可查看配置说明
+* 上述配置支持QX商店最新版，包括图标库订阅、网易云音乐解锁教程、旧版应用推荐、IOS更新屏蔽、分流和重写去广告、流媒体解锁查询、知乎什么值得买去广告、各种会员解锁...
+* 详细内容可查看上述配置说明
 
 ## QuantumultX 分流配置：
 * 网易云音乐分流[NeteaseMusic.list](https://github.com/ddgksf2013/Cuttlefish/raw/master/Filter/NeteaseMusic.list)
@@ -14,7 +14,7 @@
 ## QuantumultX 重写配置：
 * 微信小程序去广告神器[QuanX.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Applet/QuanX.conf)
 * 自用影视网站去广告[WebAdBlock.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Html/WebAdBlock.conf)
-* 真B站去广告解锁普通视频1080P高码率和4K画质[Bilibili.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/AdBlock/Bilibili.conf)
+* 真B站去广告+解锁普通视频1080P高码率和4K画质[Bilibili.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/AdBlock/Bilibili.conf)
 * 开屏广告屏蔽计划[StartUp.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/AdBlock/StartUp.conf)
 * 油管广告屏蔽[YoutubeAds.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/AdBlock/YoutubeAds.conf)
 * 微博最新去广告[Weibo.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/AdBlock/Weibo.conf)
