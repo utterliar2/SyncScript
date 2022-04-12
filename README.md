@@ -10,6 +10,7 @@
 ## QuantumultX 分流配置：
 * 网易云音乐分流 [NeteaseMusic.list](https://github.com/ddgksf2013/Cuttlefish/raw/master/Filter/NeteaseMusic.list)
 * 自用影视广告屏蔽 [Mybreak.list](https://github.com/ddgksf2013/Cuttlefish/raw/master/Filter/Mybreak.list)
+* 自用去广告分流 [anti-ad](https://anti-ad.net/surge2.txt)
 
 ## QuantumultX 重写配置：
 * 微信小程序去广告神器 [QuanX.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Applet/QuanX.conf)
@@ -27,6 +28,8 @@
 * Spotify会员 [Spotify.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/UnlockVip/Spotify.conf)
 * 墨鱼专属VIP请自行添加Hostname [UnlockApp.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/UnlockApp.conf)
 * 微信公众号图文去广告（无法去除订阅号信息流广告和朋友圈广告）[WeChat.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/AdBlock/WeChat.conf)
+* 知乎去广告助手 [zhihu_plus.qxrewrite](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.qxrewrite)
+* 什么值得买去广告 [smzdm_remove_ads.qxrewrite](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.qxrewrite)
 
 ## QuantumultX 脚本Task：
 * 得宝小程序签到 [debao.js](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/debao.js)
@@ -52,8 +55,8 @@
 *  [Peng-YM](https://github.com/Peng-YM)
 *  [Nick-workflow](https://github.com/Nick-workflow)
 *  [KOP-XIAO](https://github.com/KOP-XIAO)
-*  [Neurogram-R](https://github.com/Neurogram-R)
 *  [NobyDa](https://github.com/NobyDa)
+*  [Neurogram-R](https://github.com/Neurogram-R)
 *  [yjqiang](https://github.com/yjqiang)
 *  [O7Y0](https://github.com/O7Y0)
 *  [Choler](https://github.com/Choler) 
