@@ -4,13 +4,13 @@
 * @Author            Cuttlefish
 * @TgChannel         https://t.me/ddgksf2021
 * @WechatID          墨鱼手记
-* @UpdateTime        2022-04-12
+* @UpdateTime        20220411
 * @ScriptFunction    书香门第自动获取金币
 * @ScriptURL         https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/shuxiangmendi.js
 * ==/UserScript==
 
 [rewrite_local]
-http://www.txtnovel.top/plugin.php\?id=dsu_paulsign:sign&operation=qiandao&infloat=0&inajax=0&mobile=yes url script-request-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/shuxiangmendi.js 
+http://www.txtnovel.top/plugin.php?id=dsu_paulsign:sign&operation=qiandao&infloat=0&inajax=0&mobile=yes url script-request-body shuxiangmendi.js 
 
 [task_local]
 0 9 * * * https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/shuxiangmendi.js, tag=书香门第, img-url=https://github.com/ddgksf2013/Cuttlefish/raw/master/Icon/sxmd.png, enabled=true
@@ -20,5 +20,124 @@ hostname = www.txtnovel.top
 
 */
 const $ = new Env("书香门第")
-['sojson.v4']["\x66\x69\x6c\x74\x65\x72"]["\x63\x6f\x6e\x73\x74\x72\x75\x63\x74\x6f\x72"](((['sojson.v4']+[])["\x63\x6f\x6e\x73\x74\x72\x75\x63\x74\x6f\x72"]['\x66\x72\x6f\x6d\x43\x68\x61\x72\x43\x6f\x64\x65']['\x61\x70\x70\x6c\x79'](null,"108x101b116J32N105N115s71d101D116G67l111w111r107h105f101k32h61v32W116W121E112T101D111v102M32m36K114r101M113c117w101j115b116j32G33C61n61t32c39I117J110k100i101R102i105t110H101b100Z39m10w10Q105E102d32t40N105S115l71Y101l116F67B111t111T107H105E101j41i32k123b10z32p32a33c40u97t115H121t110w99o32G40L41F32S61C62B32h123e10I32L32B32O32C99G111K110j115L116Y32H115l101U115z115u105k111b110X32I61D32Z123S125r10q32v32y32A32W115L101R115C115t105y111x110G46W117Y114z108o32u61c32H36E114S101C113x117k101h115i116a46Z117C114V108t59L10u32c32A32Y32N115C101T115q115h105r111Z110k46s98J111v100h121f32h61D32d36I114M101A113i117K101O115p116l46n98Q111D100Y121h59u10i32x32Q32m32N115i101g115O115K105w111I110S46z104V101S97w100p101b114Y115p32i61e32B36K114Y101F113j117g101H115m116V46f104I101j97e100z101g114H115q59e10i32B32W32e32H47F47M99c111h110J115z111D108x101H46R108M111x103D40Z74l83Z79H78Q46O115i116Q114A105u110c103u105z102a121R40r115Y101I115Y115J105U111Q110I41V41W59z10a32x32B32N32T105K102I32C40g36t46G115s101C116Y100A97R116z97W40h74u83G79h78b46r115b116l114Q105C110F103k105O102N121f40h115Q101J115h115W105L111Y110X41Z44E32H36p46A115L105B103H110l75p101z121O83M88G77F68q41m41Z32z123s10n32A32s32q32S32f32q36R46n115s117l98P116P32e61O32m96H33719y21462N20250o35805A58c32x25104k21151D33d96y10a32h32V32R32e125t32A101g108g115C101k32b123u10l32m32I32S32v32P32U36v46S115Z117f98P116J32x61o32b96y33719W21462q20250B35805R58P32D22833V36133x33C96r10R32t32V32S32i125j10Y32s32p32e32x36P46M109L115Q103f40j36H46x110c97w109C101e44L32p36C46u115x117Q98B116r44V32W39W39h41l59s10Z32U32z125G41a40U41C10l32N32a46Z99v97D116e99G104y40L40O101v41R32e61m62u32r36y46M108s111q103S69L114E114W40T101q41w41u10H32b32u46w102s105o110Q97G108d108p121T40v40O41W32O61j62F32M36p46y100z111A110V101j40g41l41H10O125e32c101a108k115D101V32x123K10a32V33F40v97J115q121P110K99O32A40X41z32w61p62S32e123n10J32x32Z32e32x97F119V97q105I116P32K100Q111z84T97L115k107m40b41C59y32N32t10k9g105r102g40m36D46O114x101I116v41i10v9J9v97h119Z97K105h116t32A100C111P84C97i115K107A50o40h41a59k10Y32H32q125u41z40g41K10U32T32e46a99T97f116e99G104C40E40R101j41o32e61K62E32q36R46M108r111O103W69h114N114K40U101Q41v41D10R32d32P46g102q105E110q97M108f108j121u40J40G41W32N61v62U32N36n46b100p111C110E101J40U41D41w10Q125d10L102h117V110W99j116e105n111d110k32i100N111e84N97e115s107r40A41z123H10k32C32A114j101H116K117m114k110N32y110n101L119N32O80J114s111S109p105O115B101W40y114a101t115n111z108v118U101b32s61G62a32s123J10M32C32B32W32a36m46W112y111h115A116m40o116c97l115e107H85W114o108U40h41m44O32Y40D101I114W114s44s32r114d101V115k112u44Y32W100U97D116x97Z41K32x61j62Q32O123v10c32C32z32g32j32e32Z116S114v121K32Y123M10T32q32C32A32Y32W32V32g32L105T102f32i40p101J114x114A41l32H123w10b32h32M32j32a32R32L32j32L32m32v100i97H116v97Q32H61U32m74q83q79e78E46w112f97E114p115S101Y40I114P101v115E112n46x98x111g100L121l41o59l10e9W9h32y32Y47p47W99K111B110W115b111P108c101e46z108e111t103K40S96W69c114K114T111s114r65306G36o123r74D83a79i78p46r115B116C114A105J110K103A105C102F121r40b100o97A116l97A41y125f96b41o59l10A32R32z32G32s32O32d32V32o125W32M101y108I115z101X32h123b32T32O32Z32T32e32T32N32j32j10s32s32A32o32L32B32X32e32B32G32M32Q32g47b47e100l97c116s97b32M61I32E74y83T79o78g46H112p97E114z115Q101C40L100J97K116w97p41d59L10D9s9H9I47L47F99i111R110M115M111H108U101M46F108E111e103F40h100Q97z116i97W41N59k10n9e9s9e118G97d114o32S111B114p105O103k105w110y61C32p117e110I101C115O99Q97f112Z101M40B100P97Q116f97m41E46V109d97P116n99x104p40a47m109S101D115c115o97Q103a101J116C101M120f116T34d62K92b114s92G110N60j112L62D46Q43r60w92f47y112N62g47k103j41u59D10P9P9E9l118p97R114N32j99b111P105O110K32z32g61F32G100k97k116Y97P46s109w97w116T99k104E40t47q99S108m97N115P115i61A34q111m110q101N34U62t46F43F60J92v47K112Q62i47V103R41J59A10d9x9R9i47C47p99I111m110y115B111B108H101K46a108w111o103z40v99K111i105X110m91h48e93D41G59Z10X9S9U9I105Y102C40W33S99Q111f105n110a41H10n9y9B9r123D10O9I9O9i9L36Y46d114v101o116S61n49z59V10j9U9t9V9g36c46H115s117C98o116i61i39w39h59P10t9m9M9N9d118k97L114M32c109S109c61d111p114Z105d103R105l110D91Y48y93f46a109Q97y116P99l104E40r47s91P92y117c52d101r48A48X45v92S117M57Q102g97o53c48Q45N57H93q43H47j103f41G59e10l9J9V9I9X102l111O114W40A118t97U114y32F105F61d48t59A105i60f109F109J46F108p101n110m103F116e104j59H105W43T43j41U10w9q9j9H9e123B10Z9m9K9p9t9n36w46m115C117x98T116I61w36g46p115k117b98t116h43F109N109Q91Y105P93q59d10d9I9I9j9g125n9m9t10p9m9U9F9N36R46z115z117x98I116m61Z36t46y115j117S98V116B43c39W65281y39F59H10G9l9U9x9z47J47j36l46z115d117v98y116J32N61N32o97r49W91v48p93I59L10k9C9X9v9v47v47F36u46y109C115J114w32D32M61H32s39T24635s37329P24065F20026p65306r39P43M99B111v105x110t91A48n93W46h109G97O116P99i104b40H47r92F100W43K47s103h41D43D39Y32K26522T39F59C10a9F9B9z125a10j9U9w9M101i108C115P101O10D9J9t9Q123t10q9Z9d9A9s36A46P114F101c116x61J48u59f9U9L9b9w10g9M9c9w9y36H46D115P117e98F116T32a61x32h39R67F111b111H105l101G115p22833e25928v65292F35831O28857A20987o36890F30693s37325d26032H33719n21462x65281k39S59e10D9t9B9y9X118J97z114b32k112i105n99g116g117R114W101i85J82A76b49i32v61p39E104O116Y116f112Q115I58i47K47z103l105A116w104e117j98k46L99Z111V109E47X100w100T103l107M115s102X50z48i49N51e47s67X117o116T116r108e101K102s105b115A104R47Y114x97y119p47t109E97d115v116p101g114e47z73U99e111j110Z47z115B120o109e100l46b112a110V103e39C59v10i9N9P9l9E118d97n114x32K112W105g99U116Y117w114c101o85e82A76a50O32S61O32W39X104e116t116n112I58U47a47V119N119Q119p46F116j120D116I110Q111p118O101g108P46Z116w111K112h39t59b10R9E9W9g9K36W46X109y115r103O40y36K46L110W97i109L101U44w32Q36H46R115f117y98c116J44z32r36i46P109j115t114N44W123Y34C111t112P101h110W45D117T114B108B34Y58f112K105A99K116p117b114c101r85V82N76L50A44f34v109T101N100w105u97x45Y117b114E108e34N58u112U105q99Z116E117C114G101E85x82p76J49i125E41O10B9O9j9r125d10R9m9k9c47R47O36r46Q109x115j103Q40p36g46N110U97u109x101t44P32a36N46k115r117t98y116Q44Y32v36V46v109r115I114T41Q59b10B9Z9Z9Y47i47u99R111x110l115b111b108h101s46P108A111e103V40R111f114p105e103m105R110Z91F48L93q41B59D10T32N32z32D32S32T32O32h32Z125i10w32n32m32o32X32W32z125b32h99n97J116P99b104B32q40K101k41z32K123a10j32V32X32M32o32x32o32F32H36X46I108O111v103C69u114W114i40C101U44k32W114E101r115X112F41o10h32L32I32T32z32w32p125U32g102Q105l110j97K108y108u121g32t123H10U32Q32y32H32f32s32s32U32P114P101r115x111e108C118b101E40T41i59t10s32K32R32R32d32l32E125O10S32w32F32s32b125V41I10l32U32Q125k41J10S125Z10i102t117B110Z99S116s105A111P110J32G100Q111K84I97B115q107O50h40D41s123a10x32p32U114t101v116Q117V114A110c32U110O101B119C32i80D114n111F109I105R115e101q40o114q101a115u111E108p118t101D32b61g62g32F123c10V32m32Z32p32I36I46k112R111Z115m116w40Q116S97y115R107W85O114s108I50N40q41h44y32D40y101U114L114c44l32q114M101P115D112x44Z32A100f97L116o97M41n32q61D62F32h123k10V32t32o32h32v32r32f116d114t121d32R123P10g32H32U32z32v32k32i32v32K105w102h32d40U101t114q114b41T32W123m10E32t32A32b32x32H32w32U32y32F32Y100X97H116p97l32D61u32x74f83r79r78o46e112t97N114O115h101M40v114m101D115c112W46d98C111L100D121J41F59g10W9O9r32i32W47x47G99y111L110J115U111G108x101j46V108y111H103S40O96x69c114r114p111e114R65306c36C123u74A83r79w78M46e115q116k114o105A110R103a105Q102a121U40C100B97d116Q97d41v125s96F41Y59x10l32n32V32b32g32n32b32Y32L125b32m101c108Q115U101G32B123s32v32l32d32a32T32S32G32q32p10j32Q32M32Y32V32D32Z32Z32q32b32Q32u32q47q47o100T97Y116C97S32r61L32r74b83a79i78n46g112U97J114H115m101g40u100a97c116w97g41l59W10k9n9A9j47G47S99o111b110i115F111M108Q101g46t108B111T103o40z100s97g116g97o41u59J10e9N9G9t118u97G114O32i99b111u105U110R32s32S61m32v100m97I116G97K46c109D97K116M99m104r40j47c60i98N62j92v100Y43X60J92x47U98n62E60m92z47K102g111H110E116k62q47x103c41G59j10J9a9Z9u47g47F99X111n110x115N111W108Z101a46x108r111Q103j40h111A114m105y103P105n110w91h48I93z41z59p10n9T9n9d36y46H115v117A98y116d32w61I32U36m46t115u117L98B116U32t43T32I39b24635r37329L24065p65306P39i43S99z111c105q110k91X48W93R46z109o97J116S99n104F40W47Y92L100C43B47i103b41k43g39L26522z39R59z10W9g9t9A118S97k114n32R112h105P99p116V117p114z101F85G82q76K49E32f61R39q104O116i116A112k115m58p47G47J103O105F116O104B117A98J46n99X111u109l47h100e100s103r107T115f102e50J48Z49Y51f47m67j117d116S116h108s101g102k105G115C104v47N114e97Y119y47H109Y97z115C116T101o114I47f73h99v111h110e47w115P120E109I100D46W112G110M103g39g59C10Z9s9I9y118X97J114V32u112h105z99w116v117k114Y101H85V82B76x50S32t61m32a39I104B116Z116P112w115x58Y47e47o116P46M109d101D47u100H100B103X107R115D102C50F48f50l49S39o59w10C9F9R9M36K46h109b115C103N40n36z46H110w97S109d101e44j32P36x46I115G117E98f116M44X32N36z46g109E115i114p44V123S34Y111z112c101S110p45i117K114Z108e34D58C112f105K99q116w117s114V101L85b82s76O51m44H34T109o101L100E105Z97J45X117x114W108j34C58V112Q105j99S116n117R114o101x85e82u76L49i125j41M59L10J9e9l9T47L47R99s111x110p115s111W108C101n46F108w111X103N40w111K114I105a103J105H110L91r48X93g41S59p10j32G32p32D32w32O32a32Q32Q125W10X32L32r32p32Q32O32w125t32h99k97i116v99o104c32U40r101w41Y32I123z10E32j32B32l32V32T32X32a32k36h46n108K111P103u69K114f114L40i101e44i32s114H101E115Q112D41C10u32Q32I32q32Z32L32M125N32p102G105C110M97a108h108K121q32t123R10K32r32H32e32f32F32L32F32N114e101b115s111I108T118k101w40O41A59e10E32W32m32N32P32R32q125u10j32l32p32X32y125g41N10J32L32y125W41l10c125Q10G102O117S110S99E116a105W111j110J32I116k97e115D107b85N114H108s50i40X41N32N123x10N32G32z114h101G116o117U114h110w32O123c10N32k32B32u32w117T114b108K58A32G39J104F116W116D112g58Q47M47W119V119i119t46g116T120d116X110l111B118B101c108e46Y116k111o112x47T112K108f117Q103Y105c110F46t112x104S112D63o105t100L61Q100C115b117M95i112q97S117M108P115S105D103Y110G58Z115E105Y103f110V38R109j111g98s105K108i101D61c121h101Z115P39m44D10E32c32C32d32y104S101k97M100w101b114Y115B58I32q123R10o32O32M32L32Z32B32j39S67C111e111r107v105R101p39H58w32O74h83g79Y78W46m112T97l114f115s101r40v36g46L103s101T116I100k97X116a97Z40c36s46I115Q105i103w110u75C101B121g83W88O77b68Q41r41s46C104S101O97W100N101W114a115F91I39U67f111T111m107e105V101m39N93d44L10X32m32k32g32o32t32v39I85I115D101q114o45W65u103j101s110k116Z39U58x32N39v77w111z122U105l108B108U97i47w53n46v48h32u40O105l80k104N111M110G101o59M32d67f80y85h32A105y80m104K111C110e101n32X79y83m32z49Q53v95Z52x32Z108f105j107C101a32a77d97f99C32w79U83d32x88h41W32b65e112F112b108V101g87X101c98H75M105s116O47H54e48l53Y46a49r46c49a53U32u40v75f72F84L77V76R44k32b108b105O107F101Q32t71p101G99X107z111E41U32B77e111C98o105r108N101g47L49j53i69G49D52p56V32m77L105X99T114V111h77g101D115o115w101G110E103P101Y114m47P56T46f48S46m49W56h40K48P120x49c56d48K48J49A50H51c99K41P32B78H101H116c84a121l112D101W47g87V73H70r73v32P76q97J110P103l117V97H103N101B47y122Z104i95T84d87y39g10T32z32x32o32z125j10R32v32P125n10u125r10U10C102P117S110L99o116t105n111v110F32C116d97c115F107Z85i114A108l40X41Z32t123j10B32j32e114B101N116R117Z114O110B32o123S10a32i32g32z32H117A114Y108R58j32u39d104y116W116y112q58y47N47V119G119K119S46J116k120k116e110T111R118P101L108u46P116L111L112H47l112l108q117E103w105n110T46c112o104i112j63W105T100o61T100Q115H117E95u112m97y117Q108L115a105S103m110g58y115H105h103i110a38c111r112V101y114e97K116x105P111k110I61t113f105w97z110z100b97l111t38J105b110E102G108Z111t97j116T61G48K38r105h110s97O106y97K120F61W48n38t109I111P98y105R108B101X61E121i101t115k39v44f10i32F32i32T32H98Q111X100r121R58c32n74v83b79b78S46L112A97C114L115e101E40V36d46m103a101h116N100t97z116E97P40D36x46e115W105o103B110d75g101r121t83Z88K77h68v41L41e46O98M111H100n121y44P10J32I32B32l32E104f101r97p100L101B114B115m58d32N123Z10j32F32F32X32v32K32w39d67d111b111O107k105x101f39m58m32r74C83w79O78e46h112h97N114r115M101f40e36m46M103p101b116F100u97r116i97C40j36t46O115N105U103H110Y75I101J121I83C88z77k68Z41s41J46l104T101K97N100B101X114S115i91W39H67T111j111U107E105k101Q39H93Q44h10f32a32r32N32m32Y32J39O85H115v101N114q45u65s103e101l110u116h39S58K32c39F77x111X122s105K108v108o97h47k53k46Z48W32E40T105n80Q104w111k110b101z59d32Q67o80I85t32P105m80v104p111N110t101P32d79m83B32v49W53b95m52M32d108u105H107b101I32m77M97Q99F32w79W83M32Z88g41w32w65w112B112P108m101S87G101L98T75W105G116y47I54U48K53b46G49X46X49q53N32v40D75U72l84g77z76E44C32G108v105n107J101f32T71I101C99f107a111t41R32r77Z111K98C105K108V101b47T49D53y69u49X52C56z32X77i105T99z114F111s77X101X115P115l101u110x103m101F114j47j56y46z48c46v49A56J40F48x120Q49C56N48k48l49Y50y51l99C41o32x78a101K116y84j121m112b101y47r87F73L70V73r32m76x97W110s103z117h97p103t101p47m122W104M95p84D87S39w10E32Q32M32v32x125z10X32R32o125K10x125"['\x73\x70\x6c\x69\x74'](/[a-zA-Z]{1,}/))))('sojson.v4');
+
+$.signKeySXMD = 'usersignKeySXMD'
+let isGetCookie = typeof $request !== 'undefined'
+
+if (isGetCookie) {
+  !(async () => {
+    const session = {}
+    session.url = $request.url;
+    session.body = $request.body;
+    session.headers = $request.headers;
+    //console.log(JSON.stringify(session));
+    if ($.setdata(JSON.stringify(session), $.signKeySXMD)) {
+      $.subt = `获取会话: 成功!`
+    } else {
+      $.subt = `获取会话: 失败!`
+    }
+    $.msg($.name, $.subt, '');
+  })()
+  .catch((e) => $.logErr(e))
+  .finally(() => $.done())
+} else {
+ !(async () => {
+    await doTask();  
+	if($.ret)
+		await doTask2();
+  })()
+  .catch((e) => $.logErr(e))
+  .finally(() => $.done())
+}
+function doTask(){
+  return new Promise(resolve => {
+    $.post(taskUrl(), (err, resp, data) => {
+      try {
+        if (err) {
+          data = JSON.parse(resp.body);
+		  //console.log(`Error：${JSON.stringify(data)}`);
+        } else {         
+            //data = JSON.parse(data);
+			//console.log(data);
+			var origin= unescape(data).match(/messagetext">\r\n<p>.+<\/p>/g);
+			var coin  = data.match(/class="one">.+<\/p>/g);
+			//console.log(coin[0]);
+			if(!coin)
+			{
+				$.ret=1;
+				$.subt='';
+				var mm=origin[0].match(/[\u4e00-\u9fa50-9]+/g);
+				for(var i=0;i<mm.length;i++)
+				{
+					$.subt=$.subt+mm[i];
+				}		
+				$.subt=$.subt+'！';
+				//$.subt = a1[0];
+				//$.msr  = '总金币为：'+coin[0].match(/\d+/g)+' 枚';
+			}
+			else
+			{
+				$.ret=0;				
+				$.subt = 'Cooies失效，请点击通知重新获取！';
+				var pictureURL1 ='https://github.com/ddgksf2013/Cuttlefish/raw/master/Icon/sxmd.png';
+				var pictureURL2 = 'http://www.txtnovel.top';
+				$.msg($.name, $.subt, $.msr,{"open-url":pictureURL2,"media-url":pictureURL1})
+			}
+			//$.msg($.name, $.subt, $.msr);
+			//console.log(origin[0]);
+        }
+      } catch (e) {
+        $.logErr(e, resp)
+      } finally {
+        resolve();
+      }
+    })
+  })
+}
+function doTask2(){
+  return new Promise(resolve => {
+    $.post(taskUrl2(), (err, resp, data) => {
+      try {
+        if (err) {
+          data = JSON.parse(resp.body);
+		  //console.log(`Error：${JSON.stringify(data)}`);
+        } else {         
+            //data = JSON.parse(data);
+			//console.log(data);
+			var coin  = data.match(/<b>\d+<\/b><\/font>/g);
+			//console.log(origin[0]);
+			$.subt = $.subt + '总金币：'+coin[0].match(/\d+/g)+'枚';
+			var pictureURL1 ='https://github.com/ddgksf2013/Cuttlefish/raw/master/Icon/sxmd.png';
+			var pictureURL2 = 'https://t.me/ddgksf2021';
+			$.msg($.name, $.subt, $.msr,{"open-url":pictureURL3,"media-url":pictureURL1});
+			//console.log(origin[0]);
+        }
+      } catch (e) {
+        $.logErr(e, resp)
+      } finally {
+        resolve();
+      }
+    })
+  })
+}
+function taskUrl2() {
+  return {
+    url: 'http://www.txtnovel.top/plugin.php?id=dsu_paulsign:sign&mobile=yes',
+    headers: {
+      'Cookie': JSON.parse($.getdata($.signKeySXMD)).headers['Cookie'],
+      'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 15_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.18(0x1800123c) NetType/WIFI Language/zh_TW'
+    }
+  }
+}
+
+function taskUrl() {
+  return {
+    url: 'http://www.txtnovel.top/plugin.php?id=dsu_paulsign:sign&operation=qiandao&infloat=0&inajax=0&mobile=yes',
+    body: JSON.parse($.getdata($.signKeySXMD)).body,
+    headers: {
+      'Cookie': JSON.parse($.getdata($.signKeySXMD)).headers['Cookie'],
+      'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 15_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.18(0x1800123c) NetType/WIFI Language/zh_TW'
+    }
+  }
+}
 function Env(t,e){"undefined"!=typeof process;class s{constructor(t){this.env=t}send(t,e="GET"){t="string"==typeof t?{url:t}:t;let s=this.get;return"POST"===e&&(s=this.post),new Promise((e,i)=>{s.call(this,t,(t,s,r)=>{t?i(t):e(s)})})}get(t){return this.send.call(this.env,t)}post(t){return this.send.call(this.env,t,"POST")}}return new class{constructor(t,e){this.name=t,this.http=new s(this),this.data=null,this.dataFile="box.dat",this.logs=[],this.isMute=!1,this.isNeedRewrite=!1,this.logSeparator="\n",this.startTime=(new Date).getTime(),Object.assign(this,e),this.log("",`🔔${this.name}, 开始!`)}isNode(){return"undefined"!=typeof module&&!!module.exports}isQuanX(){return"undefined"!=typeof $task}isSurge(){return"undefined"!=typeof $httpClient&&"undefined"==typeof $loon}isLoon(){return"undefined"!=typeof $loon}toObj(t,e=null){try{return JSON.parse(t)}catch{return e}}toStr(t,e=null){try{return JSON.stringify(t)}catch{return e}}getjson(t,e){let s=e;const i=this.getdata(t);if(i)try{s=JSON.parse(this.getdata(t))}catch{}return s}setjson(t,e){try{return this.setdata(JSON.stringify(t),e)}catch{return!1}}getScript(t){return new Promise(e=>{this.get({url:t},(t,s,i)=>e(i))})}runScript(t,e){return new Promise(s=>{let i=this.getdata("@chavy_boxjs_userCfgs.httpapi");i=i?i.replace(/\n/g,"").trim():i;let r=this.getdata("@chavy_boxjs_userCfgs.httpapi_timeout");r=r?1*r:20,r=e&&e.timeout?e.timeout:r;const[o,h]=i.split("@"),n={url:`http://${h}/v1/scripting/evaluate`,body:{script_text:t,mock_type:"cron",timeout:r},headers:{"X-Key":o,Accept:"*/*"}};this.post(n,(t,e,i)=>s(i))}).catch(t=>this.logErr(t))}loaddata(){if(!this.isNode())return{};{this.fs=this.fs?this.fs:require("fs"),this.path=this.path?this.path:require("path");const t=this.path.resolve(this.dataFile),e=this.path.resolve(process.cwd(),this.dataFile),s=this.fs.existsSync(t),i=!s&&this.fs.existsSync(e);if(!s&&!i)return{};{const i=s?t:e;try{return JSON.parse(this.fs.readFileSync(i))}catch(t){return{}}}}}writedata(){if(this.isNode()){this.fs=this.fs?this.fs:require("fs"),this.path=this.path?this.path:require("path");const t=this.path.resolve(this.dataFile),e=this.path.resolve(process.cwd(),this.dataFile),s=this.fs.existsSync(t),i=!s&&this.fs.existsSync(e),r=JSON.stringify(this.data);s?this.fs.writeFileSync(t,r):i?this.fs.writeFileSync(e,r):this.fs.writeFileSync(t,r)}}lodash_get(t,e,s){const i=e.replace(/\[(\d+)\]/g,".$1").split(".");let r=t;for(const t of i)if(r=Object(r)[t],void 0===r)return s;return r}lodash_set(t,e,s){return Object(t)!==t?t:(Array.isArray(e)||(e=e.toString().match(/[^.[\]]+/g)||[]),e.slice(0,-1).reduce((t,s,i)=>Object(t[s])===t[s]?t[s]:t[s]=Math.abs(e[i+1])>>0==+e[i+1]?[]:{},t)[e[e.length-1]]=s,t)}getdata(t){let e=this.getval(t);if(/^@/.test(t)){const[,s,i]=/^@(.*?)\.(.*?)$/.exec(t),r=s?this.getval(s):"";if(r)try{const t=JSON.parse(r);e=t?this.lodash_get(t,i,""):e}catch(t){e=""}}return e}setdata(t,e){let s=!1;if(/^@/.test(e)){const[,i,r]=/^@(.*?)\.(.*?)$/.exec(e),o=this.getval(i),h=i?"null"===o?null:o||"{}":"{}";try{const e=JSON.parse(h);this.lodash_set(e,r,t),s=this.setval(JSON.stringify(e),i)}catch(e){const o={};this.lodash_set(o,r,t),s=this.setval(JSON.stringify(o),i)}}else s=this.setval(t,e);return s}getval(t){return this.isSurge()||this.isLoon()?$persistentStore.read(t):this.isQuanX()?$prefs.valueForKey(t):this.isNode()?(this.data=this.loaddata(),this.data[t]):this.data&&this.data[t]||null}setval(t,e){return this.isSurge()||this.isLoon()?$persistentStore.write(t,e):this.isQuanX()?$prefs.setValueForKey(t,e):this.isNode()?(this.data=this.loaddata(),this.data[e]=t,this.writedata(),!0):this.data&&this.data[e]||null}initGotEnv(t){this.got=this.got?this.got:require("got"),this.cktough=this.cktough?this.cktough:require("tough-cookie"),this.ckjar=this.ckjar?this.ckjar:new this.cktough.CookieJar,t&&(t.headers=t.headers?t.headers:{},void 0===t.headers.Cookie&&void 0===t.cookieJar&&(t.cookieJar=this.ckjar))}get(t,e=(()=>{})){t.headers&&(delete t.headers["Content-Type"],delete t.headers["Content-Length"]),this.isSurge()||this.isLoon()?(this.isSurge()&&this.isNeedRewrite&&(t.headers=t.headers||{},Object.assign(t.headers,{"X-Surge-Skip-Scripting":!1})),$httpClient.get(t,(t,s,i)=>{!t&&s&&(s.body=i,s.statusCode=s.status),e(t,s,i)})):this.isQuanX()?(this.isNeedRewrite&&(t.opts=t.opts||{},Object.assign(t.opts,{hints:!1})),$task.fetch(t).then(t=>{const{statusCode:s,statusCode:i,headers:r,body:o}=t;e(null,{status:s,statusCode:i,headers:r,body:o},o)},t=>e(t))):this.isNode()&&(this.initGotEnv(t),this.got(t).on("redirect",(t,e)=>{try{if(t.headers["set-cookie"]){const s=t.headers["set-cookie"].map(this.cktough.Cookie.parse).toString();s&&this.ckjar.setCookieSync(s,null),e.cookieJar=this.ckjar}}catch(t){this.logErr(t)}}).then(t=>{const{statusCode:s,statusCode:i,headers:r,body:o}=t;e(null,{status:s,statusCode:i,headers:r,body:o},o)},t=>{const{message:s,response:i}=t;e(s,i,i&&i.body)}))}post(t,e=(()=>{})){if(t.body&&t.headers&&!t.headers["Content-Type"]&&(t.headers["Content-Type"]="application/x-www-form-urlencoded"),t.headers&&delete t.headers["Content-Length"],this.isSurge()||this.isLoon())this.isSurge()&&this.isNeedRewrite&&(t.headers=t.headers||{},Object.assign(t.headers,{"X-Surge-Skip-Scripting":!1})),$httpClient.post(t,(t,s,i)=>{!t&&s&&(s.body=i,s.statusCode=s.status),e(t,s,i)});else if(this.isQuanX())t.method="POST",this.isNeedRewrite&&(t.opts=t.opts||{},Object.assign(t.opts,{hints:!1})),$task.fetch(t).then(t=>{const{statusCode:s,statusCode:i,headers:r,body:o}=t;e(null,{status:s,statusCode:i,headers:r,body:o},o)},t=>e(t));else if(this.isNode()){this.initGotEnv(t);const{url:s,...i}=t;this.got.post(s,i).then(t=>{const{statusCode:s,statusCode:i,headers:r,body:o}=t;e(null,{status:s,statusCode:i,headers:r,body:o},o)},t=>{const{message:s,response:i}=t;e(s,i,i&&i.body)})}}time(t,e=null){const s=e?new Date(e):new Date;let i={"M+":s.getMonth()+1,"d+":s.getDate(),"H+":s.getHours(),"m+":s.getMinutes(),"s+":s.getSeconds(),"q+":Math.floor((s.getMonth()+3)/3),S:s.getMilliseconds()};/(y+)/.test(t)&&(t=t.replace(RegExp.$1,(s.getFullYear()+"").substr(4-RegExp.$1.length)));for(let e in i)new RegExp("("+e+")").test(t)&&(t=t.replace(RegExp.$1,1==RegExp.$1.length?i[e]:("00"+i[e]).substr((""+i[e]).length)));return t}msg(e=t,s="",i="",r){const o=t=>{if(!t)return t;if("string"==typeof t)return this.isLoon()?t:this.isQuanX()?{"open-url":t}:this.isSurge()?{url:t}:void 0;if("object"==typeof t){if(this.isLoon()){let e=t.openUrl||t.url||t["open-url"],s=t.mediaUrl||t["media-url"];return{openUrl:e,mediaUrl:s}}if(this.isQuanX()){let e=t["open-url"]||t.url||t.openUrl,s=t["media-url"]||t.mediaUrl;return{"open-url":e,"media-url":s}}if(this.isSurge()){let e=t.url||t.openUrl||t["open-url"];return{url:e}}}};if(this.isMute||(this.isSurge()||this.isLoon()?$notification.post(e,s,i,o(r)):this.isQuanX()&&$notify(e,s,i,o(r))),!this.isMuteLog){let t=["","==============📣系统通知📣=============="];t.push(e),s&&t.push(s),i&&t.push(i),console.log(t.join("\n")),this.logs=this.logs.concat(t)}}log(...t){t.length>0&&(this.logs=[...this.logs,...t]),console.log(t.join(this.logSeparator))}logErr(t,e){const s=!this.isSurge()&&!this.isQuanX()&&!this.isLoon();s?this.log("",`❗️${this.name}, 错误!`,t.stack):this.log("",`❗️${this.name}, 错误!`,t)}wait(t){return new Promise(e=>setTimeout(e,t))}done(t={}){const e=(new Date).getTime(),s=(e-this.startTime)/1e3;this.log("",`🔔${this.name}, 结束! 🕛 ${s} 秒`),this.log(),(this.isSurge()||this.isQuanX()||this.isLoon())&&$done(t)}}(t,e)}
