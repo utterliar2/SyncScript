@@ -1,7 +1,7 @@
 ## 墨魚手記（[自用](https://github.com/ddgksf2013/Cuttlefish/blob/master/Rewrite/README.md "感谢赞助")）
 [![Cuttlefish's GitHub stats](https://github-readme-stats.vercel.app/api?username=ddgksf2013&show_icons=true&count_private=true&theme=vue)](https://github.comddgksf2013/Cuttlefish)
 
-## QuantumultX 小白配置：
+## QuantumultX 小白2.0配置：
 * 更新时间：2022-04-12
 * 墨鱼自用QX配置 [Cuttlefish.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Profile/QuantumultX.conf) 
 * 上述配置支持QX商店最新版，包括图标库订阅、网易云音乐解锁教程、旧版应用推荐、IOS更新屏蔽、分流和重写去广告、流媒体解锁查询、知乎什么值得买去广告、各种会员解锁...
@@ -49,6 +49,6 @@
 
 ### 特别感谢（排名不分先后，如有遗漏可联系@ddgksf）：
  
-*  [Blackmatrix7](https://github.com/blackmatrix7/ios_rule_script) [DivineEngine](https://github.com/DivineEngine) [App2smile](https://github.com/app2smile/rules)  [Peng-YM](https://github.com/Peng-YM) [Nick-workflow](https://github.com/Nick-workflow) [KOP-XIAO](https://github.com/KOP-XIAO) [NobyDa](https://github.com/NobyDa) [Neurogram-R](https://github.com/Neurogram-R) [yjqiang](https://github.com/yjqiang) [O7Y0](https://github.com/O7Y0) [Choler](https://github.com/Choler) [id77](https://github.com/id77) [17mon](https://github.com/17mon) [zmqcherish](https://github.com/zmqcherish) [Qure](https://github.com/Koolson/Qure) [Orz-3](https://github.com/Orz-3)
+*  [@Blackmatrix7](https://github.com/blackmatrix7/ios_rule_script) [@DivineEngine](https://github.com/DivineEngine) [@App2smile](https://github.com/app2smile/rules)  [@Peng-YM](https://github.com/Peng-YM) [@Nick-workflow](https://github.com/Nick-workflow) [@KOP-XIAO](https://github.com/KOP-XIAO) [@NobyDa](https://github.com/NobyDa) [@Neurogram-R](https://github.com/Neurogram-R) [@yjqiang](https://github.com/yjqiang) [@O7Y0](https://github.com/O7Y0) [@Choler](https://github.com/Choler) [@id77](https://github.com/id77)  [@zmqcherish](https://github.com/zmqcherish) [@Qure](https://github.com/Koolson/Qure) [@Orz-3](https://github.com/Orz-3)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
