@@ -49,21 +49,6 @@
 
 ### 特别感谢（排名不分先后，如有遗漏可联系@ddgksf）：
  
-*  [Blackmatrix7](https://github.com/blackmatrix7/ios_rule_script) 
-*  [DivineEngine](https://github.com/DivineEngine) 
-*  [App2smile](https://github.com/app2smile/rules)  
-*  [Peng-YM](https://github.com/Peng-YM)
-*  [Nick-workflow](https://github.com/Nick-workflow)
-*  [KOP-XIAO](https://github.com/KOP-XIAO)
-*  [NobyDa](https://github.com/NobyDa)
-*  [Neurogram-R](https://github.com/Neurogram-R)
-*  [yjqiang](https://github.com/yjqiang)
-*  [O7Y0](https://github.com/O7Y0)
-*  [Choler](https://github.com/Choler) 
-*  [id77](https://github.com/id77)
-*  [17mon](https://github.com/17mon)
-*  [zmqcherish](https://github.com/zmqcherish)
-*  [Qure](https://github.com/Koolson/Qure)
-*  [Orz-3](https://github.com/Orz-3)
+*  [Blackmatrix7](https://github.com/blackmatrix7/ios_rule_script) [DivineEngine](https://github.com/DivineEngine) [App2smile](https://github.com/app2smile/rules)  [Peng-YM](https://github.com/Peng-YM) [Nick-workflow](https://github.com/Nick-workflow) [KOP-XIAO](https://github.com/KOP-XIAO) [NobyDa](https://github.com/NobyDa) [Neurogram-R](https://github.com/Neurogram-R) [yjqiang](https://github.com/yjqiang) [O7Y0](https://github.com/O7Y0) [Choler](https://github.com/Choler) [id77](https://github.com/id77) [17mon](https://github.com/17mon) [zmqcherish](https://github.com/zmqcherish) [Qure](https://github.com/Koolson/Qure) [Orz-3](https://github.com/Orz-3)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
