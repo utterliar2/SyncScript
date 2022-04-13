@@ -10,7 +10,7 @@
 ## QuantumultX 分流配置：
 * 网易云音乐分流 [NeteaseMusic.list](https://github.com/ddgksf2013/Cuttlefish/raw/master/Filter/NeteaseMusic.list)
 * 自用影视广告屏蔽 [Mybreak.list](https://github.com/ddgksf2013/Cuttlefish/raw/master/Filter/Mybreak.list)
-* 自用去广告分流 [anti-ad](https://anti-ad.net/surge2.txt)
+* 自用去广告分流 [Anti-ad](https://anti-ad.net/surge2.txt)
 
 ## QuantumultX 重写配置：
 * 微信小程序去广告神器 [QuanX.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Applet/QuanX.conf)
