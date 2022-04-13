@@ -4,9 +4,6 @@
 ## QuantumultX 小白2.0配置：
 * 更新时间：2022-04-12
 * 墨鱼自用QX配置 [Cuttlefish.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Profile/QuantumultX.conf) 
-```
-https://github.com/ddgksf2013/Cuttlefish/raw/master/Profile/QuantumultX.conf
-```
 * 上述配置支持QX商店最新版，包括图标库订阅、网易云音乐解锁教程、旧版应用推荐、IOS更新屏蔽、分流和重写去广告、流媒体解锁查询、知乎什么值得买去广告、各种会员解锁...
 * 详细内容可点击[配置说明](https://github.com/ddgksf2013/Cuttlefish/raw/master/Profile/QuantumultX.conf)
 
@@ -48,8 +45,8 @@ https://github.com/ddgksf2013/Cuttlefish/raw/master/Profile/QuantumultX.conf
 * 自用Clash配置 [Config.yaml](https://github.com/ddgksf2013/Cuttlefish/raw/master/Profile/Config.yaml)
 
 ## 电报通知频道：
-> 1. 加入[自留地](https://t.me/ddgksf2021)，获取最新资源
-> 2. 如有任何关于本库使用的问题可[邮件](ddgksf2013@163.com)询问
+* 加入[自留地](https://t.me/ddgksf2021)，获取最新资源
+* 如有任何关于本库使用的问题可[邮件](ddgksf2013@163.com)询问
 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
