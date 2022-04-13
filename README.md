@@ -45,7 +45,7 @@
 * 自用Clash配置 [Config.yaml](https://github.com/ddgksf2013/Cuttlefish/raw/master/Profile/Config.yaml)
 
 ## 电报通知频道：
-* 加入[**自留地**](https://t.me/ddgksf2021)，获取最新资源
+* 加入Cuttlefishの[**自留地**](https://t.me/ddgksf2021)，第一时间获取最新资源
 * 如有任何关于本库使用的问题可邮件询问
 * **ddgksf2013@163.com**
 
