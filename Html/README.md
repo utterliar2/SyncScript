@@ -9,7 +9,7 @@
 | Libvio |   https://www.libvio.com/ |   新站，更新及时★ | 
 | 低端影视 |   https://ddrk.me/ | 影视老站，YYDS★  | 
 | 剧迷 |   https://gimytv.app/ | 影视，小而美★  |
-| 555影视 |  http://www.555dy.vip/  | 作为备用还不错 | 
+| 555影视 |  http://www.555dy.vip/  | 作为备用还不错★ | 
 | 厂长资源 |  https://www.qianoo.cn/ | 质量1080P★  | 
 | 天空影视 |  https://www.tkys.tv/ | 新起之秀★  | 
 | Zzzfun | http://www.zzzfun.com/ |  在线动漫，比较全面 |
@@ -49,6 +49,6 @@
 | Hpjav | https://hpjav.tv/ | 还行，凑合 |
 
 ```diff
-+ 投稿助手： https://t.me/ddgksf2013_bot
-- 通知频道： https://t.me/ddgksf2021
++ 通知频道： https://t.me/ddgksf2021
+- 投稿助手： https://t.me/ddgksf2013_bot
 ```
