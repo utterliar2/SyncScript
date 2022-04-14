@@ -33,7 +33,7 @@
 
 ## QuantumultX 脚本Task：
 * 得宝小程序签到 [debao.js](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/debao.js)
-* 喵喵记账签到 [mmjz.js](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/mmjz.js)
+* 喵喵记账每日签到 [mmjz.js](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/mmjz.js)
 * QX每日色图脚本 [setu.js](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/setu.js)
 * 书香门第网页签到 [shuxiangmendi.js](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/shuxiangmendi.js)
 * 同程旅行小程序签到 [tclx.js](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/tclx.js)
@@ -45,7 +45,7 @@
 * 自用Clash配置 [Config.yaml](https://github.com/ddgksf2013/Cuttlefish/raw/master/Profile/Config.yaml)
 
 ## Telegram 通知频道：
-* 加入Cuttlefishの[**自留地**](https://t.me/ddgksf2021)，第一时间获取最新消息
+* 加入[**Cuttlefishの自留地**](https://t.me/ddgksf2021)，第一时间获取最新消息
 * 如有任何关于本库使用的问题可邮件ddgksf2013@163.com询问
 * 若有需要Crack的应用或小程序可在[腾讯文档](https://docs.qq.com/sheet/DYmRTQXpVY0hNcGls?tab=BB08J2)中反馈
 
