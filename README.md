@@ -15,7 +15,7 @@
 ## QuantumultX 重写配置：
 * 微信小程序去广告神器 [QuanX.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Applet/QuanX.conf)
 * 自用影视网站去广告 [WebAdBlock.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Html/WebAdBlock.conf)
-* 真B站去广告+解锁普通视频1080P高码率和4K画质 [Bilibili.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/AdBlock/Bilibili.conf)
+* 真B站去广告+解锁普通视频**1080P高码率和4K画质** [Bilibili.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/AdBlock/Bilibili.conf)
 * 开屏广告屏蔽计划 [StartUp.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/AdBlock/StartUp.conf)
 * 油管广告屏蔽 [YoutubeAds.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/AdBlock/YoutubeAds.conf)
 * 微博最新去广告 [Weibo.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/AdBlock/Weibo.conf)
@@ -26,7 +26,7 @@
 * 酷我音乐超级VIP [Kuwo.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/UnlockVip/Kuwo.conf)
 * 人人视频完美去广告 [Rrtv.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/UnlockVip/Rrtv.conf)
 * Spotify会员 [Spotify.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/UnlockVip/Spotify.conf)
-* 墨鱼专属VIP请自行添加Hostname [UnlockApp.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/UnlockApp.conf)
+* 墨鱼**专属VIP**请自行添加Hostname [UnlockApp.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/UnlockApp.conf)
 * 微信公众号图文去广告（无法去除订阅号信息流广告和朋友圈广告）[WeChat.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/AdBlock/WeChat.conf)
 * 知乎去广告助手 [zhihu_plus.qxrewrite](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.qxrewrite)
 * 什么值得买去广告 [smzdm_remove_ads.qxrewrite](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.qxrewrite)
