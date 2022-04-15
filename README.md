@@ -35,7 +35,7 @@
 * 得宝小程序签到 [debao.js](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/debao.js)
 * 喵喵记账每日签到 [mmjz.js](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/mmjz.js)
 * QX每日色图脚本 [setu.js](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/setu.js)
-* 书香门第网页签到 [shuxiangmendi.js](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/shuxiangmendi.js)
+* 书香门第网页签到 [sxmd.js](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/shuxiangmendi.js)
 * 同程旅行小程序签到 [tclx.js](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/tclx.js)
 
 ## Awesome Resource：
