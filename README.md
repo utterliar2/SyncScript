@@ -14,18 +14,27 @@
 * 自用去广告分流 [Anti-ad.list](https://anti-ad.net/surge2.txt)
 
 ## QuantumultX 重写配置：
-| 功能 | 链接 | 作者 |
-| :----- | :----- | :----- |
-| 微信小程序去广告神器 | [QuanX.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Applet/QuanX.conf) |  ddgksf2013 |
-| 自用影视网站去广告 | [WebAdBlock.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Html/WebAdBlock.conf) | ddgksf2013 |
-| 真B站去广告+解锁普通视频**1080P高码率和4K画质**| [Bilibili.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/AdBlock/Bilibili.conf) | ddgksf2013 |
-| 开屏广告屏蔽计划 | [StartUp.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/AdBlock/StartUp.conf) | ddgksf2013 |
-| 油管广告屏蔽 | [YoutubeAds.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/AdBlock/YoutubeAds.conf) | |
-| | | |
-| | | |
-| | | |
-| | | |
-| | | |
+| 序号   | 功能   | 链接   | 作者    |
+| :----- | :----- | :----- | :----- |
+| 1 | 微信小程序去广告神器 | [QuanX.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Applet/QuanX.conf) |  ddgksf2013 |
+| 2 | 自用影视网站去广告 | [WebAdBlock.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Html/WebAdBlock.conf) | ddgksf2013 |
+| 3 | 真B站去广告+解锁普通视频**1080P高码率和4K画质**| [Bilibili.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/AdBlock/Bilibili.conf) | ddgksf2013 |
+| 4 | 开屏广告屏蔽计划 | [StartUp.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/AdBlock/StartUp.conf) | ddgksf2013 |
+| 5 | 油管广告屏蔽 | [YoutubeAds.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/AdBlock/YoutubeAds.conf) | |
+| 6 | 微博最新去广告 | [Weibo.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/AdBlock/Weibo.conf) | |
+| 7 | B站自动换区 | [BilibiliAutoRegion.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/Function/BilibiliAutoRegion.conf) | |
+| 8 | B站CC繁体字幕转简体 | [Bilibili_CC.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/Function/Bilibili_CC.conf) | |
+| 9 | Google自动翻页 | [EndlessGoogle.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/Function/EndlessGoogle.conf) | |
+| 10 | 百度网盘倍速 | [BaiduCloud.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/UnlockVip/BaiduCloud.conf) | |
+| 11 | 酷我音乐超级VIP | [Kuwo.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/UnlockVip/Kuwo.conf) | |
+| 12 | 人人视频完美去广告 | [Rrtv.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/UnlockVip/Rrtv.conf) | |
+| 13 | Spotify会员 | [Spotify.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/UnlockVip/Spotify.conf) | |
+| 14 | 墨鱼**专属VIP**请自行添加Hostname | [UnlockApp.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/UnlockApp.conf) | |
+| 15 | 微信公众号图文去广告（无法去除订阅号信息流广告和朋友圈广告） | [WeChat.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/AdBlock/WeChat.conf) | |
+| 16 | 知乎去广告助手 | [zhihu_plus.qxrewrite](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.qxrewrite) | |
+| 17 | 什么值得买去广告 | [smzdm_remove_ads.qxrewrite](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.qxrewrite) | |
+
+
 * 微信小程序去广告神器 [QuanX.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Applet/QuanX.conf)
 * 自用影视网站去广告 [WebAdBlock.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Html/WebAdBlock.conf)
 * 真B站去广告+解锁普通视频**1080P高码率和4K画质** [Bilibili.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/AdBlock/Bilibili.conf)
