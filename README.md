@@ -44,7 +44,7 @@
 * 自用**优秀Web网站** [README.md](https://github.com/ddgksf2013/Cuttlefish/blob/master/Html/README.md)
 * QuantumultX测试版更新日志 [QX_TestFlight_Update.log](https://github.com/ddgksf2013/Cuttlefish/raw/master/Profile/QX_TestFlight_Update.log)
 * 自用Clash配置 [Config.yaml](https://github.com/ddgksf2013/Cuttlefish/raw/master/Profile/Config.yaml)
-* Clash详细教程[Documents](https://docs.cfw.lbyczf.com/contents/quickstart.html)
+* Clash详细教程[Documents.md](https://docs.cfw.lbyczf.com/contents/quickstart.html)
 
 ## Telegram 通知频道：
 * 加入[**Cuttlefishの自留地**](https://t.me/ddgksf2021)，第一时间获取最新消息
