@@ -115,12 +115,6 @@ USER-AGENT,ITV_Player*,PROXY
 DOMAIN-SUFFIX,itv.com,PROXY
 DOMAIN-SUFFIX,itvstatic.com,PROXY
 DOMAIN,itvpnpmobile-a.akamaihd.net,PROXY
-# > KKTV
-USER-AGENT,KKTV*,PROXY
-USER-AGENT,com.kktv.ios.kktv*,PROXY
-DOMAIN-SUFFIX,kktv.com.tw,PROXY
-DOMAIN-SUFFIX,kktv.me,PROXY
-DOMAIN,kktv-theater.kk.stream,PROXY
 # > Line TV
 USER-AGENT,LINE%20TV*,PROXY
 DOMAIN-SUFFIX,linetv.tw,PROXY

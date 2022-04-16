@@ -28,7 +28,12 @@ DOMAIN-KEYWORD,cn-hk-eq-bcache-,StreamingSE
 DOMAIN,cache.video.iqiyi.com,Bahamut
 IP-CIDR,116.211.202.206/32,Bahamut
 IP-CIDR,116.211.202.216/32,Bahamut
-
+# ～ KKTV
+USER-AGENT,KKTV*,Bahamut
+USER-AGENT,com.kktv.ios.kktv*,Bahamut
+DOMAIN-SUFFIX,kktv.com.tw,Bahamut
+DOMAIN-SUFFIX,kktv.me,Bahamut
+DOMAIN,kktv-theater.kk.stream,Bahamut
 # ～ Bahamut 
 USER-AGENT,Anime*,Bahamut
 DOMAIN-SUFFIX,bahamut.com.tw,Bahamut
