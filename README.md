@@ -34,6 +34,7 @@
 | 16 | 知乎去广告助手 | [zhihu_plus.conf](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.qxrewrite) | blackmatrix7 |
 | 17 | 什么值得买去广告 | [smzdm_remove_ads.conf](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.qxrewrite) | blackmatrix7 |
 | 18 | 百度贴吧去广告 | [Tieba_ad.conf](https://raw.githubusercontent.com/Nick-workflow/script-test/main/bdtb/tb-ad.conf) | nickworkflow |
+| 19 | Youtube无中文字幕机翻方案 | [Youtube_CC.conf](https://github.com/id77/QuantumultX/raw/master/rewrite/Youtube_CC.conf) | id77 |
 
 ## QuantumultX 脚本Task：
 * 得宝小程序签到 [debao.js](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/debao.js)
