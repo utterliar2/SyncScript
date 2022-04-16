@@ -33,6 +33,7 @@
 | 15 | 公众号图文去广告（无法去除订阅号信息流和朋友圈AD） | [WeChatAdBlock.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/AdBlock/WeChat.conf) | ddgksf2013 |
 | 16 | 知乎去广告助手 | [zhihu_plus.conf](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.qxrewrite) | blackmatrix7 |
 | 17 | 什么值得买去广告 | [smzdm_remove_ads.conf](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.qxrewrite) | blackmatrix7 |
+| 18 | 百度贴吧去广告 | [Tieba-ad.conf](https://raw.githubusercontent.com/Nick-workflow/script-test/main/bdtb/tb-ad.conf) | nickworkflow |
 
 ## QuantumultX 脚本Task：
 * 得宝小程序签到 [debao.js](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/debao.js)
