@@ -14,6 +14,18 @@
 * 自用去广告分流 [Anti-ad.list](https://anti-ad.net/surge2.txt)
 
 ## QuantumultX 重写配置：
+| 功能 | 链接 | 作者 |
+| :----- | :----- | :----- |
+| 微信小程序去广告神器 | [QuanX.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Applet/QuanX.conf) |  ddgksf2013 |
+| 自用影视网站去广告 | [WebAdBlock.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Html/WebAdBlock.conf) | ddgksf2013 |
+| 真B站去广告+解锁普通视频**1080P高码率和4K画质**| [Bilibili.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/AdBlock/Bilibili.conf) | ddgksf2013 |
+| 开屏广告屏蔽计划 | [StartUp.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/AdBlock/StartUp.conf) | ddgksf2013 |
+| 油管广告屏蔽 | [YoutubeAds.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/AdBlock/YoutubeAds.conf) | |
+| | | |
+| | | |
+| | | |
+| | | |
+| | | |
 * 微信小程序去广告神器 [QuanX.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Applet/QuanX.conf)
 * 自用影视网站去广告 [WebAdBlock.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Html/WebAdBlock.conf)
 * 真B站去广告+解锁普通视频**1080P高码率和4K画质** [Bilibili.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/AdBlock/Bilibili.conf)
