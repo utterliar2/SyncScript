@@ -30,7 +30,7 @@
 | 12 | 人人视频完美去广告 | [Rrtv.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/UnlockVip/Rrtv.conf) | ddgksf2013 |
 | 13 | Spotify会员 | [Spotify.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/UnlockVip/Spotify.conf) | app2smile |
 | 14 | 墨鱼**专属VIP**请自行添加Hostname | [UnlockApp.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/UnlockApp.conf) | ddgksf2013 |
-| 15 | 微信公众号图文去广告（无法去除订阅号信息流广告和朋友圈广告） | [WeChat.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/AdBlock/WeChat.conf) | ddgksf2013 |
+| 15 | 公众号图文去广告(无法去除订阅号信息流和朋友圈AD) | [WeChat.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/AdBlock/WeChat.conf) | ddgksf2013 |
 | 16 | 知乎去广告助手 | [zhihu_plus.qxrewrite](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.qxrewrite) | blackmatrix7 |
 | 17 | 什么值得买去广告 | [smzdm_remove_ads.qxrewrite](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.qxrewrite) | blackmatrix7 |
 
