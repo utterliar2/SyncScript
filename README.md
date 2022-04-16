@@ -32,7 +32,7 @@
 | 14 | 墨鱼**专属VIP**请自行添加Hostname | [UnlockApp.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/UnlockApp.conf) | ddgksf2013 |
 | 15 | 公众号图文去广告（无法去除订阅号信息流和朋友圈AD） | [WeChatAdBlock.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/AdBlock/WeChat.conf) | ddgksf2013 |
 | 16 | 知乎去广告助手 | [Zhihu_Plus.conf](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.qxrewrite) | blackmatrix7 |
-| 17 | 什么值得买去广告 | [Smzdm_Remove_Ads.conf](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.qxrewrite) | blackmatrix7 |
+| 17 | 什么值得买去广告 | [Smzdm_Ads.conf](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.qxrewrite) | blackmatrix7 |
 | 18 | 百度贴吧去广告 | [Tieba_Ad.conf](https://raw.githubusercontent.com/Nick-workflow/script-test/main/bdtb/tb-ad.conf) | nickworkflow |
 | 19 | Youtube无中文字幕机翻方案 | [Youtube_CC.conf](https://github.com/id77/QuantumultX/raw/master/rewrite/Youtube_CC.conf) | id77 |
 | 20 | 各种流媒体字幕翻译+[捷径](https://www.icloud.com/shortcuts/136b52e6452b4a10b3ea647f925cddd0) | [Dualsub.conf](https://raw.githubusercontent.com/Neurogram-R/Quantumult-X/main/snippet/Dualsub.snippet) | neurogramr7 |
