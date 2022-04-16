@@ -22,7 +22,7 @@
 | 4 | 开屏广告屏蔽计划 | [StartUp.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/AdBlock/StartUp.conf) | ddgksf2013 |
 | 5 | 油管广告屏蔽 | [YoutubeAds.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/AdBlock/YoutubeAds.conf) | divineEngine |
 | 6 | 微博最新去广告 | [Weibo.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/AdBlock/Weibo.conf) | zmqcherish |
-| 7 | B站自动换区 | [BilibiliAutoRegion.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/Function/BilibiliAutoRegion.conf) | NobyDa |
+| 7 | B站自动换区 | [BilibiliAutoRegion.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/Function/BilibiliAutoRegion.conf) | nobyDa |
 | 8 | B站CC繁体字幕转简体 | [Bilibili_CC.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/Function/Bilibili_CC.conf) | ddgksf2013 |
 | 9 | Google自动翻页 | [EndlessGoogle.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/Function/EndlessGoogle.conf) | langkhach |
 | 10 | 百度网盘倍速 | [BaiduCloud.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/UnlockVip/BaiduCloud.conf) | ddgksf2013 |
