@@ -3,4 +3,4 @@
 - **[Orz-3](https://raw.githubusercontent.com/Orz-3/QuantumultX/master/Orz-3.conf)**
 - **[KOP-XIAO](https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/QuantumultX_Profiles.conf)**
 - **[DivineEngine](https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Outbound.conf)**
-- **[墨鱼手记](https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Profile/QuantumultX.conf)**
+- **[Cuttlefish](https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Profile/QuantumultX.conf)**
