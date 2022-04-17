@@ -6,7 +6,7 @@
 
 [task_local]
 
-15 7,15 * * * https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/60s.js, tag=每天60s读懂世界
+0 9 * * * https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/60s.js, tag=每天60s读懂世界
 
 */
 
