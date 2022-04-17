@@ -1,6 +1,6 @@
 ## 墨魚手記（[自用](https://github.com/ddgksf2013/Cuttlefish/blob/master/Rewrite/README.md "感谢赞助")）
 [![Cuttlefish's GitHub stats](https://github-readme-stats.vercel.app/api?username=ddgksf2013&show_icons=true&count_private=true&theme=vue)](https://github.comddgksf2013/Cuttlefish)
-![](https://visitor-badge.glitch.me/badge?page_id=ddgksf2013.Cuttlefish)  
+
 
 ## QuantumultX 小白2.0配置：
 * 更新时间：2022-04-12
@@ -8,6 +8,7 @@
 * 上述配置支持QX商店最新版，包括图标库订阅、网易云音乐解锁教程、旧版应用推荐、IOS更新屏蔽、分流和重写去广告、流媒体解锁查询、知乎什么值得买去广告、各种会员解锁...
 * 可借助Fastgit为GitHub加速：将```https://raw.githubusercontent.com/``` 替换为 ```https://raw.fastgit.org/```
 * 详细内容可点击[配置说明](https://github.com/ddgksf2013/Cuttlefish/raw/master/Profile/QuantumultX.conf)
+* ![](https://visitor-badge.glitch.me/badge?page_id=ddgksf2013.Cuttlefish)  
 
 ## QuantumultX 分流配置：
 * 网易云音乐分流 [NeteaseMusic.list](https://github.com/ddgksf2013/Cuttlefish/raw/master/Filter/NeteaseMusic.list)
