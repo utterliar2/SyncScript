@@ -49,8 +49,8 @@
 
 ## QuantumultX 脚本Task：
 * 得宝小程序签到 [debao.js](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/debao.js)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;喵喵记账每日签到 [mmjz.js](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/mmjz.js)
-* QX每日色图脚本 [setu.js](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/setu.js)&nbsp;&nbsp;&nbsp;书香门第网页签到 [sxmd.js](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/shuxiangmendi.js)
-* 同程旅行小程序签到 [tclx.js](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/tclx.js)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;每天60s读懂世界 [60s.js](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/60s.js)
+* QX每日色图脚本 [setu.js](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/setu.js)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;书香门第网页签到 [sxmd.js](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/shuxiangmendi.js)
+* 同程旅行小程序签到 [tclx.js](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/tclx.js)&nbsp;&nbsp;&nbsp;每天60s读懂世界 [60s.js](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/60s.js)
 
 ## Awesome Resource：
 * 一些优秀Github库 [README.md](https://github.com/ddgksf2013/Cuttlefish/blob/master/Github/README.md)
