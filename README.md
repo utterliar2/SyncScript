@@ -12,7 +12,7 @@
 
 
 ## QuantumultX 小白2.0配置：
-* 更新时间：2022-04-12 <p align="left"> <img src='https://img.shields.io/badge/by-Cuttlefish-brightgreen'> </p>
+* 更新时间：2022-04-12 
 * 墨鱼自用QX配置 [Cuttlefish.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Profile/QuantumultX.conf) 
 * 上述配置支持QX商店最新版，包括图标库订阅、网易云音乐解锁教程、旧版应用推荐、IOS更新屏蔽、分流和重写去广告、流媒体解锁查询、知乎什么值得买去广告、各种会员解锁...
 * 可借助Fastgit为GitHub加速：将```https://raw.githubusercontent.com/``` 替换为 ```https://raw.fastgit.org/```
