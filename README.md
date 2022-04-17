@@ -1,3 +1,11 @@
+[![Github Badge](https://img.shields.io/badge/-Github-232323?style=flat-square&logo=Github&logoColor=white&link=https://github.com/ddgksf2013)](https://github.com/ddgksf2013)
+![](https://visitor-badge.glitch.me/badge?page_id=ddgksf2013.Cuttlefish)  
+[![Fork](https://img.shields.io/github/forks/ddgksf2013/Cuttlefish)](https://github.com/ddgksf2013/Cuttlefish/network/members)
+[![Stars](https://img.shields.io/github/stars/ddgksf2013/Cuttlefish)](https://github.com/ddgksf2013/Cuttlefish/stargazers)
+[![Commit](https://img.shields.io/github/commit-activity/m/ddgksf2013/Cuttlefish?label=Commits)](https://github.com/ddgksf2013/Cuttlefish/commits/main)
+[![Issues](https://img.shields.io/github/issues/ddgksf2013/Cuttlefish)](https://github.com/ddgksf2013/Cuttlefish/issues)
+[![Telegram](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2Flimboprossr)](https://twitter.com/limboprossr)
+
 ## 墨魚手記（[自用](https://github.com/ddgksf2013/Cuttlefish/blob/master/Rewrite/README.md "感谢赞助")）
 [![Cuttlefish's GitHub stats](https://github-readme-stats.vercel.app/api?username=ddgksf2013&show_icons=true&count_private=true&theme=vue)](https://github.comddgksf2013/Cuttlefish)
 
@@ -66,6 +74,4 @@
 
 [@Blackmatrix7](https://github.com/blackmatrix7/ios_rule_script) [@DivineEngine](https://github.com/DivineEngine) [@App2smile](https://github.com/app2smile/rules)  [@Peng-YM](https://github.com/Peng-YM) [@Nick-workflow](https://github.com/Nick-workflow) [@KOP-XIAO](https://github.com/KOP-XIAO) [@NobyDa](https://github.com/NobyDa) [@Neurogram-R](https://github.com/Neurogram-R) [@yjqiang](https://github.com/yjqiang) [@O7Y0](https://github.com/O7Y0) [@Choler](https://github.com/Choler) [@id77](https://github.com/id77) [@zmqcherish](https://github.com/zmqcherish) [@Qure](https://github.com/Koolson/Qure) [@Orz-3](https://github.com/Orz-3) [@kyle](https://github.com/Xirou) [@HotKids](https://github.com/hotKids) [@langkach](https://github.com/langkhach270389) [@lxk0301](https://github.com/lxk0301) [@zqzess](https://github.com/zqzess/rule_for_quantumultX) [@Anti-AD](https://github.com/privacy-protection-tools/anti-AD)
 
-[![Github Badge](https://img.shields.io/badge/-Github-232323?style=flat-square&logo=Github&logoColor=white&link=https://github.com/ddgksf2013)](https://github.com/ddgksf2013)
-![](https://visitor-badge.glitch.me/badge?page_id=ddgksf2013.Cuttlefish)  
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
