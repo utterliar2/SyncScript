@@ -1,5 +1,5 @@
 ### 墨鱼自用Web网站
-* 更新时间：2022-04-05
+* 更新时间：2022-04-18
 * 备份一些WebUrl
 * 备注带★为QX网页优化对象
 
@@ -30,6 +30,7 @@
 | PDF处理|  https://smallpdf.com/ | 很全面 |
 | 果核剥壳|  https://www.ghxi.com/ | Win软件下载 |
 | 白描网页 |  https://web.baimiaoapp.com/ | 工具 |
+| 图片放大 |  http://waifu2x.udp.jp/ |  waifu |
 | | | |
 | **名称** | **尽享阅读** | **备注** |
 | 拷贝漫画 |  https://copymanga.com/ |  在线漫画，YYDS |
