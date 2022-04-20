@@ -21,6 +21,7 @@
 | 万能win&office激活 | https://github.com/zbezj/HEU_KMS_Activator | |
 | 直播源 | https://github.com/iptv-org/iptv | |
 | 阿里云盘小白羊 | https://github.com/liupan1890/aliyunpan | |
+| Apple相关服务解锁 | https://github.com/VirgilClyne/iRingo/tree/main#quantumult-x |
 | 投稿助手 | https://t.me/ddgksf2013_bot |  |
 
 
