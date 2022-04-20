@@ -32,7 +32,7 @@
 | 4 | 开屏广告屏蔽计划 | [StartUp.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/AdBlock/StartUp.conf) | ddgksf2013 |
 | 5 | 油管广告屏蔽 | [YoutubeAds.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/AdBlock/YoutubeAds.conf) | divineEngine |
 | 6 | 微博最新去广告 | [Weibo.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/AdBlock/Weibo.conf) | zmqcherish |
-| 7 | B站自动换区 | [BilibiliAutoRegion.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/Function/BilibiliAutoRegion.conf) | nobyda |
+| 7 | B站自动换区 | [BilibiliAutoRegion.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/Function/BilibiliAutoRegion.conf) | Nobyda |
 | 8 | B站CC繁体字幕转简体 | [Bilibili_CC.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/Function/Bilibili_CC.conf) | ddgksf2013 |
 | 9 | Google自动翻页 | [EndlessGoogle.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/Function/EndlessGoogle.conf) | langkhach |
 | 10 | 百度网盘倍速 | [BaiduCloud.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/UnlockVip/BaiduCloud.conf) | ddgksf2013 |
@@ -43,9 +43,9 @@
 | 15 | 公众号图文去广告（无法去除订阅号信息流和朋友圈AD） | [WeChatAdBlock.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/AdBlock/WeChat.conf) | ddgksf2013 |
 | 16 | 知乎去广告助手 | [Zhihu_Plus.conf](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.qxrewrite) | blackmatrix7 |
 | 17 | 什么值得买去广告 | [Smzdm_Ads.conf](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.qxrewrite) | blackmatrix7 |
-| 18 | 百度贴吧去广告 | [Tieba_Ads.conf](https://raw.githubusercontent.com/Nick-workflow/script-test/main/bdtb/tb-ad.conf) | nickworkflow |
+| 18 | 百度贴吧去广告 | [Tieba_Ads.conf](https://raw.githubusercontent.com/Nick-workflow/script-test/main/bdtb/tb-ad.conf) | Nickworkflow |
 | 19 | Youtube无中文字幕机翻方案 | [Youtube_CC.conf](https://raw.githubusercontent.com/id77/QuantumultX/master/rewrite/Youtube_CC.conf#out=Hant) | id77 |
-| 20 | 各种流媒体字幕翻译+[捷径](https://www.icloud.com/shortcuts/8ec4a2a3af514282bf27a11050f39fc2) | [Dualsub.conf](https://raw.githubusercontent.com/Neurogram-R/Quantumult-X/main/snippet/Dualsub.snippet) | neurogramr7 |
+| 20 | 各种流媒体字幕翻译+[捷径](https://www.icloud.com/shortcuts/8ec4a2a3af514282bf27a11050f39fc2) | [Dualsub.conf](https://raw.githubusercontent.com/Neurogram-R/Quantumult-X/main/snippet/Dualsub.snippet) | Neurogramr7 |
 |  21  | AppleWeather   | [Apple_Weather.conf](https://github.com/VirgilClyne/iRingo/raw/beta/qxrewrite/Weather.beta.qxrewrite) | VirgilClyne |
 |  22  | Siri与搜索   | [Siri.conf](https://github.com/VirgilClyne/iRingo/raw/main/qxrewrite/Siri.qxrewrite) | VirgilClyne |
 
