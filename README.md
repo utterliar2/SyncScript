@@ -44,7 +44,7 @@
 | 16 | 知乎去广告助手 | [Zhihu_Plus.conf](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.qxrewrite) | blackmatrix7 |
 | 17 | 什么值得买去广告 | [Smzdm_Ads.conf](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.qxrewrite) | blackmatrix7 |
 | 18 | 百度贴吧去广告 | [Tieba_Ads.conf](https://raw.githubusercontent.com/Nick-workflow/script-test/main/bdtb/tb-ad.conf) | nickworkflow |
-| 19 | Youtube无中文字幕机翻方案 | [Youtube_CC.conf](https://github.com/id77/QuantumultX/raw/master/rewrite/Youtube_CC.conf) | id77 |
+| 19 | Youtube无中文字幕机翻方案 | [Youtube_CC.conf](https://raw.githubusercontent.com/id77/QuantumultX/master/rewrite/Youtube_CC.conf#out=Hant) | id77 |
 | 20 | 各种流媒体字幕翻译+[捷径](https://www.icloud.com/shortcuts/8ec4a2a3af514282bf27a11050f39fc2) | [Dualsub.conf](https://raw.githubusercontent.com/Neurogram-R/Quantumult-X/main/snippet/Dualsub.snippet) | neurogramr7 |
 
 ## QuantumultX 脚本Task：
