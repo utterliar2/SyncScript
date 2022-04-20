@@ -24,6 +24,7 @@
 | Z-library|  https://z-lib.org/ | 电子书下载，YYDS |
 | Wallhaven |  https://wallhaven.cc/ |  自用壁纸下载 |
 | 阿里小站   | https://newxiaozhan.com/t/video | 精心整理的阿里云盘资源 |
+| 音范丝 | https://www.yinfans.me/ | 原盘下载 |
 | | | |
 | **名称** | **工具相关** | **备注** |
 | Pixiv |  https://m.pixivic.com/dailyRank | 每日排行 |
