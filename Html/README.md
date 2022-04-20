@@ -14,6 +14,8 @@
 | 天空影视 |  https://www.tkys.tv/ | 新起之秀★  | 
 | Zzzfun | http://www.zzzfun.com/ |  在线动漫，比较全面 |
 | Ebb | https://ebb.io/ | 在线动漫，可备用 |
+| 独播库|  https://duboku.ru/ | 大同小异 |
+| NO视频 | https://www.novipnoad.com/ | 种类会多些 |
 | | | |
 | **名称** | **资源下载** | **备注** |
 | 片库 | https://www.pianku.la/ | 在线影视，具备磁力下载★ |
