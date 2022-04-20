@@ -4,6 +4,7 @@
 [![Fork](https://img.shields.io/github/forks/ddgksf2013/Cuttlefish)](https://github.com/ddgksf2013/Cuttlefish/network/members)
 [![Commit](https://img.shields.io/github/commit-activity/m/ddgksf2013/Cuttlefish?label=Commits)](https://github.com/ddgksf2013/Cuttlefish/commits/master)
 [![Telegram](https://img.shields.io/badge/Telegram-Channel-33A8E3)](https://t.me/ddgksf2021)
+[![License](https://img.shields.io/github/license/ddgksf2013/Cuttlefish)](https://github.com/ddgksf2013/Cuttlefish/blob/master/LICENSE)
 [![Issues](https://img.shields.io/github/issues/ddgksf2013/Cuttlefish)](https://github.com/ddgksf2013/Cuttlefish/issues)
 
 
