@@ -48,7 +48,7 @@
 | 20 | 各种流媒体字幕翻译+[捷径](https://www.icloud.com/shortcuts/8ec4a2a3af514282bf27a11050f39fc2) | [Dualsub.conf](https://raw.githubusercontent.com/Neurogram-R/Quantumult-X/main/snippet/Dualsub.snippet) | Neurogramr7 |
 |  21  | AppleWeather   | [AppleWeather.conf](https://github.com/VirgilClyne/iRingo/raw/beta/qxrewrite/Weather.beta.qxrewrite) | VirgilClyne |
 |  22  | Siri与搜索2.0   | [SiriSearch.conf](https://github.com/VirgilClyne/iRingo/raw/main/qxrewrite/Siri.qxrewrite) | VirgilClyne |
-|  23  | 微信110   | [UnblockURLinWeChat.conf](https://github.com/zZPiglet/Task/raw/master/UnblockURLinWeChat.conf) | zZPiglet |
+|  23  | 微信110解锁被屏蔽的URL   | [UnblockURLinWeChat.conf](https://github.com/zZPiglet/Task/raw/master/UnblockURLinWeChat.conf) | zZPiglet |
 
 ## QuantumultX 脚本Task：
 * 得宝小程序签到 [debao.js](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/debao.js)
