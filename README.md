@@ -16,7 +16,7 @@
 * 墨鱼自用QX配置 [**Cuttlefish.conf**](https://github.com/ddgksf2013/Cuttlefish/raw/master/Profile/QuantumultX.conf) 
 * 上述配置支持QX商店最新版，包括图标库订阅、网易云音乐解锁教程、旧版应用推荐、IOS更新屏蔽、分流和重写去广告、流媒体解锁查询、知乎什么值得买去广告、各种APP会员解锁...
 * 可借助Fastgit为GitHub加速：将```https://raw.githubusercontent.com/``` 替换为 ```https://raw.fastgit.org/```
-* 更多懒人配置请狠狠的[**敲击我**](https://github.com/ddgksf2013/Cuttlefish/blob/master/Profile/README.md)
+* 更多懒人配置请狠狠的[**click me**](https://github.com/ddgksf2013/Cuttlefish/blob/master/Profile/README.md)
 
 ## QuantumultX 分流配置：
 * 网易云音乐分流 [NeteaseMusic.list](https://github.com/ddgksf2013/Cuttlefish/raw/master/Filter/NeteaseMusic.list)
