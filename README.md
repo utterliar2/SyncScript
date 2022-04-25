@@ -1,10 +1,10 @@
 [![Github Badge](https://img.shields.io/badge/-Github-232323?style=flat-square&logo=Github&logoColor=white&link=https://github.com/ddgksf2013)](https://github.com/ddgksf2013)
+[![](https://tokei.rs/b1/github/ddgksf2013/Cuttlefish?category=code)](https://tokei.rs/b1/github/ddgksf2013/Cuttlefish?category=code)
 ![](https://visitor-badge.glitch.me/badge?page_id=ddgksf2013.Cuttlefish) 
 [![Stars](https://img.shields.io/github/stars/ddgksf2013/Cuttlefish)](https://github.com/ddgksf2013/Cuttlefish/stargazers)
 [![Fork](https://img.shields.io/github/forks/ddgksf2013/Cuttlefish)](https://github.com/ddgksf2013/Cuttlefish/network/members)
 [![Commit](https://img.shields.io/github/commit-activity/m/ddgksf2013/Cuttlefish?label=Commits)](https://github.com/ddgksf2013/Cuttlefish/commits/master)
 [![Telegram](https://img.shields.io/badge/Telegram-Channel-33A8E3)](https://t.me/ddgksf2021)
-[![](https://tokei.rs/b1/github/ddgksf2013/Cuttlefish?category=code)](https://tokei.rs/b1/github/ddgksf2013/Cuttlefish?category=code)
 [![Issues](https://img.shields.io/github/issues/ddgksf2013/Cuttlefish)](https://github.com/ddgksf2013/Cuttlefish/issues)
 
 
