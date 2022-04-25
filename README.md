@@ -48,6 +48,7 @@
 | 20 | 各种流媒体字幕翻译+[捷径](https://www.icloud.com/shortcuts/8ec4a2a3af514282bf27a11050f39fc2) | [Dualsub.conf](https://raw.githubusercontent.com/Neurogram-R/Quantumult-X/main/snippet/Dualsub.snippet) | Neurogramr7 |
 |  21  | AppleWeather   | [AppleWeather.conf](https://github.com/VirgilClyne/iRingo/raw/beta/qxrewrite/Weather.beta.qxrewrite) | VirgilClyne |
 |  22  | Siri与搜索2.0   | [SiriSearch.conf](https://github.com/VirgilClyne/iRingo/raw/main/qxrewrite/Siri.qxrewrite) | VirgilClyne |
+|  23  | 微信110   | [UnblockURLinWeChat.conf](https://github.com/zZPiglet/Task/raw/master/UnblockURLinWeChat.conf) | zZPiglet |
 
 ## QuantumultX 脚本Task：
 * 得宝小程序签到 [debao.js](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/debao.js)
@@ -76,6 +77,6 @@
 
 以下排名不分先后，如有遗漏可联系[@ddgksf2013](https://t.me/ddgksf)
 
-[@Blackmatrix7](https://github.com/blackmatrix7/ios_rule_script) [@DivineEngine](https://github.com/DivineEngine) [@App2smile](https://github.com/app2smile/rules)  [@Peng-YM](https://github.com/Peng-YM) [@Nick-workflow](https://github.com/Nick-workflow) [@KOP-XIAO](https://github.com/KOP-XIAO) [@NobyDa](https://github.com/NobyDa) [@Neurogram-R](https://github.com/Neurogram-R) [@yjqiang](https://github.com/yjqiang) [@O7Y0](https://github.com/O7Y0) [@Choler](https://github.com/Choler) [@id77](https://github.com/id77) [@zmqcherish](https://github.com/zmqcherish) [@Qure](https://github.com/Koolson/Qure) [@Orz-3](https://github.com/Orz-3) [@kyle](https://github.com/Xirou) [@HotKids](https://github.com/hotKids) [@langkach](https://github.com/langkhach270389) [@lxk0301](https://github.com/lxk0301) [@zqzess](https://github.com/zqzess/rule_for_quantumultX) [@Anti-AD](https://github.com/privacy-protection-tools/anti-AD) [@VirgilClyne](https://github.com/VirgilClyne)
+[@Blackmatrix7](https://github.com/blackmatrix7/ios_rule_script) [@DivineEngine](https://github.com/DivineEngine) [@App2smile](https://github.com/app2smile/rules)  [@Peng-YM](https://github.com/Peng-YM) [@Nick-workflow](https://github.com/Nick-workflow) [@KOP-XIAO](https://github.com/KOP-XIAO) [@NobyDa](https://github.com/NobyDa) [@Neurogram-R](https://github.com/Neurogram-R) [@yjqiang](https://github.com/yjqiang) [@O7Y0](https://github.com/O7Y0) [@Choler](https://github.com/Choler) [@id77](https://github.com/id77) [@zmqcherish](https://github.com/zmqcherish) [@Qure](https://github.com/Koolson/Qure) [@Orz-3](https://github.com/Orz-3) [@kyle](https://github.com/Xirou) [@HotKids](https://github.com/hotKids) [@langkach](https://github.com/langkhach270389) [@lxk0301](https://github.com/lxk0301) [@zqzess](https://github.com/zqzess/rule_for_quantumultX) [@Anti-AD](https://github.com/privacy-protection-tools/anti-AD) [@VirgilClyne](https://github.com/VirgilClyne) [@zZPiglet](https://github.com/zZPiglet/Task/tree/master) 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
