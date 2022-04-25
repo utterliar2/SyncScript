@@ -4,6 +4,7 @@
 [![Fork](https://img.shields.io/github/forks/ddgksf2013/Cuttlefish)](https://github.com/ddgksf2013/Cuttlefish/network/members)
 [![Commit](https://img.shields.io/github/commit-activity/m/ddgksf2013/Cuttlefish?label=Commits)](https://github.com/ddgksf2013/Cuttlefish/commits/master)
 [![Telegram](https://img.shields.io/badge/Telegram-Channel-33A8E3)](https://t.me/ddgksf2021)
+[![](https://tokei.rs/b1/github/ddgksf2013/Cuttlefish?category=code)](https://tokei.rs/b1/github/ddgksf2013/Cuttlefish?category=code)
 [![Issues](https://img.shields.io/github/issues/ddgksf2013/Cuttlefish)](https://github.com/ddgksf2013/Cuttlefish/issues)
 
 
@@ -19,11 +20,9 @@
 * 更多懒人配置请狠狠的[**Click me**](https://github.com/ddgksf2013/Cuttlefish/blob/master/Profile/README.md)
 
 ## QuantumultX 分流配置：
-```ini
 * 网易云音乐分流 [NeteaseMusic.list](https://github.com/ddgksf2013/Cuttlefish/raw/master/Filter/NeteaseMusic.list)
 * 自用影视广告屏蔽 [Mybreak.list](https://github.com/ddgksf2013/Cuttlefish/raw/master/Filter/Mybreak.list)
 * 自用去广告分流 [Anti-ad.list](https://anti-ad.net/surge2.txt)
-```
 
 ## QuantumultX 重写配置：
 | 序号   | 功能   | 链接   | 作者    |
