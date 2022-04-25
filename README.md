@@ -59,10 +59,10 @@
 * 每天60s读懂世界[地址](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/60s.js)
 
 ## Awesome Resource：
-* 一些优秀Github库 [README.md](https://github.com/ddgksf2013/Cuttlefish/blob/master/Github/README.md)
-* 自用**优秀Web网站** [README.md](https://github.com/ddgksf2013/Cuttlefish/blob/master/Html/README.md)
-* QuantumultX测试版更新日志 [QX_TestFlight_Update.log](https://github.com/ddgksf2013/Cuttlefish/raw/master/Profile/QX_TestFlight_Update.log)
-* 自用Clash配置 [Config.yaml](https://github.com/ddgksf2013/Cuttlefish/raw/master/Profile/Config.yaml)
+* 一些优秀Github库[README.md](https://github.com/ddgksf2013/Cuttlefish/blob/master/Github/README.md)
+* 自用**优秀Web网站**[README.md](https://github.com/ddgksf2013/Cuttlefish/blob/master/Html/README.md)
+* QuantumultX测试版[更新日志](https://github.com/ddgksf2013/Cuttlefish/raw/master/Profile/QX_TestFlight_Update.log)
+* 自用Clash配置[Config.yaml](https://github.com/ddgksf2013/Cuttlefish/raw/master/Profile/Config.yaml)
 * Clash详细教程[Documents.md](https://docs.cfw.lbyczf.com/contents/quickstart.html)
 
 ## Telegram 通知频道：
