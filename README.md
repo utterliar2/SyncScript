@@ -1,4 +1,3 @@
-[![Github Badge](https://img.shields.io/badge/-Github-232323?style=flat-square&logo=Github&logoColor=white&link=https://github.com/ddgksf2013)](https://github.com/ddgksf2013)
 [![](https://tokei.rs/b1/github/ddgksf2013/Cuttlefish?category=code)](https://tokei.rs/b1/github/ddgksf2013/Cuttlefish?category=code)
 ![](https://visitor-badge.glitch.me/badge?page_id=ddgksf2013.Cuttlefish) 
 [![Stars](https://img.shields.io/github/stars/ddgksf2013/Cuttlefish)](https://github.com/ddgksf2013/Cuttlefish/stargazers)
