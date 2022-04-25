@@ -46,8 +46,8 @@
 | 18 | 百度贴吧去广告 | [Tieba_Ads.conf](https://raw.githubusercontent.com/Nick-workflow/script-test/main/bdtb/tb-ad.conf) | Nickworkflow |
 | 19 | Youtube无中文字幕机翻方案 | [Youtube_CC.conf](https://raw.githubusercontent.com/id77/QuantumultX/master/rewrite/Youtube_CC.conf#out=Hant) | id77 |
 | 20 | 各种流媒体字幕翻译+[捷径](https://www.icloud.com/shortcuts/8ec4a2a3af514282bf27a11050f39fc2) | [Dualsub.conf](https://raw.githubusercontent.com/Neurogram-R/Quantumult-X/main/snippet/Dualsub.snippet) | Neurogramr7 |
-|  21  | AppleWeather   | [Apple_Weather.conf](https://github.com/VirgilClyne/iRingo/raw/beta/qxrewrite/Weather.beta.qxrewrite) | VirgilClyne |
-|  22  | Siri与搜索2.0   | [Siri.conf](https://github.com/VirgilClyne/iRingo/raw/main/qxrewrite/Siri.qxrewrite) | VirgilClyne |
+|  21  | AppleWeather   | [AppleWeather.conf](https://github.com/VirgilClyne/iRingo/raw/beta/qxrewrite/Weather.beta.qxrewrite) | VirgilClyne |
+|  22  | Siri与搜索2.0   | [SiriSearch.conf](https://github.com/VirgilClyne/iRingo/raw/main/qxrewrite/Siri.qxrewrite) | VirgilClyne |
 
 ## QuantumultX 脚本Task：
 * 得宝小程序签到 [debao.js](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/debao.js)
