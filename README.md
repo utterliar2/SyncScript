@@ -51,12 +51,12 @@
 |  23  | 微信110解锁被屏蔽的URL   | [UnblockWeChat.conf](https://github.com/zZPiglet/Task/raw/master/UnblockURLinWeChat.conf) | zZPiglet |
 
 ## QuantumultX 脚本Task：
-* 得宝小程序签到[地址](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/debao.js)
-* 喵喵记账每日签到[地址](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/mmjz.js)
-* QX每日色图脚本[地址](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/setu.js)
-* 书香门第网页签到[地址](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/shuxiangmendi.js)
-* 同程旅行小程序签到[地址](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/tclx.js)
-* 每天60s读懂世界[地址](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/60s.js)
+* ->[得宝小程序签到](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/debao.js)
+* ->[喵喵记账每日签到](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/mmjz.js)
+* ->[QX每日色图脚本](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/setu.js)
+* ->[书香门第网页签到](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/shuxiangmendi.js)
+* ->[同程旅行小程序签到](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/tclx.js)
+* ->[每天60s读懂世界](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/60s.js)
 
 ## Awesome Resource：
 * 一些优秀Github库[README.md](https://github.com/ddgksf2013/Cuttlefish/blob/master/Github/README.md)
