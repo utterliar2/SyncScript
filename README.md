@@ -28,7 +28,7 @@
 | :----: | :----- | :----- | :----- |
 | 1 | 微信小程序去广告神器 | [Applet.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Applet/QuanX.conf) |  ddgksf2013 |
 | 2 | 自用影视网站去广告 | [WebAdBlock.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Html/WebAdBlock.conf) | ddgksf2013 |
-| 3 | 真B站去广告+解锁普通视频**1080P高码率和4K画质**| [Bilibili.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/AdBlock/Bilibili.conf) | ddgksf2013 |
+| 3 | 真B站去广告+解锁普通视频***1080P高码率和4K画质***| [Bilibili.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/AdBlock/Bilibili.conf) | ddgksf2013 |
 | 4 | 开屏广告屏蔽计划 | [StartUp.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/AdBlock/StartUp.conf) | ddgksf2013 |
 | 5 | 油管广告屏蔽 | [YoutubeAds.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/AdBlock/YoutubeAds.conf) | divineEngine |
 | 6 | 微博最新去广告 | [Weibo.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/AdBlock/Weibo.conf) | zmqcherish |
@@ -39,7 +39,7 @@
 | 11 | 酷我音乐超级VIP | [KuwoVIP.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/UnlockVip/Kuwo.conf) | ddgksf2013 |
 | 12 | 人人视频完美去广告 | [Rrtv.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/UnlockVip/Rrtv.conf) | ddgksf2013 |
 | 13 | Spotify会员 | [SpotifyPro.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/UnlockVip/Spotify.conf) | app2smile |
-| 14 | 墨鱼**专属VIP**请自行添加Hostname | [UnlockApp.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/UnlockApp.conf) | ddgksf2013 |
+| 14 | 墨鱼***专属VIP***请自行添加Hostname | [UnlockApp.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/UnlockApp.conf) | ddgksf2013 |
 | 15 | 公众号图文去广告（无法去除订阅号信息流和朋友圈AD） | [WeChatAdBlock.conf](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/AdBlock/WeChat.conf) | ddgksf2013 |
 | 16 | 知乎去广告助手 | [Zhihu_Plus.conf](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.qxrewrite) | blackmatrix7 |
 | 17 | 什么值得买去广告 | [Smzdm_Ads.conf](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.qxrewrite) | blackmatrix7 |
