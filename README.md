@@ -51,12 +51,14 @@
 |  23  | 微信110解锁被屏蔽的URL   | [UnblockWeChat.conf](https://github.com/zZPiglet/Task/raw/master/UnblockURLinWeChat.conf) | zZPiglet |
 
 ## QuantumultX 脚本Task：
-* ->[得宝小程序签到](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/debao.js)
-* ->[喵喵记账每日签到](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/mmjz.js)
-* ->[QX每日色图脚本](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/setu.js)
-* ->[书香门第网页签到](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/shuxiangmendi.js)
-* ->[同程旅行小程序签到](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/tclx.js)
-* ->[每天60s读懂世界](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/60s.js)
+| 序号   | 功能   | 链接   | 作者    | 更新时间    |
+| :----: | :----- | :----- | :----- | :----- |
+| 1 | 得宝小程序签到 | [debao.js](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/debao.js) |  ddgksf2013 | 2021-05-21 |
+| 2 | 喵喵记账每日签到 | [mmjz.js](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/mmjz.js) |  ddgksf2013 | 2021-01-06 |
+| 3 | QX每日色图脚本 | [setu.js](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/setu.js) |  ddgksf2013 | 2021-02-12 |
+| 4 | 书香门第网页签到 | [sxmd.js](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/shuxiangmendi.js) |  ddgksf2013 |  2022-04-11 |
+| 5 | 同程旅行小程序签到 | [tclx.js](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/tclx.js) |  ddgksf2013 | 2021-06-28 |
+| 6 | 每天60s读懂世界 | [60s.js](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/60s.js) |  ddgksf2013 | 2022-04-17 |
 
 ## Awesome Resource：
 * 一些优秀Github库[README.md](https://github.com/ddgksf2013/Cuttlefish/blob/master/Github/README.md)
