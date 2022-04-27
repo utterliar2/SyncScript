@@ -63,7 +63,7 @@
 
 ## Awesome Resource：
 * 一些优秀Github库 [*Read.md*](https://github.com/ddgksf2013/Cuttlefish/blob/master/Github/README.md)
-* QuantumultX测试版[更新日志](https://github.com/ddgksf2013/Cuttlefish/raw/master/Profile/QX_TestFlight_Update.log)
+* QuantumultX测试版[***更新日志***](https://github.com/ddgksf2013/Cuttlefish/raw/master/Profile/QX_TestFlight_Update.log)
 * 自用Clash配置 [*Config.yaml*](https://github.com/ddgksf2013/Cuttlefish/raw/master/Profile/Config.yaml)
 * Clash详细教程 [*Documents.md*](https://docs.cfw.lbyczf.com/contents/quickstart.html)
 * [***自用优秀Web网站合集***](https://github.com/ddgksf2013/Cuttlefish/blob/master/Html/README.md)：影视、工具、下载、阅读、Porn...
