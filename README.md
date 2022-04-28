@@ -64,7 +64,7 @@
 > 为使*Task*脚本兼容多个*App*，使用了 [*env.js*](https://github.com/chavyleung/scripts/blob/master/Env.js)
 
 ## Awesome Resource：
-* 一些优秀Github库 [*Read.md*](https://github.com/ddgksf2013/Cuttlefish/blob/master/Github/README.md)
+* 一些优秀Github库 [*Read.md*](https://github.com/ddgksf2013/Cuttlefish/blob/master/Backup/README.md)
 * QuantumultX测试版[***更新日志***](https://github.com/ddgksf2013/Cuttlefish/raw/master/Profile/QX_TestFlight_Update.log)
 * 自用Clash配置 [*Config.yaml*](https://github.com/ddgksf2013/Cuttlefish/raw/master/Profile/Config.yaml)
 * Clash详细教程 [*Documents.md*](https://docs.cfw.lbyczf.com/contents/quickstart.html)
