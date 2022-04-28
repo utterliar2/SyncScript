@@ -48,11 +48,11 @@ HOST-SUFFIX, cdndm5.com, Bahamut
 
 
 # ~ Spotify 
-USER-AGENT,Spotify*,Bahamut
-DOMAIN-SUFFIX,pscdn.co,Bahamut
-DOMAIN-SUFFIX,scdn.co,Bahamut
-DOMAIN-SUFFIX,spotify.com,Bahamut
-DOMAIN-SUFFIX,spoti.fi,Bahamut
+USER-AGENT,Spotify*,DIRECT
+DOMAIN-SUFFIX,pscdn.co,DIRECT
+DOMAIN-SUFFIX,scdn.co,DIRECT
+DOMAIN-SUFFIX,spotify.com,DIRECT
+DOMAIN-SUFFIX,spoti.fi,DIRECT
 
 # ~ Youtube
 USER-AGENT,com.google.ios.youtube*,Youtube
@@ -249,5 +249,4 @@ HOST, www.abskoop.com, DIRECT
 HOST-SUFFIX, qianoo.cn, DIRECT
 HOST-SUFFIX, nfmovies.com, DIRECT
 HOST-SUFFIX, apple.com, DIRECT
-
 HOST-KEYWORD, bimiacg, DIRECT
