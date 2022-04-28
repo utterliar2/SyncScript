@@ -4,13 +4,13 @@
 // @RelatedGitHub     https://github.com/ddgksf2013/Cuttlefish
 // @WechatID          公眾號墨魚手記
 // @TgChannel         https://t.me/ddgksf2021
-// @UpdateTime        2022-03-10
+// @UpdateTime        2022-04-28
 // @Function          分流配置（自用，混合policy、proxy、reject、direct，不建議使用）
 // @Suitable          自行觀看 「# ~ 」
 // @ScriptURL         https://github.com/ddgksf2013/Cuttlefish/raw/master/Filter/MyAdRule.list
 // ==/UserScript==
 
-# ～ POLICY✅
+# ~ POLICY✅
 
 # ~ DIRECT❌
 HOST, gateway.icloud.com, DIRECT
@@ -22,9 +22,10 @@ HOST, www.abskoop.com, DIRECT
 HOST-SUFFIX, qianoo.cn, DIRECT
 HOST-SUFFIX, nfmovies.com, DIRECT
 HOST-SUFFIX, apple.com, DIRECT
+
 HOST-KEYWORD, bimiacg, DIRECT
 
-# ～ bilibili
+# ~ bilibili
 DOMAIN,api.biliapi.com,StreamingSE
 DOMAIN,api.biliapi.net,StreamingSE
 DOMAIN,api.bilibili.com,StreamingSE
@@ -36,18 +37,18 @@ DOMAIN,m.bilibili.com,StreamingSE
 DOMAIN,upos-hz-mirrorakam.akamaized.net,StreamingSE
 DOMAIN,www.bilibili.com,StreamingSE
 DOMAIN-KEYWORD,cn-hk-eq-bcache-,StreamingSE
+# ~ 愛奇藝台灣站
+DOMAIN,cache.video.iqiyi.com,StreamingSE
+IP-CIDR,116.211.202.206/32,StreamingSE
+IP-CIDR,116.211.202.216/32,StreamingSE
 
-# ～ 愛奇藝台灣站
-DOMAIN,cache.video.iqiyi.com,Bahamut
-IP-CIDR,116.211.202.206/32,Bahamut
-IP-CIDR,116.211.202.216/32,Bahamut
-# ～ KKTV
+# ~ KKTV
 USER-AGENT,KKTV*,Bahamut
 USER-AGENT,com.kktv.ios.kktv*,Bahamut
 DOMAIN-SUFFIX,kktv.com.tw,Bahamut
 DOMAIN-SUFFIX,kktv.me,Bahamut
 DOMAIN,kktv-theater.kk.stream,Bahamut
-# ～ Bahamut 
+# ~ Bahamut 
 USER-AGENT,Anime*,Bahamut
 DOMAIN-SUFFIX,bahamut.com.tw,Bahamut
 DOMAIN-SUFFIX,gamer.com.tw,Bahamut
@@ -73,8 +74,6 @@ DOMAIN,youtubei.googleapis.com,Youtube
 # ~ Google Search
 DOMAIN-KEYWORD, hanime, Youtube
 DOMAIN-KEYWORD, google,Youtube
-
-
 
 # ~ Twitter
 HOST-SUFFIX,periscope.tv,Twitter
@@ -247,6 +246,8 @@ HOST, www.ikanmh.top, proxy
 HOST, go2think.com, proxy
 
 USER-AGENT,SpeedTest*,PROXY
+
+############################################################
 
 # > Tiktok
 HOST,p16-tiktokcdn-com.akamaized.net,PROXY
