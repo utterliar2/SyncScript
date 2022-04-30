@@ -4,3 +4,6 @@
 - **[KOP-XIAO](https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/QuantumultX_Profiles.conf)**
 - **[DivineEngine](https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Outbound.conf)**
 - **[Cuttlefish](https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Profile/QuantumultX.conf)**
+- **[烧烤哥](https://raw.githubusercontent.com/Tartarus2014/QuantumultX-Script/main/QuanX.conf)**
+
+##### 感谢各位的规则分享以及辛勤维护！
