@@ -6,4 +6,4 @@
 - **[Cuttlefish](https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Profile/QuantumultX.conf)**
 - **[Tartarus2014](https://raw.githubusercontent.com/Tartarus2014/QuantumultX-Script/main/QuanX.conf)**
 
-### 感谢各位的规则分享以及辛勤维护！
+#### 感谢各位的规则分享以及辛勤维护！
