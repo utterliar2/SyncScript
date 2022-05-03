@@ -2,12 +2,10 @@
 * 免费公益v2ray节点订阅地址[自助获取](https://www.v2rayfree.eu.org/post/free-v2ray)
 
 <table>
-   <tr>
+    <tr>
 	    <th>类别</th>
 	    <th>地址</th>
-	    <th>备注</th>  
-	</tr >
-
+    </tr >
     <tr>
         <td rowspan="3">Windows</td>    
         <td ><a href="https://github.com/Fndroid/clash_for_windows_pkg/releases">Clash</a></td>  
@@ -20,11 +18,11 @@
     </tr>
     <tr>
         <td>MacOS</td> 
-        <td><a href="https://github.com/yichengchen/clashX/releases">Clash</a>Clash</td> 
+        <td><a href="https://github.com/yichengchen/clashX/releases">Clash</a></td> 
    </tr>
    <tr>
         <td>安卓</td> 
-        <td><a href="https://github.com/Kr328/ClashForAndroid/releases">Clash</a>Clash</td> 
+        <td><a href="https://github.com/Kr328/ClashForAndroid/releases">Clash</a></td> 
    </tr>
    <tr>
         <td rowspan="6">IOS付费</td>    
