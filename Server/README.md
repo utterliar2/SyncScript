@@ -3,11 +3,16 @@
 
 <table>
    <tr>
+	    <th>类别</th>
+	    <th>地址</th>
+	    <th>备注</th>  
+	</tr >
+   <tr>
         <td colspan="2">合并行</td>    
    </tr>
     <tr>
         <td rowspan="3">Windows</td>    
-        <td >Clash [Github](https://github.com/Fndroid/clash_for_windows_pkg/releases) </td>  
+        <td ><a href="https://github.com/Fndroid/clash_for_windows_pkg/releases">Clash</a> </td>  
     </tr>
     <tr>
         <td >镜像1 [地址](https://github.do/https://github.com/Fndroid/clash_for_windows_pkg/releases/download/0.19.14/Clash.for.Windows.Setup.0.19.14.exe)</td>  
