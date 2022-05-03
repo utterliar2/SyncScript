@@ -9,7 +9,8 @@
     </tr >
     <tr>
         <td rowspan="3">Windows</td>    
-        <td ><a href="https://github.com/Fndroid/clash_for_windows_pkg/releases">Clash</a></td>  
+        <td ><a href="https://github.com/Fndroid/clash_for_windows_pkg/releases">Clash</a></td>
+	<td></td>
     </tr>
     <tr>
     <td ><a href="https://github.do/https://github.com/Fndroid/clash_for_windows_pkg/releases/download/0.19.14/Clash.for.Windows.Setup.0.19.14.exe">镜像1</a></td> 
