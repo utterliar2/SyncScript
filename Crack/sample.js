@@ -3,7 +3,7 @@
 // @Author            Cuttlefish
 // @Tg group          https://t.me/ddgksf2013
 // @WechatID          公众号墨鱼手记
-// @UpdateTime        20200910
+// @UpdateTime        2022-05-03
 // @ScriptURL         https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/sample.js
 // ==/UserScript==
 
