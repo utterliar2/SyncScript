@@ -5,13 +5,14 @@
     <tr>
 	    <th>类别</th>
 	    <th>地址</th>
+	    <th>备注</th>
     </tr >
     <tr>
         <td rowspan="3">Windows</td>    
         <td ><a href="https://github.com/Fndroid/clash_for_windows_pkg/releases">Clash</a></td>  
+	<td ><a href="https://github.do/https://github.com/Fndroid/clash_for_windows_pkg/releases/download/0.19.14/Clash.for.Windows.Setup.0.19.14.exe">镜像1</a></td> 
     </tr>
     <tr>
-        <td ><a href="https://github.do/https://github.com/Fndroid/clash_for_windows_pkg/releases/download/0.19.14/Clash.for.Windows.Setup.0.19.14.exe">镜像1</a></td> 
     </tr>
     <tr>
         <td ><a href="https://ghproxy.com/?q=https%3A%2F%2Fgithub.com%2FFndroid%2Fclash_for_windows_pkg%2Freleases%2Fdownload%2F0.19.14%2FClash.for.Windows.Setup.0.19.14.exe">镜像2</a></td>  
