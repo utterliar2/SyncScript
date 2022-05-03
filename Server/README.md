@@ -34,27 +34,27 @@
    </tr>
    <tr>
         <td rowspan="6">IOS付费</td>    
-        <td ><a href="https://apps.apple.com/us/app/id932747118">Shadowrocket$2.99</a></td> 
+        <td ><a href="https://apps.apple.com/us/app/id932747118">Shadowrocket $2.99</a></td> 
 	<td>最佳代理工具</td>
     </tr>
     <tr>  
-        <td ><a href="https://apps.apple.com/us/app/id1443988620">QuantumultX$7.99</a></td>  
+        <td ><a href="https://apps.apple.com/us/app/id1443988620">QuantumultX $7.99</a></td>  
 	<td>YYDS</td>
     </tr>
     <tr>  
-        <td ><a href="https://apps.apple.com/us/app/id1373567447">Loon$4.99</a></td>  
+        <td ><a href="https://apps.apple.com/us/app/id1373567447">Loon $4.99</a></td>  
 	<td></td>
     </tr>
     <tr>  
-        <td ><a href="https://apps.apple.com/us/app/id1442620678">Surge$49.99</a></td>  
+        <td ><a href="https://apps.apple.com/us/app/id1442620678">Surge $49.99</a></td>  
 	<td>功能性订阅</td>
     </tr>
     <tr>  
-        <td ><a href="https://apps.apple.com/us/app/id1582542227">Choc$2.99</a></td>  
+        <td ><a href="https://apps.apple.com/us/app/id1582542227">Choc $2.99</a></td>  
 	<td></td>
     </tr>
     <tr>  
-        <td ><a href="https://apps.apple.com/app/id1596063349">Stash$2.99</a></td> 
+        <td ><a href="https://apps.apple.com/app/id1596063349">Stash $2.99</a></td> 
 	<td></td>
     </tr>
 </table>
