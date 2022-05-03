@@ -13,9 +13,11 @@
     </tr>
     <tr>
     <td ><a href="https://github.do/https://github.com/Fndroid/clash_for_windows_pkg/releases/download/0.19.14/Clash.for.Windows.Setup.0.19.14.exe">镜像1</a></td> 
+    <td></td>
     </tr>
     <tr>
-        <td ><a href="https://ghproxy.com/?q=https%3A%2F%2Fgithub.com%2FFndroid%2Fclash_for_windows_pkg%2Freleases%2Fdownload%2F0.19.14%2FClash.for.Windows.Setup.0.19.14.exe">镜像2</a></td>  
+        <td ><a href="https://ghproxy.com/?q=https%3A%2F%2Fgithub.com%2FFndroid%2Fclash_for_windows_pkg%2Freleases%2Fdownload%2F0.19.14%2FClash.for.Windows.Setup.0.19.14.exe">镜像2</a></td> 
+    <td></td>
     </tr>
     <tr>
     </tr>
@@ -40,14 +42,18 @@
     </tr>
     <tr>  
         <td ><a href="https://apps.apple.com/us/app/id1373567447">Loon$4.99</a></td>  
+	<td></td>
     </tr>
     <tr>  
         <td ><a href="https://apps.apple.com/us/app/id1442620678">Surge$49.99</a></td>  
+	<td></td>
     </tr>
     <tr>  
         <td ><a href="https://apps.apple.com/us/app/id1582542227">Choc$2.99</a></td>  
+	<td></td>
     </tr>
     <tr>  
-        <td ><a href="https://apps.apple.com/app/id1596063349">Stash$2.99</a></td>  
+        <td ><a href="https://apps.apple.com/app/id1596063349">Stash$2.99</a></td> 
+	<td></td>
     </tr>
 </table>
