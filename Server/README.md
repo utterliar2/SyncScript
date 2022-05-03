@@ -21,18 +21,22 @@
     </tr>
     <tr>
         <td>MacOS</td> 
-        <td><a href="https://github.com/yichengchen/clashX/releases">Clash</a></td> 
+        <td><a href="https://github.com/yichengchen/clashX/releases">Clash</a></td>
+	<td></td>
    </tr>
    <tr>
         <td>安卓</td> 
         <td><a href="https://github.com/Kr328/ClashForAndroid/releases">Clash</a></td> 
+	<td></td>
    </tr>
    <tr>
         <td rowspan="6">IOS付费</td>    
-        <td ><a href="https://apps.apple.com/us/app/id932747118">Shadowrocket$2.99</a></td>  
+        <td ><a href="https://apps.apple.com/us/app/id932747118">Shadowrocket$2.99</a></td> 
+	<td></td>
     </tr>
     <tr>  
         <td ><a href="https://apps.apple.com/us/app/id1443988620">QuantumultX$7.99</a></td>  
+	<td></td>
     </tr>
     <tr>  
         <td ><a href="https://apps.apple.com/us/app/id1373567447">Loon$4.99</a></td>  
