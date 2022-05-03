@@ -34,11 +34,11 @@
    </tr>
    <tr>
         <td rowspan="6">IOS付费</td>    
-        <td ><a href="https://apps.apple.com/us/app/id932747118">Shadowrocket $2.99</a></td> 
+        <td ><a href="https://apps.apple.com/us/app/id932747118">Shadowrocket<br/>$2.99</a></td> 
 	<td>最佳代理工具</td>
     </tr>
     <tr>  
-        <td ><a href="https://apps.apple.com/us/app/id1443988620">QuantumultX $7.99</a></td>  
+        <td ><a href="https://apps.apple.com/us/app/id1443988620">QuantumultX<br/>$7.99</a></td>  
 	<td>YYDS</td>
     </tr>
     <tr>  
