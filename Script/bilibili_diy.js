@@ -221,7 +221,8 @@ if (magicJS.read(blackKey)) {
           obj.result.modules.forEach((module) => {
             // 头部banner
             if (module.style.startsWith("banner")) {
-              module.items = module.items.filter((i) => !(i.source_content && i.source_content.ad_content));
+              //i.source_content && i.source_content.ad_content
+              module.items = module.items.filter((i) => !(i.link.indexOf("play")==-1));
             }
             if (module.style.startsWith("tip")) {
               module.items = null;
@@ -240,6 +241,9 @@ if (magicJS.read(blackKey)) {
             // 头部banner
             if (module.style.startsWith("banner")) {
               module.items = module.items.filter((i) => !(i.link.indexOf("play")==-1));
+            }
+            if (module.style.startsWith("function")) {
+              module.items = module.items.filter((i) => !(i.blink.indexOf("www.bilibili.com")==-1));
             }
             if (module.style.startsWith("tip")) {
               module.items = null;
