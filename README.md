@@ -60,7 +60,7 @@
 | 4 | 同程旅行小程序签到 | [*tclx.js*](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/tclx.js) |  ddgksf2013 | 2021-06-28 |
 | 5 | 书香门第网页签到 | [*sxmd.js*](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/shuxiangmendi.js) |  ddgksf2013 |  2022-04-11 
 | 6 | 每天60s读懂世界 | [*60s.js*](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/60s.js) |  ddgksf2013 | 2022-04-17 |
-> 为使*Task*脚本兼容多个*App*，使用了 [*env.js*](https://github.com/chavyleung/scripts/blob/master/Env.js)
+> 为使*Task*脚本兼容多种*App*，使用了 [*env.js*](https://github.com/chavyleung/scripts/blob/master/Env.js)
 
 ## Awesome Resource：
 * 一些优秀Github库 [*Read.md*](https://github.com/ddgksf2013/Cuttlefish/blob/master/Backup/README.md)
