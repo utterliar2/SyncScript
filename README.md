@@ -63,7 +63,6 @@
 > 为使*Task*脚本兼容多种 [*App*](https://github.com/ddgksf2013/Cuttlefish/tree/master/Server#%E9%AD%94%E6%B3%95%E5%B0%91%E5%A5%B3%E5%B0%8F%E5%9C%86%E7%9A%84%E5%A5%87%E5%A6%99%E4%B9%8B%E6%97%85)，使用了 [*env.js*](https://github.com/chavyleung/scripts/blob/master/Env.js)
 
 ## Awesome Resource：
-* 一些优秀Github库 [*Read.md*](https://github.com/ddgksf2013/Cuttlefish/blob/master/Backup/README.md)
 * QuantumultX测试版[***更新日志***](https://github.com/ddgksf2013/Cuttlefish/raw/master/Profile/QX_TestFlight_Update.log)
 * 自用Clash配置 [*Config.yaml*](https://github.com/ddgksf2013/Cuttlefish/raw/master/Profile/Config.yaml)
 * Clash详细教程 [*Documents.md*](https://docs.cfw.lbyczf.com/contents/quickstart.html)
