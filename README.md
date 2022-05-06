@@ -38,7 +38,7 @@
 | 11 | 酷我音乐超级VIP | [*KuwoVIP.conf*](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/UnlockVip/Kuwo.conf) | ddgksf2013 |
 | 12 | 人人视频完美去广告 | [*Rrtv.conf*](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/UnlockVip/Rrtv.conf) | ddgksf2013 |
 | 13 | Spotify会员 | [*SpotifyPro.conf*](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/UnlockVip/Spotify.conf) | app2smile |
-| 14 | ***墨鱼专属VIP***<br>请自行添加Hostname | [*UnlockApp.conf*](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/UnlockApp.conf) | ddgksf2013 |
+| 14 | ***墨鱼专属 QXVIP***<br>请自行添加Hostname | [*UnlockApp.conf*](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/UnlockApp.conf) | ddgksf2013 |
 | 15 | 公众号图文去广告<br>无法去除朋友圈AD | [*WeChatAdBlock.conf*](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/AdBlock/WeChat.conf) | ddgksf2013 |
 | 16 | 知乎去广告助手 | [*Zhihu_Plus.conf*](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.qxrewrite) | blackmatrix7 |
 | 17 | 什么值得买去广告 | [*Smzdm_Ads.conf*](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.qxrewrite) | blackmatrix7 |
