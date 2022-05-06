@@ -49,7 +49,7 @@
 |  22  | Siri与搜索2.0   | [*SiriSearch.conf*](https://github.com/VirgilClyne/iRingo/raw/main/qxrewrite/Siri.qxrewrite) | VirgilClyne |
 |  23  | 微信110解锁被屏蔽的URL   | [*WeChat110.conf*](https://github.com/zZPiglet/Task/raw/master/UnblockURLinWeChat.conf) | zZPiglet |
 |  24  | QX快捷解析全网VIP视频   | [*ParseVideo.conf*](https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/UnlockVip/ParseVideo.conf) | ddgksf2013 |
-|  25  | Safari超级搜索<br>翻译·社区·购物·视频·引擎   | [*Q-Search.conf*](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/Function/Q-Search.conf) | ddgksf2013 |
+|  25  | Safari超级搜索<br>翻译·社区·购物·换区·视频·引擎   | [*Q-Search.conf*](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/Function/Q-Search.conf) | ddgksf2013 |
 
 ## QuantumultX 脚本Task：
 | 序号   | 功能   | 链接   | 作者    | 更新时间    |
