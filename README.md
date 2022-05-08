@@ -10,19 +10,20 @@
 [![Cuttlefish's GitHub stats](https://github-readme-stats.vercel.app/api?username=ddgksf2013&show_icons=true&count_private=true&theme=vue)](https://github.com/ddgksf2013/Cuttlefish)
 
 
-## QuantumultX 小白2.0配置：
+## 1️⃣QuantumultX 小白2.0配置：
 * 更新时间：2022-05-02
 * 墨鱼自用QX配置 [***Cuttlefish.conf***](https://github.com/ddgksf2013/Cuttlefish/raw/master/Profile/QuantumultX.conf) 
 * 上述配置支持QX商店最新版，包括图标库订阅、网易云音乐解锁教程、旧版应用推荐、IOS更新屏蔽、分流和重写去广告、流媒体解锁查询、知乎什么值得买去广告、各种 [***APP会员解锁***](https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/UnlockApp.conf)...
 * 可借助Fastgit为GitHub加速：将```https://raw.githubusercontent.com/``` 替换为 ```https://raw.fastgit.org/```
 * 更多懒人配置请狠狠的 [***Click me***](https://github.com/ddgksf2013/Cuttlefish/blob/master/Profile/README.md)
+> 详细的带图指南请参考 @Shawn 提供的 [Quantumult X 不完全指南](https://www.notion.so/Quantumult-X-1d32ddc6e61c4892ad2ec5ea47f00917#bb2dce7c01114955bbdbbd222f2a5fcf)
 
-## QuantumultX 分流配置：
+## 2️⃣QuantumultX 分流配置：
 * 网易云音乐分流 [*NeteaseMusic.list*](https://github.com/ddgksf2013/Cuttlefish/raw/master/Filter/NeteaseMusic.list)
 * 自用影视广告屏蔽 [*Mybreak.list*](https://github.com/ddgksf2013/Cuttlefish/raw/master/Filter/Mybreak.list)
 * 自用去广告分流 [*Anti-ad.list*](https://anti-ad.net/surge2.txt)
 
-## QuantumultX 重写配置：
+## 3️⃣QuantumultX 重写配置：
 | 序号   | 功能   | 链接   | 作者    |
 | :----: | :----- | :----- | :----- |
 | 1 | 微信小程序去广告神器 | [*Applet.conf*](https://github.com/ddgksf2013/Cuttlefish/raw/master/Applet/QuanX.conf) |  ddgksf2013 |
@@ -51,7 +52,7 @@
 |  24  | QX快捷解析全网VIP视频   | [*ParseVideo.conf*](https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/UnlockVip/ParseVideo.conf) | ddgksf2013 |
 |  25  | Safari超级搜索<br>翻译·社区·购物·换区·视频·引擎   | [*Q-Search.conf*](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/Function/Q-Search.conf) | ddgksf2013 |
 
-## QuantumultX 脚本Task：
+## 4️⃣QuantumultX 脚本Task：
 | 序号   | 功能   | 链接   | 作者    | 更新时间    |
 | :----: | :----- | :----- | :----- | :----- |
 | 1 | 喵喵记账每日签到 | [*mmjz.js*](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/mmjz.js) |  ddgksf2013 | 2021-01-06 |
@@ -62,7 +63,7 @@
 | 6 | 每天60s读懂世界 | [*60s.js*](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/60s.js) |  ddgksf2013 | 2022-04-17 |
 > 为使*Task*脚本兼容多种 [*App*](https://github.com/ddgksf2013/Cuttlefish/tree/master/Server#%E9%AD%94%E6%B3%95%E5%B0%91%E5%A5%B3%E5%B0%8F%E5%9C%86%E7%9A%84%E5%A5%87%E5%A6%99%E4%B9%8B%E6%97%85)，使用了 [*env.js*](https://github.com/chavyleung/scripts/blob/master/Env.js)
 
-## Awesome Resource：
+## 5️⃣Awesome Resource：
 * QuantumultX测试版[***更新日志***](https://github.com/ddgksf2013/Cuttlefish/raw/master/Profile/QX_TestFlight_Update.log)
 * 自用Clash配置 [*Config.yaml*](https://github.com/ddgksf2013/Cuttlefish/raw/master/Profile/Config.yaml)
 * 1080P超清IPTV国内[***直播源***](https://github.com/wonderfvvl/iptv-3/raw/master/国内.m3u)
@@ -70,14 +71,14 @@
 * [***自用优秀Web网站合集***](https://github.com/ddgksf2013/Cuttlefish/blob/master/Html/README.md)：影视、工具、下载、阅读、Porn...
 
 
-## Telegram 通知频道：
+## 6️⃣Telegram 通知频道：
 * 加入[***Cuttlefishの自留地***](https://t.me/ddgksf2021)，第一时间获取最新消息
 * 如有任何关于本库使用的问题可邮件 *ddgksf2013@163.com* 询问
 * 若有需要Crack的应用或小程序可在[***腾讯文档***](https://docs.qq.com/sheet/DYmRTQXpVY0hNcGls?tab=BB08J2) 中反馈
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### 特别感谢：
+### 7️⃣特别感谢：
 
 以下排名不分先后，如有遗漏可联系[*@ddgksf2013*](https://t.me/ddgksf)
 
