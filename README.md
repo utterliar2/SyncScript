@@ -16,7 +16,7 @@
 * 上述配置支持QX商店最新版，包括图标库订阅、网易云音乐解锁教程、旧版应用推荐、IOS更新屏蔽、分流和重写去广告、流媒体解锁查询、知乎什么值得买去广告、各种 [***APP会员解锁***](https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/UnlockApp.conf)...
 * 可借助Fastgit为GitHub加速：将```https://raw.githubusercontent.com/``` 替换为 ```https://raw.fastgit.org/```
 * 更多懒人配置请狠狠的 [***Click me***](https://github.com/ddgksf2013/Cuttlefish/blob/master/Profile/README.md)
-> 详细的带图指南请参考 @Shawn 提供的 [Quantumult X 不完全指南](https://www.notion.so/Quantumult-X-1d32ddc6e61c4892ad2ec5ea47f00917#bb2dce7c01114955bbdbbd222f2a5fcf)
+> 详细的带图指南请参考 @Shawn 提供的 [***Quantumult X 不完全指南***](https://www.notion.so/Quantumult-X-1d32ddc6e61c4892ad2ec5ea47f00917#bb2dce7c01114955bbdbbd222f2a5fcf)
 
 ## 2️⃣QuantumultX 分流配置：
 * 网易云音乐分流 [*NeteaseMusic.list*](https://github.com/ddgksf2013/Cuttlefish/raw/master/Filter/NeteaseMusic.list)
