@@ -7,4 +7,4 @@
 - ***[Tartarus2014](https://raw.githubusercontent.com/Tartarus2014/QuantumultX-Script/main/QuanX.conf)***
 - ***[blackmatrix7](https://github.com/blackmatrix7/ios_rule_script)***
 
-#### 感谢各位大佬的规则分享以及辛勤维护！
+#### 感谢各位大佬的规则分享以及辛勤维护！（适合自己的才是最好的）
