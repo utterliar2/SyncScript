@@ -60,7 +60,6 @@
 - [x] 同程旅行小程序签到 [*tclx.js*](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/tclx.js)
 - [x] 书香门第网页签到 [*sxmd.js*](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/shuxiangmendi.js)
 - [x] 每天60s读懂世界 [*60s.js*](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/60s.js)
-> 为使*Task*脚本兼容多种 [*App*](https://github.com/ddgksf2013/Cuttlefish/tree/master/Server#%E9%AD%94%E6%B3%95%E5%B0%91%E5%A5%B3%E5%B0%8F%E5%9C%86%E7%9A%84%E5%A5%87%E5%A6%99%E4%B9%8B%E6%97%85)，使用了 [*env.js*](https://github.com/chavyleung/scripts/blob/master/Env.js)  
 > 更多的签到脚本请参考 [*@chavyleung*](https://github.com/chavyleung) 提供的 [***Quantumult X 签到脚本***](https://github.com/chavyleung/scripts/blob/master/QuantumultX_Remote_Task.conf)
 
 ## 5️⃣Awesome Resource：
