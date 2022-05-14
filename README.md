@@ -54,6 +54,14 @@
 |  25  | Safari***超级搜索***<br>翻译·社区·购物·换区·视频·引擎   | [*Q-Search.conf*](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/Function/Q-Search.conf) | ddgksf2013 |
 
 ## 4️⃣QuantumultX 脚本Task：
+> - [x] 喵喵记账每日签到 [*mmjz.js*](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/mmjz.js)
+> - [x] QX每日色图脚本 [*setu.js*](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/setu.js)
+> - [x] 得宝小程序签到 [*db.js*](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/debao.js)
+> - [x] 同程旅行小程序签到 [*tclx.js*](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/tclx.js)
+> - [x] 书香门第网页签到 [*sxmd.js*](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/shuxiangmendi.js)
+> - [x] 每天60s读懂世界 [*60s.js*](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/60s.js)
+> - [ ] 更多
+
 | 序号   | 功能   | 链接   | 作者    | 更新时间    |
 | :----: | :----- | :----- | :----- | :----- |
 | 1 | 喵喵记账每日签到 | [*mmjz.js*](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/mmjz.js) |  ddgksf2013 | 2021-01-06 |
