@@ -29,7 +29,7 @@
 | :----: | :----- | :----- | :----- |
 | 1 | 微信小程序去广告神器 | [*Applet.conf*](https://github.com/ddgksf2013/Cuttlefish/raw/master/Applet/QuanX.conf) |  ddgksf2013 |
 | 2 | 自用影视网站去广告 | [*WebAdBlock.conf*](https://github.com/ddgksf2013/Cuttlefish/raw/master/Html/WebAdBlock.conf) | ddgksf2013 |
-| 3 | 真B站去广告+解锁普通视频<br>***1080P高码率和4K画质***| [*BilibiliVip.conf*](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/AdBlock/Bilibili.conf) | ddgksf2013 |
+| 3 | 真B站去广告+解锁普通视频<br>***1080P高码率***| [*BilibiliVip.conf*](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/AdBlock/Bilibili.conf) | ddgksf2013 |
 | 4 | 开屏广告屏蔽计划 | [*StartUp.conf*](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/AdBlock/StartUp.conf) | ddgksf2013 |
 | 5 | 油管广告屏蔽 | [*YoutubeAds.conf*](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/AdBlock/YoutubeAds.conf) | divineEngine |
 | 6 | 微博最新去广告 | [*Weibo.conf*](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/AdBlock/Weibo.conf) | zmqcherish |
