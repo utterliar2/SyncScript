@@ -54,22 +54,13 @@
 |  25  | Safari***超级搜索***<br>翻译·社区·购物·换区·视频·引擎   | [*Q-Search.conf*](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/Function/Q-Search.conf) | ddgksf2013 |
 
 ## 4️⃣QuantumultX 脚本Task：
-> - [x] 喵喵记账每日签到 [*mmjz.js*](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/mmjz.js)
-> - [x] QX每日色图脚本 [*setu.js*](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/setu.js)
-> - [x] 得宝小程序签到 [*db.js*](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/debao.js)
-> - [x] 同程旅行小程序签到 [*tclx.js*](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/tclx.js)
-> - [x] 书香门第网页签到 [*sxmd.js*](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/shuxiangmendi.js)
-> - [x] 每天60s读懂世界 [*60s.js*](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/60s.js)
-> - [ ] 更多
-
-| 序号   | 功能   | 链接   | 作者    | 更新时间    |
-| :----: | :----- | :----- | :----- | :----- |
-| 1 | 喵喵记账每日签到 | [*mmjz.js*](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/mmjz.js) |  ddgksf2013 | 2021-01-06 |
-| 2 | QX每日色图脚本 | [*setu.js*](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/setu.js) |  ddgksf2013 | 2021-02-12 |
-| 3 | 得宝小程序签到 | [*db.js*](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/debao.js) |  ddgksf2013 | 2021-05-21 |
-| 4 | 同程旅行小程序签到 | [*tclx.js*](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/tclx.js) |  ddgksf2013 | 2021-06-28 |
-| 5 | 书香门第网页签到 | [*sxmd.js*](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/shuxiangmendi.js) |  ddgksf2013 |  2022-04-11 
-| 6 | 每天60s读懂世界 | [*60s.js*](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/60s.js) |  ddgksf2013 | 2022-04-17 |
+- [x] 喵喵记账每日签到 [*mmjz.js*](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/mmjz.js)
+- [x] QX每日色图脚本 [*setu.js*](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/setu.js)
+- [x] 得宝小程序签到 [*db.js*](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/debao.js)
+- [x] 同程旅行小程序签到 [*tclx.js*](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/tclx.js)
+- [x] 书香门第网页签到 [*sxmd.js*](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/shuxiangmendi.js)
+- [x] 每天60s读懂世界 [*60s.js*](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/60s.js)
+- [ ] 更多
 > 为使*Task*脚本兼容多种 [*App*](https://github.com/ddgksf2013/Cuttlefish/tree/master/Server#%E9%AD%94%E6%B3%95%E5%B0%91%E5%A5%B3%E5%B0%8F%E5%9C%86%E7%9A%84%E5%A5%87%E5%A6%99%E4%B9%8B%E6%97%85)，使用了 [*env.js*](https://github.com/chavyleung/scripts/blob/master/Env.js)
 
 ## 5️⃣Awesome Resource：
