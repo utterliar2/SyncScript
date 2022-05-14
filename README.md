@@ -52,6 +52,7 @@
 |  23  | 微信110解锁被屏蔽的URL   | [*WeChat110.conf*](https://github.com/zZPiglet/Task/raw/master/UnblockURLinWeChat.conf) | zZPiglet |
 |  24  | QX快捷解析全网VIP视频   | [*ParseVideo.conf*](https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/UnlockVip/ParseVideo.conf) | ddgksf2013 |
 |  25  | Safari***超级搜索***<br>翻译·社区·购物·换区·视频·引擎   | [*Q-Search.conf*](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/Function/Q-Search.conf) | ddgksf2013 |
+|  26  | 百度网盘去广告 | [*PanAdv.conf*](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rewrite/MyRewrite.conf) | zqzess |
 
 ## 4️⃣QuantumultX 脚本Task：
 - [x] 喵喵记账每日签到 [*mmjz.js*](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/mmjz.js)
