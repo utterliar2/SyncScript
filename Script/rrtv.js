@@ -4,6 +4,9 @@ Author：@ddgksf2013
 
 通知频道：https://t.me/ddgksf2021
 
+更新时间：2022-05-15
+
+公众号墨鱼手记
 */
 
 
@@ -18,7 +21,7 @@ const rrtv_ad_getall = /.*\/ad\/getAll/;
 const rrtv_drama_detail = /.*\/drama\/app\/get_combined_drama_detail/;
 const rrtv_watch_v4 = /.*\/watch\/v4/;
 const rrtv_tv = /.*\/user\/prof/;
-
+const rrtv_level = /.*\/level\/info/;
 
 
 (() => {
@@ -106,6 +109,19 @@ const rrtv_tv = /.*\/user\/prof/;
           body = JSON.stringify(obj);
         } catch (err) {
           magicJS.logError(`pro去广告出现异常：${err}`);
+        }
+        break;
+        case rrtv_level.test(magicJS.request.url):
+        try {
+          let obj = JSON.parse(magicJS.response.body);
+          obj.data ={
+            "level": "1",
+            "expiredTime": 2599319252,
+            "valid": true
+          };
+          body = JSON.stringify(obj);
+        } catch (err) {
+          magicJS.logError(`rrtv_level出现异常：${err}`);
         }
         break;
       default:
