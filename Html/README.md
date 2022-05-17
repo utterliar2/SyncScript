@@ -1,4 +1,3 @@
-![!](https://count.getloli.com/get/@Cuttlefish?theme=rule34)
 ### 墨鱼自用Web网站
 * 更新时间：2022-04-20
 * 备份一些WebUrl
