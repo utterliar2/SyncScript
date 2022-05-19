@@ -53,7 +53,7 @@
 |  24  | QX快捷解析全网VIP视频   | [*ParseVideo.conf*](https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/UnlockVip/ParseVideo.conf) | ddgksf2013 |
 |  25  | Safari***超级搜索***<br>翻译·社区·购物·换区·视频·引擎   | [*Q-Search.conf*](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/Function/Q-Search.conf) | ddgksf2013 |
 |  26  | 百度网盘去广告 | [*BdPanAdBlock.conf*](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rewrite/MyRewrite.conf) | zqzess |
-| 27 | Pixiv去广告 | [*Pixiv.conf*](https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/AdBlock/PixivAdBlock.conf) | ddgksf2013 |
+| 27 | Pixiv去广告 | [*PixivAdBlock.conf*](https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/AdBlock/Pixiv.conf) | ddgksf2013 |
 
 ## 4️⃣QuantumultX 脚本Task：
 - [x] 喵喵记账每日签到 [*mmjz.js*](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/mmjz.js)
