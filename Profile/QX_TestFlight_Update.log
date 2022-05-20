@@ -1,7 +1,7 @@
 #######################################
 #日誌名稱：  QuantumultX TF Update Log
 #日誌作者：  @kyle,@Cuttlefish
-#更新時間：  2022-05-05
+#更新時間：  2022-05-20
 #微信賬號：  公眾號墨魚手記
 #使用說明：  可全局搜索🔍關鍵詞
 #後續更新：  隨Testflight陸續更新…
@@ -10,6 +10,37 @@
 #日誌提醒：  開發者沒版本或撤包，無法獲得更新日誌以 No Changelog 代替
 #日誌地址：  https://github.com/ddgksf2013/Cuttlefish/raw/master/Profile/QX_TestFlight_Update.log
 #######################################
+1.0.29 (678）
+- Quantumult X Tunnel （VPN） 执行的节点响应测试及网络可用测试的相关请求也会被记录在 TCP 网络活动中，并附有特殊标记；便于在关闭了策略状态通时发现不合适的配置项（例如：配置了极短的 check-interval 与 alive-checking 参数）
+- 完整配置的下载记录可手动清除
+
+1.0.29 (677）
+- 局域网代理共享兼容性问题
+
+1.0.29 (676）
+- 允许连接 HTTP 1.0 的节点
+
+1.0.29 (674）
+- DNS 配置新增参数 included_ssids，当处于 Wi-Fi 下且 included_ssids 包含当前 Wi-Fi 的 SSID 时该条目生效
+server = /*.example.com/223.5.5.5, included_ssids=SSID
+
+- DNS 新增类型 alias 以映射域名到其他域名
+alias = /example.com/another-example.com
+
+
+1.0.29 (672）
+- URL Scheme 增加（跳转对应 gallery 并添加），具体参见 https://github.com/crossutility/Quantumult-X/blob/master/url-scheme.md
+quantumult-x:///ui?module=gallery&type=task&action=add&content=url-encoded-json
+quantumult-x:///ui?module=gallery&type=icon&action=add&content=url-encoded-json
+
+注：
+重复 gallery 会跳过
+
+1.0.29 (671）
+- 允许为特定域名使用特定 DoH，示例如下：
+doh-server = /example.com/https://doh.pub/dns-query
+doh-server = /*.example1.com/https://doh.pub/dns-query
+doh-server = /*.example2.com/https://doh.pub/dns-query, excluded_ssids=SSID2
 
 1.0.29 (670）
 - URL Scheme 增加 quantumult-x:///add-resource 参见 https://github.com/crossutility/Quantumult-X/blob/master/url-scheme.md
