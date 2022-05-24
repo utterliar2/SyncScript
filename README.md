@@ -66,7 +66,7 @@
 		<td > 2 </td> <td > 酷我音乐超级VIP </td> <td ><a href="https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/UnlockVip/Kuwo.conf"><em>KuwoVIP.conf</em></a></td><td>ddgksf2013</td>
     </tr>	
 	<tr>
-		<td > 3 </td> <td > 人人视频会员 </td> <td ><a href="https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/UnlockVip/Rrtv.conf"><em>Rrtv.conf</em></a></td><td>ddgksf2013</td>
+		<td > 3 </td> <td > 人人视频会员 </td> <td ><a href="https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/UnlockVip/Rrtv.conf"><em>RrtvVip.conf</em></a></td><td>ddgksf2013</td>
     </tr>
 	<tr>
 		<td > 4 </td> <td > Spotify会员 </td> <td ><a href="https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/UnlockVip/Spotify.conf"><em>SpotifyPro.conf</em></a></td><td>app2smile</td>
