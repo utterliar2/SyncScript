@@ -28,7 +28,7 @@
 <table>
     <tr> <th> 类别 </th> <th> 序号 </th> <th> 功能 </th> <th> 链接 </th> <th> 作者 </th> </tr >
     <tr>
-		<td rowspan="11">应用去广告</td>
+		<td rowspan="10">应用去广告</td>
 		<td > 1 </td> <td > 微信小程序去广告神器 </td> <td ><a href="https://github.com/ddgksf2013/Cuttlefish/raw/master/Applet/QuanX.conf">Applet.conf</a></td><td>ddgksf2013</td>
     </tr>
     <tr>
@@ -50,66 +50,74 @@
 		<td > 7 </td> <td > 百度贴吧去广告 </td> <td ><a href="https://github.com/app2smile/rules/raw/master/module/tieba-qx.conf">Tieba_Ads.conf</a></td><td>app2smile</td>  
     </tr>
 	<tr>
-		<td > 8 </td> <td > 什么值得买去广告 </td> <td ><a href="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.qxrewrite">Smzdm_Ads.conf</a></td><td>blackmatrix7</td>  
+		<td > 8 </td> <td > 百度网盘去广告 </td> <td ><a href="https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rewrite/MyRewrite.conf">BdPanAdBlock.conf</a></td><td>zqzess</td>  
     </tr>
 	<tr>
-		<td > 9 </td> <td > 百度网盘去广告 </td> <td ><a href="https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rewrite/MyRewrite.conf">BdPanAdBlock.conf</a></td><td>zqzess</td>  
+		<td > 9 </td> <td > Pixiv去广告 </td> <td ><a href="https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/AdBlock/Pixiv.conf">Pixiv.conf</a></td><td>ddgksf2013</td>  
     </tr>
 	<tr>
-		<td > 10 </td> <td > Pixiv去广告 </td> <td ><a href="https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/AdBlock/Pixiv.conf">Pixiv.conf</a></td><td>ddgksf2013</td>  
-    </tr>
-	<tr>
-		<td > 11 </td> <td > 公众号图文去广告无法去除朋友圈AD </td> <td ><a href="https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/AdBlock/WeChat.conf">WeChatAdBlock.conf</a></td><td>ddgksf2013</td>
+		<td > 10 </td> <td > 公众号图文去广告无法去除朋友圈AD </td> <td ><a href="https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/AdBlock/WeChat.conf">WeChatAdBlock.conf</a></td><td>ddgksf2013</td>
     </tr>	
     <tr>
 		<td rowspan="5">解锁会员</td>
-		<td > 12 </td> <td > 真B站去广告+解锁普通视频1080P高码率 </td> <td ><a href="https://github.com/ddgksf2013/Cuttlefish/raw/master/Html/WebAdBlock.conf">BilibiliVip.conf</a></td><td>ddgksf2013</td>
+		<td > 1 </td> <td > 真B站去广告+解锁普通视频1080P高码率 </td> <td ><a href="https://github.com/ddgksf2013/Cuttlefish/raw/master/Html/WebAdBlock.conf">BilibiliVip.conf</a></td><td>ddgksf2013</td>
     </tr>
 	<tr>
-		<td > 13 </td> <td > 墨鱼QX专属VIP请自行添加Hostname </td> <td ><a href="https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/UnlockApp.conf">UnlockApp.conf</a></td><td>ddgksf2013</td>
+		<td > 2 </td> <td > 墨鱼QX专属VIP请自行添加Hostname </td> <td ><a href="https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/UnlockApp.conf">UnlockApp.conf</a></td><td>ddgksf2013</td>
     </tr>
 	<tr>
-		<td > 14 </td> <td > 酷我音乐超级VIP </td> <td ><a href="https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/UnlockVip/Kuwo.conf">KuwoVIP.conf</a></td><td>ddgksf2013</td>
+		<td > 3 </td> <td > 酷我音乐超级VIP </td> <td ><a href="https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/UnlockVip/Kuwo.conf">KuwoVIP.conf</a></td><td>ddgksf2013</td>
     </tr>	
 	<tr>
-		<td > 16 </td> <td > 人人视频会员 </td> <td ><a href="https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/UnlockVip/Rrtv.conf">Rrtv.conf</a></td><td>ddgksf2013</td>
+		<td > 4 </td> <td > 人人视频会员 </td> <td ><a href="https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/UnlockVip/Rrtv.conf">Rrtv.conf</a></td><td>ddgksf2013</td>
     </tr>
 	<tr>
-		<td > 17 </td> <td > Spotify会员 </td> <td ><a href="https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/UnlockVip/Spotify.conf">SpotifyPro.conf</a></td><td>app2smile</td>
+		<td > 5 </td> <td > Spotify会员 </td> <td ><a href="https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/UnlockVip/Spotify.conf">SpotifyPro.conf</a></td><td>app2smile</td>
     </tr>
 	<tr>
 		<td rowspan="6">应用增强</td>
-		<td > 18 </td> <td > B站自动换区 </td> <td ><a href="https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/Function/BilibiliAutoRegion.conf">BilibiliAutoRegion.conf</a></td><td>Nobyda</td>
+		<td > 1 </td> <td > B站自动换区 </td> <td ><a href="https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/Function/BilibiliAutoRegion.conf">BilibiliAutoRegion.conf</a></td><td>Nobyda</td>
     </tr>
 	<tr>
-		<td > 19 </td> <td > B站CC繁体字幕转简体 </td> <td ><a href="https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/Function/Bilibili_CC.conf">Bilibili_CC.conf</a></td><td>ddgksf2013</td>
+		<td > 2 </td> <td > B站CC繁体字幕转简体 </td> <td ><a href="https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/Function/Bilibili_CC.conf">Bilibili_CC.conf</a></td><td>ddgksf2013</td>
     </tr>
 	<tr>
-		<td > 20 </td> <td > 百度网盘倍速 </td> <td ><a href="https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/UnlockVip/BaiduCloud.conf">BaiduCloud.conf</a></td><td>ddgksf2013</td>
+		<td > 3 </td> <td > 百度网盘倍速 </td> <td ><a href="https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/UnlockVip/BaiduCloud.conf">BaiduCloud.conf</a></td><td>ddgksf2013</td>
     </tr>
 	<tr>
-		<td > 21 </td> <td > Youtube无中文字幕机翻方案 </td> <td ><a href="https://raw.githubusercontent.com/id77/QuantumultX/master/rewrite/Youtube_CC.conf#out=Hant">Youtube_CC.conf</a></td><td>id77</td>
+		<td > 4 </td> <td > Youtube无中文字幕机翻方案 </td> <td ><a href="https://raw.githubusercontent.com/id77/QuantumultX/master/rewrite/Youtube_CC.conf#out=Hant">Youtube_CC.conf</a></td><td>id77</td>
     </tr>
 	<tr>
-		<td > 22 </td> <td > 各种流媒体字幕翻译 </td> <td ><a href="https://raw.githubusercontent.com/Neurogram-R/Quantumult-X/main/snippet/Dualsub.snippet">Dualsub.conf</a></td><td>Neurogram-R</td>
+		<td > 5 </td> <td > 各种流媒体字幕翻译 </td> <td ><a href="https://raw.githubusercontent.com/Neurogram-R/Quantumult-X/main/snippet/Dualsub.snippet">Dualsub.conf</a></td><td>Neurogram-R</td>
     </tr>
 	<tr>
-		<td > 23 </td> <td > 微信110解锁被屏蔽的URL </td> <td ><a href="https://github.com/zZPiglet/Task/raw/master/UnblockURLinWeChat.conf">WeChat110.conf</a></td><td>zZPiglet</td>
+		<td > 6 </td> <td > 微信110解锁被屏蔽的URL </td> <td ><a href="https://github.com/zZPiglet/Task/raw/master/UnblockURLinWeChat.conf">WeChat110.conf</a></td><td>zZPiglet</td>
     </tr>
 	<tr>
 		<td rowspan="4">网页优化</td>
-		<td > 24 </td> <td > 自用影视网站去广告 </td> <td ><a href="https://github.com/ddgksf2013/Cuttlefish/raw/master/Html/WebAdBlock.conf">WebAdBlock.conf</a></td><td>ddgksf2013</td>
+		<td > 1 </td> <td > 自用影视网站去广告 </td> <td ><a href="https://github.com/ddgksf2013/Cuttlefish/raw/master/Html/WebAdBlock.conf">WebAdBlock.conf</a></td><td>ddgksf2013</td>
     </tr>
 	<tr>
-		<td > 25 </td> <td > Google自动翻页 </td> <td ><a href="https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/Function/EndlessGoogle.conf">EndlessGoogle.conf</a></td><td>langkhach</td>
+		<td > 2 </td> <td > Google自动翻页 </td> <td ><a href="https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/Function/EndlessGoogle.conf">EndlessGoogle.conf</a></td><td>langkhach</td>
     </tr>
 	<tr>
-		<td > 26 </td> <td > Safari超级搜索翻译·社区·购物·换区·视频·引擎  </td> <td ><a href="https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/Function/Q-Search.conf">Q-Search.conf</a></td><td>ddgksf2013</td>
+		<td > 3 </td> <td > Safari超级搜索翻译·社区·购物·换区·视频·引擎  </td> <td ><a href="https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/Function/Q-Search.conf">Q-Search.conf</a></td><td>ddgksf2013</td>
     </tr>
 	<tr>
-		<td > 27 </td> <td > QX快捷解析全网VIP视频 </td> <td ><a href="https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/UnlockVip/ParseVideo.conf">ParseVideo.conf</a></td><td>ddgksf2013</td>
+		<td > 4 </td> <td > QX快捷解析全网VIP视频 </td> <td ><a href="https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/UnlockVip/ParseVideo.conf">ParseVideo.conf</a></td><td>ddgksf2013</td>
     </tr>
 </table>
+
+
+
+
+
+|  21  | AppleWeather   | [*AppleWeather.conf*](https://github.com/VirgilClyne/iRingo/raw/beta/qxrewrite/Weather.beta.qxrewrite) | VirgilClyne |
+|  22  | Siri与搜索2.0   | [*SiriSearch.conf*](https://github.com/VirgilClyne/iRingo/raw/main/qxrewrite/Siri.qxrewrite) | VirgilClyne |
+
+
+
+
 
 
 
