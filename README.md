@@ -38,25 +38,25 @@
 		<td > 3 </td> <td > 油管广告屏蔽 </td> <td ><a href="https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/AdBlock/YoutubeAds.conf"><em>YoutubeAds.conf</em></a></td><td>divineEngine</td>  
     </tr>
 	<tr>
-		<td > 4 </td> <td > 微博最新去广告 </td> <td ><a href="https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/AdBlock/Weibo.conf"><em>Weibo.conf</em></a></td><td>zmqcherish</td>  
+		<td > 4 </td> <td > 公众号图文去广告<br><strong><em>无法去除朋友圈AD</strong></em> </td> <td ><a href="https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/AdBlock/WeChat.conf"><em>WeChatAdBlock.conf</em></a></td><td>ddgksf2013</td>
     </tr>
 	<tr>
-		<td > 5 </td> <td > 知乎去广告 </td> <td ><a href="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.qxrewrite"><em>Zhihu_Plus.conf</em></a></td><td>blackmatrix7</td>  
+		<td > 5 </td> <td > 微博最新去广告 </td> <td ><a href="https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/AdBlock/Weibo.conf"><em>Weibo.conf</em></a></td><td>zmqcherish</td>  
     </tr>
 	<tr>
-		<td > 6 </td> <td > 什么值得买去广告 </td> <td ><a href="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.qxrewrite"><em>Smzdm_Ads.conf</em></a></td><td>blackmatrix7</td>  
+		<td > 6 </td> <td > 知乎去广告 </td> <td ><a href="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.qxrewrite"><em>Zhihu_Plus.conf</em></a></td><td>blackmatrix7</td>  
     </tr>
 	<tr>
-		<td > 7 </td> <td > 百度贴吧去广告 </td> <td ><a href="https://github.com/app2smile/rules/raw/master/module/tieba-qx.conf"><em>Tieba_Ads.conf</em></a></td><td>app2smile</td>  
+		<td > 7 </td> <td > 什么值得买去广告 </td> <td ><a href="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.qxrewrite"><em>Smzdm_Ads.conf</em></a></td><td>blackmatrix7</td>  
     </tr>
 	<tr>
-		<td > 8 </td> <td > 百度网盘去广告 </td> <td ><a href="https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rewrite/MyRewrite.conf"><em>BdPanAdBlock.conf</em></a></td><td>zqzess</td>  
+		<td > 8 </td> <td > 百度贴吧去广告 </td> <td ><a href="https://github.com/app2smile/rules/raw/master/module/tieba-qx.conf"><em>Tieba_Ads.conf</em></a></td><td>app2smile</td>  
     </tr>
 	<tr>
-		<td > 9 </td> <td > Pixiv去广告 </td> <td ><a href="https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/AdBlock/Pixiv.conf"><em>Pixiv.conf</em></a></td><td>ddgksf2013</td>  
+		<td > 9 </td> <td > 百度网盘去广告 </td> <td ><a href="https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rewrite/MyRewrite.conf"><em>BdPanAdBlock.conf</em></a></td><td>zqzess</td>  
     </tr>
 	<tr>
-		<td > 10 </td> <td > 公众号图文去广告<br>无法去除朋友圈AD </td> <td ><a href="https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/AdBlock/WeChat.conf"><em>WeChatAdBlock.conf</em></a></td><td>ddgksf2013</td>
+		<td > 10 </td> <td > Pixiv去广告 </td> <td ><a href="https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/AdBlock/Pixiv.conf"><em>Pixiv.conf</em></a></td><td>ddgksf2013</td>  
     </tr>	
     <tr>
 		<td rowspan="5">应用解锁</td>
