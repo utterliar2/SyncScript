@@ -59,7 +59,7 @@
 		<td > 10 </td> <td > Pixiv去广告 </td> <td ><a href="https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/AdBlock/Pixiv.conf"><em>Pixiv.conf</em></a></td><td>ddgksf2013</td>  
     </tr>	
     <tr>
-		<td rowspan="5">应用解锁</td>
+		<td rowspan="5">会员解锁</td>
 		<td > 1 </td> <td > 真B站去广告+解锁普通视频<br><strong><em>1080P高码率</em></strong> </td> <td ><a href="https://github.com/ddgksf2013/Cuttlefish/raw/master/Html/WebAdBlock.conf"><em>BilibiliVip.conf</em></a></td><td>ddgksf2013</td>
     </tr>
 	<tr>
