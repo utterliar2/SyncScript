@@ -32,12 +32,10 @@
       <td > 1 </td> <td > 微信小程序去广告神器 </td> <td ><a href="https://github.com/ddgksf2013/Cuttlefish/raw/master/Applet/QuanX.conf">*Applet.conf*</a></td><td>ddgksf2013</td>
     </tr>
     <tr>
-    
+    <td > 2 </td> <td > 微信小程序去广告神器 </td> <td ><a href="https://github.com/ddgksf2013/Cuttlefish/raw/master/Applet/QuanX.conf">*Applet.conf*</a></td><td>ddgksf2013</td>
     </tr>
     <tr>
-       
-    </tr>
-    <tr>
+     <td > 3 </td> <td > 微信小程序去广告神器 </td> <td ><a href="https://github.com/ddgksf2013/Cuttlefish/raw/master/Applet/QuanX.conf">*Applet.conf*</a></td><td>ddgksf2013</td>  
     </tr>
 </table>
 
