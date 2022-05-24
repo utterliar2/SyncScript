@@ -56,14 +56,14 @@
 		<td > 9 </td> <td > Pixiv去广告 </td> <td ><a href="https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/AdBlock/Pixiv.conf">Pixiv.conf</a></td><td>ddgksf2013</td>  
     </tr>
 	<tr>
-		<td > 10 </td> <td > 公众号图文去广告无法去除朋友圈AD </td> <td ><a href="https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/AdBlock/WeChat.conf">WeChatAdBlock.conf</a></td><td>ddgksf2013</td>
+		<td > 10 </td> <td > 公众号图文去广告<br>无法去除朋友圈AD </td> <td ><a href="https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/AdBlock/WeChat.conf">WeChatAdBlock.conf</a></td><td>ddgksf2013</td>
     </tr>	
     <tr>
-		<td rowspan="5">解锁会员</td>
-		<td > 1 </td> <td > 真B站去广告+解锁普通视频1080P高码率 </td> <td ><a href="https://github.com/ddgksf2013/Cuttlefish/raw/master/Html/WebAdBlock.conf">BilibiliVip.conf</a></td><td>ddgksf2013</td>
+		<td rowspan="5">应用解锁会员</td>
+		<td > 1 </td> <td > 真B站去广告+解锁普通视频<br>1080P高码率 </td> <td ><a href="https://github.com/ddgksf2013/Cuttlefish/raw/master/Html/WebAdBlock.conf">BilibiliVip.conf</a></td><td>ddgksf2013</td>
     </tr>
 	<tr>
-		<td > 2 </td> <td > 墨鱼QX专属VIP请自行添加Hostname </td> <td ><a href="https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/UnlockApp.conf">UnlockApp.conf</a></td><td>ddgksf2013</td>
+		<td > 2 </td> <td > 墨鱼QX专属VIP<br>请自行添加Hostname </td> <td ><a href="https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/UnlockApp.conf">UnlockApp.conf</a></td><td>ddgksf2013</td>
     </tr>
 	<tr>
 		<td > 3 </td> <td > 酷我音乐超级VIP </td> <td ><a href="https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/UnlockVip/Kuwo.conf">KuwoVIP.conf</a></td><td>ddgksf2013</td>
@@ -75,7 +75,7 @@
 		<td > 5 </td> <td > Spotify会员 </td> <td ><a href="https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/UnlockVip/Spotify.conf">SpotifyPro.conf</a></td><td>app2smile</td>
     </tr>
 	<tr>
-		<td rowspan="6">应用增强</td>
+		<td rowspan="7">应用增强</td>
 		<td > 1 </td> <td > B站自动换区 </td> <td ><a href="https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/Function/BilibiliAutoRegion.conf">BilibiliAutoRegion.conf</a></td><td>Nobyda</td>
     </tr>
 	<tr>
@@ -94,6 +94,9 @@
 		<td > 6 </td> <td > 微信110解锁被屏蔽的URL </td> <td ><a href="https://github.com/zZPiglet/Task/raw/master/UnblockURLinWeChat.conf">WeChat110.conf</a></td><td>zZPiglet</td>
     </tr>
 	<tr>
+		<td > 7 </td> <td > 指南针解锁经纬度 </td> <td ><a href="https://raw.githubusercontent.com/VirgilClyne/iRingo/main/qxrewrite/Location.qxrewrite">Location.conf</a></td><td>VirgilClyne</td>
+    </tr>
+	<tr>
 		<td rowspan="4">网页优化</td>
 		<td > 1 </td> <td > 自用影视网站去广告 </td> <td ><a href="https://github.com/ddgksf2013/Cuttlefish/raw/master/Html/WebAdBlock.conf">WebAdBlock.conf</a></td><td>ddgksf2013</td>
     </tr>
@@ -107,17 +110,6 @@
 		<td > 4 </td> <td > QX快捷解析全网VIP视频 </td> <td ><a href="https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/UnlockVip/ParseVideo.conf">ParseVideo.conf</a></td><td>ddgksf2013</td>
     </tr>
 </table>
-
-
-
-
-
-|  21  | AppleWeather   | [*AppleWeather.conf*](https://github.com/VirgilClyne/iRingo/raw/beta/qxrewrite/Weather.beta.qxrewrite) | VirgilClyne |
-|  22  | Siri与搜索2.0   | [*SiriSearch.conf*](https://github.com/VirgilClyne/iRingo/raw/main/qxrewrite/Siri.qxrewrite) | VirgilClyne |
-
-
-
-
 
 
 
