@@ -60,10 +60,10 @@
     </tr>	
     <tr>
 		<td rowspan="5">应用解锁会员</td>
-		<td > 1 </td> <td > 真B站去广告+解锁普通视频<br>1080P高码率 </td> <td ><a href="https://github.com/ddgksf2013/Cuttlefish/raw/master/Html/WebAdBlock.conf">BilibiliVip.conf</a></td><td>ddgksf2013</td>
+		<td > 1 </td> <td > 真B站去广告+解锁普通视频<br><strong><em>1080P高码率</em></strong> </td> <td ><a href="https://github.com/ddgksf2013/Cuttlefish/raw/master/Html/WebAdBlock.conf">BilibiliVip.conf</a></td><td>ddgksf2013</td>
     </tr>
 	<tr>
-		<td > 2 </td> <td > 墨鱼QX专属VIP<br>请自行添加Hostname </td> <td ><a href="https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/UnlockApp.conf">UnlockApp.conf</a></td><td>ddgksf2013</td>
+		<td > 2 </td> <td > <strong><em>墨鱼QX专属VIP</em></strong><br>请自行添加Hostname </td> <td ><a href="https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/UnlockApp.conf">UnlockApp.conf</a></td><td>ddgksf2013</td>
     </tr>
 	<tr>
 		<td > 3 </td> <td > 酷我音乐超级VIP </td> <td ><a href="https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/UnlockVip/Kuwo.conf">KuwoVIP.conf</a></td><td>ddgksf2013</td>
@@ -110,6 +110,14 @@
 		<td > 4 </td> <td > QX快捷解析全网VIP视频 </td> <td ><a href="https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/UnlockVip/ParseVideo.conf">ParseVideo.conf</a></td><td>ddgksf2013</td>
     </tr>
 </table>
+
+
+
+
+
+
+
+
 
 
 
