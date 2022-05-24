@@ -28,7 +28,7 @@
 <table>
     <tr> <th> 类别 </th> <th> 序号 </th> <th> 功能 </th> <th> 链接 </th> <th> 作者 </th> </tr >
     <tr>
-		<td rowspan="10">应用去广告</td>
+		<td rowspan="10">广告屏蔽</td>
 		<td > 1 </td> <td > 微信小程序去广告神器 </td> <td ><a href="https://github.com/ddgksf2013/Cuttlefish/raw/master/Applet/QuanX.conf"><em>Applet.conf</em></a></td><td>ddgksf2013</td>
     </tr>
     <tr>
@@ -59,7 +59,7 @@
 		<td > 10 </td> <td > 公众号图文去广告<br>无法去除朋友圈AD </td> <td ><a href="https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/AdBlock/WeChat.conf"><em>WeChatAdBlock.conf</em></a></td><td>ddgksf2013</td>
     </tr>	
     <tr>
-		<td rowspan="5">应用解锁会员</td>
+		<td rowspan="5">应用解锁</td>
 		<td > 1 </td> <td > 真B站去广告+解锁普通视频<br><strong><em>1080P高码率</em></strong> </td> <td ><a href="https://github.com/ddgksf2013/Cuttlefish/raw/master/Html/WebAdBlock.conf"><em>BilibiliVip.conf</em></a></td><td>ddgksf2013</td>
     </tr>
 	<tr>
@@ -111,40 +111,6 @@
     </tr>
 </table>
 
-
-
-
-
-
-| 序号   | 功能   | 链接   | 作者    |
-| :----: | :----- | :----- | :----- |
-| 1 | 微信小程序去广告神器 | [*Applet.conf*](https://github.com/ddgksf2013/Cuttlefish/raw/master/Applet/QuanX.conf) |  ddgksf2013 |
-| 2 | 自用影视网站去广告 | [*WebAdBlock.conf*](https://github.com/ddgksf2013/Cuttlefish/raw/master/Html/WebAdBlock.conf) | ddgksf2013 |
-| 3 | 真B站去广告+解锁普通视频<br>***1080P高码率***| [*BilibiliVip.conf*](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/AdBlock/Bilibili.conf) | ddgksf2013 |
-| 4 | 开屏广告屏蔽计划 | [*StartUp.conf*](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/AdBlock/StartUp.conf) | ddgksf2013 |
-| 5 | 油管广告屏蔽 | [*YoutubeAds.conf*](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/AdBlock/YoutubeAds.conf) | divineEngine |
-| 6 | 微博最新去广告 | [*Weibo.conf*](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/AdBlock/Weibo.conf) | zmqcherish |
-| 7 | B站自动换区 | [*BilibiliAutoRegion.conf*](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/Function/BilibiliAutoRegion.conf) | Nobyda |
-| 8 | B站CC繁体字幕转简体 | [*Bilibili_CC.conf*](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/Function/Bilibili_CC.conf) | ddgksf2013 |
-| 9 | Google自动翻页 | [*EndlessGoogle.conf*](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/Function/EndlessGoogle.conf) | langkhach |
-| 10 | 百度网盘倍速 | [*BaiduCloud.conf*](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/UnlockVip/BaiduCloud.conf) | ddgksf2013 |
-| 11 | 酷我音乐超级VIP | [*KuwoVIP.conf*](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/UnlockVip/Kuwo.conf) | ddgksf2013 |
-| 12 | 人人视频完美去广告 | [*Rrtv.conf*](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/UnlockVip/Rrtv.conf) | ddgksf2013 |
-| 13 | Spotify会员 | [*SpotifyPro.conf*](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/UnlockVip/Spotify.conf) | app2smile |
-| 14 | ***墨鱼 QX 专属 VIP***<br>请自行添加Hostname | [*UnlockApp.conf*](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/UnlockApp.conf) | ddgksf2013 |
-| 15 | 公众号图文去广告<br>无法去除朋友圈AD | [*WeChatAdBlock.conf*](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/AdBlock/WeChat.conf) | ddgksf2013 |
-| 16 | 知乎去广告助手 | [*Zhihu_Plus.conf*](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.qxrewrite) | blackmatrix7 |
-| 17 | 什么值得买去广告 | [*Smzdm_Ads.conf*](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.qxrewrite) | blackmatrix7 |
-| 18 | 百度贴吧去广告 | [*Tieba_Ads.conf*](https://github.com/app2smile/rules/raw/master/module/tieba-qx.conf) | app2smile |
-| 19 | Youtube无中文字幕机翻方案 | [*Youtube_CC.conf*](https://raw.githubusercontent.com/id77/QuantumultX/master/rewrite/Youtube_CC.conf#out=Hant) | id77 |
-| 20 | 各种流媒体字幕翻译+[捷径](https://www.icloud.com/shortcuts/8ec4a2a3af514282bf27a11050f39fc2) | [*Dualsub.conf*](https://raw.githubusercontent.com/Neurogram-R/Quantumult-X/main/snippet/Dualsub.snippet) | Neurogram-R |
-|  21  | AppleWeather   | [*AppleWeather.conf*](https://github.com/VirgilClyne/iRingo/raw/beta/qxrewrite/Weather.beta.qxrewrite) | VirgilClyne |
-|  22  | Siri与搜索2.0   | [*SiriSearch.conf*](https://github.com/VirgilClyne/iRingo/raw/main/qxrewrite/Siri.qxrewrite) | VirgilClyne |
-|  23  | 微信110解锁被屏蔽的URL   | [*WeChat110.conf*](https://github.com/zZPiglet/Task/raw/master/UnblockURLinWeChat.conf) | zZPiglet |
-|  24  | QX快捷解析全网VIP视频   | [*ParseVideo.conf*](https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/UnlockVip/ParseVideo.conf) | ddgksf2013 |
-|  25  | ***Safari超级搜索***<br>翻译·社区·购物·换区·视频·引擎   | [*Q-Search.conf*](https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/Function/Q-Search.conf) | ddgksf2013 |
-|  26  | 百度网盘去广告 | [*BdPanAdBlock.conf*](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rewrite/MyRewrite.conf) | zqzess |
-| 27 | Pixiv去广告 | [*Pixiv.conf*](https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/AdBlock/Pixiv.conf) | ddgksf2013 |
 
 ## 4️⃣QuantumultX 脚本Task：
 - [x] 喵喵记账每日签到 [*mmjz.js*](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/mmjz.js)
