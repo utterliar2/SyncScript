@@ -25,6 +25,22 @@
 > 更多的分流请参考 [*@DivineEngine*](https://github.com/DivineEngine) 提供的 [***Quantumult X 分流***](https://github.com/DivineEngine/Profiles/tree/master/Quantumult/Filter)
 
 ## 3️⃣QuantumultX 重写配置：
+<table>
+    <tr> <th> 类别 </th> <th> 序号 </th> <th> 功能 </th> <th> 链接 </th> <th> 作者 </th> </tr >
+    <tr>
+      <td rowspan="3">去广告</td>
+      <td > 1 </td> <td > 微信小程序去广告神器 </td> <td ><a href="https://github.com/ddgksf2013/Cuttlefish/raw/master/Applet/QuanX.conf">*Applet.conf*</a></td><td>ddgksf2013</td>
+    </tr>
+    <tr>
+    
+    </tr>
+    <tr>
+       
+    </tr>
+    <tr>
+    </tr>
+</table>
+
 | 序号   | 功能   | 链接   | 作者    |
 | :----: | :----- | :----- | :----- |
 | 1 | 微信小程序去广告神器 | [*Applet.conf*](https://github.com/ddgksf2013/Cuttlefish/raw/master/Applet/QuanX.conf) |  ddgksf2013 |
