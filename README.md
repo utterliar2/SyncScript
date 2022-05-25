@@ -119,6 +119,7 @@
 		<td > 4 </td> <td > QX快捷解析全网VIP视频 </td> <td ><a href="https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/UnlockVip/ParseVideo.conf"><em>ParseVideo.conf</em></a></td><td>ddgksf2013</td>
     </tr>
 </table>
+
 > 更多的重写请参考 [*@ddgksf2013*](https://github.com/ddgksf2013) 提供的 [***Quantumult X 重写配置***](https://github.com/ddgksf2013/Cuttlefish/tree/master/Rewrite)
 
 ## 4️⃣QuantumultX 脚本Task：
