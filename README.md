@@ -18,13 +18,13 @@
 * 更多懒人配置请狠狠的 [***Click me***](https://github.com/ddgksf2013/Cuttlefish/blob/master/Profile/README.md)
 > 详细的带图指南请参考 [*@Shawn*](https://t.me/QuanX_API) 提供的 [***Quantumult X 不完全指南***](https://www.notion.so/Quantumult-X-1d32ddc6e61c4892ad2ec5ea47f00917#bb2dce7c01114955bbdbbd222f2a5fcf)
 
-## 2️⃣QuantumultX 分流配置：
+## 2️⃣QuantumultX 分流：
 * 网易云音乐分流 [*NeteaseMusic.list*](https://github.com/ddgksf2013/Cuttlefish/raw/master/Filter/NeteaseMusic.list)
 * 自用影视广告屏蔽 [*Mybreak.list*](https://github.com/ddgksf2013/Cuttlefish/raw/master/Filter/Mybreak.list)
 * 自用去广告分流 [*Anti-ad.list*](https://anti-ad.net/surge2.txt)
 > 更多的分流请参考 [*@DivineEngine*](https://github.com/DivineEngine) 提供的 [***Quantumult X 分流***](https://github.com/DivineEngine/Profiles/tree/master/Quantumult/Filter)
 
-## 3️⃣QuantumultX 重写配置：
+## 3️⃣QuantumultX 复写：
 <table>
     <tr> <th> 类别 </th> <th> 序号 </th> <th> 功能 </th> <th> 链接 </th> <th> 作者 </th> </tr >
     <tr>
