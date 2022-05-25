@@ -78,7 +78,7 @@
 		<td > 10 </td> <td > Pixiv去广告 </td> <td ><a href="https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/AdBlock/Pixiv.conf"><em>Pixiv.conf</em></a></td><td>ddgksf2013</td>  
     </tr>
 	<tr>
-		<td rowspan="1">  </td> <td >  </td> <td > </td><td> </td> <td> </td>
+		<td colspan="5">  </td>
     </tr>
 	<tr>
 		<td rowspan="7"><strong>应用增强</strong></td>
@@ -103,7 +103,7 @@
 		<td > 7 </td> <td > 指南针解锁经纬度 </td> <td ><a href="https://raw.githubusercontent.com/VirgilClyne/iRingo/main/qxrewrite/Location.qxrewrite"><em>Location.conf</em></a></td><td>VirgilClyne</td>
     </tr>
 	<tr>
-		<td rowspan="1">  </td> <td >  </td> <td > </td><td> </td> <td> </td>
+		<td colspan="5">  </td>
     </tr>
 	<tr>
 		<td rowspan="4"><strong>网页优化</strong></td>
