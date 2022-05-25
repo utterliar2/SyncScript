@@ -44,7 +44,7 @@
 		<td > 5 </td> <td > <strong><em>墨鱼QX专属VIP</em></strong><br>请自行添加Hostname </td> <td ><a href="https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/UnlockApp.conf"><em>UnlockApp.conf</em></a></td><td>ddgksf2013</td>
     </tr>
 	<tr>
-		<td rowspan="1">  </td> <td >  </td> <td > </td><td></td>
+		<td rowspan="1">  </td> <td >  </td> <td > </td><td> </td>
     </tr>
     <tr>
 		<td rowspan="10"><strong>广告屏蔽</strong></td>
@@ -76,7 +76,10 @@
     </tr>
 	<tr>
 		<td > 10 </td> <td > Pixiv去广告 </td> <td ><a href="https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/AdBlock/Pixiv.conf"><em>Pixiv.conf</em></a></td><td>ddgksf2013</td>  
-    </tr>	
+    </tr>
+	<tr>
+		<td rowspan="1">  </td> <td >  </td> <td > </td><td> </td>
+    </tr>
 	<tr>
 		<td rowspan="7"><strong>应用增强</strong></td>
 		<td > 1 </td> <td > B站自动换区 </td> <td ><a href="https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/Function/BilibiliAutoRegion.conf"><em>BilibiliAutoRegion.conf</em></a></td><td>Nobyda</td>
@@ -98,6 +101,9 @@
     </tr>
 	<tr>
 		<td > 7 </td> <td > 指南针解锁经纬度 </td> <td ><a href="https://raw.githubusercontent.com/VirgilClyne/iRingo/main/qxrewrite/Location.qxrewrite"><em>Location.conf</em></a></td><td>VirgilClyne</td>
+    </tr>
+	<tr>
+		<td rowspan="1">  </td> <td >  </td> <td > </td><td> </td>
     </tr>
 	<tr>
 		<td rowspan="4"><strong>网页优化</strong></td>
