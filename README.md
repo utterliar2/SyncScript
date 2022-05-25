@@ -44,7 +44,7 @@
 		<td > 5 </td> <td > <strong><em>墨鱼QX专属VIP</em></strong><br>请自行添加Hostname </td> <td ><a href="https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/UnlockApp.conf"><em>UnlockApp.conf</em></a></td><td>ddgksf2013</td>
     </tr>
 	<tr>
-		<td colspan="5">  </td><td >  </td> <td > </td><td> </td> <td> </td>
+		<td colspan="5">  </td>
     </tr>
     <tr>
 		<td rowspan="10"><strong>广告屏蔽</strong></td>
