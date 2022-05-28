@@ -1,2 +1,2 @@
-var body = $response.body.replace(/'6572'/g, "'6578'").replace(/ad_pic_list/, "add_pic_list").replace(/scrollamount="3/g, 'scrollamount="0').replace(/id="buka888/g, 'id="').replace(/size="3/g, 'size="3" color="white');
+var body = $response.body.replace(/'6572'/g, "'6578'").replace(/<head>/, '<head><style type="text/css">img#hth{display: none! important}img#hth616{display: none! important}div[style*="line-height: 21px"]{display: none! important}div#layui-layer1{display: none! important}div#layui-layer-shade1{display: none! important}div.marquee_outer{display: none! important}img#ad_img{display: none! important}img#buka888{display: none! important}iframe[id^=buffer]{display: none! important}</style>');
 $done({ body });
