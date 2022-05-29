@@ -47,7 +47,7 @@
 | 肉漫 |  https://rouman5.com/ | 字如其名 |
 | | | |
 | **名称** | **好孩子看不见** | **备注** |
-| Porn |  https://theporndude.com/ |  浏览过的，都说6 |
+| Porn |  https://theporndude.com/ |  浏览过的，都说6★ |
 | 桃花族 | http://thzu.cc/ | 论坛 |
 | Jable | https://jable.tv/ | 老司机说车开了 |
 | Missav | https://missav.com/ | 中等偏上 |
