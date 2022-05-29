@@ -1,2 +1,3 @@
-document.getElementById("kadDCtnM_cs").style.display="none";
-document.getElementById("afc_sidebar_2842").style.display="none";
+var body = $response.body
+    .replace(/<head>/, '<head><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ddgksf2013/Cuttlefish@master/Html/CSS/bimi.css" type="text/css">');
+$done({ body });
