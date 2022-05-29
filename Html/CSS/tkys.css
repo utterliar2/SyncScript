@@ -4,3 +4,4 @@ a.open-share{display: none! important}
 a[href*="/index.php/gbook"]{display: none! important}
 a.language{display: none! important}
 div.myui-nav__tabbar{display: none! important}
+div.layui-layer.layui-layer-page{display: none! important}
