@@ -1,5 +1,5 @@
 ### 墨鱼自用Web网站
-* 更新时间：2022-04-20
+* 更新时间：2022-05-28
 * 备份一些WebUrl
 * 备注带★为QX网页优化对象
 
@@ -19,7 +19,7 @@
 | COKEMV | https://cokemv.me/ |  优质，体验蛮不错的 |
 | | | |
 | **名称** | **资源下载** | **备注** |
-| 片库 | https://www.pianku.la/ | 在线影视，具备磁力下载★ |
+| 片库 | https://www.pianku.la/ | 在线影视，具备磁力下载 |
 | 磁力搜索|  https://xn--0tr952eyzisl5a.com/ | 猫和老鼠 |
 | 动漫花园 |  https://share.dmhy.org/ | 动漫下载 |
 | Nyaa |  https://nyaa.ink/ | 番剧著名站 |
