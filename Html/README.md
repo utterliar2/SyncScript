@@ -7,7 +7,7 @@
 | :----- | :----- | :----- |
 | 真不卡 | https://www.zhenbuka3.com/ |  在线影视，没话说★ |
 | Libvio |   https://www.libvio.com/ |   新站，更新及时★ | 
-| LeZhu |   https://www.lezhutv.com/ |   群友投稿，很不错★ | 
+| LeZhu |   http://www.lezhutv.com/ |   群友投稿，很不错★ | 
 | 低端影视 |   https://ddrk.me/ | 影视老站，YYDS★  | 
 | 剧迷 |   https://gimytv.app/ | 影视，小而美★  |
 | 555影视 |  http://www.555dy.vip/  | 作为备用还不错★ | 
