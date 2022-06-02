@@ -18,6 +18,7 @@
 | 独播库|  https://duboku.ru/ | 大同小异 |
 | NO视频 | https://www.novipnoad.com/ | 种类会多些 |
 | COKEMV | https://cokemv.me/ |  优质，体验蛮不错的 |
+| 哔嘀影视 | https://www.btbdys.com/ |  大名鼎鼎 |
 | | | |
 | **名称** | **资源下载** | **备注** |
 | 片库 | https://www.pianku.la/ | 在线影视，具备磁力下载 |
@@ -48,7 +49,7 @@
 | 肉漫 |  https://rouman5.com/ | 字如其名 |
 | | | |
 | **名称** | **好孩子看不见** | **备注** |
-| Porn |  https://theporndude.com/ |  浏览过的，都说6★ |
+| Porn |  https://theporndude.com/ |  浏览过的，都说6 |
 | 桃花族 | http://thzu.cc/ | 论坛 |
 | Jable | https://jable.tv/ | 老司机说车开了 |
 | Missav | https://missav.com/ | 中等偏上 |
