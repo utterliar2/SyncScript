@@ -5,8 +5,8 @@
 
 | 名称 | 影视网站 | 备注 |
 | :----- | :----- | :----- |
-| 真不卡 | https://www.zhenbuka3.com/ |  在线影视，没话说★ |
-| Libvio |   https://www.libvio.com/ |   新站，更新及时★ | 
+| 真不卡 | https://www.zhenbuka5.com/ |  在线影视，没话说★ |
+| Libvio |   https://www.libvio.me/ |   新站，更新及时★ | 
 | LeZhu |   http://www.lezhutv.com/ |   群友投稿，很不错★ | 
 | 低端影视 |   https://ddrk.me/ | 影视老站，YYDS★  | 
 | 剧迷 |   https://gimytv.app/ | 影视，小而美★  |
