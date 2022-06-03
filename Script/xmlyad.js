@@ -38,10 +38,11 @@ let magicJS = MagicJS(scriptName, "INFO");
 		const tabList = new Set([210,213,215]);
 		let obj = JSON.parse(magicJS.response.body);
 		if (obj["data"]["serviceModule"]["entrances"]) {
-            	let tab = obj["data"]["tab"]["entrances"].filter((e) => {
+            	let tab = obj["data"]["serviceModule"]["entrances"].filter((e) => {
               		return tabList.has(e.id);
             	});
-            	obj["data"]["tab"]["entrances"] = tab;
+            	obj["data"]["serviceModule"]["entrances"] = tab;
+		}
 		body = JSON.stringify(obj);
         } catch (err) {
           magicJS.logError(`mobile-user：${err}`);
