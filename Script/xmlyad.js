@@ -22,13 +22,29 @@ let magicJS = MagicJS(scriptName, "INFO");
 	// discovery-feed
       case /discovery-feed\/v3\/mix/.test(magicJS.request.url):
         try {
-			let obj = JSON.parse(magicJS.response.body);
-			if(obj.header&&obj.header.length>=1){
-				obj.header[0].item.list[0].data = obj.header[0].item.list[0].data.filter((i) => !(i.isAd));
-			}
-			body = JSON.stringify(obj);
+		let obj = JSON.parse(magicJS.response.body);
+		if(obj.header&&obj.header.length>=1){
+			obj.header[0].item.list[0].data = obj.header[0].item.list[0].data.filter((i) => !(i.isAd));
+		}
+		body = JSON.stringify(obj);
         } catch (err) {
           magicJS.logError(`discovery-feed：${err}`);
+        }
+        break;
+	// mobile-user
+      case /mobile-user\/v2\/homePage/.test(magicJS.request.url):
+        try {
+			
+		const tabList = new Set([210,213,215]);
+		let obj = JSON.parse(magicJS.response.body);
+		if (obj["data"]["serviceModule"]["entrances"]) {
+            	let tab = obj["data"]["tab"]["entrances"].filter((e) => {
+              		return tabList.has(e.id);
+            	});
+            	obj["data"]["tab"]["entrances"] = tab;
+		body = JSON.stringify(obj);
+        } catch (err) {
+          magicJS.logError(`mobile-user：${err}`);
         }
         break;
       default:
