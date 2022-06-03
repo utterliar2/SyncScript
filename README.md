@@ -44,7 +44,7 @@
 		<td > 5 </td> <td > <strong><em>墨鱼QX专属VIP</em></strong><br>请自行添加Hostname </td> <td ><a href="https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/UnlockApp.conf"><em>UnlockApp.conf</em></a></td><td>ddgksf2013</td>
     </tr>
 	<tr>
-		<td > 6 </td> <td > 自用Crack应用 </td> <td ><a href="https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/ForOwnUse.conf"><em>ForOwnUse.conf</em></a></td><td>ddgksf2013</td>
+		<td > 6 </td> <td > ForOwnUseVip </td> <td ><a href="https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/ForOwnUse.conf"><em>ForOwnUse.conf</em></a></td><td>ddgksf2013</td>
     </tr>
 	<tr>
 		<td colspan="5">  </td>
