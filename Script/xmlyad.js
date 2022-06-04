@@ -13,6 +13,7 @@ let magicJS = MagicJS(scriptName, "INFO");
 			let obj = JSON.parse(magicJS.response.body);
 			if(obj.focusImages&&obj.focusImages.data){
 				obj.focusImages.data = obj.focusImages.data.filter((i) => !(i.isAd));
+				obj.focusImages.data = obj.focusImages.data.filter((i) => !(i.realLink.indexOf("open")==-1));
 			}
 			body = JSON.stringify(obj);
         } catch (err) {
