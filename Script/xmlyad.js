@@ -1,4 +1,4 @@
-/*v0.0.7*/
+/*v0.0.8*/
 const scriptName = "XiMaLaYa";
 const author = "ddgksf2013";
 let magicJS = MagicJS(scriptName, "INFO");
@@ -36,6 +36,8 @@ let magicJS = MagicJS(scriptName, "INFO");
 			obj.header[1].item.list[k].displayClass="one_line";
 			}
 		}
+		obj.body = obj.body.filter((i) => !(i.item.subscribeCount<100000));
+		
 		body = JSON.stringify(obj);
         } catch (err) {
           magicJS.logError(`discovery-feed：${err}`);
