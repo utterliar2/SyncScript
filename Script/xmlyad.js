@@ -1,4 +1,4 @@
-/*v0.0.8*/
+/*v0.0.9*/
 const scriptName = "XiMaLaYa";
 const author = "ddgksf2013";
 let magicJS = MagicJS(scriptName, "INFO");
@@ -25,7 +25,7 @@ let magicJS = MagicJS(scriptName, "INFO");
         try {
 		let obj = JSON.parse(magicJS.response.body);
 		if(obj.header&&obj.header.length>=1){
-			obj.header[0].item.list[0].data = obj.header[0].item.list[0].data.filter((i) => !(i.isAd));
+			obj.header[0].item.list[0].data = obj.header[0].item.list[0].data.filter((i) => !(i.realLink.indexOf("open")==-1));
 		}
 		const tabList = new Set([1001,1009,1013,1015,100000]);
 		if(obj.header&&obj.header.length>=2){
