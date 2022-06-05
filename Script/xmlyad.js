@@ -27,6 +27,12 @@ let magicJS = MagicJS(scriptName, "INFO");
 		if(obj.header&&obj.header.length>=1){
 			obj.header[0].item.list[0].data = obj.header[0].item.list[0].data.filter((i) => !(i.isAd));
 		}
+		const tabList = new Set([1001,1009,1013,1015,100000]);
+		if(obj.header&&obj.header.length>=2){
+			obj.header[1].item.list= obj.header[1].item.list.filter((e) => {
+              		return tabList.has(e.id);
+            	});
+		}
 		body = JSON.stringify(obj);
         } catch (err) {
           magicJS.logError(`discovery-feed：${err}`);
