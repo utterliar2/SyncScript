@@ -1,4 +1,4 @@
-/*v0.0.1*/
+/*v0.0.7*/
 const scriptName = "XiMaLaYa";
 const author = "ddgksf2013";
 let magicJS = MagicJS(scriptName, "INFO");
@@ -32,7 +32,7 @@ let magicJS = MagicJS(scriptName, "INFO");
 			obj.header[1].item.list= obj.header[1].item.list.filter((e) => {
               		return tabList.has(e.id);
             	});
-		for(let k of obj.header[1].item.list){
+		for(let k=0; k < obj.header[1].item.list.length; k++){
 			obj.header[1].item.list[k].displayClass="one_line";
 			}
 		}
