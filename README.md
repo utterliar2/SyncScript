@@ -81,7 +81,7 @@
 		<td > 10 </td> <td > Pixiv去广告 </td> <td ><a href="https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/AdBlock/Pixiv.conf"><em>Pixiv.conf</em></a></td><td>ddgksf2013</td>  
     </tr>
 	<tr>
-		<td > 11 </td> <td > 喜马拉雅广告屏蔽 </td> <td ><a href="https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/AdBlock/Ximalaya.conf"><em>XmlyAdBlock.conf</em></a></td><td>ddgksf2013</td>  
+		<td > 11 </td> <td > 喜马拉雅去广告 </td> <td ><a href="https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/AdBlock/Ximalaya.conf"><em>XmlyAdBlock.conf</em></a></td><td>ddgksf2013</td>  
     </tr>
 	<tr>
 		<td colspan="5">  </td>
