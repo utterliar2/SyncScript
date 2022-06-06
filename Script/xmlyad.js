@@ -1,4 +1,4 @@
-/*v0.0.9*/
+/*v0.0.10*/
 const scriptName = "XiMaLaYa";
 const author = "ddgksf2013";
 let magicJS = MagicJS(scriptName, "INFO");
@@ -12,7 +12,6 @@ let magicJS = MagicJS(scriptName, "INFO");
         try {
 			let obj = JSON.parse(magicJS.response.body);
 			if(obj.focusImages&&obj.focusImages.data){
-				obj.focusImages.data = obj.focusImages.data.filter((i) => !(i.isAd));
 				obj.focusImages.data = obj.focusImages.data.filter((i) => !(i.realLink.indexOf("open")==-1));
 			}
 			body = JSON.stringify(obj);
