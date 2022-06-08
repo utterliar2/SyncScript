@@ -35,7 +35,7 @@ let magicJS = MagicJS(scriptName, "INFO");
 			obj.header[1].item.list[k].displayClass="one_line";
 			}
 		}
-		obj.body = obj.body.filter((i) => !(i.item.subscribeCount<100000));
+		obj.body = obj.body.filter((i) => !(i.item.playsCounts<100000));
 		
 		body = JSON.stringify(obj);
         } catch (err) {
