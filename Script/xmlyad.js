@@ -1,4 +1,4 @@
-/*v0.0.10*/
+/*v0.0.12*/
 const scriptName = "XiMaLaYa";
 const author = "ddgksf2013";
 let magicJS = MagicJS(scriptName, "INFO");
