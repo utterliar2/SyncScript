@@ -6,6 +6,7 @@
 > 备选打开地址：https://shrtm.nu/k8Pp
 > Tg通知频道：https://t.me/ddgksf2021
 > 建议积分每天兑换，并清空，不要积累
+> 如需引用请注明出处，谢谢合作！
 
 
 【QuantumultX】 :
