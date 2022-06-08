@@ -1,4 +1,7 @@
-/*v0.0.12*/
+/*
+v0.0.13
+https://t.me/ddgksf2021
+*/
 const scriptName = "XiMaLaYa";
 const author = "ddgksf2013";
 let magicJS = MagicJS(scriptName, "INFO");
