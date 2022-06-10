@@ -1,5 +1,5 @@
 /*
-v0.0.16
+v0.0.17
 https://t.me/ddgksf2021
 */
 const scriptName = "XiMaLaYa";
@@ -38,7 +38,7 @@ let magicJS = MagicJS(scriptName, "INFO");
 			obj.header[1].item.list[k].displayClass="one_line";
 			}
 		}
-		obj.body = obj.body.filter((i) => !(i.item.playsCounts<1000000));
+		obj.body = obj.body.filter((i) => (i.item.playsCounts>1000000&&!i.item.adInfo));
 		
 		body = JSON.stringify(obj);
         } catch (err) {
