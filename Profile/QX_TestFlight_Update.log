@@ -1,15 +1,85 @@
 #######################################
-#日誌名稱：  QuantumultX TF Update Log
-#日誌作者：  @kyle,@Cuttlefish
-#更新時間：  2022-05-20
-#微信賬號：  公眾號墨魚手記
-#使用說明：  可全局搜索🔍關鍵詞
-#後續更新：  隨Testflight陸續更新…
-#通知頻道：  https://t.me/ddgksf2021
-#特別說明：  🌸特別感謝kyle的辛苦搜集及整理🌸
-#日誌提醒：  開發者沒版本或撤包，無法獲得更新日誌以 No Changelog 代替
-#日誌地址：  https://github.com/ddgksf2013/Cuttlefish/raw/master/Profile/QX_TestFlight_Update.log
+#日志名称：  QuantumultX TF Update Log
+#日志作者：  @kyle,@Cuttlefish
+#更新时间：  2022-06-16
+#微信账号：  公众号墨鱼手记
+#使用说明：  可全局搜索🔍关键词
+#后续更新：  随Testflight陆续更新…
+#通知频道：  https://t.me/ddgksf2021
+#特别说明：  🌸特别感谢kyle的辛苦搜集及整理🌸
+#日志提醒：  开发者没版本或撤包，无法获得更新日志以 No Changelog 代替
+#日志地址：  https://github.com/ddgksf2013/Cuttlefish/raw/master/Profile/QX_TestFlight_Update.log
 #######################################
+
+
+
+693
+- 配置文件中远程资源、task 以及 http backend 增加参数 require-devices 用来指定加载该条配置的设备，便于不同设备同步同一份配置且使用不同配置项；具体语法可参见应用内示例配置。例如：「require-devices=ID1, ID2」，Quantumult Device ID 可在「设置 - 其他设置 - 关于」中查看与复制
+1、如无 require-devices 参数，加载该条配置
+2、如有 require-devices 参数，当该参数值包含当前 Quantumult Device ID 则加载该条配置，否则不加载该条配置
+3、当前设备未加载的配置项不会展示在界面上
+
+- 解析器描述文本中的链接支持点击跳转
+
+692
+- 配置文件中远程资源、task 以及 http backend 增加参数 require-devices 用来指定加载该条配置的设备，便于不同设备同步同一份配置且使用不同配置项；具体语法可参见应用内示例配置。例如：「require-devices=ID1, ID2」，Quantumult Device ID 可在「设置 - 其他设置 - 关于」中查看与复制
+1、如无 require-devices 参数，加载该条配置
+2、如有 require-devices 参数，当该参数值包含当前 Quantumult Device ID 则加载该条配置，否则不加载该条配置
+3、当前设备未加载的配置项不会展示在界面上
+
+- 解析器描述文本中的链接支持点击跳转
+
+691
+- $configuration.sendMessage 增加接口 get_server_description。参数可参见  https://github.com/crossutility/Quantumult-X/blob/master/sample-configuration-api.js
+
+注：
+1、该接口必须传入节点 tag 才会得到该节点的配置项
+2、该接口仅适用于 event-interaction 类型脚本，其他类型脚本会返回 permission denied 错误
+3、关于普通脚本增加参数的需求说明。Quantumult X v1.0.25 以来都可用 $environment.sourcePath 获取当前运行脚本的路径；可参照资源解析器的使用方式通过 # 来传入参数，例如：「* * * * * https://example.com/sample.js#the-params, tag=Sample, enabled=true」，因此不会再单独增加普通类型脚本的传参功能
+
+689
+- 每当打开 Quantumult X 以及进行资源批量或自动更新时，如遇被 iCloud 机制清掉的文件不再在主页左上角进行红点标记，且会尝试重新拉取（仅限 Profiles 以 Scripts 目录下的文件）
+- 收藏的 HTTP 抓取记录可一次全部导出
+
+注：
+「导出的记录文件夹 - 长按分享 - 选择使用 Quantumult X 打开」即可完成数据的导入
+
+688
+- Icon Gallery 预览的 SF Symbols 更新为 SF Symbols 4 （需 iOS 16.0+）
+
+687
+- 可在保持连接的状态下使用 build 686 的调整功能
+
+
+686
+- 允许调整本地规则与远程规则的加载顺序（分流规则，重写规则及 MitM 主机名）
+
+685
+- SS URI 方式添加节点时，允许解析器返回多个节点
+
+684
+- 节点页面不再强制大写展示节点标签
+
+683
+- 允许 host 相关类型规则完全按照规则顺序进行匹配（「设置 - 其他设置 - VPN - 分流匹配优化」关闭即可）
+
+682
+- 修复大流量上行请求被 MitM 时内存占用过高的问题
+
+681
+- 修复通过 quantumult-x:///ui?module=gallery&action=add 一次添加多个库时导致 Quantumult X 主应用崩溃的问题
+
+680
+- 网络活动列表 UDP 栏目中 UDP over TCP 的 UDP 流量不再记录为 0，变更为特殊标识，避免部分用户对流量数字产生误解
+
+679
+- Now the resource parser can return additional information to take advantage some of the shadowsocks SIP008 features.
+eg:
+$done({content: theContent, info: {bytes_used: 1073741824, bytes_remaining: 2147483648, expire_date: 1653193966}})
+
+Note:
+If the response header (HTTP header) of the resource contains related information, then the info from the parser result will be ignored.
+
 1.0.29 (678）
 - Quantumult X Tunnel （VPN） 执行的节点响应测试及网络可用测试的相关请求也会被记录在 TCP 网络活动中，并附有特殊标记；便于在关闭了策略状态通时发现不合适的配置项（例如：配置了极短的 check-interval 与 alive-checking 参数）
 - 完整配置的下载记录可手动清除
