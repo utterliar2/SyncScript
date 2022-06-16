@@ -13,7 +13,9 @@
 
 
 
-693
+
+
+1.0.30 (693)
 - 配置文件中远程资源、task 以及 http backend 增加参数 require-devices 用来指定加载该条配置的设备，便于不同设备同步同一份配置且使用不同配置项；具体语法可参见应用内示例配置。例如：「require-devices=ID1, ID2」，Quantumult Device ID 可在「设置 - 其他设置 - 关于」中查看与复制
 1、如无 require-devices 参数，加载该条配置
 2、如有 require-devices 参数，当该参数值包含当前 Quantumult Device ID 则加载该条配置，否则不加载该条配置
@@ -21,7 +23,7 @@
 
 - 解析器描述文本中的链接支持点击跳转
 
-692
+1.0.30 (692)
 - 配置文件中远程资源、task 以及 http backend 增加参数 require-devices 用来指定加载该条配置的设备，便于不同设备同步同一份配置且使用不同配置项；具体语法可参见应用内示例配置。例如：「require-devices=ID1, ID2」，Quantumult Device ID 可在「设置 - 其他设置 - 关于」中查看与复制
 1、如无 require-devices 参数，加载该条配置
 2、如有 require-devices 参数，当该参数值包含当前 Quantumult Device ID 则加载该条配置，否则不加载该条配置
@@ -29,7 +31,7 @@
 
 - 解析器描述文本中的链接支持点击跳转
 
-691
+1.0.30 (691)
 - $configuration.sendMessage 增加接口 get_server_description。参数可参见  https://github.com/crossutility/Quantumult-X/blob/master/sample-configuration-api.js
 
 注：
@@ -37,42 +39,41 @@
 2、该接口仅适用于 event-interaction 类型脚本，其他类型脚本会返回 permission denied 错误
 3、关于普通脚本增加参数的需求说明。Quantumult X v1.0.25 以来都可用 $environment.sourcePath 获取当前运行脚本的路径；可参照资源解析器的使用方式通过 # 来传入参数，例如：「* * * * * https://example.com/sample.js#the-params, tag=Sample, enabled=true」，因此不会再单独增加普通类型脚本的传参功能
 
-689
+1.0.30 (689)
 - 每当打开 Quantumult X 以及进行资源批量或自动更新时，如遇被 iCloud 机制清掉的文件不再在主页左上角进行红点标记，且会尝试重新拉取（仅限 Profiles 以 Scripts 目录下的文件）
 - 收藏的 HTTP 抓取记录可一次全部导出
 
 注：
 「导出的记录文件夹 - 长按分享 - 选择使用 Quantumult X 打开」即可完成数据的导入
 
-688
+1.0.30 (688)
 - Icon Gallery 预览的 SF Symbols 更新为 SF Symbols 4 （需 iOS 16.0+）
 
-687
+1.0.30 (687)
 - 可在保持连接的状态下使用 build 686 的调整功能
 
-
-686
+1.0.30 (686)
 - 允许调整本地规则与远程规则的加载顺序（分流规则，重写规则及 MitM 主机名）
 
-685
+1.0.30 (685)
 - SS URI 方式添加节点时，允许解析器返回多个节点
 
-684
+1.0.30 (684)
 - 节点页面不再强制大写展示节点标签
 
-683
+1.0.30 (683)
 - 允许 host 相关类型规则完全按照规则顺序进行匹配（「设置 - 其他设置 - VPN - 分流匹配优化」关闭即可）
 
-682
+1.0.30 (682)
 - 修复大流量上行请求被 MitM 时内存占用过高的问题
 
-681
+1.0.30 (681)
 - 修复通过 quantumult-x:///ui?module=gallery&action=add 一次添加多个库时导致 Quantumult X 主应用崩溃的问题
 
-680
+1.0.30 (680)
 - 网络活动列表 UDP 栏目中 UDP over TCP 的 UDP 流量不再记录为 0，变更为特殊标识，避免部分用户对流量数字产生误解
 
-679
+1.0.30 (679)
 - Now the resource parser can return additional information to take advantage some of the shadowsocks SIP008 features.
 eg:
 $done({content: theContent, info: {bytes_used: 1073741824, bytes_remaining: 2147483648, expire_date: 1653193966}})
