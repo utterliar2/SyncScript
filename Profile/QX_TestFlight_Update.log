@@ -13,7 +13,62 @@
 
 
 
+1.0.30 (703)
+- 支持 DoH3 即 DNS over HTTP/3
+- 目前已知支持 DoH3 的有 doh-server = https://223.5.5.5/dns-query, https://223.6.6.6/dns-query
 
+注：
+1、如需启用该功能可在 [dns] 项目下设置 prefer-doh3
+2、如对应的 DoH 无法使用 HTTP/3 传输，会回退到 HTTP/2
+3、因 HTTP/3 与 HTTP/2 均支持单连接传输多数据流，更改此项设置不会立即生效；如需立即生效可重新连接 VPN 或手动切换网络环境强制断开该 DNS 查询连接
+4、DNS 记录页面会标注该查询结果使用的是 HTTP/3 还是 HTTP/2
+
+1.0.30 (702)
+- 修复 build 700 中 DoQ 查询解析 IPv6 地址的问题
+
+1.0.30 (700)
+- 支持 DNS over QUIC (DoQ)
+例：「doq-server = quic://dns.adguard.com, quic://dns-family.adguard.com」更详细的示例见应用内示例配置
+
+注：
+1、不填写端口时 DoQ 默认使用 853 端口，如使用其他端口可自行配置，例如：quic://dns.example.com:784
+2、当配置了多个 DoQ 时，并发请求取响应最快的结果
+2、当配置了全局 DoQ 时，全局 DoH 以及普通的 DNS 配置项会被忽略（特定域名使用特定 DoH 或特定域名使用特定普通 DNS 的配置项不会被忽略，正常生效）
+3、不同网络环境对于不同目的地的 QUIC 协议数据 QoS 及丢包策略不同，请自行测试你所配置的 DoQ 是否适合你的网络
+
+
+1.0.30 (699)
+- Gallery 支持 iCloud 同步（「设置」-「iCloud」-「Quantumult X」处于开启状态即可）
+
+1.0.30 (698)
+- 移除 build 686 增加的选项，新增远程资源配置参数 inserted-resource = true 控制单个资源的加载时机
+
+1.0.30 (697)
+- 当运行中的 Quantumult X Tunnel（VPN）配置被其他应用禁用时会进行通知，可在更多设置中关闭，默认为开启状态。
+
+注：
+1、正常 VPN 类应用激活（已安装 VPN 配置）本应用 VPN 配置的流程是用户主动点击对应开关后才会声明自身的 VPN 配置为系统默认配置并进行连接（大多数这类应用都是这样的逻辑）。
+2、少部分 VPN 类应用会在进入主应用或进入主应用某个页面就立刻声明自身（已安装）的 VPN 配置为系统默认配置（此时用户无任何感知，因为用户未进行任何开关操作，且它只声明，并不进行连接，状态栏无动画），这样会强制中断正在运行的 VPN（此时系统设置中 VPN 勾选配置已不是之前运行的 VPN 配置）；被取消勾选状态的 VPN 配置是无法自动连接的，因此即使打开了始终开启功能也无法自动连接。
+3、以上情况发生时，Quantumult X 日志最后一行会显示 configuration disabled 或 superceded（用户主动在系统 VPN 配置列表改变勾选的 VPN 项并不属于该类情形）。
+
+此次更新是在 3 的基础上额外增加的通知，该通知仅在 Quantumult X Tunnel（VPN）运行时且被其他应用挤掉时才会发出。
+
+1.0.30 (696)
+- 收藏的 HTTP 抓取记录可一次全部清除
+- 新增 2 个备选应用图标
+
+1.0.30 (695)
+- 导入 HTTP 抓取记录时，可选择导入或收藏（同名收藏记录自动重命名）
+
+1.0.30 (694)
+- [general] 增加配置 dns_reject_domain_behavior，可选参数为 loopback、no-error-no-answer、nxdomain，默认为 loopback（之前所有版本的行为）。
+
+注：
+1、纯 TUN 模式的特性及 Quantumult X 的特殊处理，绝大多数 host 类型规则的 reject 行为都发生在第三方请求的 DNS 查询阶段（响应 placeholder/fake IP 的阶段对 reject 域名进行 dns_reject_domain_behavior 操作）
+2、如第三方网络数据请求已发生，则 reject 行为发生在数据传输层（例如有自己 DNS 查询逻辑的那些应用，以 IP 为目标地址的 HTTP 请求中的 header host 字段会被 reject 命中；这也是为什么 Quantumult X 分流规则选择使用关键字 host 而不是 domain 的原因；同时也适用于以 IP 为目标地址的 HTTPS 请求的 SNI 字段）
+  ①、重写及 host 相关类型的 reject 策略是有抗性的（同一域名 reject 越频繁响应越慢，在立即响应与 5 秒之间）
+  ②、重写规则的 reject-(200, img, array, dict) 响应状态码均为 200 的策略是无抗性的，总是会立即响应
+3、此次更新针对的是 1 的行为，另外 no-error-no-answer 也是响应的一种，响应的内容为 NOERROR NOANSWER 并包含 SOA 结果
 
 1.0.30 (693)
 - 配置文件中远程资源、task 以及 http backend 增加参数 require-devices 用来指定加载该条配置的设备，便于不同设备同步同一份配置且使用不同配置项；具体语法可参见应用内示例配置。例如：「require-devices=ID1, ID2」，Quantumult Device ID 可在「设置 - 其他设置 - 关于」中查看与复制
