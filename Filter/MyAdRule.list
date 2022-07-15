@@ -67,11 +67,11 @@ DOMAIN-SUFFIX,spotify.com,Bahamut
 DOMAIN-SUFFIX,spoti.fi,Bahamut
 
 # ~ Youtube
-USER-AGENT,com.google.ios.youtube*,Youtube
-USER-AGENT,YouTube*,Youtube
-DOMAIN-SUFFIX,googlevideo.com,Youtube
-DOMAIN-SUFFIX,youtube.com,Youtube
-DOMAIN,youtubei.googleapis.com,Youtube
+USER-AGENT,com.google.ios.youtube*,US
+USER-AGENT,YouTube*,US
+DOMAIN-SUFFIX,googlevideo.com,US
+DOMAIN-SUFFIX,youtube.com,US
+DOMAIN,youtubei.googleapis.com,US
 # ~ Google Search
 DOMAIN-KEYWORD, hanime, Youtube
 DOMAIN-KEYWORD, google,Youtube
