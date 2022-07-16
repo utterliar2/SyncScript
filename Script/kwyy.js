@@ -31,7 +31,7 @@ const kwyy_ddgksf2013_ag = /.*\/vip\/spi\/mservice/;
   if (magicJS.isResponse) {
     switch (true) {
 	//听书解析2@https://t.me/ddgksf2021
-      case kwyy_ddgksf2013_a0.test(magicJS.request.url):
+      case /.*\/a\.p\?/.test(magicJS.request.url):
         try {
           body = magicJS.response.body.replace(/"type":\d*/g,'"type":2').replace(/"end":\d*/g, '"end":4811209694').replace(/"period":\d*/g, '"period":111').replace(/"bought_vip":\d*/g, '"bought_vip":1').replace(/"bought_vip_end":\d*/g, '"bought_vip_end":4811209694');          magicJS.logError(`听书解析出现异常：${err}`);
         }catch (err) {
@@ -39,7 +39,7 @@ const kwyy_ddgksf2013_ag = /.*\/vip\/spi\/mservice/;
         }
         break;
       //听书解析1@https://t.me/ddgksf2021
-      case kwyy_ddgksf2013_aa.test(magicJS.request.url):
+      case /.*\/a\.p/.test(magicJS.request.url):
         try {
           body = magicJS.response.body.replace(/"limitfree":\d*/g, '"limitfree":1').replace(/"playable":\d*/g, '"playable":1').replace(/"downable":\d*/g, '"downable":1').replace(/"playright":\d*/g, '"playright":1').replace(/"downright":\d*/g, '"downright":1').replace(/"policytype":\d*/g, '"policytype":1').replace(/"policy":\d*/g, '"policy":1');
         }catch (err) {
@@ -47,11 +47,11 @@ const kwyy_ddgksf2013_ag = /.*\/vip\/spi\/mservice/;
         }
         break;
       //听书USER_INFO@https://t.me/ddgksf2021
-      case kwyy_ddgksf2013_ab.test(magicJS.request.url):
+      case /.*\/v2\/api\/user\/info/.test(magicJS.request.url):
         try {
           let obj = JSON.parse(magicJS.response.body);
           obj.data.vipType = 1;
-          obj.data.vipExpires = 4811209694000;
+          obj.data.vipExpires = 4811209694;
           obj.data.autoRenewal = true;          
           body = JSON.stringify(obj);
         } catch (err) {
@@ -59,7 +59,7 @@ const kwyy_ddgksf2013_ag = /.*\/vip\/spi\/mservice/;
         }
         break;
       //听书isBuyVip@https://t.me/ddgksf2021
-      case kwyy_ddgksf2013_ac.test(magicJS.request.url):
+      case /.*\/v2\/api\/pay\/vip\/extraVipStatus/.test(magicJS.request.url):
         try {
           let obj = JSON.parse(magicJS.response.body);
           obj.data.isbuyVip = 1;          
@@ -69,7 +69,7 @@ const kwyy_ddgksf2013_ag = /.*\/vip\/spi\/mservice/;
         }
         break;
         //酷我皮肤设置@https://t.me/ddgksf2021
-      case kwyy_ddgksf2013_ad.test(magicJS.request.url):
+      case /.*\/vip\/v2\/theme/.test(magicJS.request.url):
         try {
           let obj = JSON.parse(magicJS.response.body);
           obj.data.vipTheme.type="free";
@@ -81,7 +81,7 @@ const kwyy_ddgksf2013_ag = /.*\/vip\/spi\/mservice/;
         break;
       
         //酷我VIP@https://t.me/ddgksf2021
-      case kwyy_ddgksf2013_af.test(magicJS.request.url):
+      case /.*\/vip\/v2\/user\/vip/.test(magicJS.request.url):
         try {
           let obj = JSON.parse(magicJS.response.body);
           obj.data["isNewUser"] = "2";
@@ -98,7 +98,7 @@ const kwyy_ddgksf2013_ag = /.*\/vip\/spi\/mservice/;
         }
         break;
         //酷我mserviceh@ttps://t.me/ddgksf2021
-      case kwyy_ddgksf2013_ag.test(magicJS.request.url):
+      case /.*\/vip\/spi\/mservice/.test(magicJS.request.url):
         try {
           let obj = JSON.parse(magicJS.response.body);
           obj["isVIPMAutoPay"] = 2;
@@ -115,7 +115,7 @@ const kwyy_ddgksf2013_ag = /.*\/vip\/spi\/mservice/;
   } else if(magicJS.isRequest){
 	  switch (true) {
 		  //酷我音乐下载https://t.me/ddgksf2021
-      case kwyy_ddgksf2013_ae.test(magicJS.request.url):
+      case /.*\/music\.pay\?newver=\d/.test(magicJS.request.url):
         try {
           body = magicJS.request.body.replace(/uid=\d+/g, 'uid=6')
         } catch (err) {
