@@ -33,7 +33,7 @@ const kwyy_ddgksf2013_ag = /.*\/vip\/spi\/mservice/;
 	//听书解析2@https://t.me/ddgksf2021
       case kwyy_ddgksf2013_a0.test(magicJS.request.url):
         try {
-          body = magicJS.response.body.replace(/"type":\d*/g,'"type":2').replace(/"end":\d*/g, '"end":4811209694000').replace(/"period":\d*/g, '"period":111').replace(/"bought_vip":\d*/g, '"bought_vip":1').replace(/"bought_vip_end":\d*/g, '"bought_vip_end":4811209694000');          magicJS.logError(`听书解析出现异常：${err}`);
+          body = magicJS.response.body.replace(/"type":\d*/g,'"type":2').replace(/"end":\d*/g, '"end":4811209694').replace(/"period":\d*/g, '"period":111').replace(/"bought_vip":\d*/g, '"bought_vip":1').replace(/"bought_vip_end":\d*/g, '"bought_vip_end":4811209694');          magicJS.logError(`听书解析出现异常：${err}`);
         }catch (err) {
           magicJS.logError(`听书解析2出现异常：${err}`);
         }
