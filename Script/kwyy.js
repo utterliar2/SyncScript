@@ -9,26 +9,6 @@
 通知頻道：https://t.me/ddgksf2021
 問題反饋：https://t.me/ddgksf2013_bot
 
-[rewrite_local]
-# ～ KWYY_酷我聽書Block_ad@ddgksf2013
-https?:\/\/audiobookpay\.kuwo\.cn/a\.p\?op=get_advertright url reject-dict
-# ～ KWYY_酷我聽書PayInfo@ddgksf2013
-^https?:\/\/audiobookpay\.kuwo\.cn/a\.p url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/kwyy.js
-# ～ KWYY_酷我聽書UserInfo@ddgksf2013
-https://tingshu.kuwo.cn/v2/api/user/info url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/kwyy.js
-# ～ KWYY_酷我聽書UserInfo@ddgksf2013
-https?:\/\/audiobooks\.kuwo\.cn\/v2\/api\/user\/info url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/kwyy.js
-# ～ KWYY_酷我聽書UserStatus@ddgksf2013
-https?:\/\/tingshu\.kuwo\.cn\/v2\/api\/pay\/vip\/extraVipStatus url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/kwyy.js
-# ～ KWYY_酷我解鎖Vip皮膚設置@ddgksf2013
-^https?:\/\/vip1\.kuwo\.cn\/vip\/v2\/theme  url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/kwyy.js
-# ～ KWYY_酷我解鎖無損下載（先選聽無損，再下載無損）@ddgksf2013
-^https?:\/\/musicpay\.kuwo\.cn\/music\.pay\?newver=\d url script-request-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/kwyy.js
-# ～ KWYY_酷我音樂會員@ddgksf2013
-^https?:\/\/vip1\.kuwo\.cn\/(vip\/v2\/user\/vip|vip\/spi/mservice) url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/kwyy.js
-[mitm] 
-hostname = musicpay.kuwo.cn, vip1.kuwo.cn, audiobookpay.kuwo.cn, tingshu.kuwo.cn
-
 */
 
 
@@ -50,20 +30,20 @@ const kwyy_ddgksf2013_ag = /.*\/vip\/spi\/mservice/;
   let body = null;
   if (magicJS.isResponse) {
     switch (true) {
+	//听书解析2@https://t.me/ddgksf2021
+      case kwyy_ddgksf2013_a0.test(magicJS.request.url):
+        try {
+          body = magicJS.response.body.replace(/"type":\d*/g,'"type":2').replace(/"end":\d*/g, '"end":4811209694000').replace(/"period":\d*/g, '"period":111').replace(/"bought_vip":\d*/g, '"bought_vip":1').replace(/"bought_vip_end":\d*/g, '"bought_vip_end":4811209694000');          magicJS.logError(`听书解析出现异常：${err}`);
+        }catch (err) {
+          magicJS.logError(`听书解析2出现异常：${err}`);
+        }
+        break;
       //听书解析1@https://t.me/ddgksf2021
       case kwyy_ddgksf2013_aa.test(magicJS.request.url):
         try {
           body = magicJS.response.body.replace(/"limitfree":\d*/g, '"limitfree":1').replace(/"playable":\d*/g, '"playable":1').replace(/"downable":\d*/g, '"downable":1').replace(/"playright":\d*/g, '"playright":1').replace(/"downright":\d*/g, '"downright":1').replace(/"policytype":\d*/g, '"policytype":1').replace(/"policy":\d*/g, '"policy":1');
         }catch (err) {
           magicJS.logError(`听书解析1出现异常：${err}`);
-        }
-        break;
-        //听书解析2@https://t.me/ddgksf2021
-      case kwyy_ddgksf2013_a0.test(magicJS.request.url):
-        try {
-          body = magicJS.response.body.replace(/"type":\d*/g,'"type":2').replace(/"end":\d*/g, '"end":4811209694000').replace(/"period":\d*/g, '"period":111').replace(/"bought_vip":\d*/g, '"bought_vip":1').replace(/"bought_vip_end":\d*/g, '"bought_vip_end":4811209694000');          magicJS.logError(`听书解析出现异常：${err}`);
-        }catch (err) {
-          magicJS.logError(`听书解析2出现异常：${err}`);
         }
         break;
       //听书USER_INFO@https://t.me/ddgksf2021
