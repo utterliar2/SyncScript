@@ -14,7 +14,7 @@
            ⛔⛔⛔
 [rewrite_local]
   
-# ～ boom解锁会员权限（2022-07-23）@ddgksf2013
+# ～ boom解锁会员权限（2022-07-24）@ddgksf2013
 ^https:\/\/apimboom2\.globaldelight\.net\/itunesreceipt_v2\.php$ url script-response-body https://github.com/ddgksf2013/Cuttlefish/raw/master/Crack/boom.js
 
 [mitm] 
