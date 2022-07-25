@@ -5,7 +5,7 @@
 > 腳本作者：Cuttlefish
 > 微信賬號：墨魚手記
 > 解鎖說明：解鎖高級會員權限
-> 更新時間：2022-07-15
+> 更新時間：2022-07-25
 > 通知頻道：https://t.me/ddgksf2021
 > 問題反饋：https://t.me/ddgksf2013_bot
 > 特別說明：⛔⛔⛔
@@ -36,12 +36,12 @@ if ($request.url.indexOf(path1) != -1)
            tmp.is_cancel_subscribe = false;
            tmp.subscribe_type = "auto";
            tmp.flag = true;
-           JSON.stringify(tmp);
-           ddgksf2013.response =  tmp;  
+           ddgksf2013.response =  JSON.stringify(tmp);  
      }
     ddgksf2013.data.start_time = 1584674770;
     ddgksf2013.data.end_time = 4077660370;
     ddgksf2013.data.is_cancel_subscribe = false;
+    ddgksf2013.data.subscribe_type = "auto";
     ddgksf2013.data.flag = true;
 }
 if ($request.url.indexOf(path2) != -1)
