@@ -9,7 +9,7 @@
 | Libvio |   https://www.libvio.me/ |   新站，更新及时★ | 
 | LeZhu |   http://www.lezhutv.com/ |   群友投稿，很不错★ | 
 | 低端影视 |   https://ddrk.me/ | 影视老站，YYDS★  | 
-| 剧迷 |   https://gimytv.app/ | 影视，小而美★  |
+| 剧迷 |   https://gimytv.net/ | 影视，小而美★  |
 | 厂长资源 |  https://www.qianoo.cn/ | 质量1080P★  | 
 | 天空影视 |  https://www.tkys.tv/ | 新起之秀★  | 
 | Zzzfun | http://www.zzzfun.com/ |  在线动漫，比较全面 |
