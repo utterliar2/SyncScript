@@ -2,7 +2,7 @@
 # 原项目地址：https://github.com/lwd-temp/anti-ip-attribution
 # 欢迎提issues或私信bot,贡献应用新的api地址
 # https://t.me/ddgksf2021
-# 更新时间：2022-07-21
+# 更新时间：2022-07-29
 
 
 # ======= 哔哩哔哩 ======= #
@@ -59,3 +59,19 @@ DOMAIN-KEYWORD,search-lq,IP
 # ======= 头条 ======= #
 # 网友提供头条IP定位接口
 DOMAIN-SUFFIX,toutiaoapi.com,IP
+
+# ======= 快手 ======= #
+DOMAIN-SUFFIX,gifshow.com,IP
+DOMAIN-SUFFIX,ksapisrv.com,IP
+
+# ======= 小红书 ======= #
+DOMAIN-SUFFIX,xiaohongshu.com,IP
+
+# ======= 其乐论坛 ======= #
+DOMAIN,keylol.com,IP
+
+# ======= 西瓜视频 ======= #
+DOMAIN-SUFFIX,ixigua.com,IP
+
+# ======= 文叔叔 ======= #
+DOMAIN,www.wenshushu.cn,IP
