@@ -123,7 +123,7 @@
 		<td > 2 </td> <td > Google自动翻页 </td> <td ><a href="https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/Function/EndlessGoogle.conf"><em>EndlessGoogle.conf</em></a></td><td>langkhach</td>
     </tr>
 	<tr>
-		<td > 3 </td> <td > <strong><em>Safari超级搜索</em></strong><br>翻译·社区·购物·换区·视频·引擎  </td> <td ><a href="https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/Function/Q-Search.conf"><em>Q-Search.conf</em></a></td><td>ddgksf2013</td>
+		<td > 3 </td> <td > <strong><em>Safari超级搜索V2.0</em></strong><br>翻译·社区·购物·换区·视频·引擎  </td> <td ><a href="https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/Function/Q-Search.conf"><em>Q-Search.conf</em></a></td><td>ddgksf2013</td>
     </tr>
 	<tr>
 		<td > 4 </td> <td > QX快捷解析全网VIP视频 </td> <td ><a href="https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/UnlockVip/ParseVideo.conf"><em>ParseVideo.conf</em></a></td><td>ddgksf2013</td>
