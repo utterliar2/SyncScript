@@ -1,7 +1,7 @@
 #######################################
 #日志名称：  QuantumultX TF Update Log
-#日志作者：  @kyle,@Cuttlefish
-#更新时间：  2022-06-16
+#日志作者：  @Cuttlefish, @kyle
+#更新时间：  2022-08-02
 #微信账号：  公众号墨鱼手记
 #使用说明：  可全局搜索🔍关键词
 #后续更新：  随Testflight陆续更新…
@@ -12,6 +12,95 @@
 #######################################
 
 
+1.0.31 (722)
+- 布局微调
+
+
+
+1.0.31 (721)
+- 增加显示 App Store 收据 Token 与 iCloud Token
+
+注：
+1、收据 Token 与下载安装 Quantumult X 的 App Store 账号相关
+2、iCloud Token 与当前设备登陆的 iCloud 账号相关
+3、如 1 与 2 组合可在任意一台设备上通过验证，Quantumult X 应用版本号旁会显示 iCloud 云朵标志
+4、如 TestFligh 测试版没有显示收据 Token，可重新下载安装 App Store 版后再重新安装测试版本
+
+
+1.0.31 (720)
+- 修复 build 718 被 TestFlight 自动更新时产生的崩溃
+
+
+1.0.31 (718)
+- 网络活动详情页面增加更多信息，如规则匹配过程中触发了 DNS 查询，也会标记出来
+
+1.0.31 (717)
+- Quantumult X Tunnel 的脚本环境支持读取 iCloud 目录下，Quantumult X/Data 子目录的文件。
+
+需 iOS 13 或以上系统，示例参见：https://github.com/crossutility/Quantumult-X/blob/master/sample-icloud-storage.js
+
+
+1.0.31 (716)
+- 增加选项 「Enhanced Compatibility 兼容性增强」（设置-更多设置）
+- 当前设备与家居中枢设备处于同一局域网下且在 Quantumult X VPN 连接时，如无法正常使用"家庭"应用查看流传输的 HomeKit 实况视频，您可以开启此选项
+
+注：
+如你在关闭 Quantumult X VPN 连接时，本就无法正常查看 HomeKit 实况视频，请自行检查局域网配置
+
+
+1.0.31 (715)
+- 分流规则增加类型 host-wildcard 进行通配符（* 与 ?）匹配，例如「host-wildcard, *.goo?le.com, proxy」
+- 当启用分流匹配优化时，host-wildcard 优先级仅高于 host-keyword
+
+
+1.0.31 (714)
+- 应用内各类型对应的 iCloud 或本地资源选择界面可直接滑动进行分享、查看及删除操作
+- 远程资源可分享为 quantumult-x:///add-resource? 相关的应用 URL 或二维码
+- 二维码扫描支持 scheme 为 quantumult-x: 相关的应用 URL
+- 其他细节调整
+
+1.0.31 (713)
+- 当为基于 TLS 协议的代理配置了错误的 ALPN 格式的 tls-alpn 参数时，不再允许保存
+
+1.0.31 (712)
+- 允许自定义所有基于 TLS 代理协议的 TLS Client Hello ALPN 项，例如：tls-alpn=02:68:32:08:68:74:74:70:2f:31:2e:31 代表 Client Hello 中 ALPN 为 h2 及 http/1.1 即 {2, 'h', '2', 8, 'h', 't', 't', 'p', '/', '1', '.', '1'}
+
+注：
+1、该设置并不会影响客户端上层代理协议（例如：SOCKS5 over TLS 中 ALPN 即使设置为 SPDY/3 并不会影响客户端上层代理协议，依然是 SOCKS5）
+2、假如服务端根据不同 ALPN 来进行流量转发，请勿设置此项，或设定为对应的 ALPN
+3、如输入的 ALPN 格式错误会导致 TLS 握手失败
+
+
+1.0.31 (711)
+- 当同时配置了全局的 DoQ 与 DoH 时，不再忽略全局的 DoH 设置；调整为同时向所有加密的 DNS 服务器发送查询请求
+- 当使用了 HTTP/1.1 协议的 DoH 时，不再强制禁用 DoH 功能；调整为发送通知给予提示
+
+1.0.31 (710)
+- 网络活动详情中 rewrite 栏可直接点击跳转到对应的脚本记录页面
+
+1.0.31 (709)
+- 允许 Rewrite、Task 及 HTTP Backend 所使用资源的 HTTP(S) URL hashtag 内容包含中文字符
+
+
+1.0.30 (708)
+- 项目 [dns] 下增加条目 circumvent-ipv4-answer 与 circumvent-ipv6-answer，用来指定上游 DNS 服务器返回的 A 及 AAAA 记录中哪些属于无效结果
+例如：「circumvent-ipv4-answer = 127.0.0.1, 0.0.0.0」 用来表示上游服务器返回的 127.0.0.1 与 0.0.0.0 均为无效的查询结果。该条目可使用通配符 ? 与 *
+
+注：
+1、当并发向多个上游 DNS 进行查询时，如响应最快的上游 DNS 抢答的结果命中了该条目，则 Quantumult X Tunnel DNS 模块会等待其他 DNS 服务器的响应结果（如抢答的结果中至少有一个不属于该条目，则不会等待其他 DNS 的响应，此时有效结果采用不属于该条目的所有记录）
+2、如所有上游 DNS 返回的所有结果均命中该条目，则判定为 DNS 查询失败
+3、如配置的上游 DNS 包含有去广告功能的 DNS 服务器，请勿使用该参数
+
+
+1.0.30 (706)
+- 修复添加非 Quantumult X gallery 结构的 json 文件时导致的应用崩溃
+- 增加 「引用资源 - 重写」 点击 「全部更新」 时所更新的项目：
+build 706 前：仅更新资源本身的内容（包含重写规则、主机名）
+build 706 后：更新资源本身的内容、重写规则所使用的脚本。即使重写规则本身并无改动，其对应的脚本文件也会被更新。
+
+
+1.0.30 (705)
+- 调整 DNS 记录页面的布局
 
 1.0.30 (703)
 - 支持 DoH3 即 DNS over HTTP/3
