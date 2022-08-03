@@ -18,11 +18,11 @@
 
 
 1.0.31 (721)
-- 增加显示 App Store 收据 Token 与 iCloud Token
+- 增加显示 App Store 收据 Token 与iCloud Token
 
 注：
-1、收据 Token 与下载安装 Quantumult X 的 App Store 账号相关
-2、iCloud Token 与当前设备登陆的 iCloud 账号相关
+1、收据 Token 与下载安装 Quantumult X 的App Store 账号相关
+2、iCloud Token 与当前设备登陆的 iCloud账号相关
 3、如 1 与 2 组合可在任意一台设备上通过验证，Quantumult X 应用版本号旁会显示 iCloud 云朵标志
 4、如 TestFligh 测试版没有显示收据 Token，可重新下载安装 App Store 版后再重新安装测试版本
 
