@@ -36,6 +36,7 @@ if ($request.url.indexOf(path1) != -1)
            tmp.is_cancel_subscribe = false;
            tmp.subscribe_type = "auto";
            tmp.flag = true;
+           tmp.cycle_unit = "12";
            ddgksf2013.response =  JSON.stringify(tmp);  
      }
     ddgksf2013.data.start_time = 1584674770;
@@ -43,6 +44,7 @@ if ($request.url.indexOf(path1) != -1)
     ddgksf2013.data.is_cancel_subscribe = false;
     ddgksf2013.data.subscribe_type = "auto";
     ddgksf2013.data.flag = true;
+    ddgksf2013.data.cycle_unit = "12";
 }
 if ($request.url.indexOf(path2) != -1)
 {
