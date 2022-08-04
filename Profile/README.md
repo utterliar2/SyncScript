@@ -9,9 +9,8 @@
 
 #### 感谢各位大佬的规则分享以及辛勤维护！（适合自己的才是最好的）
 
-墨鱼自用配置更新日志
+墨鱼自用配置更新日志 Made by ddgksf2013  
 https://github.com/ddgksf2013/Cuttlefish/raw/master/Profile/QuantumultX.conf
-更新日誌：Made by ddgksf2013
 [+]2022-03-01  1、QX小白配置2.0已全面更新，重点更新[rewrite_remote]内容  
 [+]2022-03-15  2、QX配置头增加网易云解锁指导、图标库、IOS屏蔽更新、旧版文档、Crack腾讯文档  
 [+]2022-03-26  3、增加[替换支付宝内淘票票评分为豆瓣评分]和[豆瓣添加便捷播放按钮&展示在映流媒体平台]  
