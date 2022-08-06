@@ -79,3 +79,25 @@ DOMAIN,www.wenshushu.cn,IP
 # ======= 酷安 ======= #
 DOMAIN,api.coolapk.com,IP
 
+# ======= 豆瓣 ======= #
+# iOS客户端，目前无法可靠地处理iOS端的请求，建议全局代理
+IP-CIDR,119.29.29.98/32,REJECT
+DOMAIN,frodo.douban.com,IP
+# 网页端
+DOMAIN,www.douban.com,IP
+
+# ======= TapTap ======= #
+DOMAIN,api.taptapdada.com,IP
+
+# ======= 网易大神 ======= #
+DOMAIN,god.gameyw.netease.com,IP
+
+# ======= 虎牙 ======= #
+DOMAIN-SUFFIX,huya.com,IP
+
+# ======= 懂球帝 ======= #
+DOMAIN-SUFFIX,dongqiudi.com,IP
+
+# ======= NGA ======= #
+# 个人主页ip。开代理以后发一个评论就会变代理ip
+DOMAIN,ngabbs.com,IP
