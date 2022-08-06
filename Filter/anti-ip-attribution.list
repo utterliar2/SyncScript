@@ -99,5 +99,5 @@ DOMAIN-SUFFIX,huya.com,IP
 DOMAIN-SUFFIX,dongqiudi.com,IP
 
 # ======= NGA ======= #
-# 个人主页ip。开代理以后发一个评论就会变代理ip
+# 个人主页ip，开代理以后发一个评论就会变代理ip
 DOMAIN,ngabbs.com,IP
