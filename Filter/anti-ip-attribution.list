@@ -1,16 +1,17 @@
+################################################################
 # 针对部分网站显示IP归属地的QuantumultX分流规则
 # 原项目地址：https://github.com/lwd-temp/anti-ip-attribution
 # 欢迎提issues或私信bot,贡献应用新的api地址
 # https://t.me/ddgksf2021
-# 更新时间：2022-07-29
-
+# 更新时间：2022-08-06
+###############################################################
 
 # ======= 哔哩哔哩 ======= #
 DOMAIN-SUFFIX,biliapi.net,IP
+DOMAIN-SUFFIX,biliapi.com,IP 
 DOMAIN,api.bilibili.com,IP 
 DOMAIN,api.bilibili.tv,IP 
 DOMAIN,app.bilibili.com,IP 
-DOMAIN-SUFFIX,biliapi.com,IP 
 DOMAIN,api.live.bilibili.com,IP 
 DOMAIN,api.vc.bilibili.com,IP 
 DOMAIN,passport.bilibili.com,IP 
@@ -57,7 +58,6 @@ DOMAIN-KEYWORD,search-quic-lq,IP
 DOMAIN-KEYWORD,search-lq,IP
 
 # ======= 头条 ======= #
-# 网友提供头条IP定位接口
 DOMAIN-SUFFIX,toutiaoapi.com,IP
 
 # ======= 快手 ======= #
@@ -75,3 +75,7 @@ DOMAIN-SUFFIX,ixigua.com,IP
 
 # ======= 文叔叔 ======= #
 DOMAIN,www.wenshushu.cn,IP
+
+# ======= 酷安 ======= #
+DOMAIN,api.coolapk.com,IP
+
