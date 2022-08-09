@@ -6,7 +6,6 @@
 #使用说明：  可全局搜索🔍关键词
 #后续更新：  随Testflight陆续更新…
 #通知频道：  https://t.me/ddgksf2021
-#特别说明：  🌸特别感谢kyle的辛苦搜集及整理🌸
 #日志提醒：  开发者没版本或撤包，无法获得更新日志以 No Changelog 代替
 #日志地址：  https://github.com/ddgksf2013/Cuttlefish/raw/master/Profile/QX_TestFlight_Update.log
 #######################################
@@ -14,8 +13,6 @@
 
 1.0.31 (722)
 - 布局微调
-
-
 
 1.0.31 (721)
 - 增加显示 App Store 收据 Token 与iCloud Token
@@ -30,7 +27,6 @@
 1.0.31 (720)
 - 修复 build 718 被 TestFlight 自动更新时产生的崩溃
 
-
 1.0.31 (718)
 - 网络活动详情页面增加更多信息，如规则匹配过程中触发了 DNS 查询，也会标记出来
 
@@ -39,7 +35,6 @@
 
 需 iOS 13 或以上系统，示例参见：https://github.com/crossutility/Quantumult-X/blob/master/sample-icloud-storage.js
 
-
 1.0.31 (716)
 - 增加选项 「Enhanced Compatibility 兼容性增强」（设置-更多设置）
 - 当前设备与家居中枢设备处于同一局域网下且在 Quantumult X VPN 连接时，如无法正常使用"家庭"应用查看流传输的 HomeKit 实况视频，您可以开启此选项
@@ -47,11 +42,9 @@
 注：
 如你在关闭 Quantumult X VPN 连接时，本就无法正常查看 HomeKit 实况视频，请自行检查局域网配置
 
-
 1.0.31 (715)
 - 分流规则增加类型 host-wildcard 进行通配符（* 与 ?）匹配，例如「host-wildcard, *.goo?le.com, proxy」
 - 当启用分流匹配优化时，host-wildcard 优先级仅高于 host-keyword
-
 
 1.0.31 (714)
 - 应用内各类型对应的 iCloud 或本地资源选择界面可直接滑动进行分享、查看及删除操作
