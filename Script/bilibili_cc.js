@@ -5,7 +5,7 @@
 > 下載地址：https://apps.apple.com/cn/app/id736536022
 > 腳本作者：Cuttlefish
 > 微信賬號：墨魚手記
-> 更新時間：2022-04-02
+> 更新時間：2022-08-09
 > 通知頻道：https://t.me/ddgksf2021
 > 投稿助手：https://t.me/ddgksf2013_bot
 > 問題反饋：📮 ddgksf2013@163.com 📮
