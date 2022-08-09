@@ -18,7 +18,7 @@
 
 [mitm]
 
-hostname=*.hdslb.com
+hostname=i0.hdslb.com
 
 ***********************************/
 
