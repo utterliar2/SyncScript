@@ -50,7 +50,6 @@
 
 1.0.31 (721)
 - 增加显示 App Store 收据 Token 与iCloud Token
-
 注：
 1、收据 Token 与下载安装 Quantumult X 的App Store 账号相关
 2、iCloud Token 与当前设备登陆的 iCloud账号相关
@@ -66,13 +65,11 @@
 
 1.0.31 (717)
 - Quantumult X Tunnel 的脚本环境支持读取 iCloud 目录下，Quantumult X/Data 子目录的文件。
-
 需 iOS 13 或以上系统，示例参见：https://github.com/crossutility/Quantumult-X/blob/master/sample-icloud-storage.js
 
 1.0.31 (716)
 - 增加选项 「Enhanced Compatibility 兼容性增强」（设置-更多设置）
 - 当前设备与家居中枢设备处于同一局域网下且在 Quantumult X VPN 连接时，如无法正常使用"家庭"应用查看流传输的 HomeKit 实况视频，您可以开启此选项
-
 注：
 如你在关闭 Quantumult X VPN 连接时，本就无法正常查看 HomeKit 实况视频，请自行检查局域网配置
 
@@ -91,7 +88,6 @@
 
 1.0.31 (712)
 - 允许自定义所有基于 TLS 代理协议的 TLS Client Hello ALPN 项，例如：tls-alpn=02:68:32:08:68:74:74:70:2f:31:2e:31 代表 Client Hello 中 ALPN 为 h2 及 http/1.1 即 {2, 'h', '2', 8, 'h', 't', 't', 'p', '/', '1', '.', '1'}
-
 注：
 1、该设置并不会影响客户端上层代理协议（例如：SOCKS5 over TLS 中 ALPN 即使设置为 SPDY/3 并不会影响客户端上层代理协议，依然是 SOCKS5）
 2、假如服务端根据不同 ALPN 来进行流量转发，请勿设置此项，或设定为对应的 ALPN
@@ -108,11 +104,9 @@
 1.0.31 (709)
 - 允许 Rewrite、Task 及 HTTP Backend 所使用资源的 HTTP(S) URL hashtag 内容包含中文字符
 
-
 1.0.30 (708)
 - 项目 [dns] 下增加条目 circumvent-ipv4-answer 与 circumvent-ipv6-answer，用来指定上游 DNS 服务器返回的 A 及 AAAA 记录中哪些属于无效结果
 例如：「circumvent-ipv4-answer = 127.0.0.1, 0.0.0.0」 用来表示上游服务器返回的 127.0.0.1 与 0.0.0.0 均为无效的查询结果。该条目可使用通配符 ? 与 *
-
 注：
 1、当并发向多个上游 DNS 进行查询时，如响应最快的上游 DNS 抢答的结果命中了该条目，则 Quantumult X Tunnel DNS 模块会等待其他 DNS 服务器的响应结果（如抢答的结果中至少有一个不属于该条目，则不会等待其他 DNS 的响应，此时有效结果采用不属于该条目的所有记录）
 2、如所有上游 DNS 返回的所有结果均命中该条目，则判定为 DNS 查询失败
@@ -125,14 +119,12 @@
 build 706 前：仅更新资源本身的内容（包含重写规则、主机名）
 build 706 后：更新资源本身的内容、重写规则所使用的脚本。即使重写规则本身并无改动，其对应的脚本文件也会被更新。
 
-
 1.0.30 (705)
 - 调整 DNS 记录页面的布局
 
 1.0.30 (703)
 - 支持 DoH3 即 DNS over HTTP/3
 - 目前已知支持 DoH3 的有 doh-server = https://223.5.5.5/dns-query, https://223.6.6.6/dns-query
-
 注：
 1、如需启用该功能可在 [dns] 项目下设置 prefer-doh3
 2、如对应的 DoH 无法使用 HTTP/3 传输，会回退到 HTTP/2
@@ -145,7 +137,6 @@ build 706 后：更新资源本身的内容、重写规则所使用的脚本。�
 1.0.30 (700)
 - 支持 DNS over QUIC (DoQ)
 例：「doq-server = quic://dns.adguard.com, quic://dns-family.adguard.com」更详细的示例见应用内示例配置
-
 注：
 1、不填写端口时 DoQ 默认使用 853 端口，如使用其他端口可自行配置，例如：quic://dns.example.com:784
 2、当配置了多个 DoQ 时，并发请求取响应最快的结果
@@ -161,12 +152,10 @@ build 706 后：更新资源本身的内容、重写规则所使用的脚本。�
 
 1.0.30 (697)
 - 当运行中的 Quantumult X Tunnel（VPN）配置被其他应用禁用时会进行通知，可在更多设置中关闭，默认为开启状态。
-
 注：
 1、正常 VPN 类应用激活（已安装 VPN 配置）本应用 VPN 配置的流程是用户主动点击对应开关后才会声明自身的 VPN 配置为系统默认配置并进行连接（大多数这类应用都是这样的逻辑）。
 2、少部分 VPN 类应用会在进入主应用或进入主应用某个页面就立刻声明自身（已安装）的 VPN 配置为系统默认配置（此时用户无任何感知，因为用户未进行任何开关操作，且它只声明，并不进行连接，状态栏无动画），这样会强制中断正在运行的 VPN（此时系统设置中 VPN 勾选配置已不是之前运行的 VPN 配置）；被取消勾选状态的 VPN 配置是无法自动连接的，因此即使打开了始终开启功能也无法自动连接。
 3、以上情况发生时，Quantumult X 日志最后一行会显示 configuration disabled 或 superceded（用户主动在系统 VPN 配置列表改变勾选的 VPN 项并不属于该类情形）。
-
 此次更新是在 3 的基础上额外增加的通知，该通知仅在 Quantumult X Tunnel（VPN）运行时且被其他应用挤掉时才会发出。
 
 1.0.30 (696)
@@ -178,7 +167,6 @@ build 706 后：更新资源本身的内容、重写规则所使用的脚本。�
 
 1.0.30 (694)
 - [general] 增加配置 dns_reject_domain_behavior，可选参数为 loopback、no-error-no-answer、nxdomain，默认为 loopback（之前所有版本的行为）。
-
 注：
 1、纯 TUN 模式的特性及 Quantumult X 的特殊处理，绝大多数 host 类型规则的 reject 行为都发生在第三方请求的 DNS 查询阶段（响应 placeholder/fake IP 的阶段对 reject 域名进行 dns_reject_domain_behavior 操作）
 2、如第三方网络数据请求已发生，则 reject 行为发生在数据传输层（例如有自己 DNS 查询逻辑的那些应用，以 IP 为目标地址的 HTTP 请求中的 header host 字段会被 reject 命中；这也是为什么 Quantumult X 分流规则选择使用关键字 host 而不是 domain 的原因；同时也适用于以 IP 为目标地址的 HTTPS 请求的 SNI 字段）
@@ -191,7 +179,6 @@ build 706 后：更新资源本身的内容、重写规则所使用的脚本。�
 1、如无 require-devices 参数，加载该条配置
 2、如有 require-devices 参数，当该参数值包含当前 Quantumult Device ID 则加载该条配置，否则不加载该条配置
 3、当前设备未加载的配置项不会展示在界面上
-
 - 解析器描述文本中的链接支持点击跳转
 
 1.0.30 (692)
@@ -199,12 +186,10 @@ build 706 后：更新资源本身的内容、重写规则所使用的脚本。�
 1、如无 require-devices 参数，加载该条配置
 2、如有 require-devices 参数，当该参数值包含当前 Quantumult Device ID 则加载该条配置，否则不加载该条配置
 3、当前设备未加载的配置项不会展示在界面上
-
 - 解析器描述文本中的链接支持点击跳转
 
 1.0.30 (691)
 - $configuration.sendMessage 增加接口 get_server_description。参数可参见  https://github.com/crossutility/Quantumult-X/blob/master/sample-configuration-api.js
-
 注：
 1、该接口必须传入节点 tag 才会得到该节点的配置项
 2、该接口仅适用于 event-interaction 类型脚本，其他类型脚本会返回 permission denied 错误
@@ -213,7 +198,6 @@ build 706 后：更新资源本身的内容、重写规则所使用的脚本。�
 1.0.30 (689)
 - 每当打开 Quantumult X 以及进行资源批量或自动更新时，如遇被 iCloud 机制清掉的文件不再在主页左上角进行红点标记，且会尝试重新拉取（仅限 Profiles 以 Scripts 目录下的文件）
 - 收藏的 HTTP 抓取记录可一次全部导出
-
 注：
 「导出的记录文件夹 - 长按分享 - 选择使用 Quantumult X 打开」即可完成数据的导入
 
@@ -248,7 +232,6 @@ build 706 后：更新资源本身的内容、重写规则所使用的脚本。�
 - Now the resource parser can return additional information to take advantage some of the shadowsocks SIP008 features.
 eg:
 $done({content: theContent, info: {bytes_used: 1073741824, bytes_remaining: 2147483648, expire_date: 1653193966}})
-
 Note:
 If the response header (HTTP header) of the resource contains related information, then the info from the parser result will be ignored.
 
@@ -265,7 +248,6 @@ If the response header (HTTP header) of the resource contains related informatio
 1.0.29 (674）
 - DNS 配置新增参数 included_ssids，当处于 Wi-Fi 下且 included_ssids 包含当前 Wi-Fi 的 SSID 时该条目生效
 server = /*.example.com/223.5.5.5, included_ssids=SSID
-
 - DNS 新增类型 alias 以映射域名到其他域名
 alias = /example.com/another-example.com
 
@@ -274,7 +256,6 @@ alias = /example.com/another-example.com
 - URL Scheme 增加（跳转对应 gallery 并添加），具体参见 https://github.com/crossutility/Quantumult-X/blob/master/url-scheme.md
 quantumult-x:///ui?module=gallery&type=task&action=add&content=url-encoded-json
 quantumult-x:///ui?module=gallery&type=icon&action=add&content=url-encoded-json
-
 注：
 重复 gallery 会跳过
 
@@ -286,7 +267,6 @@ doh-server = /*.example2.com/https://doh.pub/dns-query, excluded_ssids=SSID2
 
 1.0.29 (670）
 - URL Scheme 增加 quantumult-x:///add-resource 参见 https://github.com/crossutility/Quantumult-X/blob/master/url-scheme.md
-
 注：
 添加资源后会自动更新该资源内容，相同资源（URL 相同）不会重复添加但仍会触发该资源内容更新
 
@@ -309,7 +289,6 @@ doh-server = /*.example2.com/https://doh.pub/dns-query, excluded_ssids=SSID2
 
 客户端配置样例如下：
 shadowsocks=example.com:8080, method=chacha20, password=pwd, udp-over-tcp=true, udp-relay=true, tag=ss-udp-over-tcp
-
 注：
 网络活动页面对应 UDP 记录的流量将显示为 0，对应的 TCP 记录会显示 UDP-over-TCP
 节点流量统计会计算到 TCP 协议栏
@@ -324,7 +303,6 @@ shadowsocks=example.com:8080, method=chacha20, password=pwd, udp-over-tcp=true, 
 
 1.0.29 (662) 
 - 当 MitM 功能开启时，检查 MitM CA 证书是否过期，并予以明确的提示。
-
 注：
 如 App Store 正式版遇响应体 deflate 解析异常（build 656 已修复），可修改对应请求的请求头字段为 Accept-Encoding: gzip 临时解决。
 例如：原请求头字段 Accept-Encoding: gzip, deflate, br 修改为 Accept-Encoding: gzip 即可。
@@ -358,7 +336,6 @@ shadowsocks=example.com:8080, method=chacha20, password=pwd, udp-over-tcp=true, 
 
 1.0.29 (652) 
 - 支持 SOCKS5（TLS）代理协议，示例如下：
-
 socks5=socks5.example.com:1080, username=name, password=pwd, tag=socks5-sample
 socks5=socks5.example.com:443, username=name, password=pwd, over-tls=true, tag=socks5-tls-sample
 更多示例可参见应用内示例配置中相关内容
@@ -377,7 +354,6 @@ const myRequest = {
         ‘skip-cert-verify’: true
     }
 }
-
 关于 Quantumult X 中节点参数的一点说明：
 obfs=http 特指 shadowsocks 项目提出的 http 混淆方式（基于部分 WebSocket 协议特征）
 obfs=tls 特指 shadowsocks 项目提出的 tls 混淆方式（基于部分 TLS 协议特征）
@@ -389,7 +365,6 @@ obfs=wss 指 WebSocket TLS 协议本身，可与 tls-verification 等 TLS 相关
 1.0.29 (648) 
 - 网络活动中流量统计将包含与代理节点 TLS 握手所消耗的流量
 - NE 脚本模块增加参数 $environment.executeType ($environment.executor) 以获取对应脚本的触发来源，如下：
-
  0 : 由 cron 在特定时间触发
  1 : 由 event-network 触发
  2 : 由 event-interaction 触发
@@ -404,29 +379,23 @@ obfs=wss 指 WebSocket TLS 协议本身，可与 tls-verification 等 TLS 相关
 
 1.0.29 (647) 
 - 修复在 iOS 15.4 上当网络切换至 5G 蜂窝网络，且数据模式设置为 “5G 时允许使用更多数据” 时， running_mode_trigger 失效的问题
-
 注：
 未修复前版本可通过设置数据模式为 “标准“ 临时解决该问题
 
 1.0.29 (646) 
 - 通过使用选项 tls-cert-sha256 或 tls-pubkey-sha256（十六进制样式或冒号分隔的十六进制样式），支持基于 TLS 的代理服务器的自定义 TLS 验证过程，以满足某些用户的特定用途。
 - 如果选项 tls-verification 为 false，这两个新选项将被忽略；如果设置了 tls-pubkey-sha256，则 tls-cert-sha256 将被忽略；如果设置了任何新选项，则将忽略标准验证过程。
-
 笔记：
 1.如果你有证书（pem）
 您可以通过以下方式生成证书 sha256 指纹：
 openssl x509 -noout -fingerprint -sha256 -inform pem -in your-cert.pem
-
 您可以通过以下方式生成证书的 pubkey sha256（主题公钥信息 (SPKI) 指纹）：
 openssl x509 -noout -pubkey -inform pem -in your-cert.pem | openssl pkey -pubin -outform der | openssl dgst -sha256 -hex -c
-
 2.如果你没有证书
 您可以使用以下命令生成 sha256 以从网络主机获取：
 openssl s_client -servername example.com -connect example.com:443 | openssl x509 -noout -fingerprint -sha256
 openssl s_client -servername example.com -connect example.com:443 | openssl x509 -noout -pubkey | openssl pkey -pubin -outform der | openssl dgst -sha256 -hex -c
-
 3. tls-pubkey-sha256 在您频繁使用相同密钥更新证书或使用相同密钥签署不同证书时很有用。如果您只有一个长寿命定制证书，则 tls-cert-sha256 应该足够了。
-
 4. 由于选项 tls13 自版本 1.0.26 起已弃用，并且无论您设置什么始终支持 TLS 1.3，因此此选项 (tls13) 的 UI 标记也已在此 (v1.0.29 build 646) 更新中删除。
 
 1.0.28 (645) 
@@ -439,14 +408,12 @@ openssl s_client -servername example.com -connect example.com:443 | openssl x509
                                                                                     
 1.0.28(643)
 - 为避免某些用户误解，DNS 记录页面（TTL）已过期的 DNS 结果将会以中划线标注（某些情况下 Quantumult X 会主动打上过期标识，例如网络环境变化）
-
 注：
 1、某些域名配置的 TTL 过低（TTL = 1）或某些 DNS 服务器的特殊机制返回的 TTL 过低（TTL = 1），会导致刚得到结果就处于过期状态
 2、一直以来 Quantumult X 都会“尽可能”的使用给所有 DNS 缓存打上过期标识的机制而不是主动清空所有缓存的机制，在命中过期结果时会尝试使用过期结果进行连接并同时触发新的 DNS 查询
 
 1.0.28(642)
 - 请求记录详情页面，增加显示命中分流规则所属资源标签
-
 注：
 仅变更资源标签并不会触发配置重载，因此仅变更资源标签时，请求记录中分流规则所属标签不会更新
 
