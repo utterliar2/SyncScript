@@ -3,7 +3,7 @@
 # 原项目地址：https://github.com/lwd-temp/anti-ip-attribution
 # 欢迎提issues或私信bot,贡献应用新的api地址
 # https://t.me/ddgksf2021
-# 更新时间：2022-08-06
+# 更新时间：2022-08-10
 ###############################################################
 
 # ======= 哔哩哔哩 ======= #
@@ -101,3 +101,6 @@ DOMAIN-SUFFIX,dongqiudi.com,IP
 # ======= NGA ======= #
 # 个人主页ip，开代理以后发一个评论就会变代理ip
 DOMAIN,ngabbs.com,IP
+
+# ======= 小米社区 ======= #
+DOMAIN-SUFFIX,vip.miui.com,IP
