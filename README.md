@@ -51,7 +51,7 @@
 		<td colspan="5">  </td>
     </tr>
     <tr>
-		<td rowspan="11"><strong>广告屏蔽</strong></td>
+		<td rowspan="10"><strong>广告屏蔽</strong></td>
 		<td > 1 </td> <td > 微信小程序去广告神器 </td> <td ><a href="https://github.com/ddgksf2013/Cuttlefish/raw/master/Applet/QuanX.conf"><em>Applet.conf</em></a></td><td>ddgksf2013</td>
     </tr>
     <tr>
@@ -78,10 +78,7 @@
 	<tr>
 		<td > 9 </td> <td > 百度网盘去广告 </td> <td ><a href="https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rewrite/MyRewrite.conf"><em>BdPanAdBlock.conf</em></a></td><td>zqzess</td>  
     </tr>
-	<tr>
-		<td > 10 </td> <td > Pixiv去广告 </td> <td ><a href="https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/AdBlock/Pixiv.conf"><em>Pixiv.conf</em></a></td><td>ddgksf2013</td>  
-    </tr>
-	<tr>
+		<tr>
 		<td > 11 </td> <td > <strong><em>喜马拉雅去广告</strong></em> </td> <td ><a href="https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/AdBlock/Ximalaya.conf"><em>XmlyAdBlock.conf</em></a></td><td>ddgksf2013</td>  
     </tr>
 	<tr>
