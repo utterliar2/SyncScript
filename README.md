@@ -79,7 +79,7 @@
 		<td > 9 </td> <td > 百度网盘去广告 </td> <td ><a href="https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rewrite/MyRewrite.conf"><em>BdPanAdBlock.conf</em></a></td><td>zqzess</td>  
     </tr>
 		<tr>
-		<td > 11 </td> <td > <strong><em>喜马拉雅去广告</strong></em> </td> <td ><a href="https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/AdBlock/Ximalaya.conf"><em>XmlyAdBlock.conf</em></a></td><td>ddgksf2013</td>  
+		<td > 10 </td> <td > <strong><em>喜马拉雅去广告</strong></em> </td> <td ><a href="https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/AdBlock/Ximalaya.conf"><em>XmlyAdBlock.conf</em></a></td><td>ddgksf2013</td>  
     </tr>
 	<tr>
 		<td colspan="5">  </td>
