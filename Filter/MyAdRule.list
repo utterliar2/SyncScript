@@ -4,7 +4,7 @@
 // @RelatedGitHub     https://github.com/ddgksf2013/Cuttlefish
 // @WechatID          公眾號墨魚手記
 // @TgChannel         https://t.me/ddgksf2021
-// @UpdateTime        2022-07-15
+// @UpdateTime        2022-08-12
 // @Function          分流配置（自用，混合policy、proxy、reject、direct，不建議使用）
 // @Suitable          自行觀看 「# ~ 」
 // @ScriptURL         https://github.com/ddgksf2013/Cuttlefish/raw/master/Filter/MyAdRule.list
@@ -25,6 +25,7 @@ HOST-SUFFIX, apple.com, DIRECT
 
 HOST-KEYWORD, bimiacg, DIRECT
 
+#>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>StreamingSE
 # ~ bilibili
 DOMAIN,api.biliapi.com,StreamingSE
 DOMAIN,api.biliapi.net,StreamingSE
@@ -42,6 +43,8 @@ DOMAIN,cache.video.iqiyi.com,StreamingSE
 IP-CIDR,116.211.202.206/32,StreamingSE
 IP-CIDR,116.211.202.216/32,StreamingSE
 
+
+#>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Bahamut
 # ~ KKTV
 USER-AGENT,KKTV*,Bahamut
 USER-AGENT,com.kktv.ios.kktv*,Bahamut
@@ -66,16 +69,18 @@ DOMAIN-SUFFIX,scdn.co,Bahamut
 DOMAIN-SUFFIX,spotify.com,Bahamut
 DOMAIN-SUFFIX,spoti.fi,Bahamut
 
+#>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Youtube
 # ~ Youtube
-USER-AGENT,com.google.ios.youtube*,US
-USER-AGENT,YouTube*,US
-DOMAIN-SUFFIX,googlevideo.com,US
-DOMAIN-SUFFIX,youtube.com,US
-DOMAIN,youtubei.googleapis.com,US
+USER-AGENT,com.google.ios.youtube*, Youtube
+USER-AGENT,YouTube*, Youtube
+DOMAIN-SUFFIX,googlevideo.com, Youtube
+DOMAIN-SUFFIX,youtube.com, Youtube
+DOMAIN,youtubei.googleapis.com, Youtube
 # ~ Google Search
 DOMAIN-KEYWORD, hanime, Youtube
 DOMAIN-KEYWORD, google,Youtube
 
+#>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Twitter
 # ~ Twitter
 HOST-SUFFIX,periscope.tv,Twitter
 HOST-SUFFIX,pscp.tv,Twitter
