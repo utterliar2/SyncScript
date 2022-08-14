@@ -5,7 +5,7 @@
 
 | 名称 | 影视网站 | 备注 |
 | :----- | :----- | :----- |
-| 真不卡 | https://www.zhenbuka5.com/ |  暂失效，在线影视，没话说★ |
+| 真不卡 | https://www.zhenbuka5.com/ |  暂失效 |
 | Libvio |   https://www.libvio.me/ |   新站，更新及时★ | 
 | LeZhu |   http://www.lezhutv.com/ |   群友投稿，很不错★ | 
 | 低端影视 |   https://ddrk.me/ | 影视老站，YYDS  | 
