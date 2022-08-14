@@ -1,6 +1,6 @@
 /*
-v0.0.20
-2022-08-11
+v0.0.21
+2022-08-13
 https://t.me/ddgksf2021
 */
 const scriptName = "XiMaLaYa";
