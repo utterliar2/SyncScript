@@ -1,5 +1,5 @@
 ### 墨鱼自用Web网站
-* 更新时间：2022-08-09
+* 更新时间：2022-08-14
 * 备份一些WebUrl
 * 备注带★为QX网页优化对象
 
@@ -12,6 +12,7 @@
 | 剧迷 |   https://gimytv.net/ | 影视，小而美★  |
 | 厂长资源 |  https://www.qianoo.cn/ | 质量1080P★  | 
 | 天空影视 |  https://www.tkys.tv/ | 新起之秀★  | 
+| 大师兄 |  https://dsxys.com/ | 更新及时★  |
 | Zzzfun | http://www.zzzfun.com/ |  在线动漫，比较全面 |
 | Ebb | https://ebb.io/ | 在线动漫，可备用 |
 | 独播库|  https://duboku.ru/ | 大同小异 |
