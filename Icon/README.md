@@ -1,5 +1,5 @@
 quantumult-x:///ui?module=gallery&type=task&action=add&content=url-encoded-json  
-https://quantumult.app/x/open-app/add-resource?module=gallery&type=icon&action=add&content=https%3A%2F%2Fgithub.com%2FKoolson%2FQure%2Fraw%2Fmaster%2FOther%2FQureLight-All.json
+https://quantumult-x:///ui?module=gallery&type=icon&action=add&content=https%3A%2F%2Fgithub.com%2FKoolson%2FQure%2Fraw%2Fmaster%2FOther%2FQureLight-All.json
 
 
 https://api.boxjs.app/quanx/add-resource?remote-resource={"rewrite_remote":["https://raw.githubusercontent.com/VirgilClyne/iRingo/main/qxrewrite/Weather.qxrewrite?raw=true,tag=iRingo for Apple Weather"]}
