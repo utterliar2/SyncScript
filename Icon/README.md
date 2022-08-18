@@ -2,7 +2,7 @@
 
 | 序号 | 说明 | 使用说明 | 截图 | 有效 |
 | :----: | :---- | :----: | :----: | :----: |
-| 1  | Qure图标库（黑白） |  [点我快捷添加](https://quantumult.app/x/open-app/ui?module=gallery&type=icon&action=add&content=%5B%0A%20%20%20%20%22https%3A%2F%2Fgithub.com%2FKoolson%2FQure%2Fraw%2Fmaster%2FOther%2FQureLight-All.json%22%0A%5D) |![ddgksf2013](https://github.com/ddgksf2013/Cuttlefish/raw/master/Icon/Netease_Music_Unlock.png)| 🟢 | 
+| 1  | Qure图标库（黑白） |  [点我快捷添加](https://quantumult.app/x/open-app/ui?module=gallery&type=icon&action=add&content=%5B%0A%20%20%20%20%22https%3A%2F%2Fgithub.com%2FKoolson%2FQure%2Fraw%2Fmaster%2FOther%2FQureLight-All.json%22%0A%5D) |![ddgksf2013](https://github.com/ddgksf2013/Cuttlefish/raw/master/Icon/png/1.PNG)| 🟢 | 
 | 2  | Qure图标库（彩色1） |  [点我快捷添加](https://quantumult.app/x/open-app/ui?module=gallery&type=icon&action=add&content=%5B%0A%20%20%20%20%22https%3A%2F%2Fgithub.com%2FKoolson%2FQure%2Fraw%2Fmaster%2FOther%2FQureColor-All.json%22%0A%5D) |![ddgksf2013]()| 🟢 | 
 | 3  | Qure图标库（彩色2） |  [点我快捷添加](https://quantumult.app/x/open-app/ui?module=gallery&type=icon&action=add&content=%5B%0A%20%20%20%20%22https%3A%2F%2Fraw.githubusercontent.com%2FKoolson%2FQure%2Fmaster%2FOther%2FQureColor.json%22%0A%5D) |![ddgksf2013]()| 🟢 | 
 | 4  | Qure图标（mini） |  [点我快捷添加](https://quantumult.app/x/open-app/ui?module=gallery&type=icon&action=add&content=%5B%0A%20%20%20%20%22https%3A%2F%2Fraw.githubusercontent.com%2FKoolson%2FQure%2Fmaster%2FOther%2FQuremini.json%22%0A%5D) |![ddgksf2013]()| 🟢 | 
