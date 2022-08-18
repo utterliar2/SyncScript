@@ -104,3 +104,8 @@ DOMAIN,ngabbs.com,IP
 
 # ======= 小米社区 ======= #
 DOMAIN-SUFFIX,vip.miui.com,IP
+
+# ======= 网易云音乐======= #
+DOMAIN-SUFFIX,music.126.net,IP
+DOMAIN-SUFFIX,music.163.com,IP 
+
