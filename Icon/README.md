@@ -7,4 +7,4 @@ https://api.boxjs.app/quanx/add-resource?remote-resource={"rewrite_remote":["htt
 
 https://quantumult.app/x/open-app/add-resource?remote-resource={"icon":["https://github.com/Koolson/Qure/raw/master/Other/QureLight-All.json,tag=iRingo for Apple Weather"]}
 
-https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22icon%22:%5B%22https://github.com/Koolson/Qure/raw/master/Other/QureLight-All.json,tag=iRingo%20for%20Apple%20Weather%22%5D%7D
+https://quantumult.app/x/open-app/ui?module=gallery&type=icon&action=add&content=remote-resource=%7B%22icon%22:%5B%22https://github.com/Koolson/Qure/raw/master/Other/QureLight-All.json,tag=iRingo%20for%20Apple%20Weather%22%5D%7D
