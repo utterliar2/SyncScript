@@ -141,7 +141,7 @@
 ## 5️⃣QuantumultX 图标项目集
 
 | 序号 | 说明 | 使用说明 | 截图 | 有效 |
-| :----: | :----: | :----: | :----: | :----: |
+| :----: | ::---- | :----: | :----: | :----: |
 | 1  | Qure图标库（黑白） |  [点我快捷添加](https://quantumult.app/x/open-app/ui?module=gallery&type=icon&action=add&content=%5B%0A%20%20%20%20%22https%3A%2F%2Fgithub.com%2FKoolson%2FQure%2Fraw%2Fmaster%2FOther%2FQureLight-All.json%22%0A%5D) |![ddgksf2013]()| 🟢 | 
 | 2  | Qure图标库（彩色1） |  [点我快捷添加](https://quantumult.app/x/open-app/ui?module=gallery&type=icon&action=add&content=%5B%0A%20%20%20%20%22https%3A%2F%2Fgithub.com%2FKoolson%2FQure%2Fraw%2Fmaster%2FOther%2FQureColor-All.json%22%0A%5D) |![ddgksf2013]()| 🟢 | 
 | 3  | Qure图标库（彩色2） |  [点我快捷添加](https://quantumult.app/x/open-app/ui?module=gallery&type=icon&action=add&content=%5B%0A%20%20%20%20%22https%3A%2F%2Fraw.githubusercontent.com%2FKoolson%2FQure%2Fmaster%2FOther%2FQureColor.json%22%0A%5D) |![ddgksf2013]()| 🟢 | 
@@ -157,7 +157,7 @@
 | 13 | Semporia |  [点我快捷添加](https://quantumult.app/x/open-app/ui?module=gallery&type=icon&action=add&content=%5B%0A%20%20%20%20%22https%3A%2F%2Fraw.githubusercontent.com%2FSemporia%2FHand-Painted-icon%2Fmaster%2FSemporia.json%22%0A%5D) |![ddgksf2013]()| 🟢 | 
 
 
-## 5️⃣Awesome Resource：
+## 6️⃣Awesome Resource：
 * QuantumultX测试版[***更新日志***](https://github.com/ddgksf2013/Cuttlefish/raw/master/Profile/QX_TestFlight_Update.log)
 * 自用Clash配置 [*Config.yaml*](https://github.com/ddgksf2013/Cuttlefish/raw/master/Profile/Config.yaml)
 * 1080P超清IPTV国内[***直播源***](https://github.com/wonderfvvl/iptv-3/raw/master/国内.m3u)
@@ -165,14 +165,14 @@
 * [***自用优秀Web网站合集***](https://github.com/ddgksf2013/Cuttlefish/tree/master/Html)：影视、工具、下载、阅读、Porn...
 
 
-## 6️⃣Telegram 通知频道：
+## 7️⃣Telegram 通知频道：
 * 加入[***Cuttlefishの自留地***](https://t.me/ddgksf2021)，第一时间获取最新消息
 * 如有任何关于本库使用的问题可邮件 *ddgksf2013@163.com* 询问
 * 若有需要Crack的应用或小程序可在[***腾讯文档***](https://docs.qq.com/sheet/DYmRTQXpVY0hNcGls?tab=BB08J2) 中反馈
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## 7️⃣特别感谢：
+## 特别感谢：
 
 以下排名不分先后，如有遗漏可联系[*@ddgksf2013*](https://t.me/ddgksf2013)
 
