@@ -8,7 +8,7 @@
 | 真不卡 | https://www.zhenbuka5.com/ |  暂失效 |
 | Libvio |   https://www.libvio.me/ |   新站，更新及时★ | 
 | LeZhu |   http://www.lezhutv.com/ |   群友投稿，很不错★ | 
-| 低端影视 |   https://ddrk.me/ | 影视老站，YYDS  | 
+| 低端影视 |   http://ddys.tv | 影视老站，YYDS  | 
 | 剧迷 |   https://gimytv.net/ | 影视，小而美★  |
 | 厂长资源 |  https://www.qianoo.cn/ | 质量1080P★  | 
 | 天空影视 |  https://www.tkys.tv/ | 新起之秀★  | 
