@@ -1,6 +1,6 @@
 ### QuantumultX 图标项目
 
-| 点击图片即可快捷添加QX图标订阅 | 
+| 点击图片即可快捷添加QX图标订阅1.0.30+ | 
 | :----: |
 |<a href="https://quantumult.app/x/open-app/ui?module=gallery&type=icon&action=add&content=%5B%0A%20%20%20%20%22https%3A%2F%2Fgithub.com%2FKoolson%2FQure%2Fraw%2Fmaster%2FOther%2FQureLight-All.json%22%0A%5D"><img src="https://github.com/ddgksf2013/Cuttlefish/raw/master/Icon/png/1.PNG" alt="Qure图标库（黑白）" width="160" height="323" align="center"> |
 |<a href="https://quantumult.app/x/open-app/ui?module=gallery&type=icon&action=add&content=%5B%0A%20%20%20%20%22https%3A%2F%2Fgithub.com%2FKoolson%2FQure%2Fraw%2Fmaster%2FOther%2FQureColor-All.json%22%0A%5D"><img src="https://github.com/ddgksf2013/Cuttlefish/raw/master/Icon/png/2.PNG" alt="Qure图标库（彩色1）" width="160" height="323" align="center"> |
