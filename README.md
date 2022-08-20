@@ -140,8 +140,6 @@
 
 ## 5️⃣QuantumultX 图标项目集
 
-> 点击图标库名称，即可快捷添加QX图标库订阅，无需手动复制粘贴
-> QX1.0.30+([图片版](https://github.com/ddgksf2013/Cuttlefish/blob/master/Icon/README.md))
 
 | 序号 | 说明 |
 | :----: | :---- | 
@@ -159,6 +157,7 @@
 | 12 | [姿势图标库2](https://quantumult.app/x/open-app/ui?module=gallery&type=icon&action=add&content=%5B%0A%20%20%20%20%22https%3A%2F%2Fraw.githubusercontent.com%2FLovedGM%2FQuantumult-X-TuBiao%2Fmain%2Fzishi-cs.json%22%0A%5D) |  
 | 13 | [Semporia库 ](https://quantumult.app/x/open-app/ui?module=gallery&type=icon&action=add&content=%5B%0A%20%20%20%20%22https%3A%2F%2Fraw.githubusercontent.com%2FSemporia%2FHand-Painted-icon%2Fmaster%2FSemporia.json%22%0A%5D) | 
 
+> 点击图标库名称，即可快捷添加QX图标库订阅，无需手动复制粘贴，QX需1.0.30+([图片版](https://github.com/ddgksf2013/Cuttlefish/blob/master/Icon/README.md))
 
 ## 6️⃣Awesome Resource：
 * QuantumultX测试版[***更新日志***](https://github.com/ddgksf2013/Cuttlefish/raw/master/Profile/QX_TestFlight_Update.log)
