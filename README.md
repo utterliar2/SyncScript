@@ -140,7 +140,8 @@
 
 ## 5️⃣QuantumultX 图标项目集
 
-点击图标库名称，即可快捷添加QX图标库订阅，无需手动复制粘贴
+> 点击图标库名称，即可快捷添加QX图标库订阅，无需手动复制粘贴
+> QX1.0.30+([图片版](https://github.com/ddgksf2013/Cuttlefish/blob/master/Icon/README.md))
 
 | 序号 | 说明 |
 | :----: | :---- | 
