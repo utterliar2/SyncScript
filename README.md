@@ -155,8 +155,6 @@
 
 > 更多的图标订阅请参考 [*@ddgksf2013*](https://github.com/ddgksf2013) 集合的 [***Quantumult X 图标库***](https://github.com/ddgksf2013/Cuttlefish/blob/master/Icon/README.md)
 
-> 点击图标库名称，即可快捷添加QX图标库订阅，无需手动复制粘贴，QX需1.0.30+([图片版]())
-
 ## 6️⃣Awesome Resource：
 * QuantumultX测试版[***更新日志***](https://github.com/ddgksf2013/Cuttlefish/raw/master/Profile/QX_TestFlight_Update.log)
 * 自用Clash配置 [*Config.yaml*](https://github.com/ddgksf2013/Cuttlefish/raw/master/Profile/Config.yaml)
