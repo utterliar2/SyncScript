@@ -138,7 +138,7 @@
 - [x] 每天60s读懂世界 [*60s.js*](https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/60s.js)
 > 更多的签到脚本请参考 [*@Chavyleung*](https://github.com/chavyleung) 提供的 [***Quantumult X 签到脚本***](https://github.com/chavyleung/scripts/blob/master/QuantumultX_Remote_Task.conf)
 
-## 5️⃣QuantumultX 图标项目集
+## 5️⃣QuantumultX 图标库
 
 
 | 序号 | 说明 |
