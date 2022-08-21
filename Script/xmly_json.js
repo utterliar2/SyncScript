@@ -38,7 +38,18 @@ let magicJS = MagicJS(scriptName, "INFO");
 		for(let k=0; k < obj.header[2].item.list.length; k++){
 			obj.header[2].item.list[k].displayClass="one_line";
 			}
+			delete obj.header[1];
 		}
+		else if(obj.header&&obj.header.length<=2){
+			obj.header[1].item.list= obj.header[1].item.list.filter((e) => {
+              		return tabList.has(e.id);
+            	});
+		for(let k=0; k < obj.header[1].item.list.length; k++){
+			obj.header[1].item.list[k].displayClass="one_line";
+			}
+			//delete obj.header[1];
+		}
+		
 		obj.body = obj.body.filter((i) => (i.item.playsCounts>1000000&&!i.item.adInfo));
 		
 		body = JSON.stringify(obj);
