@@ -1,6 +1,6 @@
 /*
-v0.0.21
-2022-08-13
+v0.0.22
+2022-08-21
 https://t.me/ddgksf2021
 */
 const scriptName = "XiMaLaYa";
@@ -31,12 +31,12 @@ let magicJS = MagicJS(scriptName, "INFO");
 			obj.header[0].item.list[0].data = obj.header[0].item.list[0].data.filter((i) => (!(i.realLink.indexOf("open")==-1)&&!i.isAd));
 		}
 		const tabList = new Set([1001,1009,1013,1015,100000]);
-		if(obj.header&&obj.header.length>=2){
-			obj.header[1].item.list= obj.header[1].item.list.filter((e) => {
+		if(obj.header&&obj.header.length>=3){
+			obj.header[2].item.list= obj.header[2].item.list.filter((e) => {
               		return tabList.has(e.id);
             	});
-		for(let k=0; k < obj.header[1].item.list.length; k++){
-			obj.header[1].item.list[k].displayClass="one_line";
+		for(let k=0; k < obj.header[2].item.list.length; k++){
+			obj.header[2].item.list[k].displayClass="one_line";
 			}
 		}
 		obj.body = obj.body.filter((i) => (i.item.playsCounts>1000000&&!i.item.adInfo));
