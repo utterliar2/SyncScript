@@ -3,7 +3,7 @@
 # 原项目地址：https://github.com/lwd-temp/anti-ip-attribution
 # 欢迎提issues或私信bot,贡献应用新的api地址
 # https://t.me/ddgksf2021
-# 更新时间：2022-08-10
+# 更新时间：2022-08-23
 ###############################################################
 
 # ======= 哔哩哔哩 ======= #
@@ -18,10 +18,16 @@ DOMAIN,passport.bilibili.com,IP
 DOMAIN,live-trace.bilibili.com,IP 
 DOMAIN,message.bilibili.com,IP 
 DOMAIN,cm.bilibili.com,IP 
+DOMAIN-SUFFIX,bilibili.com,IP 
+DOMAIN-SUFFIX,im9.com,IP 
+DOMAIN-SUFFIX,acg.tv,IP 
+DOMAIN-SUFFIX,biligame.com,IP 
 
 # ======= 微博 ======= #
 DOMAIN,api.weibo.cn,IP
 DOMAIN,api.weibo.com,IP 
+DOMAIN-SUFFIX,weibocdn.com,IP 
+DOMAIN-KEYWORD,weibo,IP 
 
 # ======= 百度贴吧 ======= #
 DOMAIN,tieba.baidu.com,IP 
