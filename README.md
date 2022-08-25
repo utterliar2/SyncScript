@@ -83,7 +83,7 @@
 		<td > 10 </td> <td > <strong><em>喜马拉雅去广告</strong></em> </td> <td ><a href="https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/AdBlock/Ximalaya.conf"><em>XmlyAdBlock.conf</em></a></td><td>ddgksf2013</td>  
     </tr>
 	<tr>
-		<td > 11 </td> <td > <strong><em>微博国际版去广告</strong></em> </td> <td ><a href="https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/AdBlock/WeiboLite.conf"><em>WeiboLite.conf</em></a></td><td>ddgksf2013</td>  
+		<td > 11 </td> <td > 微博国际版去广告</td> <td ><a href="https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/AdBlock/WeiboLite.conf"><em>WeiboLite.conf</em></a></td><td>ddgksf2013</td>  
     </tr>
 	<tr>
 		<td colspan="5">  </td>
