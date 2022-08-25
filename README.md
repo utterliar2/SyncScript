@@ -52,7 +52,7 @@
 		<td colspan="5">  </td>
     </tr>
     <tr>
-		<td rowspan="10"><strong>广告屏蔽</strong></td>
+		<td rowspan="11"><strong>广告屏蔽</strong></td>
 		<td > 1 </td> <td > 微信小程序去广告神器 </td> <td ><a href="https://github.com/ddgksf2013/Cuttlefish/raw/master/Applet/QuanX.conf"><em>Applet.conf</em></a></td><td>ddgksf2013</td>
     </tr>
     <tr>
@@ -81,6 +81,9 @@
     </tr>
 		<tr>
 		<td > 10 </td> <td > <strong><em>喜马拉雅去广告</strong></em> </td> <td ><a href="https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/AdBlock/Ximalaya.conf"><em>XmlyAdBlock.conf</em></a></td><td>ddgksf2013</td>  
+    </tr>
+	<tr>
+		<td > 11 </td> <td > <strong><em>微博国际版去广告</strong></em> </td> <td ><a href="https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/AdBlock/WeiboLite.conf"><em>WeiboLite.conf</em></a></td><td>ddgksf2013</td>  
     </tr>
 	<tr>
 		<td colspan="5">  </td>
