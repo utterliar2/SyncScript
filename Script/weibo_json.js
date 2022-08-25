@@ -36,7 +36,7 @@ function removeTopics(data) {
 		return data;
 	}
 	if(data.data.search_topic) {delete data.data.search_topic;}
-	if(data.data.topics) 	   {delete data.data.topics;}
+	//if(data.data.topics) 	   {delete data.data.topics;}
 	if(data.data.discover)     {delete data.data.discover;}
 	
 	return data;
