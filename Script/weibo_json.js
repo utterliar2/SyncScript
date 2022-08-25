@@ -3,7 +3,7 @@
 脚本作者：Cuttlefish
 微信账号：公众号墨鱼手记
 更新时间：2022-08-25
-脚本版本：(0.0.1)
+脚本版本：(0.0.3)
 通知频道：https://t.me/ddgksf2021
 问题反馈：ddgksf2013@163.com
 */
@@ -35,8 +35,8 @@ function removeTopics(data) {
 	if(!data.data) {
 		return data;
 	}
-	if(data.data.search_topic) {delete data.data.search_topic;}
-	//if(data.data.topics) 	   {delete data.data.topics;}
+	//if(data.data.search_topic) {delete data.data.search_topic;}
+	if(data.data.topics) 	   {delete data.data.topics;}
 	if(data.data.discover)     {delete data.data.discover;}
 	
 	return data;
