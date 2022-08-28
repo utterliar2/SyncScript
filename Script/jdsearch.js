@@ -3,7 +3,7 @@
 version     v0.0.1
 updatetime  2022-08-18
 tgchannel   https://t.me/ddgksf2021
-function    京东搜索优化
+function    京东搜索页面优化
 author      ddgksf2013
 
 [rewrite_local]
