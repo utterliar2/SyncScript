@@ -1,3 +1,7 @@
+https://api.m.jd.com/client.action\?functionId=hotWords url script-response-body jdsearch.js
+https://api.m.jd.com/client.action\?functionId=hotSearchTerms url script-response-body jdsearch.js
+
+
 var ddgksf2013 = JSON.parse($response.body);
 
 if($request.url.indexOf('hotWords')!==-1){
