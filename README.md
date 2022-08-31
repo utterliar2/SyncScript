@@ -182,6 +182,6 @@
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Star 历史
-<img src="https://api.star-history.com/svg?repos=ddgksf2013/Cuttlefish&type=Date" alt="Star History Chart" width="160" height="323" align="center">
+<img src="https://api.star-history.com/svg?repos=ddgksf2013/Cuttlefish&type=Date" alt="Star History Chart" align="center">
 
 ### [回到顶部](https://github.com/ddgksf2013/Cuttlefish#readme)
