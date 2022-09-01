@@ -1,6 +1,6 @@
 /*
-v0.0.23
-2022-08-24
+v0.0.24
+2022-09-01
 https://t.me/ddgksf2021
 */
 const scriptName = "XiMaLaYa";
@@ -12,7 +12,7 @@ let magicJS = MagicJS(scriptName, "INFO");
   if (magicJS.isResponse) {
     switch (true) {
     // discovery-category
-      case /discovery-category\/v5\/category/.test(magicJS.request.url):
+      case /discovery-category\/v\d\/category/.test(magicJS.request.url):
         try {
 			let obj = JSON.parse(magicJS.response.body);
 			if(obj.focusImages&&obj.focusImages.data){
@@ -24,7 +24,7 @@ let magicJS = MagicJS(scriptName, "INFO");
         }
         break;
 	// discovery-feed
-      case /discovery-feed\/v3\/mix/.test(magicJS.request.url):
+      case /discovery-feed\/v\d\/mix/.test(magicJS.request.url):
         try {
 		let obj = JSON.parse(magicJS.response.body);
 		if(obj.header&&obj.header.length>=1){
@@ -58,7 +58,7 @@ let magicJS = MagicJS(scriptName, "INFO");
         }
         break;
 	// mobile-user
-      case /mobile-user\/v2\/homePage/.test(magicJS.request.url):
+      case /mobile-user\/v\d\/homePage/.test(magicJS.request.url):
         try {
 			
 		const tabList = new Set([210,213,215]);
