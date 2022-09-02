@@ -1,8 +1,8 @@
 /***********************************
 
-> 应用名称：
-> 软件版本：
-> 下载地址：https://apps.apple.com/cn/app/
+> 应用名称：看天下
+> 软件版本：3.2.2
+> 下载地址：https://apps.apple.com/cn/app/id1060011393
 > 脚本作者：Cuttlefish
 > 微信账号：墨鱼手记
 > 更新时间：2022-08-31
@@ -14,7 +14,7 @@
  
 [rewrite_local]
 
-# ～ 锁会员权限（2022-08-31）@ddgksf2013
+# ～ Vista看天下锁会员权限（2022-08-31）@ddgksf2013
 ^https?:\/\/open3\.vistastory\.com\/v\d\/api\/(article\/article_detail|vip\/get_vip|my\/home\/get_home_center) url script-response-body https://github.com/ddgksf2013/Cuttlefish/raw/master/Crack/ktx.js
 
 [mitm]
