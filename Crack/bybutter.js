@@ -1,8 +1,8 @@
 /***********************************
 
-> 应用名称：
-> 软件版本：
-> 下载地址：https://apps.apple.com/cn/app/
+> 应用名称：黄油相机
+> 软件版本：8.18.0
+> 下载地址：https://apps.apple.com/cn/app/id587176822
 > 脚本作者：Cuttlefish
 > 微信账号：墨鱼手记
 > 更新时间：2022-09-05
@@ -14,7 +14,7 @@
  
 [rewrite_local]
 
-# ～ 锁会员权限（2022-09-05）@ddgksf2013
+# ～ 黄油相机最新版锁会员权限（2022-09-05）@ddgksf2013
 ^https?:\/\/api4\.bybutter\.com\/v4\/(users\/me$|shop\/me\/privileges$) url script-response-body https://github.com/ddgksf2013/Cuttlefish/raw/master/Crack/bybutter.js
 
 [mitm]
