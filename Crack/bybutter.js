@@ -15,7 +15,7 @@
 [rewrite_local]
 
 # ～ 锁会员权限（2022-09-05）@ddgksf2013
-https://api4\.bybutter\.com/v4/(users/me$|shop/me/privileges$) url script-response-body https://github.com/ddgksf2013/Cuttlefish/raw/master/Crack/bybutter.js
+^https?:\/\/api4\.bybutter\.com\/v4\/(users\/me$|shop\/me\/privileges$) url script-response-body https://github.com/ddgksf2013/Cuttlefish/raw/master/Crack/bybutter.js
 
 [mitm]
 
