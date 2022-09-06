@@ -10,7 +10,7 @@
 * @UpdateTime        2022-09-06
 * @ScriptFunction    FileBall挂载阿里云盘、Alist，播放云盘中的音乐和视频文件
 * @Attention         如需引用请注明出处，谢谢合作！
-* @Version           v0.0.3
+* @Version           v0.0.5
 * @Suit              脚本已使用Env做了兼容处理，理论适配多个工具，请自行测试
 * @ScriptURL         https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/ali.js
 * ==/UserScript==
