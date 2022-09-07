@@ -10,7 +10,7 @@
 * @UpdateTime        2022-09-06
 * @ScriptFunction    FileBall挂载阿里云盘、Alist，播放云盘中的音乐和视频文件
 * @Attention         如需引用请注明出处，谢谢合作！
-* @Version           v0.0.6
+* @Version           v0.0.7
 * @Suit              脚本已使用Env做了兼容处理，理论适配多个工具，请自行测试
 * @ScriptURL         https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/ali.js
 * ==/UserScript==
@@ -30,7 +30,7 @@ FileBall操作步骤:
 1.0挂载Aliyun[仅单个账户]
 1.1添加Synology协议
 1.2地址填 aliyun.example.com
-1.3用户名填fish
+1.3用户名随意
 1.4密码填【refresh_token】Token获取地址(需要用阿里云盘扫描alist的二维码获得)[ https://alist-doc.nn.ci/docs/driver/aliyundrive ]
 1.5目前阿里云盘仅支持单账户(多账户功能后续完善...)
 1.6连接&Enjoy
