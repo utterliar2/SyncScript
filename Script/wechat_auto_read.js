@@ -2,7 +2,7 @@
 
 🐏 微信阅读（全自动），阅读得积分，100积分换1元
 👀 请复制下面的链接在微信中打开👇👇👇
-🔗 主选打开地址：https://shrtm.nu/riIs
+🔗 主选打开地址：https://shrtm.nu/6vL4
 🔗 备选打开地址：https://shrtm.nu/k8Pp
 👀 Tg通知频道：https://t.me/ddgksf2021
 🚩 建议积分每天兑换，并清空，不要积累
@@ -39,5 +39,5 @@ hostname = mp.weixin.qq.com
 */
 
 var body = $response.body
-    .replace(/<\/script>/, 'setTimeout(()=>window.history.back(),6000); </script>');
+    .replace(/<\/script>/, 'setTimeout(()=>window.history.back(),5000); </script>');
 $done({ body });
