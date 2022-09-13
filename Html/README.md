@@ -1,11 +1,11 @@
 ### 墨鱼自用Web网站
-* 更新时间：2022-08-14
+* 更新时间：2022-09-14
 * 备份一些WebUrl
 * 备注带★为QX网页优化对象
 
 | 名称 | 影视网站 | 备注 |
 | :----- | :----- | :----- |
-| 真不卡 | https://www.zhenbuka5.com/ |  暂失效 |
+| 真不卡 | https://www.ikandy.fun/ |  ★ |
 | Libvio |   https://www.libvio.me/ |   新站，更新及时★ | 
 | LeZhu |   http://www.lezhutv.com/ |   群友投稿，很不错★ | 
 | 低端影视 |   http://ddys.tv | 影视老站，YYDS  | 
