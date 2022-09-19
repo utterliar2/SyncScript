@@ -11,6 +11,60 @@
 ##################################################################################################
 
 
+
+
+- 部分界面布局调整
+
+- 移除之前为 iPadOS 16.1 beta 引入的一个 workaround，请务必将之前的 iPadOS 16.1 beta 升级至最新版本 iPadOS 16.1 beta (20B5045d)
+
+
+- Built using Xcode 14 and issue fixes
+
+
+
+- 修复运行临时脚本的记录未在脚本记录页显示的问题
+
+
+- [mitm] 模块增加参数 skip_src_ip 与 skip_dst_ip，具体可参见应用内示例配置
+
+1、skip_src_ip
+当 Quantumult X 在 M 芯片系列的 Mac 上作为局域网网关时，某些局域网安卓设备可能无法进行 MitM 解析。可使用该参数跳过来自某源 IP 连接的 MitM hostname 匹配过程。
+注：Quantumult X 对同网络下的 HTTP 以及 SOCKS5 代理分享功能是完全禁止了 MitM 及 rewrite 功能的，故而无需配置该参数；该参数仅在 Quantumult X 作为局域网网关时且开启了 MitM 时需要配置。
+
+2、skip_dst_ip
+当多个不同的 TCP 连接（非域名类请求）的目标 IP 不同，但这些连接的 TSL 握手 SNI 字段相同时，如需跳过其中某些连接的 MitM hostname 匹配过程，可使用该参数。
+
+一些常见现象说明：
+①、应用 Telegram iOS 访问形如 www.google.com 的请求，部分是进行的 DoH 查询，具体可参见 https://github.com/TelegramMessenger/Telegram-iOS/blob/release-8.9/submodules/MtProtoKit/Sources/MTBackupAddressSignals.m#L80
+
+②、特别需要说明的是 Telegram 该 DoH 查询的请求使用了 domain fronting 机制（https://en.wikipedia.org/wiki/Domain_fronting），即 TCP 目标地址与 TLS 握手信息的 SNI 字段以及其内的 HTTP 请求头中的 host 字段三者均没有关联性。
+例如：TSL 握手的 SNI 为 www.google.com，但其 HTTP 请求头中 host 字段为 dns.google.com，其连接的 IP 地址为 Telegram 自有或其他地址
+
+③、建议 server_check_url 设置为 direct 策略无法连通的网址，例如： server_check_url = http://www.google.com/generate_204 以减少本可避免的问题（同时建议设置自定义 server_check_user_agent 参数）
+原因：好些服务器喜欢对 DNS 查询进行域名"内""外"分流（或出口目标分流），当服务器出现某些故障时，可能只针对 google.com 之类的"外"域名无法解析，但对于 baidu.com 之类的"内"域名可解析，此时使用 baidu.com 进行节点 URL 测试时为连通状态，但实际无法代理需要代理的地址
+
+
+
+- In the HTTP(S) request detail view, tapping the record initated with "fetch" can jump to the related rewrite or task JS record page.
+
+- 临时移除 beta build 753 第 2 条更新内容，进一步兼容 iOS Beta 16.0 及 iPadOS Beta 16.1，如升级至该版本遇到 Quantumult X Tunnel 自启产生的网络问题可"邮箱"反馈
+注：
+开启排除路由 0.0.0.0/31 产生的网络（或自启）异常请自行解决（建议的解决方式：关闭该功能并重启设备）
+
+
+- 进一步兼容 iOS Beta 16.0 及 iPadOS Beta 16.1
+
+
+- 修复某些界面在用户设置了加粗字体时的显示异常
+- 该版本及之后版本之间的升级或降级，增加需手动启用 VPN 连接的提示（如升级过程中 Quantumult X Tunnel 正在运行）
+
+
+- 细节完善
+
+
+- 兼容 iPadOS Beta 16.1
+
+
 1.0.31 (749)
 - 当 DNS 查询失败时，网络活动列表页可直接观察到是规则匹配阶段触发的查询失败，还是尝试建立连接阶段（直连为目标域名，代理为节点域名）触发的查询失败
 - 补全部分页面滑动时的顶栏渐隐渐显效果等细节
